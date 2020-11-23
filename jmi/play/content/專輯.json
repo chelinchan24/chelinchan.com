@@ -1,0 +1,74 @@
+{
+  "albumList" :
+  [
+    {
+      "albumSource" : "./songdata/album/五月天-人生無限公司-Life Live-好友加班篇.json"
+    },
+    {
+      "albumSource" : "./songdata/album/天空之城復出演唱會（Live）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/搖滾本事（電影音樂原聲帶）-EP.json"
+    },
+    {
+      "albumSource" : "./songdata/album/知足-Just-My-Pride-最真傑作選.json"
+    },
+    {
+      "albumSource" : "./songdata/album/五月天〔創造〕小巨蛋-DNA-LIVE-創紀錄音.json"
+    },
+    {
+      "albumSource" : "./songdata/album/YOUR-LEGEND~燃ゆる命~-EP.json"
+    },
+    {
+      "albumSource" : "./songdata/album/十萬青年站出來（LIVE巡迴演唱會全紀錄）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/你要去哪裡巡迴演唱會.json"
+    },
+    {
+      "albumSource" : "./songdata/album/五月天-諾亞方舟-世界巡迴演唱會-Live.json"
+    },
+    {
+      "albumSource" : "./songdata/album/步步自選作品輯-1999-2013.json"
+    },
+    {
+      "albumSource" : "./songdata/album/第168場演唱會.json"
+    },
+    {
+      "albumSource" : "./songdata/album/Do-You-Ever-Shine-EP.json"
+    },
+    {
+      "albumSource" : "./songdata/album/自伝.json"
+    },
+    {
+      "albumSource" : "./songdata/album/自傳.json"
+    },
+    {
+      "albumSource" : "./songdata/album/第二人生（末日版）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/第二人生（明日版）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/後青春期的詩.json"
+    },
+    {
+      "albumSource" : "./songdata/album/為愛而生.json"
+    },
+    {
+      "albumSource" : "./songdata/album/神的孩子都在跳舞.json"
+    },
+    {
+      "albumSource" : "./songdata/album/時光機.json"
+    },
+    {
+      "albumSource" : "./songdata/album/人生海海.json"
+    },
+    {
+      "albumSource" : "./songdata/album/愛情萬歲.json"
+    },
+    {
+      "albumSource" : "./songdata/album/五月天第一張創作專輯.json"
+    }
+  ]
+}

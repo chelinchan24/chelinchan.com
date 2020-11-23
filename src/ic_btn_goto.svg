@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <path d="M0.0135290937,6.93763381 C0.0272241745,6.70322572 0.12308974,6.47271734 0.301125792,6.29290516 L0.301125792,6.29290516 L5.25185781,1.29278345 C5.25417047,1.29044772 5.25649471,1.28812348 5.25883044,1.28581082 C5.6486861,0.899806033 6.27764528,0.902927785 6.66365007,1.29278345 L6.66365007,1.29278345 L6.67310918,1.30233693 C7.05885396,1.69192999 7.05885396,2.31951355 6.67310918,2.70910661 L6.67310918,2.70910661 L3.423,5.991 L13.0002894,5.99121465 C13.5524143,5.99121465 14,6.43880032 14,6.99092521 L14,7.00799817 C14,7.56012307 13.5524143,8.00770873 13.0002894,8.00770873 L3.422,8.007 L6.67310918,11.2908934 C7.05885396,11.6804864 7.05885396,12.30807 6.67310918,12.6976631 L6.66365007,12.7072165 C6.27764528,13.0970722 5.6486861,13.100194 5.25883044,12.7141892 C5.25649471,12.7118765 5.25417047,12.7095523 5.25185781,12.7072165 L0.301125792,7.70709484 C0.12308974,7.52728266 0.0272241745,7.29677428 0.0135290937,7.06236619 Z" id="path-1"></path>
+        <filter x="-432.1%" y="-395.8%" width="864.3%" height="1008.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="13" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.284664554 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn_2/black" transform="translate(-53.000000, 0.000000)">
+            <g id="Group" transform="translate(53.000000, 0.000000)">
+                <circle id="Oval" stroke-opacity="0.112762238" stroke="#000000" fill="#000000" cx="16" cy="16" r="15.5"></circle>
+                <g transform="translate(9.000000, 9.000000)" id="icon/btn/leftArrow">
+                    <g id="Combined-Shape" transform="translate(7.000000, 7.000000) scale(-1, 1) translate(-7.000000, -7.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

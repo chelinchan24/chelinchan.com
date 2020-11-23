@@ -1,0 +1,38 @@
+{
+  "albumList" :
+  [
+    {
+      "albumSource" : "./songdata/album/Do-You-Ever-Shine-EP.json"
+    },
+    {
+      "albumSource" : "./songdata/album/自傳.json"
+    },
+    {
+      "albumSource" : "./songdata/album/第二人生（末日版）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/第二人生（明日版）.json"
+    },
+    {
+      "albumSource" : "./songdata/album/後青春期的詩.json"
+    },
+    {
+      "albumSource" : "./songdata/album/為愛而生.json"
+    },
+    {
+      "albumSource" : "./songdata/album/神的孩子都在跳舞.json"
+    },
+    {
+      "albumSource" : "./songdata/album/時光機.json"
+    },
+    {
+      "albumSource" : "./songdata/album/人生海海.json"
+    },
+    {
+      "albumSource" : "./songdata/album/愛情萬歲.json"
+    },
+    {
+      "albumSource" : "./songdata/album/五月天第一張創作專輯.json"
+    }
+  ]
+}

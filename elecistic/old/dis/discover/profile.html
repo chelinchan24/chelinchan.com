@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="http://chelinchan.com/jquery/jquery-3.2.1.min.js"></script>
+<title>profile</title>
+</head>
+
+<body class="灰色背景">
+<nav><div id="發現者計劃導覽列"></div><div id="發現者個人導覽列"></div></nav>
+
+<article class="網頁內容" id="發現者個人頁面網頁內容">
+	<section id="發現者個人頁面-左半部">
+		<div id="發現者個人頁面-左半部-個人檔案">
+		
+			<div id="發現者個人頁面-左半部-個人檔案-照片">
+			</div>
+			
+			<div id="發現者個人頁面-左半部-個人檔案-資訊">
+				<div id="發現者個人頁面-左半部-個人檔案-資訊-標題" class="主題深-灰">發現者</div>
+				<div id="發現者個人頁面-左半部-個人檔案-資訊-用戶名稱" class="主題深-白"></div>
+			</div>
+			
+			<div id="發現者個人頁面-左半部-個人檔案-數據">
+				<div id="發現者個人頁面-左半部-個人檔案-數據-已發現" class="發現者個人頁面-左半部-個人檔案-內容-數據">
+					<span class="發現者個人頁面-左半部-個人檔案-內容-數據-標題 主題深-灰">已發現</span>
+					<div class="發現者個人頁面-左半部-個人檔案-內容-數據-數字 主題深-白">30</div>
+					<span class="發現者個人頁面-左半部-個人檔案-內容-數據-標題 主題深-灰">座充換電站</span>
+				</div>
+				<div id="發現者個人頁面-左半部-個人檔案-數據-已驗證" class="發現者個人頁面-左半部-個人檔案-內容-數據">
+					<span class="發現者個人頁面-左半部-個人檔案-內容-數據-標題 主題深-灰">已驗證</span>
+					<div class="發現者個人頁面-左半部-個人檔案-內容-數據-數字 主題深-白">30</div>
+					<span class="發現者個人頁面-左半部-個人檔案-內容-數據-標題 主題深-灰">座充換電站</span>
+				</div>
+			</div>
+			<button id="發現者個人頁面-左半部-個人檔案-檢視檔案按鈕" class="圓形按鈕 白色按鈕-主題色文字">檢視檔案</button>
+		</div>
+	</section>
+	
+	<section id="右半部">
+	
+	</section>
+</article>
+	<!-- <div id="頁腳"></div> -->
+</body>
+<script>
+$( "#頁腳" ).load( "../footer.html" );
+$( "#發現者計劃導覽列" ).load( "./navigation-bar.html" );
+$( "#發現者個人導覽列" ).load( "./dashboard-navigation-bar.html" );
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script src="../js/server.js"></script>
+<script src="../js/navigation.js"></script>
+<script src="../js/profile.js"></script>
+</html>

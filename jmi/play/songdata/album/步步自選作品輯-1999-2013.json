@@ -1,0 +1,224 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music122/v4/de/c4/c9/dec4c908-c525-7862-3be3-7483d758752d/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2013",
+  "total" : "30",
+  "available" : "29",
+  "AlbumTitle" : "步步自選作品輯 1999-2013",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcV3sRazaYOQcGRNDKFKn6Gk",
+  "song" :
+  [
+    {
+      "SongTitle" : "步步",
+      "songsource" : "97axrS3Npxk",
+      "time" : "5:22",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步（單曲）-步步.json"
+    },
+    {
+      "SongTitle" : "擁抱",
+      "songsource" : "hEgc1mS0_Ms",
+      "time" : "5:05",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "songsource" : "xWTiOqJqkk0",
+      "time" : "3:39",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/傷心的人別聽慢歌（貫徹快樂）（單曲）-傷心的人別聽慢歌（貫徹快樂）.json"
+    },
+    {
+      "SongTitle" : "洋蔥",
+      "songsource" : "jGqpz3stgzY",
+      "time" : "4:35",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-洋蔥.json"
+    },
+    {
+      "SongTitle" : "乾杯",
+      "songsource" : "qX2GsMj7154",
+      "time" : "6:25",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/第二人生-乾杯.json"
+    },
+    {
+      "SongTitle" : "入陣曲",
+      "songsource" : "DDs5bXh4erM",
+      "time" : "3:35",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-入陣曲.json"
+    },
+    {
+      "SongTitle" : "倔強",
+      "songsource" : "R2s-H_crYkc",
+      "time" : "4:23",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-倔強.json"
+    },
+    {
+      "SongTitle" : "突然好想你",
+      "songsource" : "GtDRcXtDg-4",
+      "time" : "4:46",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-突然好想你.json"
+    },
+    {
+      "SongTitle" : "戀愛ing",
+      "songsource" : "iSkRGgYSQfY",
+      "time" : "2:55",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-戀愛ing.json"
+    },
+    {
+      "SongTitle" : "離開地球表面",
+      "songsource" : "kKVCZQuppFA",
+      "time" : "4:46",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-離開地球表面.json"
+    },
+    {
+      "SongTitle" : "星空",
+      "songsource" : "RTUwaCImChM",
+      "time" : "5:42",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/第二人生-星空.json"
+    },
+    {
+      "SongTitle" : "我不願讓你一個人",
+      "songsource" : "38lcQsEMGrk",
+      "time" : "4:26",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/第二人生-我不願讓你一個人.json"
+    },
+    {
+      "SongTitle" : "人生海海",
+      "songsource" : "yarOcdANK50",
+      "time" : "4:40",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "知足",
+      "songsource" : "_o0oeyCtoFA",
+      "time" : "5:13",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-知足.json"
+    },
+    {
+      "SongTitle" : "溫柔（還你自由版）",
+      "songsource" : "mtAc_bMYBsM",
+      "time" : "7:53",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "你是唯一",
+      "songsource" : "X1w3JU5dIAg",
+      "time" : "5:22",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-你是唯一.json"
+    },
+    {
+      "SongTitle" : "夜訪吸血鬼",
+      "songsource" : "03-ge__OaIU",
+      "time" : "4:14",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-夜訪吸血鬼.json"
+    },
+    {
+      "SongTitle" : "如煙",
+      "songsource" : "Qd9YGu3FWgc",
+      "time" : "5:19",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-如煙.json"
+    },
+    {
+      "SongTitle" : "盛夏光年",
+      "songsource" : "nlvTrcdwDLw",
+      "time" : "5:49",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品集-盛夏光年.json"
+    },
+    {
+      "SongTitle" : "一顆蘋果",
+      "songsource" : "eZkcPS1jslM",
+      "time" : "2:50",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/人生海海-一顆蘋果.json"
+    },
+    {
+      "SongTitle" : "三個傻瓜",
+      "songsource" : "NbtaaTfINaM",
+      "time" : "4:18",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/第二人生-三個傻瓜.json"
+    },
+    {
+      "SongTitle" : "孫悟空",
+      "songsource" : "fcYaBvBTYHs",
+      "time" : "4:13",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-孫悟空.json"
+    },
+    {
+      "SongTitle" : "摩托車日記",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-摩托車日記.json"
+    },
+    {
+      "SongTitle" : "最重要的小事",
+      "songsource" : "6-JAklr0Og8",
+      "time" : "5:16",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+        "lyrics" : "./songdata/lyrics/為愛而生-最重要的小事.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲",
+      "songsource" : "QKkQU4lzIbc",
+      "time" : "5:59",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "雌雄同體",
+      "songsource" : "YhzxlZrOSss",
+      "time" : "5:12",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/時光機-雌雄同體.json"
+    },
+    {
+      "SongTitle" : "生命有一種絕對",
+      "songsource" : "crc0JH42Lwk",
+      "time" : "3:55",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/時光機-生命有一種絕對.json"
+    },
+    {
+      "SongTitle" : "諾亞方舟",
+      "songsource" : "V46K7apDziA",
+      "time" : "5:39",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/第二人生-諾亞方舟.json"
+    },
+    {
+      "SongTitle" : "我心中尚未崩壞的地方",
+      "songsource" : "GDjFEYwezo8",
+      "time" : "5:32",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-我心中尚未崩壞的地方.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    }
+  ]
+}

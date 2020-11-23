@@ -1,0 +1,10 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 http://justmaydayit.com/404.html
+order deny,allow
+# Begin Muse Generated redirects
+# End Muse Generated redirects

@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://is2.mzstatic.com/image/thumb/Music2/v4/80/b3/5a/80b35a06-64f3-ea29-51af-83ae5f1cc649/source/1000x1000bb.jpg",
+  "type" : "單曲",
+  "year" : "2013",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "songsource" : "xWTiOqJqkk0",
+      "time" : "3:39",
+      "AlbumTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "lyrics" : "./songdata/lyrics/傷心的人別聽慢歌（貫徹快樂）（單曲）-傷心的人別聽慢歌（貫徹快樂）.json"
+    }
+  ]
+}

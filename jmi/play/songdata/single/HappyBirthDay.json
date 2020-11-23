@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.kfs.io/album/tw/58645,0v1/fit/500x500.jpg",
+  "type" : "單曲",
+  "year" : "2006",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "Happy. Birth. Day",
+  "CoverSourceFrom" : "KKBOX",
+  "InfoReference" : "KKBOX",
+  "song" :
+  [
+    {
+      "SongTitle" : "Happy. Birth. Day",
+      "songsource" : "_npvwFDJynA",
+      "time" : "3:49",
+      "AlbumTitle" : "Happy. Birth. Day",
+      "lyrics" : "./songdata/lyrics/HappyBirthDay（單曲）-HappyBirthDay.json"
+    }
+  ]
+}

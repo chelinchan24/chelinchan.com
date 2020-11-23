@@ -1,0 +1,98 @@
+{
+  "AlbumCoverSource" : "http://is2.mzstatic.com/image/thumb/Music3/v4/71/83/5d/71835df8-6115-6f47-1949-eab3f73515fd/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "1999",
+  "total" : "12",
+  "available" : "12",
+  "AlbumTitle" : "五月天第一張創作專輯",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcUfNizMKzlcc8QRYdHKhzNP",
+  "song" :
+  [
+    {
+      "SongTitle" : "瘋狂世界",
+      "songsource" : "YrB6zsbeEr8",
+      "time" : "3:25",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "擁抱",
+      "songsource" : "lvDa3r1pNuE",
+      "time" : "4:17",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "透露",
+      "songsource" : "pPiYz-hAhl4",
+      "time" : "3:39",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "生活",
+      "songsource" : "MnHzlzm2SNs",
+      "time" : "4:00",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-生活.json"
+    },
+    {
+      "SongTitle" : "愛情的模樣",
+      "songsource" : "8Zr6QKytnmU",
+      "time" : "5:03",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "嘿!我要走了",
+      "songsource" : "evBn6RWG2tQ",
+      "time" : "4:30",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-嘿!我要走了.json"
+    },
+    {
+      "SongTitle" : "軋車",
+      "songsource" : "_YWlFub_BB4",
+      "time" : "2:35",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌",
+      "songsource" : "5VUUGZ1-nlY",
+      "time" : "4:40",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "Hosee",
+      "songsource" : "Uwhk1xJrk74",
+      "time" : "2:38",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-Hosee.json"
+    },
+    {
+      "SongTitle" : "黑白講",
+      "songsource" : "gisl2TEe_es",
+      "time" : "3:52",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-黑白講.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望",
+      "songsource" : "VnhoRZ57kSY",
+      "time" : "4:47",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "風若吹",
+      "songsource" : "1XjN-d2vma8",
+      "time" : "3:52",
+      "AlbumTitle" : "五月天第一張創作專輯",
+        "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-風若吹.json"
+    }
+  ]
+}

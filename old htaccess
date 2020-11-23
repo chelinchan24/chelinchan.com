@@ -1,0 +1,8 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 http://chelinchan.com/404.html
+order deny,allow

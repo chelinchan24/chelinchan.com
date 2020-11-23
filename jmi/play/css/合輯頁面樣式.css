@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/* 全局 */
+body {
+	width: 100%;
+	margin-bottom: 200px;
+}
+
+
+/* 背景 */
+
+#合輯資訊欄盒子 {
+	height: 337px;
+}
+
+#合輯資訊欄上半部背景 {
+	filter: blur(10px);
+	height: 243px;
+}
+
+#背景圖片 {
+	height: 243px;
+	opacity: 0.2;
+}
+
+#合輯資訊欄下半部背景 {
+	height: 95px;
+	display: block;
+	background: #404040;
+}
+
+/* 合輯資訊 */
+#合輯資訊盒子 {
+	position:absolute;
+	top: 56px;
+	left: 47px;
+}
+
+#合輯封面 {
+	height: 255px;
+	width: 255px;
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.30);
+	background-image:url('../images/source/no-playing.png');
+	background-size: 100%;
+}
+
+#合輯文字資訊 {
+	margin-left: 20px;
+	margin-top: 	5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#名稱 {
+	margin-left: -3px;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 75px;
+	margin-bottom: -5px;
+	color: #434343;
+}
+
+#類型 {
+	font-size: 16px;
+	color: #727272;
+	line-height: 5px;
+}
+
+#合輯介紹 {
+	display: block;
+	font-size: 14px;
+	color: #454545;
+	width: 500px;
+	height: 70px;
+	text-align: justify;
+}
+
+#發佈日期與歌曲數量 {
+	position: absolute;
+	font-size: 14px;
+	color: #454545;
+	top: 500;
+}
+
+/* 播放按鈕 */
+#播放按鈕 {
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	width: 92px;
+	height: 38px;
+	position: absolute;
+	margin-left: 330px;
+	margin-top: 27px;
+	line-height: 38px;
+	color: #ffffff;
+	border-radius: 4px;
+	z-index: 1000;
+	background: linear-gradient(-90deg, #FC01C5 0%, #9B45D8 100%);
+	transition: background-size 0.2s ease;
+	background-size: 100%;
+}
+
+#播放按鈕:hover {
+	background-size: 150%;
+	transition: background-size 0.2s ease;
+}
+
+#播放按鈕:active {
+	opacity: 0.7;
+}
+
+#播放按鈕icon {
+	width: 13px;
+	margin-top: -4px;
+	margin-left: 17px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+#播放按鈕:hover {
+	
+}
+
+/* 分享按鈕 */
+#分享按鈕 {
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	width: 70px;
+	height: 34px;
+	position: absolute;
+	margin-left: 435px;
+	margin-top: 27px;
+	line-height: 35px;
+	color: #ffffff;
+	border-radius: 4px;
+	border: 2px #CDCDCD solid;
+	transition: background-image 0.2s ease;
+	text-indent: 15px;
+}
+
+#分享按鈕:hover {
+	border: 2px #FFFFFF solid;
+	transition: border 0.2s ease;
+}
+
+/* 分享選單 */ 
+#分享選單 {
+	position: absolute;
+	width: 75px;
+	height: 40px;
+	display: block;
+	margin-top: 26px;
+	margin-left: 435px;
+	background: none;
+	z-index: 10000;
+}
+
+#分享選單:hover {
+	color: #ffffff;
+	position: absolute;
+	margin-top: 27px;
+	background: none;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+}
+
+.一個選項 {
+	display: none;
+	font-size: 12px;
+	width: 250px;
+	height: 40px;
+	color: #555555;
+}
+
+#分享選單:hover .一個選項:hover {
+	cursor: point;
+	background: #646464;
+	color: #ffffff;
+}
+
+#分享選單 a{
+	text-decoration: none;
+}
+
+#分享選單:hover .一個選項 {
+	margin-top: 30px;
+	display: block;
+	font-size: 14px;
+	margin-left: 40px;
+	width: 130px;
+	padding: 10px 15px;
+	height: auto;
+	background: #565656;
+	box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.50);
+	border-radius: 3px;
+	border: 1px #383838;
+	color: #D1D1D1;
+}
+
+
+
+/* 曲目區塊頂端標題 */
+#曲目區塊頂端標題 {
+	display: block;
+	border-bottom: solid 1px #d4d4d4;
+	background: #fcfcfc;
+	color: #8E8E8E;
+	font-size: 14px;
+	height: 37px;
+	font-weight: 500;
+	line-height: 40px;
+	margin-bottom: -1px; /*補回防止Chrome無法出現分隔線的1px */
+}
+
+.順序 {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.曲目 {
+	margin-left: 50px;
+	text-align: left;
+}
+
+.長度 {
+	width: 50px;
+	right: 0px;
+	position: absolute;
+	margin-right: 100px;
+	text-align: left;
+}
+
+
+/* 歌曲 */
+.歌曲form按鈕 {
+	text-align: left;
+	width: 100%;
+	height: 50px;
+	border: none;
+	margin: 0px;
+	margin-top: 1px; /*防止Chrome無法出現分隔線 */
+	padding: 0px;
+	/* border-bottom: #E5E5E5 solid 1px; Chrome不能用 */
+	box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+.一首歌曲 {
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 51px;
+	background: #ffffff;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.一首歌曲:hover {
+	background: #F4F4F4;
+}
+
+.一首歌曲:active {
+	background: #E3E3E3;
+	color: #585858;
+}
+
+.一首無法提供的歌曲 {
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 51px;
+	border-bottom: #E5E5E5 solid 1px;
+	background: #F5F5F5;
+	color: #A8A8A8;
+}
+
+/* 尋人 */
+#尋人 img {
+	width: auto !important;
+}
+
+#尋人 {
+	height: 110px;
+	z-index: 1000;
+	width: 100%;
+	background: #403C48;
+	position: fixed;
+	bottom: 0;
+}
+
+#尋人圖片 {
+	display: block;
+	margin: 0px auto;
+	
+}

@@ -1,0 +1,49 @@
+{
+  "AlbumCoverSource" : "http://is1.mzstatic.com/image/thumb/Music69/v4/dd/18/5a/dd185a19-83d9-3a01-af64-e35715be1236/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2014",
+  "total" : "6",
+  "available" : "6",
+  "AlbumTitle" : "Do You Ever Shine? - EP",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcVP9EDy3KKpwyZxfEyNspc9",
+  "song" :
+  [
+    {
+      "SongTitle" : "Do You Ever Shine?",
+      "songsource" : "UcKtBSlfpRU",
+      "time" : "4:44",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/DoYouEverShine-Do-You-Ever-Shine.json"
+    },
+    {
+      "SongTitle" : "擁抱（日語版）",
+      "songsource" : "P4qYWbZJpSo",
+      "time" : "5:06",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/DoYouEverShine-擁抱（日語版）.json"
+    },
+    {
+      "SongTitle" : "OAOA（日語版）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/DoYouEverShine-OAOA（日語版）.json"
+    },
+    {
+      "SongTitle" : "DNA",
+      "songsource" : "YTTZoywkAAU",
+      "time" : "2:44",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/DNA（單曲）-DNA.json"
+    },
+    {
+      "SongTitle" : "諾亞方舟",
+      "songsource" : "V46K7apDziA",
+      "time" : "5:39",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/第二人生-諾亞方舟.json"
+    }
+  ]
+}

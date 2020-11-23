@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "./images/source/DokodemoDoor.png",
+  "type" : "單曲",
+  "year" : "2017",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "任意門（現在就是起點版）",
+  "CoverSourceFrom" : "Youtube",
+  "InfoReference" : "Youtube",
+  "song" :
+  [
+    {
+      "SongTitle" : "任意門（現在就是起點版）",
+      "songsource" : "lUCa4e5Mkrc",
+      "time" : "4:32",
+      "AlbumTitle" : "任意門（現在就是起點版）",
+      "lyrics" : "./songdata/lyrics/自傳-任意門.json"
+    }
+  ]
+}

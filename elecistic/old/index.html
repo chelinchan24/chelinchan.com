@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+
+<title>尋電</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.countdown.js"></script>
+
+</head>
+
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: 'Noto Sans TC' !important;
+	width: 100%;
+	height: 100%;
+	background:url('./src/bg.png') ;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+    background-size: cover;
+	overflow: auto;
+}
+
+#logo與countdown {
+	height: 100px;
+	width: 100%;
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+#logo {
+	width: 127px;
+	height: 55px;
+	background:url('./src/logo.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+
+#countdown {
+	margin: 0px auto;
+	text-align: center;
+	font-size: 35px;
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+}
+
+#countdown-itself {
+	display: inline-block;
+}
+
+.countdown {
+	font-weight: 200;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+	font-size: 70px;
+	border: 10px solid #FFFFFF;
+	width: 700px;
+	padding: 10px;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-webkit-box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	-moz-box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+	#countdown {
+		font-size: 25px;
+	}
+}
+</style>
+
+<body>
+<section id="logo與countdown">
+	<div id="logo"></div>
+	<div id="countdown">&lt;<div id="countdown-itself">GG</div></div>
+</section>
+<script>
+  $("#countdown-itself")
+  .countdown(/*"2018/03/31"*/"2018/07/31", function(event) {
+    $(this).text(
+      event.strftime(' %D 天又 %H 小時 %M 分 %S 秒')
+    );
+  });
+</script>
+</body>
+</html>

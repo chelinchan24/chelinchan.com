@@ -1,0 +1,119 @@
+{
+  "AlbumCoverSource" : "https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2016/07/MayDay_2.jpg",
+  "type" : "專輯",
+  "year" : "2016",
+  "total" : "15",
+  "available" : "7",
+  "AlbumTitle" : "自傳 History of Tomorrow",
+  "CoverSourceFrom" : "BuzzOrange",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcUVu66UlBpq81zqnnjU-QUP",
+  "song" :
+  [
+    {
+      "SongTitle" : "如果我們不曾相遇",
+      "songsource" : "eZMH6Mo0f9A",
+      "time" : "3:49",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-如果我們不曾相遇.json"
+    },
+    {
+      "SongTitle" : "成名在望",
+      "songsource" : "-hU1O3bG1eo",
+      "time" : "5:17",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-成名在望.json"
+    },
+    {
+      "SongTitle" : "好好（想把你寫成一首歌）",
+      "songsource" : "HxIct0i-CcA",
+      "time" : "3:45",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-好好(想把你寫成一首歌).json"
+    },
+    {
+      "SongTitle" : "兄弟",
+      "songsource" : "TcXFY-_rDzQ",
+      "time" : "5:43",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-兄弟.json"
+    },
+    {
+      "SongTitle" : "人生有限公司",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "後來的我們",
+      "songsource" : "pd3eV-SG23E",
+      "time" : "5:56",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-後來的我們.json"
+    },
+    {
+      "SongTitle" : "頑固",
+      "songsource" : "YKiMrg6rgYQ",
+      "time" : "7:08",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-頑固.json"
+    },
+    {
+      "SongTitle" : "派對動物",
+      "songsource" : "Fn7NLWHJw4s",
+      "time" : "4:43",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-派對動物.json"
+    },
+    {
+      "SongTitle" : "最好的一天",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "少年他的奇幻漂流",
+      "songsource" : "3LmjBbP-e8U",
+      "time" : "6:36",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-少年他的奇幻漂流.json"
+    },
+    {
+      "SongTitle" : "終於結束的起點",
+      "songsource" : "Jv3zvWZlXkk",
+      "time" : "5:29",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-終於結束的起點.json"
+    },
+    {
+      "SongTitle" : "任意門",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "轉眼",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "What's Your Story?",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "你說話C和弦就是...",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+        "lyrics" : "./songdata/lyrics/"
+    }
+  ]
+}

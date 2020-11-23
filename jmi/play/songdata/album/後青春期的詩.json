@@ -1,0 +1,98 @@
+{
+  "AlbumCoverSource" : "http://pic.pimg.tw/monstertea/49130be805376.jpg",
+  "type" : "專輯",
+  "year" : "2008",
+  "total" : "12",
+  "available" : "12",
+  "AlbumTitle" : "後青春期的詩",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcXAvl0DIPX7uGYHDI36tDGc",
+  "song" :
+  [
+    {
+      "SongTitle" : "突然好想你",
+      "songsource" : "GtDRcXtDg-4",
+      "time" : "4:26",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-突然好想你.json"
+    },
+    {
+      "SongTitle" : "生存以上 生活以下",
+      "songsource" : "yEyPhn7eg_c",
+      "time" : "4:41",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-生存以上生活以下.json"
+    },
+    {
+      "SongTitle" : "你不是真正的快樂",
+      "songsource" : "hr8jWDyb1jg",
+      "time" : "5:03",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-你不是真正的快樂.json"
+    },
+    {
+      "SongTitle" : "爆肝",
+      "songsource" : "S7XCYsnHE-8",
+      "time" : "3:00",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-爆肝.json"
+    },
+    {
+      "SongTitle" : "噢買尬",
+      "songsource" : "jsPlAVkV33c",
+      "time" : "4:06",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-噢買尬.json"
+    },
+    {
+      "SongTitle" : "出頭天",
+      "songsource" : "3MNqX2JPQLY",
+      "time" : "4:13",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-出頭天.json"
+    },
+    {
+      "SongTitle" : "我心中尚未崩壞的地方",
+      "songsource" : "GDjFEYwezo8",
+      "time" : "5:32",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-我心中尚未崩壞的地方.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "夜訪吸血鬼",
+      "songsource" : "03-ge__OaIU",
+      "time" : "4:14",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-夜訪吸血鬼.json"
+    },
+    {
+      "SongTitle" : "如煙",
+      "songsource" : "Qd9YGu3FWgc",
+      "time" : "5:14",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-如煙.json"
+    },
+    {
+      "SongTitle" : "後青春期的詩",
+      "songsource" : "pF8xLl305q4",
+      "time" : "2:21",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-後青春期的詩.json"
+    },
+    {
+      "SongTitle" : "笑忘歌",
+      "songsource" : "f6qn6C_sU-4",
+      "time" : "4:46",
+      "AlbumTitle" : "後青春期的詩",
+        "lyrics" : "./songdata/lyrics/後青春期的詩-笑忘歌.json"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5a/77/58/5a77587b-c132-97ba-d914-f580501f8eb4/dj.zgznzhaf.jpg/939x0w.jpg",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "什麼歌",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "Spotify",
+  "song" :
+  [
+    {
+      "SongTitle" : "什麼歌",
+      "songsource" : "3njEHMo_5t0",
+      "time" : "3:55",
+      "AlbumTitle" : "什麼歌",
+      "lyrics" : "./songdata/lyrics/什麼歌（單曲）-什麼歌.json"
+    }
+  ]
+}

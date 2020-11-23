@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>就是五月天 Just Mayday It</title>
+<link href="./css/界面本體.css" rel="stylesheet" type="text/css">
+<link href="./css/所有頁面通用樣式.css" rel="stylesheet" type="text/css">
+
+<meta property="fb:app_id" content="253717151766885"/>
+<meta property="og:title" content="立即瀏覽 - 就是五月天 Just Mayday It">
+<meta property="og:description" content="為您整理在 Youtube 上的五月天音樂，讓聽五月天從此變得更方便！" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://justmaydayit.com/play/">
+<meta property="og:image" content="https://justmaydayit.com/image/og.png">
+<link rel="icon" type="image/png" href="https://justmaydayit.com/image/favicon.png" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97911388-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=602999713232506";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+function browse() {
+	var url = ("browse.html") ;
+    document.getElementById('頁面內容').src = url ;
+}
+
+function album() {
+	var url = ("album-list.html") ;
+    document.getElementById('頁面內容').src = url ;
+}
+
+function single() {
+	var url = ("single-list.html") ;
+    document.getElementById('頁面內容').src = url ;
+}
+
+function playlist() {
+	var url = ("playlist-list.html") ;
+    document.getElementById('頁面內容').src = url ;
+}
+</script>
+</head>
+
+<div id="fb-root"></div>
+
+<body>
+<div id="blankspace"></div>
+<div id="main">
+<div id="導覽列">
+<ui>
+<a onclick="browse()" style="cursor: pointer;"><img src="./images/source/logo.png" style="width:130px; margin-left: 50px; vertical-align:middle; margin-right: 134px; margin-top: -2px;"></a>
+<li><a href="#browse" onclick="browse()"><span class="選單物件">瀏覽</span></a></li>
+<span class="導航列分隔線"></span>
+<li><a onclick="album()" style="cursor: pointer;"><span class="選單物件">專輯</span></a></li>
+<li><a onclick="single()" style="cursor: pointer;"><span class="選單物件">單曲</span></a></li>
+<span class="導航列分隔線"></span>
+<!--<li><span class="選單物件">演唱會</span></li>-->
+<li><a onclick="playlist()" style="cursor: pointer;"><span class="選單物件">合輯</span></a></li>
+
+<!-- 控制台
+<li><a onclick="OpenPanel()" style="cursor: pointer;"><span class="選單物件">控制台</span></a></li>
+控制台 -->
+
+<li><img src="./images/icons/question-button.png" width="25px" style="vertical-align:middle; margin-top: -2px;">
+<div id="關於區塊"><div id="箭頭"></div>
+<div id="關於內容">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjustmaydayit&tabs&width=350&height=120&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=602999713232506" width="350" height="121" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" id="facebook專頁"></iframe>
+<div id="簡介">
+<span id="簡介標題">簡介</span><br>
+「就是五月天」將Youtube上的五月天音樂依照專輯、<br>
+單曲進行整理，提供五迷們更容易尋找音樂的方式。
+</div>
+<span class="關於區塊按鈕"><a href="../questions" target="_blank">使用說明</a></span>
+<a href="https://m.me/justmaydayit" target="_blank"><span class="關於區塊按鈕">回報錯誤或聯絡我們</span></a><br>
+<span class="關於區塊按鈕" style="width: 328px !important; margin-top: 6px !important; line-height: 13px;"><a href="../questions" target="_blank">
+<span style="font-size: 17px; vertical-align: ;"> ☕</span>️ 請我們喝杯咖啡</a></span>
+<div id="版權宣告">「就是五月天」為粉絲創作，與五月天及其相關<br>
+公司無任何關係。網站中所使用之圖片皆屬原版權者所有。<br>
+
+2017 © <a href="https://personalblog.chelinchan.com" target="_blank">Che-Lin Chan</a></div>
+
+</div></div></li>
+</ui>
+</div>
+<div id="內容區塊">
+<div id="主要頁面內容">
+<iframe src="browse.html" id="頁面內容" name="main-content" height="100%" width="100%" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+<!-- player -->
+<div id="播放器盒子">
+<div id="大型播放器覆蓋"><img src="./images/source/large-player-on-placeholder.png" width="335px"></div>
+<iframe src="player.php" id="播放器" name="player" frameborder="0" width="300px" height="100%"></iframe>
+</div>
+<!-- player end -->
+<!-- 大型播放器開始 -->
+<div id="大型播放器">
+<div id="空白處關閉" onClick="SwitchToSideView()"></div>
+<div id="播放器區塊">
+<div id="影片區塊">
+  <div id="youtubeVideo"/>
+  <!-- <iframe id="youtubeVideo" width="889" height="500" src="https://www.youtube.com/embed/-hU1O3bG1eo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+  </div>
+<div id="右邊欄">
+<div id="資訊欄">
+<div id="專輯封面">
+<div id="專輯封面圖片-plceholder"></div>
+<div id="專輯封面圖片" style="background:url(''); background-size: 70px 70px;"></div>
+</div>
+<div id="歌曲與專輯名稱盒子">
+<div id="歌曲名稱">
+</div>
+<div id="專輯名稱">
+</div>
+<div id="回到側邊播放器" onClick="SwitchToSideView()"><img src="./images/icons/back-side-view.png" class="回到側邊欄icon" alt="縮小播放器"><span id="縮小播放器"></span></div>
+</div>
+</div>
+
+
+<div id="頁籤盒子">
+<style>
+</style>
+<div id="歌詞容器" class="tabcontent" style="display: block !important;">
+<div id="歌詞">
+</div>
+</div>
+
+<!-- <div id="稍後播放容器" class="tabcontent">
+<div id="稍後播放標題">稍後播放</div>
+<div id="稍後播放內容">
+</div>
+</div> -->
+<div id="列表頁籤">
+<button class="tabbutton active" onclick="TabSwitch('歌詞容器', '稍後播放容器')">
+<img src="./images/icons/lyrics_button_white.png" class="頁籤按鈕">
+</button>
+<!-- <button class="tabbutton" onclick="TabSwitch('稍後播放容器', '歌詞容器')">
+<img src="./images/icons/queue_button_white.png" class="頁籤按鈕">
+</button>-->
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<!-- 大型播放器結束 -->
+<script>
+function SwitchToLargeView() { //轉換至大型播放器
+	document.getElementById('大型播放器覆蓋').style.visibility = "visible";
+	document.getElementById('大型播放器覆蓋').style.opacity = "1";
+	document.getElementById('大型播放器').style.visibility = "visible";
+	document.getElementById('大型播放器').style.opacity = "1";
+}
+</script>
+<script>
+function SwitchToSideView() {//轉換至側邊播放器
+	document.getElementById('大型播放器覆蓋').style.visibility = "hidden";
+	document.getElementById('大型播放器覆蓋').style.opacity = "0";
+	document.getElementById('大型播放器').style.visibility = "hidden";
+	document.getElementById('大型播放器').style.opacity = "0";
+  closeLaygeView();
+}
+</script>
+<script>
+function TabSwitch(ShowTabID, HideTabID) {
+    document.getElementById(ShowTabID).style.visiability = "visible";
+	document.getElementById(ShowTabID).style.opacity = "1";
+	
+	document.getElementById(HideTabID).style.visiability = "visible";
+	document.getElementById(HideTabID).style.opacity = "0";
+}
+</script>
+
+<script src="./function/LargeView.js"></script>
+
+
+<script>
+function OpenPanel() {
+	document.getElementById('控制台容器').style.visibility = "visible";
+	document.getElementById('播放器蓋子').style.visibility = "visible";
+}
+
+function ClosePanel() {
+	document.getElementById('控制台容器').style.visibility = "hidden";
+}
+
+function control() {
+	var SentAlbumBefore = "parent.frames['player'].playerWithNum('";
+	var SentAlbumAfter = "', 0)";
+	var order = document.getElementById('輸入').value ;
+
+	var complete = "已傳送";
+	var completeDestinationPlayer = "至Player.php";
+
+	document.getElementById('輸出').value =  complete+ '"' + SentAlbumBefore+order+SentAlbumAfter + '"' +completeDestinationPlayer ;
+
+	parent.frames['player'].playerWithNum('./songdata/album/ + order' + ', 0');
+}
+</script>
+<script src="./function/LargeView.js"></script>
+<!-- 控制台結束 -->
+</body>
+</html>

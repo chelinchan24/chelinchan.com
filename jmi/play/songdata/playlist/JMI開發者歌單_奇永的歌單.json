@@ -1,0 +1,68 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/奇永的歌單.png",
+  "description" : "「奇永喜歡的歌」- 就是五月天工程師 楊奇永",
+  "year" : "2017",
+  "month" : "7",
+  "day" : "16",
+  "title" : "#JMI開發者歌單－「奇永的歌單」",
+  "songCount" : "8",
+  "song" :
+  [
+    {
+      "SongTitle" : "2012",
+      "songsource" : "YygVVvuIWm4",
+      "time" : "4:50",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-2012.json"
+    },
+    {
+      "SongTitle" : "盛夏光年",
+      "songsource" : "nlvTrcdwDLw",
+      "time" : "5:49",
+      "AlbumTitle" : "步步自選作品集 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品集-盛夏光年.json"
+    },
+    {
+      "SongTitle" : "我心中尚未崩壞的地方",
+      "songsource" : "GDjFEYwezo8",
+      "time" : "5:32",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-我心中尚未崩壞的地方.json"
+    },
+    {
+      "SongTitle" : "少年他的奇幻漂流",
+      "songsource" : "u0bcXim2m4M",
+      "time" : "4:42",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-少年他的奇幻漂流.json"
+    },
+    {
+      "SongTitle" : "凡人歌",
+      "songsource" : "OsUr8N7t4zc",
+      "time" : "4:41",
+      "AlbumTitle" : "凡人歌",
+      "lyrics" : "./songdata/lyrics/凡人歌（單曲）-凡人歌.json"
+    },
+    {
+      "SongTitle" : "將軍令",
+      "songsource" : "_XYcCNY-ass",
+      "time" : "3:48",
+      "AlbumTitle" : "將軍令",
+      "lyrics" : "./songdata/lyrics/將軍令（單曲）-將軍令.json"
+    },
+    {
+      "SongTitle" : "夜訪吸血鬼",
+      "songsource" : "03-ge__OaIU",
+      "time" : "4:14",
+      "AlbumTitle" : "青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-夜訪吸血鬼.json"
+    },
+    {
+      "SongTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "songsource" : "xWTiOqJqkk0",
+      "time" : "3:39",
+      "AlbumTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "lyrics" : "./songdata/lyrics/傷心的人別聽慢歌（貫徹快樂）（單曲）-傷心的人別聽慢歌（貫徹快樂）.json"
+    }
+  ]
+}

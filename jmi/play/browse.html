@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>broswe</title>
+<div id="讀取畫面"><img src="./images/source/loading.gif" id="讀取圖片"></div>
+<link href="./css/瀏覽.css" rel="stylesheet" type="text/css">
+<link href="./css/所有頁面通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/瀏覽頁面通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/專輯列表通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/演唱會列表通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/讀取畫面.css" rel="stylesheet" type="text/css">
+<link href="./css/合輯列表通用樣式.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="頂端提示框">2018 Just Mayday It 使用調查已開跑，快來<a href="https://goo.gl/forms/HAfVr7mloOLbfWLN2" target="_blank">分享你的使用體驗吧！</a></div>
+<div id="標題與段落盒子">
+<div id="圖片遮罩">
+</div>
+<div id="內容" class="縮排">
+<div id="標題">
+瀏覽
+</div>
+<div id="段落名稱盒子">
+<ui class="段落">
+<li><span class="段落按鈕"><a href="browse.html#隨機推薦">隨機推薦</a></span></li>
+<li><span class="段落按鈕"><a href="browse.html#最新加入">最新加入</a></span></li>
+<li><span class="段落按鈕"><a href="browse.html#推薦合輯">推薦合輯<!-- <div class="新">新功能</div> --></a></span></li>
+<li><span class="段落按鈕"><a href="browse.html#推薦專輯">推薦專輯</a></span></li>
+<li><span class="段落按鈕"><a href="browse.html#推薦單曲">推薦單曲</a></span></li>
+</ui>
+</div>
+</div>
+</div>
+<!-- 隨機推薦開始 -->
+<div id="內容區塊" class="縮排">
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="隨機推薦" class="段落標題" id="推薦合輯問候語"></a>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="你可能會喜歡button1" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="你可能會喜歡名稱div1" class="專輯名稱">
+        專輯
+        </div>
+        <div id="你可能會喜歡資訊div1" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="你可能會喜歡button2" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="你可能會喜歡名稱div2" class="專輯名稱">
+        專輯
+        </div>
+        <div id="你可能會喜歡資訊div2" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="你可能會喜歡button3" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="你可能會喜歡名稱div3" class="專輯名稱">
+        專輯
+        </div>
+        <div id="你可能會喜歡資訊div3" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="你可能會喜歡button4" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="你可能會喜歡名稱div4" class="專輯名稱">
+        專輯
+        </div>
+        <div id="你可能會喜歡資訊div4" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+</div>
+<!-- 隨機推薦結束 -->
+<!-- 最新加入開始 -->
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="最新加入" class="段落標題">最新加入</a>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="最新加入button1" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="最新加入名稱div1" class="專輯名稱">
+        專輯
+        </div>
+        <div id="最新加入資訊div1" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="最新加入button2" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="最新加入名稱div2" class="專輯名稱">
+        專輯
+        </div>
+        <div id="最新加入資訊div2" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="最新加入button3" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="最新加入名稱div3" class="專輯名稱">
+        專輯
+        </div>
+        <div id="最新加入資訊div3" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="最新加入button4" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="最新加入名稱div4" class="專輯名稱">
+        專輯
+        </div>
+        <div id="最新加入資訊div4" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+</div>
+<!-- 最新加入結束-->
+<!-- 推薦合輯開始 -->
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="推薦合輯" class="段落標題">推薦合輯</a>
+</div>
+<div class="一張合輯">
+    <form action="playlist.php" method="post">
+
+        <button id="推薦合輯button1" type="submit" name="playlist-source" value="合輯.json" class="合輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦合輯名稱div1" class="合輯名稱">
+        合輯
+        </div>
+        <div id="推薦合輯資訊div1" class="合輯資訊">
+        說明
+        </div>
+    </form>
+</div>
+<div class="一張合輯">
+    <form action="playlist.php" method="post">
+
+        <button id="推薦合輯button2" type="submit" name="playlist-source" value="合輯.json" class="合輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦合輯名稱div2" class="合輯名稱">
+        合輯
+        </div>
+        <div id="推薦合輯資訊div2" class="合輯資訊">
+        說明
+        </div>
+    </form>
+</div>
+<div class="一張合輯">
+    <form action="playlist.php" method="post">
+
+        <button id="推薦合輯button3" type="submit" name="playlist-source" value="合輯.json" class="合輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦合輯名稱div3" class="合輯名稱">
+        合輯
+        </div>
+        <div id="推薦合輯資訊div3" class="合輯資訊">
+        說明
+        </div>
+    </form>
+</div>
+<div class="一張合輯">
+    <form action="playlist.php" method="post">
+
+        <button id="推薦合輯button4" type="submit" name="playlist-source" value="合輯.json" class="合輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦合輯名稱div4" class="合輯名稱">
+        合輯
+        </div>
+        <div id="推薦合輯資訊div4" class="合輯資訊">
+        說明
+        </div>
+    </form>
+</div>
+</div>
+<!-- 推薦合輯結束 -->
+<!-- 推薦專輯開始 -->
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="推薦專輯" class="段落標題">推薦專輯</a>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦專輯button1" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦專輯名稱div1" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦專輯資訊div1" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦專輯button2" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦專輯名稱div2" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦專輯資訊div2" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦專輯button3" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦專輯名稱div3" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦專輯資訊div3" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦專輯button4" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦專輯名稱div4" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦專輯資訊div4" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+</div>
+<!-- 推薦專輯結束 -->
+<!-- 推薦單曲開始 -->
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="推薦單曲" class="段落標題">推薦單曲</a>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦單曲button1" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦單曲名稱div1" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦單曲資訊div1" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦單曲button2" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦單曲名稱div2" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦單曲資訊div2" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦單曲button3" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦單曲名稱div3" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦單曲資訊div3" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+<div class="一張專輯">
+    <form action="album.php" method="post">
+
+        <button id="推薦單曲button4" type="submit" name="album-source" value="專輯.json" class="專輯封面" style="background-image:url('./images/source/no-playing.png'); background-size: 100%;"></button>
+
+        <div id="推薦單曲名稱div4" class="專輯名稱">
+        專輯
+        </div>
+        <div id="推薦單曲資訊div4" class="專輯資訊">
+        年份
+        </div>
+    </form>
+</div>
+</div>
+<!-- 推薦單曲結束 -->
+
+<!--
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="推薦演唱會" class="段落標題">推薦演唱會</a>
+</div>
+<div class="一場演唱會">
+    <form action="album.php" method="post">
+
+        <button type="submit" name="concert-source" value="lUCa4e5Mkrc" class="演唱會封面" style="background-image:('concert-default.png'); backgroumd-size: 100%;"></button>
+
+        <div class="演唱會名稱">
+        Placeholder
+        </div>
+        <div class="演唱會資訊">
+        2017
+        </div>
+    </form>
+</div>
+<div class="一場演唱會">
+    <form action="album.php" method="post">
+
+        <button type="submit" name="concert-source" value="lUCa4e5Mkrc" class="演唱會封面" style="background-image:('concert-default.png'); backgroumd-size: 100%;"></button>
+
+        <div class="演唱會名稱">
+        Placeholder
+        </div>
+        <div class="演唱會資訊">
+        2017
+        </div>
+    </form>
+</div>
+<div class="一場演唱會">
+    <form action="album.php" method="post">
+
+        <button type="submit" name="concert-source" value="lUCa4e5Mkrc" class="演唱會封面" style="background-image:('concert-default.png'); backgroumd-size: 100%;"></button>
+
+        <div class="演唱會名稱">
+        Placeholder
+        </div>
+        <div class="演唱會資訊">
+        2017
+        </div>
+    </form>
+</div>
+<div class="一場演唱會">
+    <form action="album.php" method="post">
+
+        <button type="submit" name="concert-source" value="lUCa4e5Mkrc" class="演唱會封面" style="background-image:('concert-default.png'); backgroumd-size: 100%;"></button>
+
+        <div class="演唱會名稱">
+        Placeholder
+        </div>
+        <div class="演唱會資訊">
+        2017
+        </div>
+    </form>
+</div>
+</div> -->
+</div>
+<script src="./function/browse-content-loader.js"></script>
+<script>
+$(window).load(function(){
+	$.fx.off = !$.fx.off;
+	$('#讀取畫面').hide(30000);
+	});
+</script>
+</body>
+</html>

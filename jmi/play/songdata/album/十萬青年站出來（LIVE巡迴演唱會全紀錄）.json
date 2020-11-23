@@ -1,0 +1,195 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music/v4/d6/b5/f2/d6b5f22c-f9fa-e2ce-2341-c3e9a38e0ee0/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2000",
+  "total" : "26",
+  "available" : "26",
+  "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "叫我第一名（Live）",
+      "songsource" : "zMxKbMM1KzM",
+      "time" : "4:50",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "軋車（Live）",
+      "songsource" : "FxG973TFJkE",
+      "time" : "2:52",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "Hosee（Live）",
+      "songsource" : "U_rQimVxaDA",
+      "time" : "2:51",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-Hosee.json"
+    },
+    {
+      "SongTitle" : "黑白講（Live）",
+      "songsource" : "0aAtB0EnGqE",
+      "time" : "3:34",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-黑白講.json"
+    },
+    {
+      "SongTitle" : "風若吹（Live）",
+      "songsource" : "gBRlj4YnLjI",
+      "time" : "3:56",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-風若吹.json"
+    },
+    {
+      "SongTitle" : "為什麼（今日的愛情）（Live）",
+      "songsource" : "3SQ-2NspQ8A",
+      "time" : "2:00",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-為什麼（今日的愛情）.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望（Live）",
+      "songsource" : "XldY326sdw8",
+      "time" : "7:06",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "擁抱（Live）",
+      "songsource" : "E-lp7EZBzQQ",
+      "time" : "4:28",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "明白（Live）",
+      "songsource" : "xD1mZqKD2gA",
+      "time" : "5:31",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-明白.json"
+    },
+    {
+      "SongTitle" : "明白2（Live）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/-明白2.json"
+    },
+    {
+      "SongTitle" : "有你的將來（Live）",
+      "songsource" : "mhZR3lKjdW0",
+      "time" : "5:38",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-有你的將來.json"
+    },
+    {
+      "SongTitle" : "雨眠（Live）",
+      "songsource" : "RSAWWazg6x0",
+      "time" : "4:00",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-雨眠.json"
+    },
+    {
+      "SongTitle" : "羅密歐與茱麗葉（Live）",
+      "songsource" : "MhQZMswm1oA",
+      "time" : "3:41",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-羅密歐與茱麗葉.json"
+    },
+    {
+      "SongTitle" : "溫柔（Live）",
+      "songsource" : "BNgw7fUaddg",
+      "time" : "4:30",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲（Live）",
+      "songsource" : "BzKwoLoJhw4",
+      "time" : "6:00",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "愛情的模樣（Live）",
+      "songsource" : "860ZmTGJHL4",
+      "time" : "6:01",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "搖滾舞台（Live）",
+      "songsource" : "2LPkksaGEho",
+      "time" : "3:22",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/十萬青年站出來-搖滾舞台.json"
+    },
+    {
+      "SongTitle" : "終結孤單（Live）",
+      "songsource" : "VvA4BBurBtE",
+      "time" : "3:00",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "嘿！我要走了（Live）",
+      "songsource" : "4gWH58EThK0",
+      "time" : "4:35",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-嘿!我要走了.json"
+    },
+    {
+      "SongTitle" : "透露（Live）",
+      "songsource" : "0KQgHbpbl-w",
+      "time" : "4:54",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "生活（Live）",
+      "songsource" : "0kjKFMZlRVs",
+      "time" : "3:32",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-生活.json"
+    },
+    {
+      "SongTitle" : "反而（Live）",
+      "songsource" : "vizohwxrDHM",
+      "time" : "6:18",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-反而.json"
+    },
+    {
+      "SongTitle" : "心中無別人（Live）",
+      "songsource" : "rLqc6PhPqw8",
+      "time" : "4:10",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "憨人（Live）",
+      "songsource" : "2WUTMG6olNc",
+      "time" : "5:24",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌（Live）",
+      "songsource" : "o0Bv9uWEFf4",
+      "time" : "5:41",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界（Live）",
+      "songsource" : "vcFjthuKXCw",
+      "time" : "6:26",
+      "AlbumTitle" : "十萬青年站出來（LIVE巡迴演唱會全紀錄）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    }
+  ]
+}

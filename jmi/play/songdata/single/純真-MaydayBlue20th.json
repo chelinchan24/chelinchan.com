@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.kfs.io/album/global/54562703,0v1/fit/500x500.jpg",
+  "type" : "單曲",
+  "year" : "2019",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "純真 #MaydayBlue20th",
+  "CoverSourceFrom" : "KKBOX",
+  "InfoReference" : "Apple Music",
+  "song" :
+  [
+    {
+      "SongTitle" : "純真 #MaydayBlue20th",
+      "songsource" : "D-Q997X8eBA",
+      "time" : "4:32",
+      "AlbumTitle" : "純真 #MaydayBlue20th",
+      "lyrics" : "./songdata/lyrics/純真（單曲）-MaydayBlue20th.json"
+    }
+  ]
+}

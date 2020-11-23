@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music2/v4/f7/37/7c/f7377cf2-caed-3444-c470-884bd60105eb/source/1000x1000bb.jpg",
+  "type" : "單曲",
+  "year" : "2014",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "由我們主宰",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "由我們主宰",
+      "songsource" : "W-vRKek-K-8",
+      "time" : "2:38",
+      "AlbumTitle" : "由我們主宰",
+      "lyrics" : "./songdata/lyrics/由我們主宰（單曲）-由我們主宰.json"
+    }
+  ]
+}

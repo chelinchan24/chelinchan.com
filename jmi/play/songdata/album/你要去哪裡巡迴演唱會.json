@@ -1,0 +1,259 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music/v4/00/54/e1/0054e10f-b7c1-9de0-905b-768abfef7f4d/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2001",
+  "total" : "35",
+  "available" : "34",
+  "AlbumTitle" : "你要去哪裡巡迴演唱會",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcVMe_2po6xIlcI5Dzk0Zt1B",
+  "song" :
+  [
+    {
+      "SongTitle" : "Intro（Live）",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "瘋狂世界（Live）",
+      "songsource" : "1elVvyRUZRU",
+      "time" : "6:23",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "終結孤單（Live）",
+      "songsource" : "jy3XdEKdWoQ",
+      "time" : "4:38",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "透露（Live）",
+      "songsource" : "KCisnPBWMlY",
+      "time" : "3:50",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "能不能不要說（Live）",
+      "songsource" : "LwizBKvG0CA",
+      "time" : "4:05",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-能不能不要說.json"
+    },
+    {
+      "SongTitle" : "軋車（Live）",
+      "songsource" : "s3fhvJ2F_78",
+      "time" : "3:26",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "風若吹（Live）",
+      "songsource" : "EZIumHShTWo",
+      "time" : "8:52",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-風若吹.json"
+    },
+    {
+      "SongTitle" : "純真（Live）",
+      "songsource" : "cwXxtaHQ7u8",
+      "time" : "4:59",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-純真.json"
+    },
+    {
+      "SongTitle" : "彩虹（Live）",
+      "songsource" : "dLll0eDAoT8",
+      "time" : "5:18",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-彩虹.json"
+    },
+    {
+      "SongTitle" : "好不好（Live）",
+      "songsource" : "JqeTT0o2H9A",
+      "time" : "5:26",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌（Live）",
+      "songsource" : "Dutz_HbBIak",
+      "time" : "5:06",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "啾啾啾（Live）",
+      "songsource" : "1cqf2XmWPVc",
+      "time" : "4:07",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-啾啾啾.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲（Live）",
+      "songsource" : "Y-YXes5nRJA",
+      "time" : "4:41",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "Hosee（Live）",
+      "songsource" : "pVRHhdLdP6o",
+      "time" : "2:55",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-Hosee.json"
+    },
+    {
+      "SongTitle" : "叫我第一名（Live）",
+      "songsource" : "F0wcJkD3zf4",
+      "time" : "2:33",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "為什麼（今日的愛情）（Live）",
+      "songsource" : "3gh_dhXYZVo",
+      "time" : "2:53",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-為什麼（今日的愛情）.json"
+    },
+    {
+      "SongTitle" : "借問眾神明（Live）",
+      "songsource" : "LCK7-ibmnpw",
+      "time" : "3:15",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-借問眾神明.json"
+    },
+    {
+      "SongTitle" : "一顆蘋果（Live）",
+      "songsource" : "2uye4sshia8",
+      "time" : "2:59",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-一顆蘋果.json"
+    },
+    {
+      "SongTitle" : "擁抱（Live）",
+      "songsource" : "MiUcW19OlOs",
+      "time" : "4:24",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "愛情的模樣（Live）",
+      "songsource" : "XLSkYLBGCsc",
+      "time" : "5:21",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "溫柔（Live）",
+      "songsource" : "-81kDh5MeVo",
+      "time" : "4:36",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "天天想你（Live）",
+      "songsource" : "x9XzicsmQgg",
+      "time" : "9:25",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/你要去哪裡巡迴演唱會-天天想你.json"
+    },
+    {
+      "SongTitle" : "永遠的永遠（Live）",
+      "songsource" : "6MO-ryCIvMY",
+      "time" : "5:16",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-永遠的永遠.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望（Live）",
+      "songsource" : "ppSutt9oBWw",
+      "time" : "6:05",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "心中無別人（Live）",
+      "songsource" : "AsGWZOSTnEw",
+      "time" : "4:52",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/你要去哪裡巡迴演唱會-心中無別人.json"
+    },
+    {
+      "SongTitle" : "I'm in Love（Live）",
+      "songsource" : "mRtiWOQ6PE4",
+      "time" : "6:28",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/你要去哪裡巡迴演唱會-I'm-in-Love.json"
+    },
+    {
+      "SongTitle" : "我愛夏天（Live）",
+      "songsource" : "vD_R_EG2cVQ",
+      "time" : "6:40",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/你要去哪裡巡迴演唱會-我愛夏天.json"
+    },
+    {
+      "SongTitle" : "OK啦！（Live）",
+      "songsource" : "O-VMFaVrQ5U",
+      "time" : "2:52",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-OK啦！.json"
+    },
+    {
+      "SongTitle" : "候鳥（Live）",
+      "songsource" : "BoI6ZnRV-s8",
+      "time" : "5:15",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-候鳥.json"
+    },
+    {
+      "SongTitle" : "人生海海（Live）",
+      "songsource" : "e82q1FF9QVw",
+      "time" : "5:25",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "明白（Live）",
+      "songsource" : "HAh6NuYeeaM",
+      "time" : "5:39",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-明白.json"
+    },
+    {
+      "SongTitle" : "憨人（Live）",
+      "songsource" : "D2yKBk_wsjo",
+      "time" : "4:17",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "相信（Live）",
+      "songsource" : "kdml3DhjOTs",
+      "time" : "6:12",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/人生海海-相信.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界（Live）",
+      "songsource" : "Z3ukEy-aFX8",
+      "time" : "5:14",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "嘿！我要走了（Live）",
+      "songsource" : "-D3udNMAJis",
+      "time" : "9:11",
+      "AlbumTitle" : "你要去哪裡巡迴演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-嘿!我要走了.json"
+    }
+  ]
+}

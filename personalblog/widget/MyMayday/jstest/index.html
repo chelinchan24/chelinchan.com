@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="function.js"></script>
+
+<script>
+
+var aaaaa = -10000;
+
+</script>
+</head>
+
+<body>
+<div>
+<table class="data-table">
+    <tr>
+        <th class="bg-e9ba77">票種</th>
+        <th class="bg-tickettype">全票</th>
+        <th class="bg-tickettype">早場</th>
+        <th class="bg-tickettype">優待票</th>
+        <th class="bg-tickettype">半票</th>
+    </tr>
+    <tr>
+    	<!-- 數位 -->
+        <td class="bg-movietype">數位</td>
+        <!-- 全票 -->
+        <td class="content">
+        	<button onclick="addDigFullPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="DigFullPriceTicketTotal">0</output></span>
+            <button onclick="SubtractDigFullPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="DigFullPricePriceTotal">0</output> 元</span>
+        </td>
+        <!-- 早場 -->
+        <td class="content">
+        <button onclick="addDigEarlyPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="DigEarlyPriceTicketTotal">0</output></span>
+            <button onclick="SubtractDigEarlyPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="DigEarlyPricePriceTotal">0</output> 元</span>
+        </td>
+        <!-- 優待票 -->
+        <td class="content">
+
+		<button onclick="addDigConcessionPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="DigConcessionPriceTicketTotal">0</output></span>
+        <button onclick="SubtractDigConcessionPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="DigConcessionPricePriceTotal">0</output> 元</span>
+
+        </td>
+        <!-- 半票 -->
+        <td class="content">
+
+            <button onclick="addDigHalfPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="DigHalfPriceTicketTotal">0</output></span>
+            <button onclick="SubtractDigHalfPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="DigHalfPricePriceTotal">0</output> 元</span>
+
+        </td>
+    </tr>
+    <tr>
+    	<!-- 數位3D -->
+        <td class="bg-movietype">數位3D</td>
+        <!-- 全票 -->
+        <td class="content">
+
+		<button onclick="addDig3DFullPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="Dig3DFullPriceTicketTotal">0</output></span>
+        <button onclick="SubtractDig3DFullPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="Dig3DFullPricePriceTotal">0</output> 元</span>
+
+        </td>
+        <!-- 早場 -->
+        <td class="content">
+
+        <button onclick="addDig3DEarlyPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="Dig3DEarlyPriceTicketTotal">0</output></span>
+        <button onclick="SubtractDig3DEarlyPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="Dig3DEarlyPricePriceTotal">0</output> 元</span>
+
+        </td>
+        <!-- 優待票 -->
+        <td class="content">
+
+        <button onclick="addDig3DConcessionPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="Dig3DConcessionPriceTicketTotal">0</output></span>
+        <button onclick="SubtractDig3DConcessionPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="Dig3DConcessionPricePriceTotal">0</output> 元</span>
+
+        </td>
+        <!-- 半票 -->
+        <td class="content">
+
+		<button onclick="addDig3DHalfPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="Dig3DHalfPriceTicketTotal">0</output></span>
+        <button onclick="SubtractDig3DHalfPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="Dig3DHalfPricePriceTotal">0</output> 元</span>
+
+        </td>
+    </tr>
+    <tr>
+        <!-- IMAX -->
+        <td class="bg-movietype">IMAX</td>
+        <!-- 全票 -->
+        <td class="content">
+        	<button onclick="addIMAXFullPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="IMAXFullPriceTicketTotal">0</output></span>
+            <button onclick="SubtractIMAXFullPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="IMAXFullPricePriceTotal">0</output> 元</span>
+        </td>
+        <!-- 早場 -->
+        <td class="content">
+        <button onclick="addIMAXEarlyPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="IMAXEarlyPriceTicketTotal">0</output></span>
+            <button onclick="SubtractIMAXEarlyPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="IMAXEarlyPricePriceTotal">0</output> 元</span>
+        </td>
+        <!-- 優待票 -->
+        <td class="content">
+
+		<button onclick="addIMAXConcessionPrice()">+</button>
+        <span class="TicketNumber"><output type="text" id="IMAXConcessionPriceTicketTotal">0</output></span>
+        <button onclick="SubtractIMAXConcessionPrice()">-</button>
+        <br>
+        <span class="NoteText">共 <output type="text" id="IMAXConcessionPricePriceTotal">0</output> 元</span>
+
+        </td>
+        <!-- 半票 -->
+        <td class="content">
+
+            <button onclick="addIMAXHalfPrice()">+</button>
+        	<span class="TicketNumber"><output type="text" id="IMAXHalfPriceTicketTotal">0</output></span>
+            <button onclick="SubtractIMAXHalfPrice()">-</button>
+            <br>
+            <span class="NoteText">共 <output type="text" id="IMAXHalfPricePriceTotal">0</output> 元</span>
+
+        </td>
+        </tr>
+</table>
+
+<div class="total">
+         總價格 <output type="text" id="Price">0</output> 元，張數總計 <output type="text" id="Ticket">0</output> 張
+         </div>
+
+<!-- <span class="total">
+總價格 <output type="text" id="Price">0</output> 元，張數總計 <output type="text" id="Ticket">0</output> 張</span><br>
+<br> -->
+</div>
+</body>
+</html>

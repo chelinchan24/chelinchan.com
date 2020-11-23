@@ -1,0 +1,152 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/春天.png",
+  "description" : "Just Mayday It 為您挑選出最適合春天聆聽的歌曲，陪伴您度過這個美好的季節。",
+  "year" : "2017",
+  "month" : "4",
+  "day" : "28",
+  "title" : "春天",
+  "songCount" : "20",
+  "song" :
+  [
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    }
+  ]
+}

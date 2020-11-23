@@ -1,0 +1,723 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:800');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanstc.css');
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.anchor {
+  position: relative;
+  height: 0px !important;
+  overflow: auto;
+  display: block;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	background: #1A181E;
+	padding: 122px 30px;
+	box-sizing: border-box;
+	display: block;
+}
+
+header:after {
+	content: '';
+	background: url('./src/bg_header.png');
+	background-position: center top;
+	background-size: 100% 100%;
+	top: 0;
+	width: 100%;
+	height: 675px;
+	display: block;
+	position: absolute;
+	z-index: 0;
+	left: 0;
+}
+
+#header-內容 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position:relative;
+	z-index: 1;
+}
+
+#header-內容-看過 {
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	max-width: 795px;
+	justify-content: space-between;
+}
+
+#header-內容-看過-你有看過 {
+	font-size: 49px;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	color: #ffffff;
+	font-weight: 600;
+	letter-spacing: 6px;
+}
+
+#header-內容-看過-手指 {
+	width: 50px;
+	height: 50px;
+	background: url('./src/img_header_finger.png');
+	background-size: cover;
+}
+
+#header-內容-看過-共乘圖片 {
+	width: 505px;
+	height: 379px;
+	background: url('./src/img_header_taxi.png');
+	background-size: cover;
+	display: block;
+}
+
+#header-內容-說明 {
+	margin-top: 129px;
+	font-size: 19px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 500;
+	opacity: 0.86;
+}
+
+.header-按鈕 {
+	width: 206px;
+	height: 69px;
+	border: 2px solid #DFDFE0;
+	border-radius: 69px;
+	line-height: 69px;
+	text-align: center;
+	color: #DFDFE0;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	/* margin-right: 50px; */
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+.header-按鈕:hover {
+	opacity: 0.7;
+	transition: 0.2s ease;
+}
+
+.header-按鈕:active {
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+.header-按鈕:last-child {
+	/* margin-right: 0; 因為 a tag 讓他們都變 last-child*/
+}
+
+#header-內容-按鈕 {
+	margin-top: 70px;
+}
+
+#header-內容-按鈕 a {
+	text-decoration: none;
+}
+
+#故事 {
+	display: flex;
+	position: relative;
+	height: auto;
+	background: #292730;
+	padding: 200px 0px;
+	width: 100%;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+#故事:before {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 132px;
+	background: url('./src/mask_story_top.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+	z-index: 0;
+}
+
+#故事:after {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 179px;
+	background: url('./src/mask_story_bottom.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	bottom: 0;
+	z-index: 0;
+}
+
+#故事-內容 {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 0px 30px;
+	align-items: center;
+	justify-content:  center;
+}
+
+#故事-內容-instagram {
+	width: 100%;
+	max-width: 800px !important;
+	min-width: 300px !important;
+	display: block;
+}
+
+.instagram-media {
+	width: 100% !important;
+	max-width: 100% !important;
+	min-width: 100% !important;
+	/* height: auto; */
+}
+
+#故事-內容-故事 {
+	display: inline-block;
+	margin-left: 7%;
+	width: 100%;
+	max-width:  411px;
+}
+
+#故事-內容-故事-標題 {
+	font-size: 44px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+#故事-內容-故事-內文 {
+	margin-top: 55px;
+	font-size: 16px;
+	color: #D1D1D2;
+	width: 100%;
+	text-align: justify;
+	line-height: 2;
+}
+
+#問與答 {
+	display: flex;
+	position: relative;
+	height: auto;
+	background: #1B1920;
+	widt: 100%;
+	align-items: center;
+}
+
+#問與答:before {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 260px;
+	background: url('./src/mask_questions_top.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+	z-index: 0;
+}
+
+#問與答-內容 {
+	width: auto;
+	display:inline-flex;
+	position: relative;
+	z-index: 1;
+	padding: 160px 5px;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	margin: 0px auto;
+	flex-direction: column;
+}
+
+#問與答-內容-標題 {
+	font-size: 44px;
+	color: #ffffff;
+	opacity: 0.4;
+	font-weight: 600;
+	padding-left: 50px;
+}
+
+#問與答-內容-問題 {
+	margin-top: 55px;
+	display: flex;
+ 	flex-flow: wrap;
+	max-width: 1245px;
+}
+
+.問與答-內容_問題 {
+	width: 315px;
+	margin: 0px 50px;
+	position: relative;
+	height: auto;
+	margin-bottom: 110px;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+
+.問與答-內容_問題_編號 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-size: 152px;
+	background-image: linear-gradient(0deg, #1B1920 20%, #9B45DB 37%, #FC01C5 80%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	line-height: 103px;
+	left: -5px;
+}
+
+.問與答-內容_問題_標題與內文 {
+	margin-top: 60px;
+	position: relative;
+	z-index: 2;
+}
+
+.問與答-內容_問題_標題 {
+	font-size: 25px;
+	color: #ffffff;
+	font-weight: 500;
+	text-align: justify;
+}
+
+.問與答-內容_問題_內文 {
+	margin-top: 45px;
+	font-size: 18px;
+	color: #ffffff;
+	opacity: 0.8;
+	text-align: justify;
+}
+
+.問與答-內容_問題_內文 a {
+	color: #ffffff;
+}
+
+.問與答-內容_問題_內文_圖片 {
+	width: 100%;
+	border-radius: 17px;
+	border: 5px solid #2F2F2F;
+	box-sizing: border-box;
+}
+
+#聯絡資訊 {
+	display: flex;
+	position: relative;
+	height: auto;
+	background: #292730;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 200px 30px;
+	box-sizing: border-box;
+	padding-bottom: 234px; /* 補底部 mask */
+}
+
+#聯絡資訊:before {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 132px;
+	background: url('./src/mask_contact_top.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+	z-index: 0;
+}
+
+#聯絡資訊:after {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 34px;
+	background: url('./src/mask_contact_bottom.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	bottom: 0;
+	z-index: 0;
+}
+
+#聯絡資訊-標題 {
+	font-size: 44px;
+	color: #FFFFFF;
+	font-weight: 600;
+	z-index: 1;
+	position: relative;
+}
+
+#聯絡資訊-內容 {
+	margin-top: 75px;
+	z-index: 1;
+	position: relative;
+	max-width: 1290px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.聯絡資訊-內容-兩個 {
+	display: flex;
+	margin: 0px auto;
+	flex-wrap: wrap;
+}
+
+.聯絡資訊-內容_區塊_資訊 {
+	flex: 1;
+	margin: 0px 10px;
+	min-width: 300px;
+	height: 300px;
+	display:  flex;
+	justify-content:  center;
+	align-items: center;
+	flex-direction:  column;
+	background: #1B1920;
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+
+/*.聯絡資訊-內容_區塊_資訊:last-child {
+	margin-bottom: 0px;
+}*/
+
+.聯絡資訊-內容_區塊_資訊-icon {
+	background: #ffffff;
+	border-radius: 22px;
+	height: 65px;
+	width: 65px;
+	background-size: cover !important;
+}
+
+
+.聯絡資訊-內容_區塊_資訊-Messenger {
+	background: url('./src/icon_contact_messenger.png')
+}
+
+.聯絡資訊-內容_區塊_資訊-電話 {
+	background: url('./src/icon_contact_phone.png')
+}
+
+.聯絡資訊-內容_區塊_資訊-email {
+	background: url('./src/icon_contact_email.png')
+}
+
+.聯絡資訊-內容_區塊_資訊-匿名 {
+	background: url('./src/icon_contact_sayatme.png')
+}
+
+.聯絡資訊-內容_區塊_資訊-方式, .聯絡資訊-內容_區塊_資訊-方式 a {
+	font-size: 21px;
+	font-weight: 600;
+	margin-top: 26px;
+	color: #ffffff;
+}
+
+.聯絡資訊-內容_區塊_資訊-方式標題 {
+	font-size: 14px;
+	color: #AFAFAF;
+	margin-top: 15px;
+}
+
+footer {
+	height: 376px;
+	background: #000000;
+	width: 100%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+
+#footer-內容 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#footer-內容-認識我 {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 700px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 100px 0px;
+	margin-top: 66px;
+}
+
+#footer-內容-認識我-照片 {
+	width: 53px;
+	height: 53px;
+	background: url('http://chelinchan.com/src/img/img_about_doge.png');
+	background-size: cover;
+	border-radius: 100%;
+	margin-left: 68px;
+}
+
+#footer-內容-認識我-標題 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+#footer-內容-認識我-資訊 {
+	display: block;
+	margin-left: 30px;
+}
+
+#footer-內容-認識我-資訊-姓名 {
+	font-size: 23px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+#footer-內容-認識我-資訊-職業 {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.footer-內容-認識我-按鈕 {
+	right: 0;
+	position: absolute;
+	background: #ffffff;
+	color: #2b2b2b;
+	border: none;
+	margin-right: 18px;
+	transition: 0.15s ease;
+	font-weight: 500 !important;
+	font-size: 14px;
+	border-radius: 500px;
+	display: inline-flex;
+	align-items: center;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+
+.footer-內容-認識我-按鈕:after {
+	content:'';
+	height:15px;
+	width: 15px;
+	background: url('./src/btn_arrow_light.png');
+	background-size: cover;
+	margin-left: 8px;
+}
+
+#footer-內容-logo與更新 {
+	padding: 50px 0px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#footer-內容-logo與更新:before {
+	content:'';
+	background: url('./src/border_footer_logoandupdate.png');
+	height: 1px;
+	max-width: 999px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#footer-logo與更新-logo {
+	width: 95px;
+	height: 20px;
+	background: url('http://chelinchan.com/images/footer-logo.png');
+	background-size: cover;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 15px;
+}
+
+#footer-logo與更新-更新 {
+	font-size: 12px;
+	color: #838383;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 840px) {
+	
+	header {
+		padding: 70px 30px;
+		padding-bottom: 120px; /*加上 mask */
+	}
+	
+	.anchor {
+		top: 90px;
+	}
+	
+	header:after {
+		background-size: auto 100%;
+	}
+
+	#header-內容-看過 {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#header-內容-看過-你有看過 {
+		font-size: 40px;
+		-webkit-writing-mode: horizontal-tb;
+		writing-mode: horizontal-tb;
+		color: #ffffff;
+		font-weight: 600;
+		letter-spacing: 6px;
+		margin-bottom: 50px;
+	}
+	
+	#header-內容-看過-手指 {
+		width: 40px;
+		height: 40px;
+		background: url('./src/img_header_finger_down.png');
+		background-size: cover;
+		margin-bottom: 50px;
+	}
+	
+	#header-內容-看過-共乘圖片 {
+		width: 90%;
+		height: 0;
+		padding-bottom: 67.5%;
+		background-size: cover;
+		display: block;
+	}
+		
+	#header-內容-說明 {
+		margin-top: 120px;
+		font-size: 17px;
+		text-align: center;
+	}
+	
+	#header-內容-按鈕 {
+		margin-top: 129px;
+	}
+	
+	.header-按鈕 {
+		width: 50vw;
+		height: 50px;
+		min-width: 200px;
+		line-height: 50px;
+		font-size: 15px;
+		display: block;
+		margin-right: 0px;
+		/*margin-bottom: 20px;*/
+	}
+	
+	#故事:before {
+		height: 50px;
+	}
+	
+	#故事 {
+		height: auto;
+		background: #292730;
+		padding: 150px 0px;
+	}
+	
+	#故事-內容 {
+		flex-direction: column;
+		align-items: center;
+		justify-content:  center;
+	}
+	
+	.instagram-media {
+		height: 1;
+	}
+	#故事-內容-故事 {
+    	order: 0;
+		max-width: 100%;
+		margin-left: 0px;
+		margin-bottom: 80px;
+	}
+	
+	#故事-內容-instagram {
+		order: 1;
+	}
+	
+	#問與答-內容 {
+		padding: 150px 30px;
+		padding-bottom: 40px;
+	}
+	
+	#問與答-內容-問題 {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.問與答-內容_問題 {
+		width: 100%;
+		margin: 0px 0px;
+		margin-bottom: 110px;
+	}
+	
+	.問與答-內容_問題:last-child {
+		margin-bottom: 0px;
+	}
+	
+	#問與答-內容-標題 {
+		padding-left: 0px;
+	}
+	
+	.問與答-內容_問題_標題 {
+		font-weight: 600;
+	}
+	
+	#聯絡資訊 {
+		padding: 150px 30px;
+		box-sizing: border-box;
+		padding-bottom: 184px; /* 補底部 mask */
+	}
+	
+	footer {
+		height: auto;
+	}
+	
+	#footer-內容-認識我 {
+		flex-direction: column;
+		margin: 70px 0px;
+		margin-top: 36px; /* 扣除 mask */
+	}
+	
+	.footer-內容-認識我-按鈕 {
+		position: relative;
+		margin: 0;
+	}
+	
+	#footer-內容-認識我-標題 {
+		margin-bottom: 30px;
+	}
+	
+	#footer-內容-認識我-照片 {
+		margin-left: 0;
+		margin-bottom: 30px;
+		width: 60px;
+		height: 60px;
+	}
+
+	#footer-內容-認識我-資訊 {
+		margin-left: 0;
+		text-align:  center;
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "playlistList" :
+  [
+    {
+      "playlistSource" : "./songdata/playlist/一週年.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/是擦身相遇或擦肩而去.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/愛情的模樣.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/JMI開發者歌單_奇永的歌單.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/夢想.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/快節奏.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/春天.json"
+    },
+    {
+      "playlistSource" : "./songdata/playlist/傷心的人，別聽。.json"
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+@charset "UTF-8";
+@font-face { font-family: 'TAIWAN-LICENSE-PLATE'; src: url(./TAIWAN-LICENSE-PLATE.eot) format('eot');}
+@font-face { font-family: 'ElecisticSansItalic'; 
+	src: url('./font/ElecisticSansItalic.eot') format('eot'),
+		 url('./font/ElecisticSansItalic.ttf') format('truetype');}
+
+@media screen and (min-width: 1100px) {
+/* 最窄寬度 1100px */
+
+body { 
+}
+
+.標準內容寬度 {
+	width: 1100px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+/* 內容 */
+.段落 {
+	margin-bottom: 30px;
+}
+
+.段落-半頁 {
+	width: 50%;
+	max-width: 550px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.段落-內容 {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	min-width: 870px;
+	max-width: 1100px;
+}
+
+.段落-標題 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #2b2b2b;
+	line-height: 60px;
+}
+
+.段落-副標題 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #2B2B2B;
+}
+
+.段落-說明 {
+	text-align: justify;
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 24px;
+}
+
+	/* 段落1 */
+#段落1 {
+	background: url('../src/img/段落1_bg.png');
+	background-size: cover;
+	width: 100%;
+	height: 865px;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+}
+
+#段落1-內容 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#段落1-左側 {
+}
+
+#段落1-左側-mockup {
+	width: 400px;
+	height: 745px;
+	display: block;
+	background:url('../src/img/段落1_mockup.png');
+	background-size: 100%;
+	margin: 0px auto;
+	margin-top: 120px;
+	background-repeat: no-repeat;
+}
+
+#段落1-右側 {
+	text-align: left;
+	height: auto;
+	padding-left: 5%;
+}
+
+#段落1-右側-標題區塊 {
+	margin-top: 220px;
+	animation: 段落1-右側-標題 1.5s;
+}
+
+#段落1-右側-標題區塊-標題 {
+	font-size: 51px;
+	line-height: 65px;
+	/*font-family: 'ElecisticSansItalic' !important;*/
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+
+#段落1-右側-標題區塊-副標題 {
+	font-size: 20px;
+	line-height: 29px;
+	margin-top: 31px;
+	color: #818181;
+}
+
+#段落1-右側-下載區塊 {
+	width: 100%;
+	/* display: flex; 正式版*/
+	display: block ;
+	margin-top: 145px;
+	align-items: center;
+}
+
+#段落1-右側-下載區塊-GooglePlay {
+	width: 174px;
+	height: 52px;
+	display: inline-block;
+}
+
+#段落1-右側-下載區塊-iOS {
+	display: inline-block;
+	font-size: 14px;
+	color: #818181;
+	margin-left: 19px;
+}
+
+#段落1-右側-下載區塊-即將推出 {
+	height: 30px;
+	background: #FFF4D3;
+	color: #D3A642;
+	width: 115px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #D3A642;
+	border-radius: 6px;
+	font-size: 14px;
+	margin-left: 28px;
+}
+
+#段落1-右側-下載區塊-搶先登記 {
+	font-size: 16px;
+	height: 60px;
+	width: 150px;
+	background: #2b2b2b;
+	display: block;
+	color: #ffffff;
+	margin-top: 20px;
+	border-radius: 100px;
+	line-height: 60px;
+	text-align: center;
+}
+
+	/* 段落2 */
+#段落2 {
+	width: 100%;
+	height: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#段落2-內容 {
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+#段落2-左側 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#段落2-左側-內容 {
+	box-sizing:border-box;
+	margin: 70px;
+	
+}
+
+#段落2-左側-內容-標題 {
+	animation: 段落2-左側-內容-標題 1.5s;
+}
+
+#段落2-左側-內容-副標題 {
+	margin-top: 25px;
+}
+
+#段落2-左側-內容-說明 {
+	margin-top: 100px;
+}
+
+#段落2-右側 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*
+#段落2-標題區塊 {
+	position: absolute;
+	z-index: 100000;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	height: 136px;
+	width: 800px;
+}
+
+#段落2-標題區塊-副標題 {
+	font-size: 35px;
+	color: #2B2B2B;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	margin-top: -22px;
+}
+
+#段落2-標題區塊-標題 {
+	font-size: 100px;
+	color: #2B2B2B;
+	text-shadow: 0px 7px 22px rgba(32,199,139,0.27);
+	background:-webkit-linear-gradient(45deg, #52C5FF,#36D26F);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+	height: 100px;
+	line-height: 100px;
+}
+*/
+
+#段落2-右側-mockup {
+	width: 340px;
+	height: 670px;
+	background: url('../src/img/段落2_mockup.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+#段落2-右側-mockup-影片 {
+	margin: auto auto;
+}
+
+video#段落2-右側-mockup-影片 {
+	padding-bottom: 60px;
+	width: 250px;
+	height: 537px;	
+}
+
+/* 段落3 */
+#段落3 {
+	background: url('../src/img/段落3_bg.png');
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: auto;
+	padding: 153px 0px 70px 0px;
+}
+
+#段落3-標題區塊 {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+#段落3-標題區塊-標題 {
+}
+
+#段落3-標題區塊-副標題 {
+}
+
+#段落3-統計數字 {
+	margin-top: 70px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.段落3-統計數字-標題 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #818181;
+}
+
+#段落3-標題區塊-副標題 {
+	margin-top: 25px;
+}
+
+#段落3-統計數字-標題上半部 {
+}
+
+#段落3-統計數字-數字 {
+	font-size: 45px;
+	background: linear-gradient(45deg, rgba(2,196,255,1) 0%, rgba(74,255,140,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	width: 150px;
+	margin: 0px auto;
+	font-weight: 500;
+	font-family: 'TAIWAN-LICENSE-PLATE';
+}
+
+#段落3-統計數字-數字-加號 {
+	font-size: 25px;
+	vertical-align: 70%;
+	font-family: 'Noto Sans TC' !important;
+	padding-left: 5px;
+}
+
+#段落3-統計數字-標題下半部 {
+	margin-top: 5px;
+	display: block;
+}
+
+#段落3-充電方式 {
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	box-sizing: border-box;
+}
+
+.段落3-充電方式_一則方式 {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	min-width: 135px;
+}
+
+.段落3-充電方式_圖標 {
+	height: 96px;
+	width: 96px;
+	display: block;
+	background-size: 100% !important;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+.段落3-充電方式_標題與數量 {
+}
+
+.段落3-充電方式_標題 {
+	color: #818181;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.段落3-充電方式_數量 {
+	color: #2b2b2b;
+	font-size: 20px;
+}
+
+#段落3-充電方式-Tesla超級充電站-圖標 {
+	background:url('../src/icon/ic_marker_tesla_supercharge.png');
+}
+
+#段落3-充電方式-Tesla目的地充電-圖標 {
+	background:url('../src/icon/ic_marker_tesla_destination.png');
+}
+
+#段落3-充電方式-GoStation-圖標 {
+	background:url('../src/icon/ic_marker_gogoro.png');
+}
+
+#段落3-充電方式-普通機車自行車-圖標 {
+	background:url('../src/icon/ic_marker_normal.png');
+}
+
+#段落3-充電方式-J1772充電站-圖標 {
+	background:url('../src/icon/ic_marker_J1772.png');
+}
+
+#段落3-充電方式-KymcoGVCity-圖標 {
+	background:url('../src/icon/ic_marker_kymcoGV.png');
+}
+
+#段落3-充電方式-Emoving換電站-圖標 {
+	background:url('../src/icon/ic_marker_emoving.png');
+}
+
+#段落3-備註 {
+	margin-top: 70px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: rgba(0,0,0,0.50);
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+/* 段落4 */
+#段落4 {
+	background: #F4F4F4;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: auto;
+}
+
+#段落4-內容 {
+	width: 100%;
+	height: auto;
+	position: inherit;
+	max-width: 1400px; /* 1440 會出問題？ */
+	padding: 70px 0px;
+	margin: 0px auto;
+	display: block;
+}
+
+.段落4-內容-功能介紹_一組介紹 {
+	width: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.段落4-內容-功能介紹_一組介紹:last-child {
+	margin-bottom: 0px;
+}
+
+.段落4-內容-功能介紹-一則功能 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #2B2B2B;
+	height: auto;
+	display: inline-block;
+	max-width: 411px;
+	min-width: 250px;
+	flex: 1;
+}
+
+.段落4-內容-功能介紹_圖片區塊 {
+	padding-bottom: 79.9%; /* 最高 330px*/
+	display: block;
+	background: #ffffff;
+	background-size: 100% !important;
+}
+
+.段落4-內容-功能介紹_圖片區塊-尋找附近站點 {
+	background:url('../src/img/段落4_尋找附近站點.png');
+}
+
+.段落4-內容-功能介紹_圖片區塊-取得詳細資訊 {
+	background:url('../src/img/段落4_取得詳細資訊.png');
+}
+
+.段落4-內容-功能介紹_圖片區塊-量身打造 {
+	background:url('../src/img/段落4_量身打造.png');
+}
+
+.段落4-內容-功能介紹_圖片區塊-儲存最愛 {
+	background:url('../src/img/段落4_儲存最愛.png');
+}
+
+.段落4-內容-功能介紹_圖片區塊-探索目的地 {
+	background:url('../src/img/段落4_探索目的地.png');
+}
+
+.段落4-內容-功能介紹_圖片區塊-打卡 {
+	background:url('../src/img/段落4_打卡.png');
+}
+
+.段落4-內容-功能介紹-功能介紹_標題與說明 {
+	box-sizing: border-box;
+	padding: 47px 45px;
+}
+
+.段落4-內容-功能介紹_標題 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: left;
+}
+
+.段落4-內容-功能介紹_說明 {
+	text-align: justify;
+	margin-top: 7px;
+	color: #C1C1C1;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/* 段落5 */
+#段落5 {
+	height: auto;
+	background: url('../src/img/段落5_bg.png');
+	background-size: cover;
+	overflow: auto;
+	padding: 100px 0px; /*搶先登記版*/
+}
+
+#段落5-內容 {
+	display: block;
+}
+
+#段落5-內容-標題與按鈕區塊 {
+	text-align: center;
+	/* margin-top: 200px; 正式版 */
+}
+
+#段落5-內容-標題與按鈕區塊-標題 {
+	font-size: 45px;
+	font-weight: 600;
+}
+
+#段落5-內容-標題與按鈕區塊-按鈕區塊 {
+	margin-top: 40px;
+}
+#段落5-內容-標題與按鈕區塊-按鈕區塊-GooglePlay {
+	width: 172px;
+	height: 51px;
+	display: block;
+	margin: 0px auto;
+}
+
+#段落5-內容-標題與按鈕區塊-按鈕區塊-AppStore {
+	font-size: 14px;
+	color: #818181;
+	margin-top: 10px;
+}
+
+#段落5-內容-注意事項 {
+	width: 100%;
+	text-align: center;
+	color: rgba(0,0,0,0.50);
+	margin-top: 160px;
+	font-size: 14px;
+}
+
+	/* 訂閱 */
+#mce-EMAIL {
+	background: #ffffff;
+	height: 50px;
+	width: 50vw;
+	max-width: 900px;
+	border: 1px solid #2b2b2b;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+#mc-embedded-subscribe {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	border-radius: 100px;
+	display: block;
+	height: 40px !important;
+	padding: 0px 25px;
+	cursor: pointer;
+	box-sizing: border-box;
+	background: #2B2B2B;
+	color: #8DFFD0;
+	font-size: 14px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#mc-embedded-subscribe:hover {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.33);
+}
+
+/* 尋電團隊 */
+#尋電團隊 {
+	padding: 45px 0px;
+	display: flex;
+	flex-warp: nowrap;
+}
+
+#尋電團隊-內容-尋電開發團隊 {
+	width: 286px;
+	display: inline-block;
+	vertical-align: top;
+/*	margin-right: 42px; */
+	flex: 1;
+}
+
+#尋電團隊-內容-尋電開發團隊-標題 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #2b2b2b;
+	display: block;
+}
+
+#尋電團隊-內容-尋電開發團隊-說明 {
+	margin-top: 10px;
+	display: block;
+	font-size: 16px;
+	color: #2b2b2b;
+}
+
+#尋電團隊-內容-成員 {
+	display: inline-flex;
+	flex: 2;
+}
+
+.尋電團隊-內容-成員_一位成員 {
+	display: inline-block;
+	vertical-align: top;
+	background: #F9F9F9;
+	padding: 38px;
+	box-sizing: border-box;
+	margin-right: 16px;
+	width: 377px;
+}
+
+.尋電團隊-內容-成員_一位成員:last-child {
+	margin-right: 1px;
+}
+
+.尋電團隊-內容-成員_頭貼 {
+	height: 70px;
+	width: 70px;
+	background: #DBDBDB;
+	border-radius: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+#尋電團隊-內容-成員-楊奇永-頭貼 {
+	background: url('http://chelinchan.com/jmi/image/mryang.jpg');
+	background-size: 100%;
+}
+
+#尋電團隊-內容-成員-詹喆麟-頭貼 {
+	background:url('http://chelinchan.com/images/doge-profile-picture.png');
+	background-size: 100%;
+}
+
+.尋電團隊-內容-成員-姓名、職位與年紀 {
+	display: inline-block;
+	vertical-align: middle;
+	color: #2b2b2b;
+}
+
+.尋電團隊-內容-成員-姓名、職位與年紀-姓名 {
+	font-size: 18px;
+}
+
+.尋電團隊-內容-成員-姓名、職位與年紀-職位與年紀 {
+	font-size: 14px;
+}
+}

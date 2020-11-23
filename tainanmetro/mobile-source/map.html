@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75035165-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-75035165-2');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>mobile-map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+            crossorigin=""></script>
+</head>
+
+<body>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+    #map {
+        height: 100%;
+    }
+    html, body {
+        overflow: hidden;
+        font-family: 'Noto Sans TC', sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+    }
+
+    /*a[href^="http://maps.google.com/maps"]{display:none !important}
+    a[href^="https://maps.google.com/maps"]{display:none !important}
+
+    .gmnoprint a, .gmnoprint span, .gm-style-cc {
+        display:none;
+    }
+    .gmnoprint div {
+        background:none !important;
+    } */
+
+    .leaflet-container {
+        background: #fff;
+    }
+
+    #廣告關閉:before {
+        content:"";
+        z-index: 1000000;
+        font-size: 10px;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: url('http://chelinchan.com/tainanmetro/images/icons/ic_close_white_48dp_2x.png');
+        background-size: 100%;
+        display: block;
+        opacity: 1;
+    }
+
+    #廣告關閉 {
+        z-index: 100000;
+        position: fixed;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.50);
+        top: 0;
+    }
+
+    #廣告 {
+        z-index: 100000;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 340px;
+        height: 284px !important;
+        padding: 2px 2px 0px 2px !important;
+        display: block;
+        position: absolute;
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.50);
+    }
+
+    .浮動區塊 {
+        z-index: 300000;
+        position: absolute;
+        display: block;
+        height: auto;
+        background: #ffffff;
+        box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.50);
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 10px 30px;
+        width: 90vw;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+
+    .地圖選項fab {
+        display: block;
+        transition: 0.25s ease, border-radius 0.2s ease;
+        -webkit-transition: 0.25s ease, border-radius 0.2s ease;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 60px;
+        background-image: linear-gradient(0deg, #00A9FF 0%, #4AFF8C 100%);
+    }
+
+    #地圖選項fab背景 {
+        z-index: 1000;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.40);
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.25s;
+    }
+
+    .狀態-fab {
+        z-index: 10000;
+        background: none;
+        height: 60px;
+        width: 60px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        border-radius: 60px;
+        background-size: 100%;
+        box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.20);
+        border-radius: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .狀態-展開 {
+        display:block;
+        box-sizing: border-box;
+        padding: 15px 27px;
+        z-index: 10000;
+        height: 170px;
+        width: 311px;
+        position: fixed;
+        transform: translate(50%, 50%);
+        right: 50%;
+        bottom: 50%;
+        /*bottom: 15px;
+        right: 15px;*/
+        background: #FFFFFF;
+        box-shadow: 0px 7px 24px 0px rgba(0,0,0,0.26);
+        border-radius: 5px;
+        min-width: 300px;
+        max-width: 312px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+
+
+    .地圖選項fab-內容-狀態-隱藏 {
+        display: none;
+    }
+
+    .地圖選項fab-內容-狀態-顯示 {
+        display: block;
+    }
+
+    #地圖選項fab-內容 {
+        transition: 1s;
+        opacity: 0.0;
+        overflow: hidden;
+    }
+
+
+    .地圖選項fab-內容-標題 {
+        font-size: 14px;
+        color: #545454;
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式 {
+        z-index: 10001;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin-right: 17px;
+        background: #ffffff;
+
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 73px;
+        box-sizing: border-box;
+        border: 1px #D8D8D8 solid;
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式:last-child {
+        margin-right: 0px;
+    }
+
+    #地圖選項-fab-內容-地圖樣式 {
+        text-align: center;
+        margin-top: 15px;
+        display: -webkit-flex;
+        display: flex;
+        box-sizing: border-box;
+        overflow:hidden;
+        min-width: 257px;
+        height: 100px;
+    }
+
+    #地圖選項-fab-內容-地圖樣式-樣式縮圖-輪廓 {
+        background: url('./source/輪廓.png');
+        background-size: 100%;
+    }
+
+    #地圖選項-fab-內容-地圖樣式-樣式縮圖-簡易 {
+        background: url('./source/簡易.png');
+        background-size: 100%;
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱 {
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        color: #B8B8B8;
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-啟用 {
+        color: #4A90E2;
+    }
+
+    .地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖-啟用 {
+        border: 3px solid #4A90E2;
+    }
+
+    #地圖選項fab-按鈕 {
+        z-index: 10001;
+        background-image: linear-gradient(0deg, #00A9FF 0%, #4AFF8C 100%);
+        background-image: url('./icons/fab.png');
+        height: 60px;
+        width: 60px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        background-size: 100%;
+        border-radius: 100px;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.15s ease;
+    }
+</style>
+
+
+
+<div id="地圖選項fab背景"></div>
+
+<div id="地圖選項fab-按鈕"></div>
+
+<div class="地圖選項fab 狀態-fab" id="fab-menu">
+    <div id="地圖選項fab-內容" class="地圖選項fab-內容-狀態-隱藏">
+        <div class="地圖選項fab-內容-標題">地圖樣式</div>
+        <div id="地圖選項-fab-內容-地圖樣式">
+            <div class="地圖選項-fab-內容-地圖樣式-一個樣式 地圖選項-fab-內容-地圖樣式-輪廓" id="地圖選項-fab-內容-地圖樣式-輪廓按鈕">
+                <div class="地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖 地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖-啟用" id="地圖選項-fab-內容-地圖樣式-樣式縮圖-輪廓"></div>
+                <div id="地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-輪廓" class="地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱 地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-啟用">輪廓</div>
+            </div>
+            <div class="地圖選項-fab-內容-地圖樣式-一個樣式 地圖選項-fab-內容-地圖樣式-簡易" id="地圖選項-fab-內容-地圖樣式-簡易按鈕">
+                <div class="地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖" id="地圖選項-fab-內容-地圖樣式-樣式縮圖-簡易"></div>
+                <div id="地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-簡易" class="地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱">簡易</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="map" ></div>
+<div id="廣告關閉" onClick="AdOffMobile()" style=""></div>
+<div class="浮動區塊 廣告區塊" id="廣告" style="">
+    <!-- <h1>這個區塊以後應該會有廣告出現</h1> -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- 台南捷運路網 -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:336px;height:280px"
+         data-ad-client="ca-pub-7286117085215536"
+         data-ad-slot="9717836218"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <!-- <div class="關閉按鈕" id="關閉廣告" onClick="HideDisclaimer()">關閉</div> -->
+</div>
+<script>
+    // AD
+    function AdOffMobile() {
+        document.getElementById('廣告').style.display = "none";
+        document.getElementById('廣告關閉').style.opacity = "0";
+        document.getElementById('廣告關閉').style.visibility = "hidden";
+    }
+
+    //Fab
+    var fabBtn = document.getElementById('地圖選項fab-按鈕');
+    var fabMenuBtn = document.getElementById('fab-menu');
+    var fabMenuContent = document.getElementById('地圖選項fab-內容');
+    var fabMenuBackgroundCover = document.getElementById('地圖選項fab背景');
+
+    fabBtn.onclick = function () {
+        fabMenuBtn.className = "地圖選項fab 狀態-展開";
+        fabMenuContent.className = "地圖選項fab-內容-狀態-顯示";
+        fabMenuContent.style.opacity = "1";
+        fabMenuBackgroundCover.style.opacity = "1";
+        fabMenuBackgroundCover.style.visibility = "visible";
+        fabBtn.style.opacity = "0";
+    }
+
+    fabMenuBackgroundCover.onclick = function () {
+        fabMenuBtn.className = "地圖選項fab 狀態-fab";
+        fabMenuContent.className = "地圖選項fab-內容-狀態-顯示";
+        fabMenuContent.style.opacity = "0";
+        fabMenuBackgroundCover.style.opacity = "0";
+        fabMenuBackgroundCover.style.visibility = "hidden";
+        fabBtn.style.opacity = "1";
+    }
+
+    //地圖樣式切換
+    var normalMap = "http://chelinchan.com/tainanmetro/maps/images/maps/{z}_{x}_{y}.png";
+    var simpleMap = "http://chelinchan.com/tainanmetro/maps/images/simplemaps/{z}_{x}_{y}.png";
+
+    var normalMapBtn = document.getElementById('地圖選項-fab-內容-地圖樣式-輪廓按鈕');
+    var simpleMapBtn = document.getElementById('地圖選項-fab-內容-地圖樣式-簡易按鈕');
+
+    var normalMapCover = document.getElementById('地圖選項-fab-內容-地圖樣式-樣式縮圖-輪廓');
+    var simpleMapCover = document.getElementById('地圖選項-fab-內容-地圖樣式-樣式縮圖-簡易');
+
+    var normalMapTitle = document.getElementById('地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-輪廓');
+    var simpleMapTitle = document.getElementById('地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-簡易');
+
+    normalMapBtn.onclick = function () {
+        normalMapCover.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖 地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖-啟用";
+        normalMapTitle.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱 地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-啟用";
+        simpleMapCover.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖";
+        simpleMapTitle.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱";
+
+        L.tileLayer(normalMap, {
+            noWrap: true,
+            tileSize: 256,
+        }).addTo(map);
+    }
+
+    simpleMapBtn.onclick = function () {
+        simpleMapCover.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖 地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖-啟用";
+        simpleMapTitle.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱 地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱-啟用";
+        normalMapCover.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式縮圖";
+        normalMapTitle.className = "地圖選項-fab-內容-地圖樣式-一個樣式-樣式名稱";
+
+        L.tileLayer(simpleMap, {
+            noWrap: true,
+            tileSize: 256,
+        }).addTo(map);
+    }
+    //地圖設定值
+    var map = L.map('map', {
+        center: [65, -85],
+        zoom: 2,
+        minZoom: 1,
+        maxZoom: 4,
+        attributionControl:false,
+        zoomControl: false,
+    });
+
+    L.tileLayer(normalMap, {
+        noWrap: true,
+        tileSize: 256,
+    }).addTo(map);
+
+    //地圖樣式按鈕切換效果
+    var normalMapBtn = "document.getElementById('地圖選項-fab-內容-地圖樣式-輪廓按鈕')";
+    var simpleMapBtn = "document.getElementById('地圖選項-fab-內容-地圖樣式-簡易按鈕')";
+
+</script>
+</body>
+</html>

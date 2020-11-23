@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>tainanmetr-mobile-news</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script src="http://chelinchan.com/jquery/FeedEk.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<article>
+	<section id="內容">
+	</section>
+</article>
+
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 0;
+	margin: 20px;
+	line-height: 25px;
+}
+
+a {
+	color: #222222;
+	text-decoration: none;
+}
+
+.feedEkList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.feedEkList li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.feedEkList li:last-child{
+	border-bottom:none;
+	margin: 0;
+	padding: 0;
+}
+
+.itemTitle a{
+	color: #222222;
+	text-decoration: none;
+}
+
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:11px;color:#AAAAAA;} 
+</style>
+
+<script>
+
+$('#內容').FeedEk({
+  FeedUrl:'https://news.google.com/news/rss/headlines/section/q/%E5%8F%B0%E5%8D%97%E6%8D%B7%E9%81%8B/%E5%8F%B0%E5%8D%97%E6%8D%B7%E9%81%8B?ned=tw&hl=zh-TW&gl=TW',
+  MaxCount: 100,
+  ShowDesc: false,
+  TitleLinkTarget: '_parent'
+});
+
+</script> 
+</body>
+</html>

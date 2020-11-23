@@ -1,0 +1,55 @@
+{
+  "AlbumCoverSource" : "http://is1.mzstatic.com/image/thumb/Music7/v4/69/08/cc/6908cccc-870b-11ca-2541-bccdf02fed4e/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2015",
+  "total" : "6",
+  "available" : "6",
+  "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "YOUR LEGEND ~燃ゆる命~(將軍令 日本語ver.)",
+      "songsource" : "5OA0A21zyLY",
+      "time" : "3:47",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/將軍令-日文版.json"
+    },
+    {
+      "SongTitle" : "追憶のナインボール(九號球 日本語ver.)",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "青春の彼方/盛夏光年",
+      "songsource" : "jpsyk-5jGwY",
+      "time" : "4:41",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/步步自選作品集-盛夏光年.json"
+    },
+    {
+      "SongTitle" : "星空",
+      "songsource" : "RTUwaCImChM",
+      "time" : "5:42",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/第二人生-星空.json"
+    },
+    {
+      "SongTitle" : "將軍令(オリジナルver.)",
+      "songsource" : "83I_5lq5MwI",
+      "time" : "3:39",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/將軍令（單曲）-將軍令.json"
+    },
+    {
+      "SongTitle" : "九號球(オリジナルver.)",
+      "songsource" : "srP_Fm7f-eg",
+      "time" : "5:22",
+      "AlbumTitle" : "YOUR LEGEND~燃ゆる命~ - EP",
+      "lyrics" : "./songdata/lyrics/時光機-九號球.json"
+    }
+  ]
+}

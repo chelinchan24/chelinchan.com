@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* 段落1 */
+@keyframes 段落1-右側-標題 {
+  from {
+    opacity: 0;
+	transform: translate3d(0, -20%, 0);
+  }
+
+  100% {
+    opacity: 1;
+	transform: none;
+  }
+}
+
+@keyframes 段落2-左側-內容-標題 {
+  from {
+    opacity: 0;
+	transform: translate3d(0, -20%, 0);
+  }
+
+  100% {
+    opacity: 1;
+	transform: none;
+  }
+}

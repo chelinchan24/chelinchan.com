@@ -1,0 +1,126 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music/v4/27/14/9b/27149bfb-2107-1bbc-df07-8ebc1e383811/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "1999",
+  "total" : "16",
+  "available" : "15",
+  "AlbumTitle" : "第168場演唱會",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcXKWTA4X6itqiE60xp7qXmw",
+  "song" :
+  [
+    {
+      "SongTitle" : "黑白講（Live）",
+      "songsource" : "PInOlsqWUSo",
+      "time" : "5:34",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-黑白講.json"
+    },
+    {
+      "SongTitle" : "軋車（Live）",
+      "songsource" : "8SCAAYwjApo",
+      "time" : "2:59",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "HoSee（Live）",
+      "songsource" : "jI3QMc_71iU",
+      "time" : "2:30",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-Hosee.json"
+    },
+    {
+      "SongTitle" : "Talk（Live）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "第168場演唱會-Talk（Live）.json"
+    },
+    {
+      "SongTitle" : "I LOVE YOU 無望（Live）",
+      "songsource" : "3Qse0EaIwTA",
+      "time" : "6:39",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "風若吹（Live）",
+      "songsource" : "7mhbl-9OSzY",
+      "time" : "4:00",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-風若吹.json"
+    },
+    {
+      "SongTitle" : "生活（Live）",
+      "songsource" : "uNdWxJIjIEY",
+      "time" : "3:50",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-生活.json"
+    },
+    {
+      "SongTitle" : "就在今夜（Live）",
+      "songsource" : "RjoZdopMMCc",
+      "time" : "3:16",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/第168場演唱會-就在今夜（Live）.json"
+    },
+    {
+      "SongTitle" : "愛情釀的酒（Live）",
+      "songsource" : "cxDd2JL1utU",
+      "time" : "4:10",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/第168場演唱會-愛情釀的酒（Live）.json"
+    },
+    {
+      "SongTitle" : "擁抱（Live）",
+      "songsource" : "HBiTBOxM_Rs",
+      "time" : "4:31",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界（Live）",
+      "songsource" : "ZEremfoGytw",
+      "time" : "3:44",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "軋新車（軋車）（Live）",
+      "songsource" : "MMj1KXo12Cw",
+      "time" : "3:03",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌（Live）",
+      "songsource" : "WuLxvoZieck",
+      "time" : "7:34",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "愛情的模樣（Live）",
+      "songsource" : "QmzeU0e55wA",
+      "time" : "5:13",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "透露（Live）",
+      "songsource" : "wWNSWewOvMM",
+      "time" : "5:04",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌（Encore版）（Live）",
+      "songsource" : "oGUvpNYaqvk",
+      "time" : "8:18",
+      "AlbumTitle" : "第168場演唱會",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    }
+  ]
+}

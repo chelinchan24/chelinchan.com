@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.kfs.io/album/global/54128405,0v1/fit/500x500.jpg",
+  "type" : "單曲",
+  "year" : "2019",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "隱形的紀念",
+  "CoverSourceFrom" : "KKBOX",
+  "InfoReference" : "Apple Music",
+  "song" :
+  [
+    {
+      "SongTitle" : "隱形的紀念",
+      "songsource" : "HCCNgmm-8rk",
+      "time" : "5:00",
+      "AlbumTitle" : "隱形的紀念",
+      "lyrics" : "./songdata/lyrics/隱形的紀念（單曲）-隱形的紀念.json"
+    }
+  ]
+}

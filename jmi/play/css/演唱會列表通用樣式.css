@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 演唱會區塊 */
+.一場演唱會 {
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+
+.演唱會封面按鈕 {
+	border: none;
+	text-align: left;
+	padding: none;
+	background: none;
+	
+}
+
+/* 演唱會封面 */
+.演唱會封面 {
+	border: none;
+	padding: 0px;
+	height: 108px;
+	width: 215px;
+	box-shadow: 0px 12px 26px 0px rgba(0,0,0,0.22);
+	transition: box-shadow 0.2s linear;
+	cursor: pointer;
+	background-image:url('concert-default.png');
+	background-size: 100%;
+}
+
+img {
+	width: 215px;
+}
+
+.演唱會封面:hover {
+	box-shadow: 0px 12px 40px 0px rgba(0,0,0,0.51);
+	transition: box-shadow 0.2s linear;
+}
+
+/* 演唱會資訊 */
+
+.演唱會名稱 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.演唱會資訊 {
+	font-size: 14px;
+	color: #606060;
+}

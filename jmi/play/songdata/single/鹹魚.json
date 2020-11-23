@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://chelinchan.com/jmi/play/images/albumcover/鹹魚.png",
+  "type" : "單曲",
+  "year" : "2005",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "鹹魚",
+  "CoverSourceFrom" : "Just Mayday It",
+  "InfoReference" : "網路",
+  "song" :
+  [
+    {
+      "SongTitle" : "鹹魚",
+      "songsource" : "J3PbGC5r41U",
+      "time" : "4:42",
+      "AlbumTitle" : "鹹魚",
+      "lyrics" : "./songdata/lyrics/鹹魚（單曲）-鹹魚.json"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
+/* 導覽列與頁腳的 CSS 不能獨立檔案，原因是載入時路徑會出問題，所以直接寫在 global.css */
+
+
+/* HTML */
+body, html {
+	font-family: 'Noto Sans TC' !important;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	margin: 0;
+    padding: 0;
+	-webkit-font-smoothing: always;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html {
+}
+
+body {
+	font-family: 'Noto Sans TC' !important;
+	overflow: auto;
+}
+
+button {
+	-webkit-appearance: none;
+}
+
+input {
+	border: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+	font-family: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+button {
+	background: none;
+	border: none;
+	font-family: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: #2DA67B;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* UI */
+	/* 標題 */
+.普通標題 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+	/* 表單 */
+.表單 {
+	transition: 0.2s ease;
+}
+
+.表單-表單標題 {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 6px;
+	color: #2B2B2B
+}
+
+.表單-表單音鋪 {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #C1C1C1;
+	color: #2B2B2B;
+	text-indent: 16px;
+	padding-right: 16px;
+	transition: border 0.2s ease;
+	box-sizing: border-box;
+}
+
+.表單-表單音鋪:hover {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #2B2B2B;
+	transition: border 0.2s ease;
+}
+
+.表單-表單音鋪:focus {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #2B2B2B;
+	transition: border 0.2s ease;
+}
+
+	/* 按鈕 */
+.圓形按鈕 {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	border-radius: 100px;
+	display: block;
+	height: 35px !important;
+	padding: 0px 47px 0px 47px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.圓形按鈕:hover {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.33);
+}
+
+
+.深色按鈕-主題色文字 {
+	background: #2B2B2B;
+	color: #8DFFD0;
+	font-size: 14px;
+}
+
+.深色按鈕-白色文字 {
+	background: #2B2B2B;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+
+.白色按鈕-主題色文字 {
+	background: #FFFFFF;
+	color: #2B2B2B;
+	font-size: 14px;
+}
+
+.白色按鈕-主題色文字:hover {
+	background: #EEEEEE;
+	color: #2B2B2B;
+	font-size: 14px;
+}
+
+.icon_24x24 {
+	height: 24px;
+	width: 24px;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+}
+
+	/* 文字 */
+.主題深-灰 {
+	color: #C1C1C1;
+}
+
+.主題深-白 {
+	color: #FFFFFF;
+}
+
+.主題淺-黑 {
+	color: #2B2B2B;
+}
+
+.主題淺-灰 {
+	color: #818181;
+}
+
+/* 資源 */
+.logo-dark {
+	background:url('../src/img/logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.logo-light {
+	background:url('../src/img/logo-light.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.GooglePlay按鈕 {
+	background: url('http://chelinchan.com/tainanmetro/mobile/images/zh-tw_badge_web_generic.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* 導覽列 */
+#導覽列-行動版 {
+	display: none;
+}
+
+#導覽列 {
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	height: 70px;
+}
+
+.導覽列_捲動 {
+	background: #ffffff;
+	box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.10);
+	transition: 0.2s ease;
+}
+
+#導覽列 a {
+	color: #2b2b2b !important;
+}
+
+#導覽列-內容 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#導覽列-內容-logo {
+	height: 25px;
+	width: 57px;
+	background-size: 100%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 90px;
+}
+
+.導覽列-內容-項目 {
+	display: inline-block;
+	margin-right: 55px;
+	font-size: 14px;
+}
+
+.導覽列-內容-項目:last-child {
+	display: inline-block;
+	margin-right: 0px;
+}
+
+#導覽列-內容-贊助 {
+	position: absolute;
+	background: #2B2B2B;
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 100px;
+	height: 36px;
+	border-radius: 36px;
+	text-align: center;
+	line-height: 36px;
+	right: 0;
+}
+
+#導覽列-內容-贊助 a {
+	color: #ffffff !important;
+}
+
+/* 頁腳 */
+#頁腳-行動版 {
+	display: none;
+}
+
+#頁腳 {
+	width: 100%;
+	height: 290px;
+	position: relative;
+	background: #424242;
+}
+
+#頁腳 a {
+	color: #ffffff;
+}
+
+#頁腳-上半部 {
+	margin: 0px auto;
+	max-width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	height: 243px;
+	position: relative;
+}
+
+#頁腳-上半部-logo {
+	display: block;
+	width: 109px;
+	height: 47px;
+}
+
+.頁腳-上半部_一個區塊 {
+	min-width: 100px;
+	font-size: 14px;
+}
+
+.頁腳-上半部_一個區塊_置中 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.頁腳-上半部-區塊-列表 {
+	line-height: 21px;
+	margin-top: 75px;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.頁腳-上半部-區塊-列表-標題 {
+	color: #CCCDCC;
+	font-weight: 500;
+}
+
+#頁腳-上半部-GooglePlay {
+	width: 138px;
+	height: 41px;
+}
+
+#頁腳-下半部 {
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 12px;
+	color: #C1C1C1;
+	background: #2B2B2B;
+}
+
+@media screen and (max-width: 1100px) {
+	/* 導覽列 */
+#導覽列 {
+	display: none;
+	transition: 0.2s ease;
+}
+
+#導覽列-行動版 {
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	display: block;
+	height: 70px;
+	position: fixed;	
+	transition: 0.2s ease;
+}
+
+#導覽列-行動版 a {
+	color: #2b2b2b !important;
+}
+
+#導覽列-行動版-導覽列 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0px 28px;
+}
+
+#導覽列-行動版-導覽列-選單按鈕 {
+	background: url('../src/icon/ic_btn_menu.png');
+	width: 25px;
+	height: 25px;
+	background-size: 100%;
+	display: block;
+}
+
+#導覽列-行動版-導覽列-選單按鈕:active {
+	opacity: 0.7;
+}
+
+#導覽列-行動版-導覽列-logo {
+	position: absolute;
+	width: 60px;
+	height: 26px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+	display: block;
+}
+
+.導覽列-行動版_頂端 {
+	background: none;
+}
+
+.導覽列-行動版_捲動 {
+	background: #ffffff;
+	box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.10);
+	transition: 0.2s ease;
+}
+
+#導覽列-行動版-選單 {
+	z-index: 10000;
+	top: 70px;
+	position: absolute;
+	height: auto;
+	background: #ffffff;
+	width: 100%;
+	box-sizing: border-box;
+	/*padding-bottom:25px; 搶先登記版不需要*/
+	border-top: 1px solid #e8e8e8;
+	transition: 0.15s ease;
+}
+
+#導覽列-行動版-選單 li {
+	font-size: 16px;
+	height: 50px;
+	padding: 0px 28px;
+	width: 100%;
+	line-height: 50px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#導覽列-行動版-選單 li:hover {
+	background: #eaeaea;
+}
+
+#導覽列-行動版-選單-贊助尋電 {
+	background: #2B2B2B;
+	color: #FFFFFF;
+	font-size: 14px !important;
+	width: 150px !important;
+	height: 40px !important;
+	border-radius: 36px;
+	text-align: center;
+	line-height: 40px !important;
+	box-sizing: border-box;
+	margin: 0px auto;
+	margin-top: 25px;
+}
+
+#導覽列-行動版-選單-贊助尋電:hover {
+	background: #000000 !important;
+}
+
+#導覽列-行動版-遮罩 {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	background: #000000c2;
+	transition: 0.17s ease;
+}
+
+#導覽列-行動版-選單-贊助尋電 a{
+	color: #ffffff !important;
+}
+
+/* 頁腳 */
+#頁腳 {
+	display:none;
+}
+
+#頁腳-行動版 {
+	display: block;
+	height: auto;
+	background: #424242;
+	width: 100%;
+}
+
+#頁腳-行動版 a {
+	color: #ffffff;
+}
+
+
+#頁腳-行動版-logo {
+	width: 60px;
+	height: 26px;
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+#頁腳-行動版-上半部 {
+	padding: 25px 40px;
+	box-sizing: border-box;
+}
+
+#頁腳-行動版-列表 {
+	font-size: 14px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+}
+
+#頁腳-行動版-列表-左半部 {
+	flex: 1;
+}
+
+#頁腳-行動版-列表-右半部 {
+	flex: 1;
+}
+
+.頁腳-行動版-列表_列表 {
+	line-height: 21px;
+	color: #ffffff;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.頁腳-行動版-列表_列表_標題 {
+	color: #CCCDCC;
+	font-weight: 500;
+}
+
+#頁腳-行動版-下半部 {
+	height: auto;
+	text-align: center;
+	font-size: 12px;
+	color: #C1C1C1;
+	background: #2B2B2B;
+	padding: 25px 15px;
+	box-sizing: border-box;
+}
+}

@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music111/v4/8e/6b/85/8e6b8545-b1e2-f3eb-122c-efb141a64a97/source/1000x1000bb.jpg",
+  "type" : "單曲",
+  "year" : "2017",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "凡人歌（feat. 蕭敬騰）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "凡人歌",
+      "songsource" : "OsUr8N7t4zc",
+      "time" : "4:51",
+      "AlbumTitle" : "凡人歌（feat. 蕭敬騰）",
+        "lyrics" : "./songdata/lyrics/凡人歌（單曲）-凡人歌.json"
+    }
+  ]
+}

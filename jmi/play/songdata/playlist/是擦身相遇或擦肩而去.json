@@ -1,0 +1,117 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/是擦身相遇或擦肩而去.png",
+  "description" : "「有些人，就在生命裡面就這麼留下來了；有些人只剩下照片，只剩下回憶，還有留下歌中的故事。」－五月天 阿信 / 2011年5月22日 Just Rock It 演唱會 《溫柔》",
+  "year" : "2017",
+  "month" : "10",
+  "day" : "24",
+  "title" : "是擦身相遇，或擦肩而去",
+  "songCount" : "15",
+  "song" :
+  [
+    {
+      "SongTitle" : "突然好想你",
+      "songsource" : "GtDRcXtDg-4",
+      "time" : "4:46",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-突然好想你.json"
+    },
+    {
+      "SongTitle" : "我不願讓你一個人",
+      "songsource" : "38lcQsEMGrk",
+      "time" : "4:26",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "第二人生-我不願讓你一個人.json"
+    },
+    {
+      "SongTitle" : "超人",
+      "songsource" : "ptmxLFZkoZ4",
+      "time" : "5:00",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "時光機-超人.json"
+    },
+    {
+      "SongTitle" : "如果我們不曾相遇",
+      "songsource" : "eZMH6Mo0f9A",
+      "time" : "3:49",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "自傳-如果我們不曾相遇.json"
+    },
+    {
+      "SongTitle" : "錯錯錯",
+      "songsource" : "CMYDR3eA9Aw",
+      "time" : "3:44",
+      "AlbumTitle" : "",
+      "lyrics" : "神的孩子都在跳舞-錯錯錯.json"
+    },
+    {
+      "SongTitle" : "後來的我們",
+      "songsource" : "pd3eV-SG23E",
+      "time" : "5:56",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "自傳-後來的我們.json"
+    },
+    {
+      "SongTitle" : "步步",
+      "songsource" : "97axrS3Npxk",
+      "time" : "5:22",
+      "AlbumTitle" : "步步（單曲）",
+      "lyrics" : "步步（單曲）-步步.json"
+    },
+    {
+      "SongTitle" : "星空",
+      "songsource" : "RTUwaCImChM",
+      "time" : "5:42",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "第二人生-星空.json"
+    },
+    {
+      "SongTitle" : "人生海海",
+      "songsource" : "yarOcdANK50",
+      "time" : "4:40",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "後青春期的詩",
+      "songsource" : "pF8xLl305q4",
+      "time" : "2:21",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "後青春期的詩-後青春期的詩.json"
+    },
+    {
+      "SongTitle" : "有些事情現在不做一輩子都不會做了",
+      "songsource" : "2F0m58YIMPs",
+      "time" : "3:46",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "第二人生-有些事情現在不做一輩子都不會做了.json"
+    },
+    {
+      "SongTitle" : "第二人生",
+      "songsource" : "amv7CzCmHU0",
+      "time" : "5:27",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "第二人生-第二人生.json"
+    },
+    {
+      "SongTitle" : "乾杯",
+      "songsource" : "qX2GsMj7154",
+      "time" : "6:25",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "第二人生-乾杯.json"
+    },
+    {
+      "SongTitle" : "時光機",
+      "songsource" : "hKPtVlSW2qA",
+      "time" : "3:40",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "時光機-時光機.json"
+    }
+  ]
+}

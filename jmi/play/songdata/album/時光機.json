@@ -1,0 +1,119 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music3/v4/68/4f/86/684f8653-6bbc-8ae5-97e9-e9ffd1961217/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2003",
+  "total" : "15",
+  "available" : "15",
+  "AlbumTitle" : "時光機",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcUfC1_UryPH3CpxSC4-5OBw",
+  "song" :
+  [
+    {
+      "SongTitle" : "輕功",
+      "songsource" : "aXnFoK4qNUE",
+      "time" : "4:13",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-輕功.json"
+    },
+    {
+      "SongTitle" : "恆星的恆心",
+      "songsource" : "OyxjYPhA06U",
+      "time" : "5:08",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-恆星的恆心.json"
+    },
+    {
+      "SongTitle" : "雌雄同體",
+      "songsource" : "YhzxlZrOSss",
+      "time" : "5:12",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-雌雄同體.json"
+    },
+    {
+      "SongTitle" : "阿姆斯壯",
+      "songsource" : "71lf7W6_Sug",
+      "time" : "2:59",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-阿姆斯壯.json"
+    },
+    {
+      "SongTitle" : "而我知道",
+      "songsource" : "Gv3HOUMEPiw",
+      "time" : "8:07",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-而我知道.json"
+    },
+    {
+      "SongTitle" : "賭神",
+      "songsource" : "pHKoxcPWnwI",
+      "time" : "3:51",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-賭神.json"
+    },
+    {
+      "SongTitle" : "別惹我",
+      "songsource" : "gjQHr3-K5tE",
+      "time" : "3:06",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-別惹我.json"
+    },
+    {
+      "SongTitle" : "九號球",
+      "songsource" : "srP_Fm7f-eg",
+      "time" : "5:22",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-九號球.json"
+    },
+    {
+      "SongTitle" : "武裝",
+      "songsource" : "5fcItjQFG3I",
+      "time" : "3:51",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-武裝.json"
+    },
+    {
+      "SongTitle" : "時光機",
+      "songsource" : "hKPtVlSW2qA",
+      "time" : "3:40",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-時光機.json"
+    },
+    {
+      "SongTitle" : "我們（時時刻刻）",
+      "songsource" : "C3sD83zAwaU",
+      "time" : "4:39",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-我們（時時刻刻）.json"
+    },
+    {
+      "SongTitle" : "在這一秒",
+      "songsource" : "36gzV3HfbfQ",
+      "time" : "2:34",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-在這一秒.json"
+    },
+    {
+      "SongTitle" : "生命有一種絕對",
+      "songsource" : "crc0JH42Lwk",
+      "time" : "3:55",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-生命有一種絕對.json"
+    },
+    {
+      "SongTitle" : "王子麵",
+      "songsource" : "LPZ3ZIbx4Zg",
+      "time" : "4:16",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-王子麵.json"
+    },
+    {
+      "SongTitle" : "小時候",
+      "songsource" : "HdYS6I5nLEg",
+      "time" : "5:06",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-小時候.json"
+    }
+  ]
+}

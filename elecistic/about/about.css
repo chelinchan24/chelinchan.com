@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@font-face { font-family: 'TAIWAN-LICENSE-PLATE'; src: url(./TAIWAN-LICENSE-PLATE.eot) format('eot');}
+
+@media screen and (min-width: 1100px) {
+/* 最窄寬度 1100px */
+
+body {
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+
+.標準內容寬度 {
+	width: 1100px;
+}
+
+/* 內容 */
+.段落 {
+	margin-bottom: 120px;
+}
+
+.段落-半頁 {
+	width: 50%;
+	max-width: 550px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.段落-內容 {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	min-width: 870px;
+	max-width: 1100px;
+}
+
+.段落-標題 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #2b2b2b;
+	line-height: 60px;
+}
+
+.段落-副標題 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #2B2B2B;
+}
+
+.段落-說明 {
+	text-align: justify;
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 24px;
+}
+
+.文字區塊寬度 {
+	margin: 0px auto;
+	display: block;
+	max-width: 854px;
+}
+
+.寬度留白圖片 {
+	margin: 40px 0px;
+}
+
+.段落-標題 {
+	font-size: 30px;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+
+.段落-說明 {
+	margin-top: 15px;
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.段落-內容-標題 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #2b2b2b;
+}
+
+.段落-內容-說明 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	line-height: 30px;
+}
+
+/* 段落1 */
+#段落1 {
+	padding-top: 70px;
+	width: 100%;
+	position: relative;
+}
+
+#段落1-內容 {
+	display: block;
+	width: 100%;
+}
+
+#段落1-內容-標語 {
+	display: flex;
+	box-sizing: border-box;
+	background: url('./src/img/段落1_bg.png');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+
+#段落1-內容-標語-標語 {
+	text-align: center;
+	width: 100%;
+	font-size: 64px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+/* 段落2 */
+#段落2 {
+	margin: 85px 0px;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#段落2-內容 {
+	font-size: 18px;
+	color: #2b2b2b;
+	line-height: 30px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+/* 段落3 */
+#段落3 {
+}
+
+#段落3-內容 {
+	background: url('./src/img/段落2_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+/* 段落4 */
+#段落4 {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#段落4-內容 {
+	width: 100%;
+}
+
+#段落4-內容-標體與說明 {
+	margin-top: 100px;
+	display: block;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+#段落4-內容-標題與說明-標題 {
+	display: block;
+	width: 100%;
+}
+
+#段落4-內容-標題與說明-說明 {
+	display: block;
+	width: 100%;
+}
+
+#段落4-內容-團隊成員 {
+	display: blockk
+}
+
+.段落4-內容-團隊成員_成員 {
+	display: flex;
+	margin-bottom: 75px;
+}
+
+.段落4-內容-團隊成員_成員_圖片 {
+	width: 85px;
+	height: 85px;
+	display: block;
+	border-radius: 100%;
+	margin-right: 22px;
+}
+
+#段落4-內容-團隊成員-詹喆麟-圖片 {
+	background: url('https://chelinchan.com/src/img_doge_white.jpg');
+	background-size: 100%;
+}
+
+#段落4-內容-團隊成員-楊奇永-圖片 {
+	background: url('http://chelinchan.com/jmi/image/mryang.jpg');
+	background-size: 100%;
+}
+
+.段落4-內容-團隊成員_成員_姓名、職稱與簡介 {
+	display: block;
+	flex: 1;
+}
+
+.段落4-內容-團隊成員_成員_姓名、職稱與簡介-姓名與職稱 {
+	margin-top: 7px;
+	display: block;
+
+}
+
+.段落4-內容-團隊成員_成員_姓名、職稱與簡介-姓名與職稱-姓名 {
+	font-size: 24px;
+	font-weight: 600;
+	display: block;
+	color: #2b2b2b;
+}
+
+.段落4-內容-團隊成員_成員_姓名、職稱與簡介-姓名與職稱-職稱 {
+	font-size: 18px;
+	font-weight: 300;
+	display: block;
+	color: #2b2b2b;
+}
+
+.段落4-內容-團隊成員-_成員_姓名、職稱與簡介-簡介 {
+	margin: 24px 0px;
+	font-size: 16px;
+	font-weight: 300;
+	display: block;
+	color: #2b2b2b;
+	text-align: justify;
+	line-height: 25px;
+}
+
+/* 段落5 */
+#段落5 {
+	margin-bottom: 100px;
+}
+
+#段落5-內容 {
+}
+
+#段落5-標題 {
+	margin-bottom: 40px;
+}
+
+#段落5-你的名字會寫這裡 {
+	font-size: 27px;
+	color: #818181;
+	height: 125px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 300;
+	border: 3px dashed #979797;
+	border-radius: 10px;
+}
+
+#段落5-說明 {
+	display: block;
+	margin: 50px 0px; 
+}
+
+#段落5-按鈕 {
+	display: block;
+	text-align: center;
+}
+
+#段落5-按鈕-了解更多 {
+	display: inline-block;
+	vertical-align: central;
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+#段落5-按鈕-贊助尋電 {
+	background: #2B2B2B;
+	border-radius: 100px;
+	width: 144px;
+	height: 55px;
+	line-height: 55px;
+	display: inline-block;
+	vertical-align: central;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+/* 段落6 */
+
+#段落6 {
+	margin-bottom: 100px;
+}
+
+#段落6-內容 {
+	font-size: 12px;
+	color: #c1c1c1;
+}
+
+#段落6-內容 a{
+	text-decoration: underline;
+	color: #c1c1c1;
+}
+}

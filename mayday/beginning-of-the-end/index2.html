@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>給　只有一個人的　終於結束的起點</title>
+</head>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=602999713232506";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<body>
+<script>
+      
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      
+	  
+	  var player;
+	  var player2;
+	  
+      function onYouTubeIframeAPIReady() {
+		player = new YT.Player('左邊的他', {
+          height: '390',
+          width: '640',
+          videoId: 'oBp8WrTxn_w',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+
+		player2 = new YT.Player('右邊的她', {
+          height: '390',
+          width: '640',
+          videoId: '9tU9oGGc9ac',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+	  
+     
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+     
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          done = true;
+        }
+      }
+      function pauseVideo() {
+        player.pauseVideo();
+		player2.pauseVideo();
+      }
+	  
+	  function playVideo() {
+		player.playVideo();
+		player2.playVideo();
+	  }
+	  
+	  function beginAgain() {
+		  player.seekTo(0);
+		  player2.seekTo(0);
+		  player.pauseVideo();
+		player2.pauseVideo();
+	  }
+	  
+	  function muteOneVid() {
+		  player.mute()
+	  }
+    </script>
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+a {
+	color: #055DD5;
+}
+
+.影片 {
+	width: 600px;
+	height: 600px;
+	display: inline-block;
+}
+
+#影片區塊 {
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+}
+
+#按鈕區塊 {
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	height: auto;
+}
+
+button {
+	margin-top: 30px;
+	font-size: 14px;
+	padding: 15px 30px;
+	background: #ffffff;
+	border-radius: 100px;
+	border: 0px solid #3D3D3D;
+	margin-left: 10px;
+	outline: none;
+	transition: 0.2s ease;
+}
+
+button:last-child {
+	margin-left: 0px;
+}
+
+#播放按鈕 {
+	background-image: linear-gradient(-90deg, #9B45DB 0%, #FC01C5 100%);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.11);
+	border-radius: 100px;
+	color:#ffffff;
+}
+
+#暫停按鈕 {
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.11);
+	border-radius: 100px;
+	color:#ffffff;
+	background: #414141;
+}
+
+button:hover{
+	transition: 0.2s ease;
+	opacity: 0.8;
+}
+
+#標題區塊 {
+	display: block;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#標題 {
+	width: 600px;
+	display: block;
+	margin: 0px auto;
+	font-size: 20px;
+	text-align: left;
+}
+
+footer {
+	display: block;
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#按鈕提示{
+	font-size: 12px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+</style>
+<section id="標題區塊">
+<div id="標題">
+給　只有一個人的<br>
+終於結束的起點
+</div>
+</section>
+<section id="影片區塊">
+<div class="影片" id="左邊的他"></div><!--
+--><div class="影片" id="右邊的她">
+	<iframe width="300" height="560" src="https://www.youtube.com/embed/9tU9oGGc9ac" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</section>
+<section id="按鈕區塊">
+<button onClick="playVideo()" id="播放按鈕">播放</button>
+<button onClick="pauseVideo()" id="暫停按鈕">暫停</button>
+
+<button onClick="beginAgain()">從頭</button>
+<div id="單邊靜音">單邊靜音</div>
+
+<div id="按鈕提示">＊遇到影片不同步的時候，按下「從頭」再播放就可以了。</div>
+</section>
+
+<footer>
+由 <a href="http://chelinchan.com ">Che-Lin Chan 詹喆麟</a>用❤️製作️<br>
+<div class="fb-like" data-href="http://chelinchan.com/mayday/beginning-of-the-end/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+</footer>
+</body>
+</html>

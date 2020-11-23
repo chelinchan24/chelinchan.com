@@ -1,0 +1,574 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@font-face {
+  font-family: 'TAIWAN-LICENSE-PLATE';
+  src: url(http://chelinchan.com/font/TAIWAN-LICENSE-PLATE.eot) format('eot'), url(http://chelinchan.com/font/TAIWAN-LICENSE-PLATE.woff) format('woff');
+}
+
+/* 全網頁通用 */
+	/* HTML */
+html {
+	height:100%;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	height: 100%;
+	min-height: 100%;
+}
+
+button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+}
+
+a {
+	text-decoration: underline;
+	color: #2DA67B;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	padding: 0;
+	margin: 0;
+}
+
+	/* 背景與寬度 */
+
+.灰色背景 {
+	background: #F3F3F3 !important;
+}
+
+.網頁內容 {
+	width: 1100px;
+	margin: 0px auto;
+}
+
+	/* 標題 */
+.普通標題 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+	/* 表單 */
+.表單 {
+	transition: 0.2s ease;
+}
+
+.表單-表單標題 {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 6px;
+	color: #2B2B2B
+}
+
+.表單-表單音鋪 {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #C1C1C1;
+	color: #2B2B2B;
+	text-indent: 16px;
+	padding-right: 16px;
+	transition: border 0.2s ease;
+	box-sizing: border-box;
+}
+
+.表單-表單音鋪:hover {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #2B2B2B;
+	transition: border 0.2s ease;
+}
+
+.表單-表單音鋪:focus {
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	border: 2px solid #2B2B2B;
+	transition: border 0.2s ease;
+}
+
+	/* 按鈕 */
+.圓形按鈕 {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	border-radius: 100px;
+	display: block;
+	height: 40px !important;
+	padding: 0px 47px 0px 47px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.圓形按鈕:hover {
+	transition: background 0.15s ease, box-shadow 0.15s ease;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.33);
+}
+
+
+.深色按鈕-主題色文字 {
+	background: #2B2B2B;
+	color: #8DFFD0;
+	font-size: 14px;
+}
+
+.白色按鈕-主題色文字 {
+	background: #FFFFFF;
+	color: #2B2B2B;
+	font-size: 14px;
+}
+
+.白色按鈕-主題色文字:hover {
+	background: #EEEEEE;
+	color: #2B2B2B;
+	font-size: 14px;
+}
+
+.icon_24x24 {
+	height: 24px;
+	width: 24px;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+}
+
+/* 文字 */
+.主題深-灰 {
+	color: #C1C1C1;
+}
+
+.主題深-白 {
+	color: #FFFFFF;
+}
+
+.主題淺-黑 {
+	color: #2B2B2B;
+}
+
+.主題淺-灰 {
+	color: #818181;
+}
+
+/* 網站主要導覽列 */
+
+/* 發現者計劃與網站主要頁腳 */
+#頁腳 {
+	display: block;
+	clear: both;
+    position: relative;
+    z-index: 10;
+	height: 120px;
+	margin-top: -120px;
+}
+
+#發現者計劃與網站主要頁腳-頁腳 {
+	background: #FAFAFA;
+	display: block;
+	height: 120px;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部 {
+	height: 80px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-左側 {
+	float: left;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-左側 ul {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#現者計劃與網站主要頁腳-上半部-左側-logo {
+	background:url('./images/footer-logo.png');
+	height: 29px;
+	width: 68px;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-左側 li {
+	display: inline-block;
+	font-size: 14px;
+	color: #2B2B2B;
+	line-height: 80px;
+	margin-right: 50px;
+	transition: 0.2s ease;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-右側 {
+	display: inline-block;
+	float: right;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-右側 li {
+	display: inline-block;
+	font-size: 14px;
+	color: #2B2B2B;
+	line-height: 80px;
+	margin-left: 50px;
+	transition: 0.2s ease;
+}
+
+#發現者計劃與網站主要頁腳-頁腳-上半部-右側 li:hover, #發現者計劃與網站主要頁腳-頁腳-上半部-左側 li:hover {
+	transition: 0.2s ease;
+	opacity: 0.7;
+}
+
+#發現者計劃與網站主要頁腳-下半部-版權宣告 {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height: 41px;
+	color: #818181;
+}
+
+/* 發現者計劃導覽列 */
+#發現者計劃導覽列本體 {
+	height: 100px;
+	background: #2B2B2B;
+}
+
+#發現者計劃導覽列本體-內容 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 1100px;
+	margin: 0px auto;
+}
+
+#發現者計劃導覽列本體-內容-選單 {
+	display: inline-block;
+	background: url('./icons/ic_menu.png');
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+#發現者計劃導覽列本體-內容-選單:hover {
+	transition: 0.2s ease;
+	opacity: 0.9;
+}
+
+#發現者計劃導覽列本體-內容-發現者計劃Logo {
+	display: inline-block;
+	height: 51px;
+	width: 70px;
+	background: url('./discover/images/discover-logo.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#發現者計劃導覽列本體-內容-登入 {
+	display: inline-block;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#發現者計劃導覽列本體-內容-登入:hover {
+	color: #D7D7D7;
+}
+
+	/* 發現者計劃導覽列選單 */
+#發現者計劃導覽列本體-選單 {
+	z-index: 200;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: none;
+}
+
+#發現者計劃導覽列本體-選單-背景 {
+	z-index: 200;
+	position: absolute;
+	background: rgba(0,0,0,0.3)0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+#發現者計劃導覽列本體-選單-內容 {
+	transition: 0.2s ease;
+	z-index: 201;
+	background: #ffffff;
+	max-height: 0px;
+	width: 290px;
+	position: absolute;
+	box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.30);
+	/* top: 18px; */
+	top: 13px;
+	margin-left: -29px;
+	display: block;
+	visibility: hidden;
+	opacity: 0;
+	overflow: hidden;
+}
+
+#發現者計劃導覽列本體-選單-內容-按鈕 {
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url('./icons/ic_menu_dark.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 27px 29px;
+}
+
+#發現者計劃導覽列本體-選單-內容 li {
+	display: block;
+}
+
+.發現者計劃導覽列本體-選單-內容-選項 {
+	font-size: 18px;
+	color: #2B2B2B;
+	padding: 7px 29px;
+	transition: background 0.15s ease;
+	cursor: pointer;
+	user-select: none;
+}
+
+.發現者計劃導覽列本體-選單-內容-選項:last-child {
+	margin-bottom: 7px;
+}
+
+.發現者計劃導覽列本體-選單-內容-選項:hover {
+	background: #F8F8F8;
+	transition: background 0.15s ease;
+}
+
+.發現者計劃導覽列本體-選單-內容-選項:active {
+	background: #EFEFEF;
+}
+
+
+.發現者計劃導覽列本體-選單-內容-分隔線 {
+	margin:7px 0px;
+	display: block;
+	height: 1px;
+	width: 100%;
+	background: #979797;
+}
+
+#發現者計劃導覽列本體-選單-內容-僅限登入後 {
+	display: none;
+}
+
+/* 發現者個人導覽列 */
+#發現者個人導覽列 {
+	height: 60px;
+	background: #2B2B2B;
+	user-select: none;
+}
+
+#發現者個人導覽列-內容 {
+	display: block;
+	margin: 0px auto;
+	width: 1100px;
+	list-style: none;
+}
+
+.發現者個人導覽列-分頁 {
+	transition: border-bottom 0.2s ease;
+	line-height: 60px;
+	height: 60px;
+	display: inline-block;
+	font-size: 14px ;
+	color: #ffffff;
+	padding-left: 25px;
+	padding-right: 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.發現者個人導覽列-分頁:hover {
+	color: #E5E5E5;
+	border-bottom: 2px solid #D0D0D0;
+	transition: border-bottom 0.2s ease;
+}
+
+
+.發現者個人導覽列-分頁-目前 {
+	background-position: 100% 51px;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(-45deg, #52C5FF 0%, #4AFF8C 100%);
+}
+
+
+
+/* 發現者登入頁面 */
+#登入頁面網頁內容 {
+	padding-top: 95px;
+}
+
+#登入頁面-登入 {
+	padding: 38px 36px;
+	display: block;
+	top: 0px;
+	width: 365px;
+	height: 480px;
+	background: #ffffff;
+	/* float: right; */
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	position: relative;
+	margin: 0px auto;
+}
+
+#登入頁面-登入-訊息框 {
+	width: 100%;
+	display: none;
+	height: 45px;
+	background: #F5D9D9;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+#登入頁面-登入-標題 {
+	display: block;
+	margin-bottom: 32px;
+}
+
+.登入頁面-登入-表單 {
+	margin-bottom: 20px;
+}
+
+#登入頁面-登入-底部 {
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 30px;
+	display: block;
+	text-align: center;
+}
+
+#登入頁面-登入-底部-登入按鈕 {
+	margin: 0px auto;
+}
+
+#登入頁面-登入-底部-無法登入 {
+	color: #818181;
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+}
+
+/* 發現者個人頁面 */
+#發現者計劃導覽列 {
+	border-bottom: 1px solid #777777;
+}
+
+#發現者個人頁面網頁內容 {
+	margin-top: 120px;
+}
+
+#發現者個人頁面-左半部 {
+	width: 319px;
+}
+
+#發現者個人頁面-左半部-個人檔案 {
+	background: #2B2B2B;
+	position: absolute;
+	display: block;
+	width: 319px;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.42);
+}
+
+#發現者個人頁面-左半部-個人檔案-照片 {
+	height: 124px;
+	width: 124px;
+	background: #ffffff; /*#71B0B7*/
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+	position: absolute;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: -62px;
+	border: 3px solid #979797;
+}
+
+#發現者個人頁面-左半部-個人檔案-資訊 {
+	text-align: center;
+	margin-top: 62px;
+}
+
+#發現者個人頁面-左半部-個人檔案-資訊-標題 {
+	font-size: 14px;
+}
+
+#發現者個人頁面-左半部-個人檔案-資訊-用戶名稱 {
+	font-size: 22px;
+	font-weight: 500;
+	height: 33px;
+}
+
+#發現者個人頁面-左半部-個人檔案-數據 {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.發現者個人頁面-左半部-個人檔案-內容-數據 {
+	text-align: center;
+	width: 120px;
+	display: inline-block;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	padding: 22px 0px;
+}
+
+.發現者個人頁面-左半部-個人檔案-內容-數據-標題 {
+	font-size: 14px;
+}
+
+.發現者個人頁面-左半部-個人檔案-內容-數據-數字 {
+	font-size: 54px;
+	font-weight: 300;
+	/* line-height: 120%; font-family: 'TAIWAN-LICENSE-PLATE';*/
+	line-height: 100%;
+	height: 60px;
+}
+
+#發現者個人頁面-左半部-個人檔案-檢視檔案按鈕 {
+	height: 44px;
+	margin: 0px auto;
+	margin-top: 27px;
+}

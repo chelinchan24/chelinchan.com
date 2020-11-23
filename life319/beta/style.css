@@ -1,0 +1,748 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:800');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body {
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background: #0A050E;
+}
+
+.anchor {
+	display: block;
+    position: relative;
+    top: 60px;
+    visibility: hidden;
+}
+
+a {
+	color: #FFECC2;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 2px solid #FFECC2;
+}
+
+.段落 {
+	padding: 190px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.全寬 {
+	width: 100%;
+	max-width: 1100px;
+	display: flex;
+}
+
+.兩欄 {
+	display: flex;
+}
+
+.兩欄-左, .兩欄-右 {
+	box-sizing: border-box;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.兩欄-左 {
+	padding-right: 24px;
+}
+
+.兩欄-右 {
+	padding-left: 24px;
+}
+
+.標題容器 {
+	margin-bottom: 130px;
+	width: 100%;
+}
+
+@keyframes 標題-進入-日期 {
+    from {
+		opacity: 0;
+        transform: translate3d(0, 25px, 0);
+    }
+    to {
+		opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes 標題-進入 {
+    from {
+		opacity: 0;
+        transform: translate3d(0, -25%, 0);
+    }
+    to {
+		opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes 標題-離開 {
+    from {
+		opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+		opacity: 0;
+        transform: translate3d(0, -50%, 0);
+    }
+}
+
+.標題容器 .標題-次標題, .標題容器 .標題-大標題 {
+	opacity: 0;
+	margin-bottom: 15px;
+}
+
+.標題容器-動畫-進入 .標題-次標題, .標題容器-動畫-進入 .標題-大標題 {
+	opacity: 1;
+	margin-bottom: 15px;
+	animation: 標題-進入 0.75s ease-out; 
+}
+
+.標題容器-動畫-離開 .標題-次標題, .標題容器-動畫-離開 .標題-大標題 {
+	opacity: 0;
+	margin-bottom: 15px;
+	animation: 標題-離開 0.75s ease-out;
+}
+
+.標題-大標題 {
+	font-size: 54px;
+	color: #F1F1F1;
+	font-weight: 600;
+}
+
+.標題-次標題 {
+	font-size: 26px;
+	font-weight: 600;
+	color: #9D9B9F;
+}
+
+.按鈕 {
+	font-weight: 500;
+	font-size: 22px;
+	margin-right: 44px;
+}
+
+.按鈕:hover {
+	border-bottom: 2px solid #FFECC2;
+}
+
+.按鈕:last-child {
+	margin-right: 0px;
+}
+
+.按鈕:after {
+	content:'';
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: -9%;
+	background: url('./src/ic_button_arrow.png');
+	background-size: cover;
+	margin-left: 22px;
+}
+
+#讀取畫面 {
+	z-index: 100000000;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #0A050E;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  	height: calc(var(--vh, 1vh) * 100);
+}
+
+.讀取畫面-完成 {
+	opacity: 0;
+	transition: 0.4s ease-out;
+}
+
+header {
+	padding: 175px 50px 230px 50px !important; 
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	background: #1A181E;
+	box-sizing: border-box;
+	display: block;
+	background-image: linear-gradient(0deg, #09040D 0%, #0D0612 45%, #2C173F 100%);
+	height: 100%;
+}
+
+@keyframes header-標題 {
+    from {
+		opacity: 0;
+    }
+    to {
+		opacity: 1;
+    }
+}
+
+#header-標題-大標題 {
+	font-size: 64px;
+	color: #F1F1F1;
+	line-height: 80px;
+	font-weight: 600;
+}
+
+#header-標題-手指_行動版 {
+	display: none;
+}
+
+#header-標題-手指 {
+	width: 64px;
+	height: 64px;
+	background: url('./src/img_header_finger.png');
+	background-size: cover;
+}
+
+#header-右-共乘圖片 {
+	width: 100%;
+	height: auto;
+	padding-top: 75%;
+	background: url('./src/img_header_taxi.png');
+	background-size: cover;
+	display: block;
+}
+
+#header-說明 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #CFCED0;
+	margin-bottom: 40px;
+	max-width: 432px;
+	text-align: justify;
+}
+
+#header-段落-按鈕 {
+}
+
+#故事-右-內容 {
+	font-size: 19px;
+	color: #D1D1D1;
+	font-weight: 500;
+}
+
+#故事-標題-倒數 br {
+	display: none;
+}
+
+#故事-左-instagram {
+	width: 476px;
+	max-width: 800px !important;
+	min-width: 300px !important;
+	display: block;
+}
+
+.instagram-media {
+	width: 100% !important;
+	max-width: 100% !important;
+	min-width: 100% !important;
+	/* height: auto; */
+}
+
+#問與答 {
+	padding: 190px 50px;
+	box-sizing: border-box;
+}
+
+#問與答-內容 {
+}
+
+#問與答-內容-問題 {
+	margin-top: 55px;
+	display: flex;
+ 	flex-flow: wrap;
+	max-width: 1245px;
+}
+
+.問與答-內容_問題 {
+	width: 315px;
+	/*! margin: 0px 50px; */
+	position: relative;
+	height: auto;
+	margin-bottom: 110px;
+	box-sizing: border-box;
+	flex-grow: 1;
+	transition: 0.2s ease;
+}
+
+.問與答-內容_問題:last-child {
+	margin-bottom: 0px;
+}
+
+/*
+.問與答-內容_問題:before {
+	transition: 0.2s ease;
+}
+
+.問與答-內容_問題:hover:before {
+	content:'';
+	width: calc(100% + 80px);
+	height: calc(100% + 80px);
+	background: #1F1A24;
+	display: block;
+	position: absolute;
+	top: -40px;
+	left: -40px;
+	border: 1px solid #57405C;
+	box-sizing: border-box;
+	transition: 0.2s ease;
+}
+*/
+
+.問與答-內容_問題_編號 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-size: 152px;
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.00) 0%, #9B45DB 37%, #FC01C5 80%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	line-height: 103px;
+	left: -5px;
+}
+
+.問與答-內容_問題_標題與內文 {
+	margin-top: 60px;
+	position: relative;
+	z-index: 2;
+}
+
+.問與答-內容_問題_標題 {
+	font-size: 25px;
+	color: #E4E4E4;
+	font-weight: 500;
+	text-align: justify;
+}
+
+.問與答-內容_問題_內文 {
+	margin-top: 45px;
+	font-size: 19px;
+	color: #ffffff;
+	opacity: 0.8;
+	text-align: justify;
+	font-weight: 400;
+}
+
+.問與答-內容_問題_內文_圖片 {
+	width: 100%;
+	border-radius: 17px;
+	border: 5px solid #2F2F2F;
+	box-sizing: border-box;
+}
+
+#聯絡方式 {
+	background: #1F1A25;
+	padding: 190px 50px 260px 50px;
+}
+
+#聯絡 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#聯絡 a:hover {
+	border: none;
+}
+
+.聯絡-方式 {
+	flex: 50%;
+	max-width: 395px;
+	width: 100%;
+	display: flex;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	transition: 0.1s ease;
+	box-shadow: 0 0 0px 20px rgba(0,0,0,0.00);
+}
+
+.聯絡-方式:hover {
+	transition: 0.1s ease;
+	box-shadow: 0 0 0px 20px #342D3C;
+	background: #342D3C;
+	border-radius: 18px;
+}
+
+.聯絡-方式-圖標 {
+	width: 65px;
+	height: 65px;
+	background: #ffffff;
+	display: block;
+	margin-right: 30px;
+	background-size: cover !important;
+}
+
+.聯絡-方式-圖標_messenger {
+	background: url('./src/ic_contact_messenger.png');
+}
+
+.聯絡-方式-圖標_電子郵件 {
+	background: url('./src/ic_contact_email.png');
+}
+
+.聯絡-方式-圖標_instagram {
+	background: url('./src/ic_contact_instagram.png');
+}
+
+.聯絡-方式-圖標_匿名聯絡 {
+	background: url('./src/ic_contact_anonymous.png');
+}
+
+.聯絡-方式-方式與類型 {
+	flex: 1;
+	margin-right: 50px;
+}
+
+.聯絡-方式-方式與類型-方式 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #E9E8EA;
+}
+
+.聯絡-方式-方式與類型-類型 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #8F949B;
+}
+
+.聯絡-前往 {
+	width: 27px;
+	height: 27px;
+	background: #ffffff;
+	display: block;
+	background: url('./src/ic_contact_arrow_left.png');
+	background-size: cover !important;
+}
+
+#聯絡:after {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 43px;
+	background: url('./src/mask_contact_bottom.png');
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	bottom: 0;
+	z-index: 0;
+	left: 0;
+}
+
+footer {
+	height: 376px;
+	background: #000000;
+	width: 100%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+
+#footer-內容 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#footer-內容-認識我 {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 700px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 100px 0px;
+	margin-top: 66px;
+}
+
+#footer-內容-認識我-照片 {
+	width: 53px;
+	height: 53px;
+	background: url('http://chelinchan.com/src/img/img_about_doge.png');
+	background-size: cover;
+	border-radius: 100%;
+	margin-left: 68px;
+}
+
+#footer-內容-認識我-標題 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #CFCED0;
+}
+
+#footer-內容-認識我-資訊 {
+	display: block;
+	margin-left: 30px;
+}
+
+#footer-內容-認識我-資訊-姓名 {
+	font-size: 23px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+#footer-內容-認識我-資訊-職業 {
+	font-size: 14px;
+	color: #CFCED0;
+	font-weight: 400;
+}
+
+.footer-內容-認識我-按鈕 {
+	right: 0;
+	position: absolute;
+	background: #535353;
+	color: #FFFFFF;
+	border: none;
+	margin-right: 18px;
+	transition: 0.15s ease;
+	font-weight: 500 !important;
+	font-size: 14px;
+	border-radius: 600px;
+	display: inline-flex;
+	align-items: center;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+
+.footer-內容-認識我-按鈕:hover {
+	opacity: 0.8;
+	border: none;
+}
+
+.footer-內容-認識我-按鈕:after {
+	content:'';
+	height:14px;
+	width: 14px;
+	background: url('http://chelinchan.com/src/img/ic_arrow_dark.png');
+	background-size: cover;
+	margin-left: 8px;
+}
+
+#footer-內容-logo與更新 {
+	padding: 50px 0px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#footer-內容-logo與更新:before {
+	content:'';
+	background: url('./src/border_footer_logoandupdate.png');
+	height: 1px;
+	max-width: 999px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#footer-logo與更新-logo {
+	width: 95px;
+	height: 20px;
+	background: url('./src/img_footer_logo.png');
+	background-size: cover;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 15px;
+}
+
+#footer-logo與更新-更新 {
+	font-size: 12px;
+	color: #838383;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+	a:hover {
+		border: none !important;
+	}
+	
+	.段落 {
+		padding: 160px 30px;
+	}
+	
+	.兩欄 {
+		flex-direction: column;
+	}
+	
+	.兩欄-左 {
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.兩欄-右 {
+		padding-left: 0px;
+	}
+	
+	header {
+		padding: 100px 25px 230px 25px !important
+	}
+	
+	#header-內容 {
+		flex-direction: column-reverse;
+	}
+	
+	#header-內容 .兩欄-左 {
+		padding-right: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#header-內容 .兩欄-右 {
+		margin-bottom: 50px;
+	}
+	
+	#header-標題-大標題 {
+		font-size: 45px;
+		line-height: 60px;
+	}
+	
+	#header-標題-手指 {
+		display: none;
+	}
+	
+	#header-說明 {
+		font-size: 22px;
+	}
+	
+	#header-段落-按鈕 {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.按鈕 {
+		margin-bottom: 15px;
+	}
+	
+	.按鈕:last-child {
+		margin-bottom: 0px;
+	}
+	
+	#header-標題-手指_行動版 {
+		width: 64px;
+		height: 64px;
+		background: url('./src/img_header_finger_up.png');
+		background-size: cover;
+		display: block;
+		margin-left: -10px;
+		margin-bottom: 10px;
+	}
+	
+	#故事-標題-倒數 br {
+		display: block;
+	}
+	
+	#故事-左-instagram {
+		width: auto;
+		min-width: auto !important;
+	}
+	
+	#問與答 {
+		padding: 170px 25px;
+	}
+	
+	.問與答-內容_問題 {
+		margin: 0px;
+		margin-bottom: 100px;
+		width: 100%;
+	}
+	
+	#聯絡方式 {
+		padding: 150px 25px 260px 25px;
+	}
+	
+	.聯絡-方式 {
+		flex: 1;
+		max-width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		box-sizing: border-box;
+		margin-right: 0;
+	}
+	
+	footer {
+		height: auto;
+	}
+	
+	#footer-內容-認識我 {
+		flex-direction: column;
+		margin: 70px 0px;
+		/*! margin-top: 36px; */ /* 扣除 mask */
+	}
+	
+	.footer-內容-認識我-按鈕 {
+		position: relative;
+		margin: 0;
+	}
+	
+	#footer-內容-認識我-標題 {
+		margin-bottom: 30px;
+	}
+	
+	#footer-內容-認識我-照片 {
+		margin-left: 0;
+		margin-bottom: 30px;
+		width: 60px;
+		height: 60px;
+	}
+
+	#footer-內容-認識我-資訊 {
+		margin-left: 0;
+		text-align:  center;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	#聯絡 {
+		flex-direction: column;
+	}
+	
+	.聯絡-方式-方式與類型 {
+		margin-right: 0px;
+	}
+	
+	.聯絡-前往 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.聯絡-方式 {
+		flex: 1;
+		max-width: 100%;
+		width: 100%;
+		display: flex;
+		margin-bottom: 60px;
+		justify-content: center;
+		align-items: normal;
+		flex-direction: column;
+	}
+	
+	.聯絡-方式-圖標 {
+	 margin-right: 0;
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
+}
+
+#網站本體 {
+	margin: 0px auto;
+	display: block;
+	height: 100%;
+	width: 1100px;
+}
+
+/* 導航列 */
+#導航列 {
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 70px;
+	z-index: 1000;
+	background: #ffffff;
+	border-bottom: #D4d4d4 1px solid;
+}
+
+#導航列右側 {
+	margin-top: 23px;
+	float: right;
+	margin-right: 40px;
+}
+
+#導航列右側:last-child {
+	margin-top: 23px;
+	float: right;
+}
+
+.導航列-一個選項 {
+	color: #383838;
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.導航列-立即使用 {
+	border-radius: 4px;
+	padding: 4px 15px;
+	color: #383838;
+	font-weight: 400;
+	border: 2px solid #383838;
+}	
+
+#導航列背景 {
+	position: relative;
+}
+/* 目錄 */
+#目錄 {
+	background: #ffffff;
+	display: block;
+	position: fixed;
+	top: 120px;
+	border: 1px solid #D4D4D4;
+	width: 250px;
+	height: 400px;
+	padding: 30px;
+	overflow-y: scroll;
+}
+
+#說明兩個字 {
+	color: #9C9C9C;
+}
+
+.段落標題 {
+	display: block;
+	margin-top: 20px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #CA27A2;
+}
+
+#目錄 li {
+	line-height: 25px;
+	font-size: 14px;
+	color: #3D3D3D;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+#目錄 a {
+	color: #3D3D3D;
+}
+
+#目錄 li a:hover {
+	color: #7E7E7E;
+}
+
+/* 內容區塊 */
+#內容區塊 {
+	top: 100px;
+	border: 1px solid #D4D4D4;
+	margin-top: 120px;
+	float: right;
+	background: #ffffff;
+	width: 750px;
+	height: auto;
+	display: block;
+}
+
+/* 內文 */
+.一則說明 {
+	padding: 30px;
+}
+
+.標題 {
+	font-weight: 500;
+	padding-bottom: 10px;
+	color: #7451C8;
+	display: block;
+}
+.內文 {
+	line-height: 22px;
+	font-size: 14px;
+	display: block;
+}
+
+.一則說明 a {
+	color: #023F82;
+}
+
+.一則說明 a:hover {
+	color: #4887D8;
+}
+
+.說明圖片 {
+	border: 1px #C1C1C1 solid;
+	text-align: center;
+	max-width: 600px;
+}

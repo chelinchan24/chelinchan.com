@@ -1,0 +1,33 @@
+{
+  "recommendPlaylist":
+  [
+    {
+      "albumSource" : "./songdata/playlist/一週年.json"
+    },
+    {
+      "albumSource" : "./songdata/playlist/是擦身相遇或擦肩而去.json"
+    },
+    {
+      "albumSource" : "./songdata/playlist/愛情的模樣.json"
+    },
+    {
+      "albumSource" : "./songdata/playlist/春天.json"
+    }
+  ],
+
+  "new":
+  [
+    {
+      "albumSource" : "./songdata/single/當每顆星星-阿信版.json"
+    },
+    {
+      "albumSource" : "./songdata/single/當每顆星星-合唱版.json"
+    },
+    {
+      "albumSource" : "./songdata/single/I-WILL-CARRY-YOU.json"
+    },
+    {
+      "albumSource" : "./songdata/single/後來的我們（眼淚未乾版）.json"
+    }
+  ]
+}

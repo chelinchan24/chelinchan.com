@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+Search Function Widget For Che-Lin Chan's Personal Blog (SFP) made by CHELINCHAN.com.
+2017 © CheLinChan.com. All right reserved.
+
+Style.css version 1.0.
+*/
+
+#search-box {
+	width: 218px;
+	height: 30px;
+	font-size: 14px;
+	padding-left: 10px;
+	border: #d9d9d9 solid 1px;
+	transition: 0.3s;
+}
+
+#search-box:hover {
+	-webkit-box-shadow: 0 3px 8px #d9d9d9;
+	-moz-box-shadow: 0 3px 8px #d9d9d9;
+	box-shadow: 0 3px 8px #d9d9d9;
+	outline: none;
+	transition: 0.3s
+}
+
+#search-box:focus {
+	outline: none;
+	-webkit-box-shadow: 0 3px 8px #d9d9d9;
+	-moz-box-shadow: 0 3px 8px #d9d9d9;
+	box-shadow: 0 3px 8px #d9d9d9;
+}

@@ -1,0 +1,105 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music/v4/46/9c/0e/469c0eb6-a54e-b252-e714-5446aa49d505/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2004",
+  "total" : "13",
+  "available" : "12",
+  "AlbumTitle" : "神的孩子都在跳舞",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcUDcZFLYn1RqDJiir327cCJ",
+  "song" :
+  [
+    {
+      "SongTitle" : "孫悟空",
+      "songsource" : "fcYaBvBTYHs",
+      "time" : "4:13",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-孫悟空.json"
+    },
+    {
+      "SongTitle" : "倔強",
+      "songsource" : "R2s-H_crYkc",
+      "time" : "4:23",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-倔強.json"
+    },
+    {
+      "SongTitle" : "垃圾車",
+      "songsource" : "nIe3FLKNwTA",
+      "time" : "4:21",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-垃圾車.json"
+    },
+    {
+      "SongTitle" : "小護士",
+      "songsource" : "wJ_T94qmodQ",
+      "time" : "2:50",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-小護士.json"
+    },
+    {
+      "SongTitle" : "讓我照顧你",
+      "songsource" : "jkyBenG7K-k",
+      "time" : "3:56",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-讓我照顧你.json"
+    },
+    {
+      "SongTitle" : "約翰藍儂",
+      "songsource" : "Rwf_G-rg710",
+      "time" : "3:48",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-約翰藍儂.json"
+    },
+    {
+      "SongTitle" : "回來吧",
+      "songsource" : "VQvppjdE370",
+      "time" : "4:29",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-回來吧.json"
+    },
+    {
+      "SongTitle" : "錯錯錯",
+      "songsource" : "CMYDR3eA9Aw",
+      "time" : "3:44",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-錯錯錯.json"
+    },
+    {
+      "SongTitle" : "晚安 地球人",
+      "songsource" : "sgdZRi2BkDE",
+      "time" : "4:05",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-晚安地球人.json"
+    },
+    {
+      "SongTitle" : "超人",
+      "songsource" : "ptmxLFZkoZ4",
+      "time" : "5:00",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-超人.json"
+    },
+    {
+      "SongTitle" : "神的孩子都在跳舞",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-神的孩子都在跳舞.json"
+    },
+    {
+      "SongTitle" : "聖誕夜驚魂",
+      "songsource" : "FnSDAx13_Hw",
+      "time" : "2:43",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-聖誕夜驚魂.json"
+    },
+    {
+      "SongTitle" : "垃圾車（朋友版）",
+      "songsource" : "iZ4UFvFqiVg",
+      "time" : "4:16",
+      "AlbumTitle" : "神的孩子都在跳舞",
+        "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-垃圾車（朋友版）.json"
+    }
+  ]
+}

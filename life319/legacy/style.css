@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+	width: 100%;
+}
+
+body {
+	margin: 0px auto;
+	background: #1b1920;
+	color: #ffffff;
+	width: 900px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+
+#header-title {
+	margin-top: 100px;
+	font-size: 60px;
+	font-weight: 500; /* 300 at begin */
+}
+
+/* nav */
+#nav {
+	height: 40px;
+	width: 900px;
+	background: #2A2730;
+	top: 0px;
+	z-index: 1000;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#nav-logo {
+	padding-top: 10px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+/* info  */
+#infomation {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+}
+
+#info-title {
+	margin-top: -10px;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#info-des {
+	text-align: justify;
+	display: block;
+	width: 470px;
+	padding-top: 10px;
+	font-size: 24px;
+	font-weight:300;
+	padding-bottom: 60px;
+}
+
+
+#photo {
+	display: inline;
+	width: 0px;
+}
+
+#photo img{
+	border: 1px #5A5467 solid;
+}
+
+
+#contact-title {
+	font-size: 14px;
+	border: #ffffff solid 2px;
+	width: 70px;
+	text-align: center;
+	padding: 3px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	display: inline-block;
+
+}
+
+#top-contact-infobox {
+	
+}
+
+#contact-title-more a{
+	font-size: 14px;
+	margin-left: 5px;
+	color: #D2D0D9;
+	text-decoration: none;
+}
+
+.a-way {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+.way {
+	font-weight: 300; /* 原200 */
+	font-size: 14px;
+}
+
+.way-info {
+	font-size: 20px;
+}
+
+#post {
+	padding-top: 70px;
+}
+
+.post-title {
+	padding-top: 10px;
+	font-weight: 500;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.qanda-content-q {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.qanda-content-a {
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+
+#footer {
+	padding-top: 80px;
+	margin: 0px auto;
+	padding-bottom: 30px;
+}
+
+.fb-share-button {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#links a{
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#lastupdate {
+	font-size: 12px;
+	padding-top: 10px;
+	font-weight: 200;
+	color: #ffffff;
+}
+
+/* spotlight */
+#spotlightQA {
+	background: #29262F;
+	border: 1px solid #403C49;
+	padding: 20px;
+	margin-left: -20px;
+}
+
+#basicinfo {
+	text-align: center;
+}
+
+
+#footer-contact-box {
+	margin: 0px auto;
+	text-align: center;
+	background: #29262F;
+	border: #403C48 solid 1px;
+	padding-top: 20px;
+	margin-bottom: 70px;
+}
+
+.footer-box {
+	display: inline-block;
+	padding-left: 30px;
+ 	vertical-align: top;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.smallerfooterbox {
+	padding-top: 10px;
+	display: inherit;
+	margin-right: 60px;
+}
+
+.smallerfooterbox-last {
+	padding-top: 10px;
+	display: inherit;
+}
+
+.footer-title {
+	font-size: 12px;
+	font-weight: 300;
+	color: #D2D0D9;
+}
+
+.footer-content {
+	font-size: 14px;
+	color: #D2D0D9;
+}
+
+.boxtitle {
+	color: #8F8C97;
+}
+
+#comment-button {
+	background: #403C48;
+	padding :4px 9px 4px 9px;
+	border: #1B1920 2px solid;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-top: 1px;
+}
+
+#comment-button:hover {
+	color: #9C96A9;
+	background: #312E37;
+}
+
+.smallerfooterbox a {
+	color: #D2D0D9;
+}
+
+.smallerfooterbox-last a {
+	color: #D2D0D9;
+}
+
+.smallerfooterbox a:hover {
+	color: #D2D0D9;
+	/* text-shadow: 0px -1px 13px rgba(255, 255, 255, 1); */
+}
+
+.向上手指 {
+	display: none;
+}
+
+.向左手指 {
+	display: inline-block;
+}

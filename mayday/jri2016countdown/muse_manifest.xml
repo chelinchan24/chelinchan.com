@@ -1,0 +1,37 @@
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" ftp_hostname="ftp://211.72.206.47" ftp_rootfolder="/www/mayday/jri2016countdown" exportTarget="FTP" domain="chelinchan.com" resolutions="1x,2x" timestamp="1481476344987">
+  <folder name="css">
+    <file name="site_global.css" crc="4006618652"/>
+    <file name="index.css" crc="307366740" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index"/>
+    <file name="museutils.js" crc="4155826306" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="328327953" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index"/>
+    <file name="require.js" crc="228336483" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u156-6.png" crc="4077033299" ref="index"/>
+    <file name="u156-6_2x.png" crc="404215985" ref="index"/>
+    <file name="2016 11 30 1701 .jpg" crc="267447528" ref="index"/>
+    <file name="h_title1.png" crc="206718513" seo="true" ref="index"/>
+    <file name="h_title1_2x.png" crc="3866860056" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="66541426" seo="true" mt="1481476310236" redirect="true"/>
+  <site/>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Just Rock It 2016 Re: LIVE 倒數計時" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U83" maxwidth="1300" minwidth="0" squishy="false"/>
+      </page>
+      <masterPage name="A-主版" master="U62" uid="U72">
+        <breakpoint uid="U73" maxwidth="1300" minwidth="0" squishy="false"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="1300" minwidth="0" squishy="false"/>
+      </masterPage>
+    </rendition>
+  </renditions>
+</manifest>

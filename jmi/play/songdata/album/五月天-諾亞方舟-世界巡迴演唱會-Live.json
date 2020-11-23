@@ -1,0 +1,189 @@
+{
+  "AlbumCoverSource" : "https://i.scdn.co/image/dc4c00a137e7d411a9e2f94127dfdcaa45b342b0",
+  "type" : "專輯",
+  "year" : "2013",
+  "total" : "26",
+  "available" : "4",
+  "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+  "CoverSourceFrom" : "Spotify",
+  "InfoReference" : "Spotify / 就是五月天",
+  "YoutubePlaylistSource" : "",
+  "song" :
+  [
+    {
+      "SongTitle" : "有些事情現在不做一輩子都不會做了 - 啟航版 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/-有些事情現在不做一輩子都不會做了 - 啟航版（Live）.json"
+    },
+    {
+      "SongTitle" : "2012 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-2012 - Live.json"
+    },
+    {
+      "SongTitle" : "叫我第一名 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-叫我第一名 - Live.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-愛情萬歲 - Live.json"
+    },
+    {
+      "SongTitle" : "星空 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-星空 - Live.json"
+    },
+    {
+      "SongTitle" : "我不願讓你一個人 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-我不願讓你一個人 - Live.json"
+    },
+    {
+      "SongTitle" : "倉頡 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-倉頡 - Live.json"
+    },
+    {
+      "SongTitle" : "你不是真正的快樂 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-你不是真正的快樂 - Live.json"
+    },
+    {
+      "SongTitle" : "盛夏光年 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-盛夏光年 - Live.json"
+    },
+    {
+      "SongTitle" : "諾亞方舟 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-諾亞方舟 - Live.json"
+    },
+    {
+      "SongTitle" : "一千個世紀 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-一千個世紀 - Live.json"
+    },
+    {
+      "SongTitle" : "如煙+如果還有明天 - Live",
+      "songsource" : "46HaUZSkJDY",
+      "time" : "6:14",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/諾亞方舟LIVE-如煙+如果還有明天.json"
+    },
+    {
+      "SongTitle" : "擁抱 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-擁抱 - Live.json"
+    },
+    {
+      "SongTitle" : "乾杯 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-乾杯 - Live.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-瘋狂世界 - Live.json"
+    },
+    {
+      "SongTitle" : "三個傻瓜 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-三個傻瓜 - Live.json"
+    },
+    {
+      "SongTitle" : "OK啦 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-OK啦 - Live.json"
+    },
+    {
+      "SongTitle" : "溫柔 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-溫柔 - Live.json"
+    },
+    {
+      "SongTitle" : "OAOA（現在就是永遠） - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-OAOA（現在就是永遠） - Live.json"
+    },
+    {
+      "SongTitle" : "有些事情現在不做一輩子都不會做了 - 啟航版 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/-有些事情現在不做一輩子都不會做了 - 啟航版 - Live.json"
+    },
+    {
+      "SongTitle" : "倔強 - Live",
+      "songsource" : "puv9Lghq4Rc",
+      "time" : "5:42",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-倔強.json"
+    },
+    {
+      "SongTitle" : "離開表面+諾亞方舟+Yellow Submarine - Live",
+      "songsource" : "EnTAv6NKsE4",
+      "time" : "4:56",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/諾亞方舟LIVE-離開表面+諾亞方舟+Yellow-Submarine.json"
+    },
+    {
+      "SongTitle" : "突然好想你 - Live",
+      "songsource" : "oDqWPLRIMdY",
+      "time" : "4:47",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-突然好想你.json"
+    },
+    {
+      "SongTitle" : "憨人 - Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "諾亞方舟LIVE-憨人.json"
+    },
+    {
+      "SongTitle" : "傷心的人別聽慢歌（貫徹快樂）- Live",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "五月天 諾亞方舟 世界巡迴演唱會 Live",
+      "lyrics" : "-傷心的人別聽慢歌（貫徹快樂）- Live.json"
+    }
+  ]
+}

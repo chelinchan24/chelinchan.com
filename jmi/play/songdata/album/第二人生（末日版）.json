@@ -1,0 +1,112 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music69/v4/22/28/21/222821b6-5a3c-6a86-1dc7-dae072282b48/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2011",
+  "total" : "14",
+  "available" : "11",
+  "AlbumTitle" : "第二人生（末日版）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcVTjKNAQpObhoU8I2_xj_Fg",
+  "song" :
+  [
+    {
+      "SongTitle" : "2012",
+      "songsource" : "YygVVvuIWm4",
+      "time" : "4:50",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-2012.json"
+    },
+    {
+      "SongTitle" : "倉頡",
+      "songsource" : "hiKYufVEUtI",
+      "time" : "5:29",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-倉頡.json"
+    },
+    {
+      "SongTitle" : "洗衣機",
+      "songsource" : "BfwbO0f1R8o",
+      "time" : "4:13",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-洗衣機.json"
+    },
+    {
+      "SongTitle" : "歪腰",
+      "songsource" : "5MefjboXD7o",
+      "time" : "3:33",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-歪腰.json"
+    },
+    {
+      "SongTitle" : "乾杯",
+      "songsource" : "qX2GsMj7154",
+      "time" : "6:25",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-乾杯.json"
+    },
+    {
+      "SongTitle" : "我不願讓你一個人",
+      "songsource" : "38lcQsEMGrk",
+      "time" : "4:26",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-我不願讓你一個人.json"
+    },
+    {
+      "SongTitle" : "星空",
+      "songsource" : "RTUwaCImChM",
+      "time" : "5:42",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-星空.json"
+    },
+    {
+      "SongTitle" : "三個傻瓜",
+      "songsource" : "NbtaaTfINaM",
+      "time" : "4:18",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-三個傻瓜.json"
+    },
+    {
+      "SongTitle" : "末日",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-末日.json"
+    },
+    {
+      "SongTitle" : "OAOA（丟掉名字性別）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-第二人生.json"
+    },
+    {
+      "SongTitle" : "第二人生",
+      "songsource" : "amv7CzCmHU0",
+      "time" : "5:27",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-第二人生.json"
+    },
+    {
+      "SongTitle" : "諾亞方舟",
+      "songsource" : "V46K7apDziA",
+      "time" : "5:39",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-諾亞方舟.json"
+    },
+    {
+      "SongTitle" : "有些事現在不做一輩子都不會做了",
+      "songsource" : "2F0m58YIMPs",
+      "time" : "3:46",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-有些事現在不做一輩子都不會做了.json"
+    },
+    {
+      "SongTitle" : "T1213121",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "第二人生（末日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-T1213121.json"
+    }
+  ]
+}

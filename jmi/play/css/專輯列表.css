@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*
+	「瀏覽.css」是指「browse.html」頁面所專屬的樣式，關於「瀏覽」類型頁面的通用樣式寫在「瀏覽頁面通用樣式.css」。
+*/
+
+
+/* 標題與段落 */
+#標題與段落盒子 {
+	/* 更多選項寫在瀏覽頁面通用樣式.css */
+	background-image: url('../images/source/專輯背景.png');
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#段落名稱盒子 {
+	margin-left: 50px;
+}
+
+.段落 {
+	color: #434343 !important;
+}

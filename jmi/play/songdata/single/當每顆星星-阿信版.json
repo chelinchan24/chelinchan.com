@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/2e/9f/15/2e9f15f2-6c01-abb3-40df-b5fbf8c1a112/2.jpg/939x0w.jpg",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "當每顆星星 阿信版",
+  "CoverSourceFrom" : "Apple Music",
+  "InfoReference" : "Apple Music",
+  "song" :
+  [
+    {
+      "SongTitle" : "當每顆星星 阿信版",
+      "songsource" : "t_8PvodcWck",
+      "time" : "4:19",
+      "AlbumTitle" : "當每顆星星 阿信版",
+      "lyrics" : "./songdata/lyrics/當每顆星星（單曲）-當每顆星星.json"
+    }
+  ]
+}

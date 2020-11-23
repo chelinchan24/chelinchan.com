@@ -1,0 +1,98 @@
+{
+  "AlbumCoverSource" : "http://is2.mzstatic.com/image/thumb/Music/v4/a0/a9/24/a0a924cc-7f63-6e58-61bc-c6d7f31fefa5/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2001",
+  "total" : "12",
+  "available" : "12",
+  "AlbumTitle" : "人生海海",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcX4nmmlyPVjDotVAOCAl29w",
+  "song" :
+  [
+    {
+      "SongTitle" : "一顆蘋果",
+      "songsource" : "eZkcPS1jslM",
+      "time" : "2:50",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-一顆蘋果.json"
+    },
+    {
+      "SongTitle" : "能不能不要說",
+      "songsource" : "y3pkgaboWFw",
+      "time" : "4:07",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-能不能不要說.json"
+    },
+    {
+      "SongTitle" : "好不好",
+      "songsource" : "LtunmrE1i5I",
+      "time" : "4:18",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "相信",
+      "songsource" : "RA2fjvpyTSo",
+      "time" : "5:07",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-相信.json"
+    },
+    {
+      "SongTitle" : "OK啦！",
+      "songsource" : "_FV1NDdHHEo",
+      "time" : "2:51",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-OK啦！.json"
+    },
+    {
+      "SongTitle" : "借問眾神明",
+      "songsource" : "4vZMeHykGlk",
+      "time" : "4:13",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-借問眾神明.json"
+    },
+    {
+      "SongTitle" : "永遠的永遠",
+      "songsource" : "B6_BJYQqv_8",
+      "time" : "4:16",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-永遠的永遠.json"
+    },
+    {
+      "SongTitle" : "彩虹",
+      "songsource" : "7WQFI_wiEIk",
+      "time" : "4:54",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-彩虹.json"
+    },
+    {
+      "SongTitle" : "啾啾啾",
+      "songsource" : "R_F-pdIzmRI",
+      "time" : "3:48",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-啾啾啾.json"
+    },
+    {
+      "SongTitle" : "純真",
+      "songsource" : "n3FakylRnR0",
+      "time" : "4:12",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-純真.json"
+    },
+    {
+      "SongTitle" : "候鳥（feat. Glay）",
+      "songsource" : "FxesDoz544Q",
+      "time" : "5:13",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-候鳥.json"
+    },
+    {
+      "SongTitle" : "人生海海",
+      "songsource" : "yarOcdANK50",
+      "time" : "4:40",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    }
+  ]
+}

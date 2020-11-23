@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* 全局 */
+body {
+	width: 100%;
+}
+
+
+/* 背景 */
+
+#演唱會資訊欄盒子 {
+	height: 337px;
+}
+
+#演唱會資訊欄上半部背景 {
+	filter: blur(10px);
+	height: 243px;
+}
+
+#背景圖片 {
+	height: 243px;
+	opacity: 0.2;
+}
+
+#演唱會資訊欄下半部背景 {
+	height: 95px;
+	display: block;
+	background: #404040;
+}
+
+/* 演唱會資訊 */
+#演唱會資訊盒子 {
+	position:absolute;
+	top: 56px;
+	left: 47px;
+}
+
+#演唱會封面 {
+	margin-top: 4px;
+	height: 252px;
+	width: 500px;
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.30);
+	background-image:url('concert-default-big.png');
+	background-size: 100%;
+}
+
+#演唱會文字資訊 {
+	margin-left: 20px;
+	margin-top: 35px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#主題 {
+}
+
+#首場標記 {
+	vertical-align:10%;
+	background: #C2282A;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: 300;
+	border-radius: 3px;
+	padding: 3px 8px;
+	margin-left: 5px;
+}
+
+#名稱 {
+	margin-left: -3px;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 75px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+	color: #434343;
+}
+
+#日期與地點 {
+	font-size: 20px;
+	color: #434343;
+	line-height: 30px;
+}
+
+#歌曲數量與安可{
+	padding-top: 14px;
+	font-size: 14px;
+	color: #454545;
+}
+
+/* 播放按鈕 */
+#播放按鈕 {
+	background: none;
+	display: inline-block;
+	width: 92px;
+	height: 38px;
+	position: absolute;
+	margin-left: 574px;
+	margin-top: 25px;
+	border: #ffffff solid 3px;
+	line-height: 38px;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
+#播放按鈕icon {
+	width: 14px;
+	margin-top: -4px;
+	margin-left: 15px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+/* 曲目區塊頂端標題 */
+#曲目區塊頂端標題 {
+	display: block;
+	border-bottom: solid 1px #d4d4d4;
+	background: #fcfcfc;
+	color: #8E8E8E;
+	font-size: 14px;
+	height: 37px;
+	font-weight: 500;
+	line-height: 40px;
+	margin-bottom: -1px; /*補回防止Chrome無法出現分隔線的1px */
+}
+
+.順序 {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.曲目 {
+	margin-left: 50px;
+	text-align: left;
+}
+
+.長度 {
+	width: 50px;
+	right: 0px;
+	position: absolute;
+	margin-right: 100px;
+	text-align: left;
+}
+
+
+/* 歌曲 */
+.歌曲form按鈕 {
+	text-align: left;
+	width: 100%;
+	height: 50px;
+	border: none;
+	margin: 0px;
+	margin-top: 1px; /*防止Chrome無法出現分隔線 */
+	padding: 0px;
+	/* border-bottom: #E5E5E5 solid 1px; Chrome不能用 */
+	box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+.一首歌曲 {
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 51px;
+	background: #ffffff;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.一首歌曲:hover {
+	background: #F4F4F4;
+}
+
+.一首歌曲:active {
+	background: #E3E3E3;
+	color: #585858;
+}
+
+.一首無法提供的歌曲 {
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 51px;
+	border-bottom: #E5E5E5 solid 1px;
+	background: #F5F5F5;
+	color: #A8A8A8;
+}

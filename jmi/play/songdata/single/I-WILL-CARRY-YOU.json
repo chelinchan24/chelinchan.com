@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.scdn.co/image/e499ba6d9bf03580732f1f50e85be87238894e42",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "I WILL CARRY YOU",
+  "CoverSourceFrom" : "Spotify",
+  "InfoReference" : "Spotify",
+  "song" :
+  [
+    {
+      "SongTitle" : "I WILL CARRY YOU",
+      "songsource" : "UG-el9xOAo0",
+      "time" : "3:57",
+      "AlbumTitle" : "I WILL CARRY YOU",
+      "lyrics" : "./songdata/lyrics/I-WILL-CARRY-YOU（單曲）-I-WILL-CARRY-YOU.json"
+    }
+  ]
+}

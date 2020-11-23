@@ -1,0 +1,16 @@
+{
+  "AlbumCoverSource" : "http://is2.mzstatic.com/image/thumb/Music/v4/a0/a9/24/a0a924cc-7f63-6e58-61bc-c6d7f31fefa5/source/1000x1000bb.jpg",
+  "year" : "2001",
+  "total" : "12",
+  "AlbumTitle" : "人生海海",
+  "song" :
+  [
+    {
+      "SongTitle" : "一顆蘋果",
+      "songsource" : "eZkcPS1jslM",
+      "time" : "2:50",
+      "AlbumTitle" : "人生海海",
+        "lyrics" : "./songdata/lyrics/人生海海-一顆蘋果.json"
+    }
+  ]
+}

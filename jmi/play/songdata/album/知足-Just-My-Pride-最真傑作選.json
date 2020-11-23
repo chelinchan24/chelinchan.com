@@ -1,0 +1,214 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music/v4/f6/4e/7f/f64e7f52-4285-8fa5-1bb2-a918a8bec939/source/170x170bb.jpg",
+  "type" : "單曲",
+  "year" : "2005",
+  "total" : "29",
+  "available" : "28",
+  "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+  "song" :
+  [
+    {
+      "SongTitle" : "知足",
+      "songsource" : "_o0oeyCtoFA",
+      "time" : "4:31",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-知足.json"
+    },
+    {
+      "SongTitle" : "牙關",
+      "songsource" : "aE-HNzT9I6Q",
+      "time" : "5:23",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-牙關.json"
+    },
+    {
+      "SongTitle" : "亂世浮生",
+      "songsource" : "wrsQBN0eyI0",
+      "time" : "3:02",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-亂世浮生.json"
+    },
+    {
+      "SongTitle" : "戀愛ing",
+      "songsource" : "iSkRGgYSQfY",
+      "time" : "2:55",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-戀愛ing.json"
+    },
+    {
+      "SongTitle" : "聽不到",
+      "songsource" : "U-C0Z3ys_C8",
+      "time" : "5:37",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-聽不到.json"
+    },
+    {
+      "SongTitle" : "擁抱",
+      "songsource" : "lvDa3r1pNuE",
+      "time" : "4:17",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "終結孤單",
+      "songsource" : "bwB4KYblxsY",
+      "time" : "3:25",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "而我知道",
+      "songsource" : "Gv3HOUMEPiw",
+      "time" : "8:07",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/時光機-而我知道.json"
+    },
+    {
+      "SongTitle" : "孫悟空",
+      "songsource" : "fcYaBvBTYHs",
+      "time" : "4:13",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-孫悟空.json"
+    },
+    {
+      "SongTitle" : "人生海海",
+      "songsource" : "yarOcdANK50",
+      "time" : "4:40",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界",
+      "songsource" : "yarOcdANK50",
+      "time" : "3:25",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲",
+      "songsource" : "QKkQU4lzIbc",
+      "time" : "5:59",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "恆星的恆心",
+      "songsource" : "OyxjYPhA06U",
+      "time" : "5:08",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/時光機-恆星的恆心.json"
+    },
+    {
+      "SongTitle" : "溫柔（還你自由版）",
+      "songsource" : "mtAc_bMYBsM",
+      "time" : "7:53",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "倔強",
+      "songsource" : "R2s-H_crYkc",
+      "time" : "4:23",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-倔強.json"
+    },
+    {
+      "SongTitle" : "金多蝦",
+      "songsource" : "DpkmUnF8O7s",
+      "time" : "1:59",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-金多蝦.json"
+    },
+    {
+      "SongTitle" : "麥來亂",
+      "songsource" : "ElEzmCCgJuo",
+      "time" : "4:23",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-麥來亂.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌",
+      "songsource" : "5VUUGZ1-nlY",
+      "time" : "4:40",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "心中無別人",
+      "songsource" : "EitgfC3gg7M",
+      "time" : "4:09",
+      "AlbumTitle" : "知足 Just My Pride最真傑作選",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "好不好",
+      "songsource" : "LtunmrE1i5I",
+      "time" : "4:18",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "OK啦！",
+      "songsource" : "_FV1NDdHHEo",
+      "time" : "2:51",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/人生海海-OK啦！.json"
+    },
+    {
+      "SongTitle" : "垃圾車（朋友版）",
+      "songsource" : "iZ4UFvFqiVg",
+      "time" : "4:16",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-垃圾車（朋友版）.json"
+    },
+    {
+      "SongTitle" : "叫我第一名",
+      "songsource" : "3BGsJ4WGvT0",
+      "time" : "2:32",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "軋車",
+      "songsource" : "_YWlFub_BB4",
+      "time" : "2:35",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望",
+      "songsource" : "VnhoRZ57kSY",
+      "time" : "4:44",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "永遠的永遠",
+      "songsource" : "B6_BJYQqv_8",
+      "time" : "4:16",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/人生海海-永遠的永遠.json"
+    },
+    {
+      "SongTitle" : "借問眾神明",
+      "songsource" : "4vZMeHykGlk",
+      "time" : "4:13",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/人生海海-借問眾神明.json"
+    },
+    {
+      "SongTitle" : "未來",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-.json"
+    }
+  ]
+}

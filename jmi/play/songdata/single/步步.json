@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music49/v4/4b/36/f4/4b36f464-a9ac-9ec0-7f4e-7fc64998c8e3/source/1000x1000bb.jpg",
+  "type" : "單曲",
+  "year" : "2013",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "步步",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "步步",
+      "songsource" : "97axrS3Npxk",
+      "time" : "5:22",
+      "AlbumTitle" : "步步",
+      "lyrics" : "./songdata/lyrics/步步（單曲）-步步.json"
+    }
+  ]
+}

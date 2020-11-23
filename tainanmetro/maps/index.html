@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta property="og:title" content="台南捷運路網圖 Tainan Metro Maps"/>
+    <meta property="fb:app_id" content="602999713232506"/>
+    <meta property="og:description" content="「台南捷運路網圖」提供完整的台南捷運路線資訊，讓您暢行台南捷運。" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://chelinchan.com/tainanmetro/maps">
+    <meta property="og:image" content="http://chelinchan.com/tainanmetro/maps/images/og-n.png">
+    <!-- 蘋果裝置 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="台南捷運">
+    <link rel="apple-touch-icon" href="./images/ios/webapp-icon.png">
+    <link rel="apple-touch-startup-image" href="./images/ios/launch.png">
+    <!-- 蘋果裝置 -->
+
+    <script src="http://chelinchan.com/js/wheelzoom.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+
+    <link rel="icon" type="image/png" href="./images/icons/favicon.png" />
+
+    <title>台南捷運路網圖 Tainan Metro Maps</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=602999713232506";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="資訊區塊容器">
+    <div id="logo"></div>
+    <div class="按鈕" onclick="ShowAbout()">關於</div><!--
+--><div class="按鈕" onclick="ShowDisclaimer()">免責聲明</div>
+
+    <!-- <a href="#" onclick="getStation('{lat: 65, lng: -85}')">台南轉運站</a>
+    <a href="#" onclick="getStation('{lat: 55, lng: -85}')">延平市場</a> -->
+
+</div>
+
+<!-- 行動版導覽列 -->
+<div id="資訊區塊容器-行動版">
+    <div id="logo-行動版"></div>
+    <div id="開啟導覽列按鈕" onclick="Nav()"></div>
+    <div id="導覽列內容">
+        <div class="按鈕-行動版" onclick="ShowAbout()">關於</div><!--
+--><div class="按鈕-行動版" onclick="ShowDisclaimer()">免責聲明</div>
+    </div>
+</div>
+<!-- 行動版導覽列結束 -->
+
+<div id="版權宣告">2017 © <a href="http://chelinchan.com" style="color: #5B8092; text-decoration: none;">Che-Lin Chan 詹喆麟</a>，保留所有權利。</div>
+
+<!-- 行動版專用 --><div id="廣告關閉" onClick="AdOffMobile()"></div>
+<div class="浮動區塊 廣告區塊" id="廣告">
+    <!-- <h1>這個區塊以後應該會有廣告出現</h1> -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- 台南捷運路網 -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:336px;height:280px"
+         data-ad-client="ca-pub-7286117085215536"
+         data-ad-slot="9717836218"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <!-- <div class="關閉按鈕" id="關閉廣告" onClick="HideDisclaimer()">關閉</div> -->
+</div>
+
+<div id="浮動區塊背景"></div> <!-- 行動裝置專用 -->
+
+<div class="浮動區塊" id="免責聲明">
+    <h1>免責聲明</h1>
+    <p>「台南捷運路網圖」是根據<a href="https://udn.com/news/story/9/2287903">台南市政府所規畫之先進運輸系統優先路網圖</a>作為依據繪製。<br><br>
+        本網頁以 2017年7月26日 之現況為繪製基準，在台南捷運正式啟用前，路線內容可能會變動。本網站僅供參考，不能保證內容的準確性。</p>
+    <div class="關閉按鈕" id="關閉免責聲明" onClick="HideDisclaimer()">關閉</div>
+</div>
+
+<div class="浮動區塊" id="關於">
+    <h1>關於</h1>
+    <p>「台南捷運路網圖」是由「Che-Lin Chan 詹喆麟」製作的網站，所使用之路網圖資版權為本網站所有。
+        <br><br>
+        「台南捷運路網圖」將會在更多有關台南捷運的資訊釋出後進行更新。<a href="http://chelinchan.com/tainanmetro/changelog/" target="_blank">查看網站的更動記錄</a><br><br>
+        「台南捷運路網圖」預計將於 Android 與 iOS 平台推出應用程式版本，儘請期待。<br><br>
+        造訪 <a href="http://chelinchan.com">CheLinChan.com</a> 瞭解更多有關詹喆麟的資訊。</p>
+    <div class="fb-like" data-href="http://chelinchan.com/tainanmetro/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+    <div class="關閉按鈕" id="關閉關於" onClick="HideAbout()">關閉</div>
+</div>
+
+<a href="http://chelinchan.com/tainanmetro/mobile"><div class="浮動區塊" id="行動版宣傳"></div></a>
+
+<div id="圖例" onClick="map.setMapTypeId('TainanMetroSimple');"></div>
+
+<div id="map" ></div>
+
+
+<script>
+    //行動版導覽列
+    function Nav() {
+        if(document.getElementById('導覽列內容').style.visibility == "visible")
+        {
+            document.getElementById('開啟導覽列按鈕').style.backgroundImage = "url('./images/icons/mobile-nav-menu.png')";
+            document.getElementById('導覽列內容').style.opacity = "0";
+            document.getElementById('導覽列內容').style.visibility = "hidden";
+        }
+        else
+        {
+            document.getElementById('開啟導覽列按鈕').style.backgroundImage = "url('./images/icons/mobile-nav-menu-off.png')";
+            document.getElementById('導覽列內容').style.opacity = "1.0";
+            document.getElementById('導覽列內容').style.visibility = "visible";
+        }
+    }
+
+    // 懶得寫成傳值，有空要寫。
+    function ShowDisclaimer() {
+        document.getElementById('免責聲明').style.opacity = "1";
+        document.getElementById('免責聲明').style.visibility = "visible";
+        document.getElementById('關於').style.opacity = "0";
+        document.getElementById('關於').style.visibility = "hidden";
+        document.getElementById('廣告').style.opacity = "0";
+        document.getElementById('廣告').style.visibility = "hidden";
+        document.getElementById('行動版宣傳').style.opacity = "0";
+        document.getElementById('行動版宣傳').style.visibility = "hidden";
+        document.getElementById('浮動區塊背景').style.opacity = "1"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.visibility = "visible"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.display = "block"; // 行動裝置專用
+    }
+
+    function HideDisclaimer() {
+        document.getElementById('免責聲明').style.opacity = "0";
+        document.getElementById('免責聲明').style.visibility = "hidden";
+        document.getElementById('廣告').style.opacity = "1";
+        document.getElementById('廣告').style.visibility = "visible";
+        document.getElementById('行動版宣傳').style.opacity = "1";
+        document.getElementById('行動版宣傳').style.visibility = "visible";
+        document.getElementById('浮動區塊背景').style.opacity = "0"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.visibility = "hidden"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.display = "none"; // 行動裝置專用
+    }
+
+    function ShowAbout() {
+        document.getElementById('免責聲明').style.opacity = "0";
+        document.getElementById('免責聲明').style.visibility = "hidden";
+        document.getElementById('關於').style.opacity = "1";
+        document.getElementById('關於').style.visibility = "visible";
+        document.getElementById('廣告').style.opacity = "0";
+        document.getElementById('廣告').style.visibility = "hidden";
+        document.getElementById('行動版宣傳').style.opacity = "0";
+        document.getElementById('行動版宣傳').style.visibility = "hidden";
+        document.getElementById('浮動區塊背景').style.opacity = "1"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.visibility = "visible"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.display = "block"; // 行動裝置專用
+    }
+
+    function HideAbout() {
+        document.getElementById('關於').style.opacity = "0";
+        document.getElementById('關於').style.visibility = "hidden";
+        document.getElementById('廣告').style.opacity = "1";
+        document.getElementById('廣告').style.visibility = "visible";
+        document.getElementById('行動版宣傳').style.opacity = "1";
+        document.getElementById('行動版宣傳').style.visibility = "visible";
+        document.getElementById('浮動區塊背景').style.opacity = "0"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.visibility = "hidden"; // 行動裝置專用
+        document.getElementById('浮動區塊背景').style.display = "none"; // 行動裝置專用
+    }
+
+    function AdOffMobile() {
+        document.getElementById('廣告').style.display = "none";
+        document.getElementById('廣告關閉').style.opacity = "0";
+        document.getElementById('廣告關閉').style.visibility = "hidden";
+    }
+</script>
+
+
+<script>
+
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 65, lng: -85},
+            zoom: 1,
+            backgroundColor: '#FFFFFF',
+            streetViewControl: false,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                mapTypeIds: ['TainanMetro', 'TainanMetroSimple']
+            }
+        });
+
+        var TainanMetroMapType = new google.maps.ImageMapType({
+            getTileUrl: function(coord, zoom) {
+                var normalizedCoord = getNormalizedCoord(coord, zoom);
+                if (!normalizedCoord) {
+                    return null;
+                }
+                var bound = Math.pow(2, zoom);
+                return 'http://chelinchan.com/tainanmetro/maps/images/maps/' +
+                    zoom + '_' + normalizedCoord.x + '_' + normalizedCoord.y + '.png';
+            },
+            tileSize: new google.maps.Size(256, 256),
+            maxZoom: 4,
+            minZoom: 3,
+            radius: 1738000,
+            name: '普通'
+        });
+
+        var TainanMetroSimpleMapType = new google.maps.ImageMapType({
+            getTileUrl: function(coord, zoom) {
+                var normalizedCoord = getNormalizedCoord(coord, zoom);
+                if (!normalizedCoord) {
+                    return null;
+                }
+                var bound = Math.pow(2, zoom);
+                return 'http://chelinchan.com/tainanmetro/maps/images/simplemaps/' +
+                    zoom + '_' + normalizedCoord.x + '_' + normalizedCoord.y + '.png';
+            },
+            tileSize: new google.maps.Size(256, 256),
+            maxZoom: 4,
+            minZoom: 3,
+            radius: 1738000,
+            name: '簡易'
+        });
+
+
+        //標記位置
+        /* var 台南轉運站 = {lat: 73.5, lng: -66.6}
+        var 成大醫院 = {lat: 73.5, lng: -56.6}
+
+        var marker = new google.maps.Marker({
+          position: 成大醫院,
+          map: map
+        }); */
+
+
+        map.mapTypes.set('TainanMetroSimple', TainanMetroSimpleMapType);
+        map.setMapTypeId('TainanMetroSimple');
+        map.mapTypes.set('TainanMetro', TainanMetroMapType);
+        map.setMapTypeId('TainanMetro');
+    }
+
+
+
+
+    // Normalizes the coords that tiles repeat across the x axis (horizontally)
+    // like the standard Google map tiles.
+    function getNormalizedCoord(coord, zoom) {
+        var y = coord.y;
+        var x = coord.x;
+
+        // tile range in one direction range is dependent on zoom level
+        // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+        var tileRange = 2 << zoom;
+
+        // don't repeat across y-axis (vertically)
+        if (y < 0 || y >= tileRange) {
+            return null;
+        }
+
+        // repeat across x-axis
+        if (x < 0 || x >= tileRange) {
+            return null;
+        }
+
+        return {x: x, y: y};
+    }
+
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyqaNGM4DphmmFDsVjw20cOO6Xs7DAvHQ&callback=initMap">
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music4/v4/68/e5/c3/68e5c3ed-00d4-62a9-0b9a-20bf17564f46/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2000",
+  "total" : "12",
+  "available" : "12",
+  "AlbumTitle" : "愛情萬歲",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcX4nmmlyPVjDotVAOCAl29w",
+  "song" :
+  [
+    {
+      "SongTitle" : "為什麼（今日的愛情）",
+      "songsource" : "9HikwUaEpik",
+      "time" : "1:54",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-為什麼（今日的愛情）.json"
+    },
+    {
+      "SongTitle" : "終結孤單",
+      "songsource" : "bwB4KYblxsY",
+      "time" : "3:25",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "明白",
+      "songsource" : "e0Ijo-4OpMc",
+      "time" : "4:40",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-明白.json"
+    },
+    {
+      "SongTitle" : "心中無別人",
+      "songsource" : "EitgfC3gg7M",
+      "time" : "4:09",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "有你的將來",
+      "songsource" : "IoiPW-AEjuk",
+      "time" : "5:47",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-有你的將來.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "叫我第一名",
+      "songsource" : "3BGsJ4WGvT0",
+      "time" : "2:32",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "雨眠",
+      "songsource" : "aimY8SE4tNA",
+      "time" : "3:49",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-雨眠.json"
+    },
+    {
+      "SongTitle" : "羅密歐與茱麗葉",
+      "songsource" : "7j_oG8dNMic",
+      "time" : "3:22",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-羅密歐與茱麗葉.json"
+    },
+    {
+      "SongTitle" : "溫柔",
+      "songsource" : "nWb_X3ZJQjw",
+      "time" : "4:30",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲",
+      "songsource" : "QKkQU4lzIbc",
+      "time" : "5:59",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "反而",
+      "songsource" : "vN-AmvvREuc",
+      "time" : "6:12",
+      "AlbumTitle" : "愛情萬歲",
+        "lyrics" : "./songdata/lyrics/愛情萬歲-反而.json"
+    }
+  ]
+}

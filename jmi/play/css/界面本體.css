@@ -1,0 +1,624 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* 全局 */
+html {
+	height: 100%;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
+	margin: 0px;
+}
+
+#main {
+	width: 100%;
+	float: left;
+	border-right: 3px solid #FF0004;
+	height: 100%;
+}
+
+#blankspace {
+	width: 300px;
+	height: 300px;
+	right: 0;
+	top: 0;
+	position:absolute;
+}
+
+/* 導覽列 */
+#導覽列 {
+	background: #ffffff;
+	height: 70px;
+	z-index: 1000;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px #D4D4D4 solid;
+	white-space: nowrap;
+}
+
+
+.選單物件 {
+	color: #434343;
+	line-height: 70px;
+	font-size: 16px;
+	transition: text-shadow 0.3s ease;
+	font-weight: 400;
+}
+
+.選單物件 a{
+	font-weight: 400;
+}
+
+.選單物件:hover {
+	text-shadow: 0px 5px 30px rgba(0,0,0,0.40);
+	font-weight: 400;
+}
+
+.選單物件:focuse {
+	text-shadow: 0px 0px 34px rgba(0,0,0,0.30);
+	font-weight: 400;
+}
+
+
+li,a {
+	display: inline;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+li {
+	padding-right: 40px;
+	font-weight: 400;
+}
+
+li:hover :active {
+	font-weight: 400;
+}
+
+.導航列分隔線 {
+	margin-top: -6px;
+	z-index: 30;
+	width: 1px;
+	background: #E8E8E8;
+	height: 70px;
+	display: inline-block;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+	/* 關於 */
+	#關於區塊 {
+		z-index: 10000;
+		position: fixed;
+		width: 26px;
+		height: 30px;
+		top: 20px;
+		left: 708px; /*當演唱會與合輯加入後，為800px */
+	}
+
+	#關於區塊:hover {
+		display: block;
+		position: fixed;
+		background: none;
+		width: 360px;
+		height: 335px;
+		top: 20px;
+		left: 541px; /*當演唱會與合輯加入後，為633px */
+		padding-top: 30px;
+	}
+
+	#關於區塊:hover #箭頭 {
+		margin:0px auto;
+		width: 0px;
+		height: 0px;
+		border: 10px solid;
+		border-color:  transparent transparent #CCCCCC transparent;
+	}
+
+	#關於內容 {
+		display: none;
+		margin: 0px;
+	}
+
+	#關於區塊:hover #關於內容 {
+		border: #CCCCCC 2px solid;
+		margin: 0px;
+		color: #FFFFFF;
+		display: block;
+		height: 100%;
+		background: #FCFCFC;
+		border-radius: 3px;
+		box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.23);
+	}
+
+	#facebook專頁 {
+		margin: 3px;
+	}
+
+	#簡介 {
+		margin-top: 5px;
+		margin-left: 10px;
+		font-size: 14px;
+		display: block;
+		color: #303030;
+		width: 300px;
+		text-align: justify;
+	}
+
+	#簡介標題 {
+		color: #404040;
+		font-weight: 400;
+		display: block;
+		margin: 0px auto;
+		text-align: cetner;
+		font-size: 14px;
+		margin-bottom: -10px;
+	}
+
+	.關於區塊按鈕 {
+		position: relative;
+		cursor: pointer;
+		font-size: 12px;
+		text-align: center;
+		margin-top: 15px;
+		margin-left: 10px;
+		padding-top: 7px;
+		display: inline-block;
+		width: 160px;
+		height: 25px;
+		background: #ffffff;
+		color: #000000;
+		border: 2px solid #DDDDDD;
+		border-radius: 3px;
+	}
+
+	.關於區塊按鈕 a {
+		color: #000000;
+	}
+
+	.關於區塊按鈕:last-child {
+		margin-left: 0px;
+	}
+
+	.關於區塊按鈕:hover {
+		background: #F2F2F2;
+	}
+
+	.關於區塊按鈕:active {
+		background: #DCDCDC;
+	}
+
+	#版權宣告 {
+		text-align: center;
+		margin-top: 15px;
+		font-size: 10px;
+		color: #6B6B6B;
+	}
+
+	#版權宣告 a {
+		color: #6b6b6b;
+		text-decoration: underline;
+	}
+
+/* 內容區塊 */
+#內容區塊 {
+	margin-top: 71px;
+	display: block;
+	width: 100%;
+	height: auto;
+	background: none;
+	top: 0;
+	position: absolute;
+	bottom: 0;
+
+}
+
+#主要頁面內容 {
+	background: #FCFCFC;
+	width: auto;
+	height: 100%;
+	margin-right: 335px;
+}
+
+/* 音樂列表
+#music-list {
+	background: #F0F0F0;
+	border: 1px solid #C0C0C0;
+	padding: 20px;
+	width: 500px;
+}
+#music-list button {
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	text-align: left;
+	border: 1px solid #CDCDCD;
+	background: #E4E4E4;
+} */
+
+/* 播放器 */
+#播放器 {
+	width: 335px;
+}
+
+#播放器盒子 {
+	background: #ffffff;
+	width: 335px;
+	height: 100%;
+	right: 0px;
+	position: fixed;
+	padding-botton: 20px;
+	font-size:0px;
+	z-index: 1000;
+	/* Rectangle 1: */
+	box-shadow: 0px 90px 56px 0px rgba(0,0,0,0.25);
+}
+
+#大型播放器覆蓋 {
+	position: absolute;
+	visibility: hidden;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+
+/* 大型播放器 */
+#大型播放器 {
+	z-index: 1000000;
+	display: blcok;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	background:rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+#空白處關閉 {
+	z-index: -1;
+	display: #ffffff;
+	position: absolute;
+	background:none;
+	width: 100%;
+	height: 100%;
+}
+
+#播放器區塊 {
+	display: block;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	background: #3D3D3D;
+	height: 500px;
+	width: 1199px;
+	box-shadow: 0px 12px 26px 0px rgba(0,0,0,0.22);
+}
+
+#關閉大型播放器 {
+
+}
+
+#影片區塊 {
+	display: block;
+	width: 889;
+	height: 500;
+	float:left;
+}
+
+#右邊欄 {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	display: blcok-inline;
+	width: 310px;
+	background: #191919;
+	height: 100%;
+}
+
+/* 資訊欄 */
+#資訊欄 {
+	width: 100%;
+	height: 70px;
+	background: #303030;
+	color: #ffffff;
+	border-bottom: 1px solid #000000;
+}
+
+#時間計算 {
+	position: absolute;
+	top: 26px;
+	color: #FFFFFF;
+	display: block;
+	right: 0;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+#歌曲與專輯名稱盒子 {
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 90px;
+}
+
+#專輯名稱 {
+	display:block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 140px;
+	position: absolute;
+	top: 0;
+	margin-top: 38px;
+	float: left;
+	font-weight: 400;
+	font-size: 12px;
+	color: #DEDEDE;
+}
+
+#歌曲名稱 {
+	font-weight: 400;
+	display: block;
+	width: 140px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+#專輯封面圖片 {
+	display: block;
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	z-index: 4000;
+}
+
+#專輯封面圖片-plceholder {
+	background-image:url('../images/source/no-playing.png');
+	width: 70px;
+	height: 70px;
+	background-size: 70px 70px;
+	position:absolute;
+	z-index: 3000;
+}
+
+/* 回到側邊播放器 */
+#回到側邊播放器 {
+	text-align: center;
+	top: 0;
+	right: 0;
+	position: absolute;
+	display: block;
+	background: #454545;
+	width: 50px;
+	height: 70px;
+	transition: opacity 0.2s ease;
+}
+
+.回到側邊欄icon{
+	opacity: 0.8;
+	margin-top: 16px;
+	width: 20px;
+	transition: opacity 0.2s ease;
+}
+
+#回到側邊播放器:hover .回到側邊欄icon {
+	opacity: 0.6;
+	transition: opacity 0.2s ease;
+}
+
+#回到側邊播放器:active .回到側邊欄icon {
+	opacity: 0.4;
+	transition: opacity 0.2s ease;
+}
+
+#縮小播放器 {
+	display: block;
+	font-size: 12px;
+}
+
+/* 歌詞 */
+#歌詞 {
+	top: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 100%;
+	overflow-y: scroll;
+	color: #DEDEDE;
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* 稍後播放 */
+
+#稍後播放容器 {
+	background: #191919;
+}
+
+#稍後播放內容 {
+	top: 0;
+	margin-top: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 100%;
+	overflow-y: scroll;
+	color: #232323;
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.一個稍後播放的歌曲 {
+	z-index: 10000;
+	position: relative;
+	width: auto;
+	display: block;
+	height: 50px;
+	border-bottom: #DCDCDC 1px solid;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+}
+
+.一個稍後播放的歌曲:hover .稍後播放封面 {
+	transition: box-shadow 0.2s ease;
+	/* box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.40); */
+}
+
+
+.一個稍後播放的歌曲:active {
+	opacity: 0.8;
+}
+
+.一個稍後播放的歌曲:hover .稍後播放封面:after {
+	transition: background-color 0.2s ease;
+	content:"";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url('../images/icons/queue-cover-hover.png');
+	background-color: rgba(0, 0, 0, 0.2);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.一個稍後播放的歌曲:last-child {
+	border: none;
+}
+
+.稍後播放封面 {
+	user-select: none;
+	transition: box-shadow 0.2s ease;
+	margin-right: 15px;
+	float: left;
+	display: block;
+	background:url('https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2016/07/MayDay_2.jpg');
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.稍後播放專輯名稱 {
+	font-weight: 400;
+	padding-top: 4px;
+	display: block-inline;
+	font-size: 14px;
+	color: #404040;
+}
+
+.稍後播放歌曲 {
+	display: block;
+	font-size: 14px;
+	color: #898989;
+}
+
+/* 頁籤 */
+#頁籤盒子 {
+	top: 0;
+	bottom: 0;
+	margin-top: 70px; /* 336貼齊播放器，扣掉進度條356，加上新版進度條也是356，336的留白最佳。*/
+	height: auto;
+	display: block;
+	width: 100%;
+	position: absolute;
+	margin-bottom: 0;
+}
+
+#列表頁籤 {
+	position: absolute;
+	bottom: 10px;
+	height: 45px;
+	text-align: center;
+	margin: 0px auto;
+	overflow: hidden;
+	background: none;
+	display: block;
+	width: 100%;
+}
+
+#列表頁籤 button {
+	margin-top: 15px;
+	background: none;
+	transition: opacity 0.2s ease;
+	opacity: 0.5;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 17px;
+	margin-right: 85px;
+}
+
+#列表頁籤 button:after {
+	transition: opacity 0.2s ease;
+	opacity: 0;
+}
+
+#列表頁籤 button:last-child {
+	margin-right: 0px;
+}
+
+#列表頁籤 button:hover {
+	opacity: 0.7;
+}
+
+#列表頁籤 button:hover:after {
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+#列表頁籤 button.active {
+	transition: opacity 0.2s ease;
+	opacity: 1;
+}
+
+#列表頁籤 button.active:before {
+	transition: opacity 0.2s ease;
+	opacity: 1;
+	content: "";
+	margin: 0px auto;
+	margin-top: -30px;
+	display: block;
+	z-index: 10000;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #191919;
+    transform: rotate(45deg);
+	border-bottom: 1px #676767 solid;
+	border-right: 1px #676767 solid;
+}
+
+.頁籤按鈕 {
+	width: 18px;
+}
+
+.tabcontent {
+	margin-top: 20px;
+	height: 355px;
+	top: 0;
+	bottom: 0;
+	box-shadow: 0px 1px 0px 0px rgba(181,181,181,0.50);
+	display: none;
+	width: 100%;
+	position: absolute;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+#稍後播放容器 {
+	background: #191919;
+}

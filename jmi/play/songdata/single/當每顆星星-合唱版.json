@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/80/9c/b1/809cb145-ea2c-5772-b238-32cb775c29b1/1.jpg/939x0w.jpg",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "當每顆星星 合唱版",
+  "CoverSourceFrom" : "Apple Music",
+  "InfoReference" : "Apple Music",
+  "song" :
+  [
+    {
+      "SongTitle" : "當每顆星星 合唱版",
+      "songsource" : "W-SEe8QI3CA",
+      "time" : "4:19",
+      "AlbumTitle" : "當每顆星星 合唱版",
+      "lyrics" : "./songdata/lyrics/當每顆星星（單曲）-當每顆星星.json"
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: 'Noto Sans TC', serif-sans;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-width: 990px;
+}
+
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url('./img/信用卡-白1.jpg') url('./img/信用卡-白2.jpg') url('./img/信用卡-黑1.jpg') url('./img/信用卡-黑2.jpg') url('./img/A7-白1.jpg') url('./img/A7-白2.jpg') url('./img/A7-黑1.jpg') url('./img/A7-黑2.jpg');
+}
+
+.停止捲動 {
+	overflow: hidden;
+}
+
+input {
+	font-family: inherit;
+	border: none;
+	padding: none;
+	margin: none;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+a {
+	color: #317DE7;
+}
+
+::-webkit-input-placeholder {
+	color: #B3B3B3;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	font-family: inherit;
+	background: #ffffff;
+}
+
+#canvas {
+	display: block;
+}
+
+header {
+	height: 174px;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#header-logo {
+	background: url('./img/logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 37px;
+	width: 155px;
+	display: block;
+}
+
+article {
+	background-image: linear-gradient(-180deg, #F9F9F9 0%, #FFFFFF 58%, #F7F7F7 100%);
+	height: auto;
+}
+
+#內容 {
+	display: block;
+	max-width: 1100px;
+	height: auto;
+	margin: 0px auto;
+}
+
+#製作證件 {
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+#製作證件-左半部 {
+	flex: 1;
+	display: block;
+	position: relative;
+}
+
+#製作證件-右半部 {
+	flex: 1;
+	display: block;
+}
+
+#製作證件-左半部-員工證 {
+	display: block;
+	box-shadow: 0px 12px 17px 0px rgba(0,0,0,0.24);
+	position: absolute;
+	border-radius: 10px;
+	transition: 0.2s ease;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom : 0;
+	margin: auto;
+}
+
+#製作證件-左半部-員工證-尺寸 {
+	position: absolute;
+	top: 630px;
+	color: #878787;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.製作證件-左半部-員工證-捲動 {
+}
+
+.員工證_信用卡 {
+	width: 239px;
+	height: 380px;
+}
+
+.員工證_B7 {
+	width: 283px;
+	height: 401px;
+}
+
+.員工證_信用卡 .員工證-大名 {
+	top: 189px;
+	left: 21px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.員工證_信用卡 .員工證-職稱 {
+	top: 215px;
+	left: 22px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.員工證_信用卡 .員工證-部門 {
+	top: 272px;
+	left: 22px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.員工證_信用卡 .員工證-到職日 {
+	top: 272px;
+	left: 126px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.員工證_B7 .員工證-大名 {
+	top: 217px;
+	left: 30px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.員工證_B7 .員工證-職稱 {
+	top: 244px;
+	left: 31px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.員工證_B7 .員工證-部門 {
+	bottom: 81px;
+	left: 32px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.員工證_B7 .員工證-到職日 {
+	bottom: 81px;
+	left: 150px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.員工證_亮 .員工證_製作證件{
+	color: #000000;
+	position: absolute;
+	display: block;
+}
+
+.員工證_暗 .員工證_製作證件 {
+	color: #ffffff;
+	position: absolute;
+	display: block;
+}
+
+.員工證_信用卡-白1 {
+	background:url('./img/信用卡-白1.jpg');
+	background-size: 100%;
+}
+
+.員工證_信用卡-白2 {
+	background:url('./img/信用卡-白2.jpg');
+	background-size: 100%;
+}
+
+.員工證_信用卡-黑1 {
+	background:url('./img/信用卡-黑1.jpg');
+	background-size: 100%;
+}
+
+.員工證_信用卡-黑2 {
+	background:url('./img/信用卡-黑2.jpg');
+	background-size: 100%;
+}
+
+.員工證_B7-白1 {
+	background:url('./img/A7-白1.jpg');
+	background-size: 100%;
+}
+
+.員工證_B7-白2 {
+	background:url('./img/A7-白2.jpg');
+	background-size: 100%;
+}
+
+.員工證_B7-黑1 {
+	background:url('./img/A7-黑1.jpg');
+	background-size: 100%;
+}
+
+.員工證_B7-黑2 {
+	background:url('./img/A7-黑2.jpg');
+	background-size: 100%;
+}
+
+.製作證件_右半部-段落 {
+	margin-bottom: 85px;
+}
+
+.製作證件_右半部-段落:last-child {
+	margin-bottom: 0;
+}
+
+.製作證件_右半部_段落-段落 {
+	margin-bottom: 30px;
+}
+
+.製作證件_右半部_段落-段落:last-child {
+	margin-bottom: 0px;
+}
+
+.製作證件_右半部_段落-標題 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+.製作證件_右半部_段落-段落-標題 {
+	margin-bottom: 12px;
+	display: block;
+	font-size: 14px;
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕 {
+	height: 50px;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.09);
+	border-radius: 11px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-flex;
+	align-items: center;
+	padding: 0px 15px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	transition: 0.2s ease;
+	background: #ffffff;
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕:hover {
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.25);
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕-已選擇 {
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.25);
+	position: relative;
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕-已選擇:after {
+	content:'';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 11px;	
+	border: 3px solid #DB247D;
+	box-sizing: border-box;
+}
+
+#製作證件-右半部-樣式-卡面-選項-黑1 {
+	background: #343434;
+	width: 100px;
+}
+
+#製作證件-右半部-樣式-卡面-選項-黑2 {
+	background: url('./img/黑2-按鈕.png');
+	background-size: 100% 100%;
+	width: 100px;
+}
+
+#製作證件-右半部-樣式-卡面-選項-白1 {
+	background: #ffffff;
+	width: 100px;
+	border: 1px solid #DFDFDF;
+}
+
+#製作證件-右半部-樣式-卡面-選項-白2 {
+	background: url('./img/白2-按鈕.png');
+	background-size: 100% 100%;
+	width: 100px;
+	border: 1px solid #DFDFDF;
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕_icon {
+	margin-right: 13px;
+	display: inline-block;
+}
+
+#製作證件-右半部-樣式-尺寸-選項-信用卡-icon {
+	width: 13px;
+	height: 18px;
+	border-radius: 3px;
+	background: #DFDFDF;
+}
+
+#製作證件-右半部-樣式-尺寸-選項-B7-icon {
+	width: 19px;
+	height: 26px;
+	border-radius: 3px;
+	background: #DFDFDF;
+}
+
+.製作證件_右半部_段落_段落-選項-按鈕_文字 {
+	display: inline-block;
+	color: #000000;
+}
+
+#製作證件-右半部-樣式-孔位 {
+}
+
+#製作證件-右半部-樣式-孔位-checkbox {
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+	background: #ffffff;
+	border: 2px solid #AFAFAF;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.09);
+	border-radius: 5px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	transition: 0.2s ease;
+	vertical-align: -34%;
+}
+
+#製作證件-右半部-樣式-孔位-checkbox:checked {
+	transition: 0.2s ease;
+	background: #ffff;
+	border: 3px solid #DB247D;
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.25);
+}
+
+.製作證件_右半部_段落-段落-音鋪 {
+	font-size: 16px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.09);
+	border-radius: 11px;
+	padding: 10px 16px;
+	transition: 0.2s ease;
+	width: 275px;
+	box-sizing: border-box;
+	border: 1px solid #F0F0F0;
+}
+
+.製作證件_右半部_段落-段落-音鋪:focus {
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.25);
+	transition: 0.2s ease;
+}
+
+#製作證件-右半部-員工資料-到職日-輸入 {
+	font-size: 16px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.09);
+	border-radius: 11px;
+	padding: 10px 16px;
+	transition: 0.2s ease;
+	width: 275px;
+	box-sizing: border-box;
+	border: 1px solid #F0F0F0;
+}
+
+.製作證件-右半部-員工資料-到職日-輸入-focus {
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.25) !important;
+	transition: 0.2s ease;
+}
+
+.製作證件-右半部-員工資料-到職日-輸入-input {
+	font-size: 16px;
+	width: 22px;
+	text-align: center;
+	background: none;
+}
+
+.製作證件-右半部-員工資料-到職日-輸入-input:focus .製作證件-右半部-員工資料-到職日-輸入-input:parent {
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.09);
+}
+
+.製作證件-右半部-員工資料-到職日-輸入-年份 {
+	width: 40px;
+}
+
+#產生按鈕 {
+	display: flex;
+	width: 100%;
+	height: 260px;
+	justify-content: center;
+	align-items: center;
+}
+
+#產生按鈕-做好了 {
+	box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.25);
+	border-radius: 100px;
+	width: 171px;
+	height: 67px;
+	background: url('./img/done-button.png');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+#產生按鈕-做好了:hover {
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.25);
+	transition: 0.2s ease;
+}
+
+#產生按鈕-做好了:active {
+	transition: 0.05s ease;
+	opacity: 0.5;
+}
+
+#產生按鈕-做好了-icon {
+	width: 18px;
+	height: 18px;
+	background:url('./img/done-icon.png');
+	display: inline-block;
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-right: 12px;
+}
+
+#產生按鈕-做好了-文字 {
+	display: inline-block;
+	font-size: 16px;
+	background-image: linear-gradient(90deg, #E3189B 0%, #08D5FC 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* DEBUG 專用 證件輸出*/
+
+#證件輸出 {
+	display: none !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+#證件輸出-繪製 {
+	display: block;
+	width: 200px;
+}
+
+
+/* 整頁視窗 */
+#整頁視窗 {
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	position: fixed;
+	overflow-y: hidden;
+	z-index: 1;
+}
+
+.整頁視窗-隱藏 {
+	visibility: hidden !important;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
+}
+
+.整頁視窗-顯示 {
+	visibility: visible !important;
+	opacity: 1;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
+}
+
+#整頁視窗-遮罩 {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background: #ffffff;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+#整頁視窗-視窗 {
+	z-index: 2;
+	position: fixed;
+	width: 80vw;
+	height: 80vh;
+	max-height: 665px;
+	max-width: 915px;
+	min-height: 593px;
+	min-width: 798px;
+	display: block;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 36px 0px rgba(0,0,0,0.15);
+	border-radius: 7px;
+	padding: 60px 70px;
+	box-sizing: border-box;
+	overflow: scroll;
+}
+
+.整頁視窗-視窗-顯示 {
+}
+
+.整頁視窗-視窗-隱藏 {
+	display: none !important;
+}
+
+.整頁視窗-視窗-區塊-上一步 {
+	width: 28px;
+	height: 28px;
+	background: url('./img/back.png');
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.整頁視窗-視窗-區塊-上一步:hover {
+	opacity: 0.8;
+	transition: 0.2s ease;
+}
+
+.整頁視窗-視窗-區塊-上一步:active {
+	opacity: 0.5;
+	transition: 0.05s ease;
+}
+
+#整頁視窗-視窗-下載 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+	text-align: center;
+	flex-direction:column;
+}
+
+#整頁視窗-下載-關閉 {
+}
+
+#整頁視窗-視窗-下載-標題與說明 {
+	height: 70px;
+	display: block;
+	flex: none;
+}
+
+.整頁視窗-視窗-區塊-標題 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.整頁視窗-視窗-區塊-說明 {
+	font-size: 16px;
+	color: #7D7D7D;
+	margin-top: 3px;
+}
+
+#整頁視窗-視窗-下載-下載選項 {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項 {
+	display: flex;
+	max-width: 300px;
+	height: 381px;
+	max-height: 381px;
+	background: #F6F6F6;
+	flex-direction:column;
+	padding: 30px 25px;
+	box-sizing: border-box;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-圖片 {
+	width: 100%;
+	height: 140px;
+	flex: none;
+	display: block;
+}
+
+#整頁視窗-視窗-下載-下載選項-左-圖片-圖片 {
+	width: 140px;
+	height: 140px;
+	background: url('./img/just-id.png');
+	background-size: cover;
+	display: block;
+	margin: 0px auto;
+}
+
+#整頁視窗-視窗-下載-下載選項-右-圖片-圖片 {
+	width: 140px;
+	height: 140px;
+	background: url('./img/a4.png');
+	background-size: cover;
+	display: block;
+	margin: 0px auto;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-標題 {
+	width: 100%;
+	height: 17px;
+	line-height: 17px;
+	font-size: 17px;
+	text-align: center;
+	padding: 20px 0px;
+	font-weight: 600;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-說明 {
+	font-size: 14px;
+	min-height: 60px;
+	color: #727272;
+	text-align: justify;
+    text-align-last: center;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-下載 {
+	width: 100px;
+	height: 35px;
+	display: block;
+	border-radius: 100px;
+	background:url('./img/download-button.png');
+	background-size: 100% 100%;
+	flex: none;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.19);
+	margin: 0px auto;
+	margin-top: 20px;
+	transition: 0.2s ease;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-下載:after {
+	content:'下載';
+	background-image: linear-gradient(90deg, #915FC0 0%, #5990D9 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-下載:hover {
+	box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.15);
+	transition: 0.2s ease;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-下載:active {
+	opacity: 0.5;
+	transition: 0.05s ease;
+}
+
+.整頁視窗-視窗-下載-下載選項-選項-規格 {
+	font-size: 11px;
+	margin-top: 10px;
+	color: #BFBFBF;
+	font-weight: 300;
+}
+
+#整頁視窗-視窗-感謝您 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+	text-align: center;
+	flex-direction:column;
+}
+
+#整頁視窗-視窗-感謝您-標題與說明 {
+	display: flex;
+	flex-direction:column;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+#整頁視窗-視窗-感謝您-名單與讚按鈕 {
+	height: auto;
+	width: 100%;
+	flex: none;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+
+#整頁視窗-視窗-感謝您-名單與讚按鈕-logo {
+	background: url('./img/logo.png');
+	background-size: cover;
+	width: 130px;
+	height: 31px;
+}
+
+#整頁視窗-視窗-感謝您-名單與讚按鈕-名單 {
+	font-size: 12px;
+	color: #4C4C4C;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#整頁視窗-視窗-感謝您-無法下載 {
+	margin-bottom: 50px;
+	font-size: 14px;
+	color: #999999;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#整頁視窗-視窗-沒有下載 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+	text-align: center;
+	flex-direction:column;
+}
+
+#整頁視窗-視窗-沒有下載-標題與說明 {
+	flex: none;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+
+#整頁視窗-視窗-沒有下載-員工證輸出 {
+	flex: 1;
+	max-width:100%;
+	max-height:350px;
+	background: #EBEBEB;
+	display:  block;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+
+#idExport {
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+#整頁視窗-視窗-沒有下載-提示 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#整頁視窗-視窗-沒有下載-提示-電腦 {
+	display: block;
+}
+
+#整頁視窗-視窗-沒有下載-提示-手機 {
+	display: none;
+}
+
+.整頁視窗-視窗-沒有下載-提示_提示 {
+	font-size: 14px;
+	color: #7D7D7D;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#聲明 {
+	font-size: 14px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	display: block;
+}
+
+#作者 {
+	font-size: 14px;
+}
+
+.fb-like {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: block;
+}
+
+
+@media only screen and (max-width: 789px) {
+	body {
+		min-width: 300px;
+	}
+	
+	#內容 {
+		display: block;
+		width: 100vw;
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	#製作證件 {
+		display: flex;
+		max-width: 100%;
+		margin: 0px auto;
+		flex-direction:column;
+	}
+	
+	#製作證件-左半部 {
+		flex: 1;
+		display: block;
+		width: 100vw;
+		height: 320px;
+		background: #DCDCDC;
+	}
+	
+	#製作證件-左半部-員工證 {
+		transform: scale(0.6)
+	}
+	
+	#製作證件-左半部-員工證-尺寸 {
+		font-size: 12px;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		color: #878787;
+		top: 290px;
+	}
+	
+	#製作證件-右半部 {
+		flex: 1;
+		display: block;
+		box-sizing: border-box;
+		padding: 30px;
+	}
+	
+	.製作證件_右半部_段落_段落-選項-按鈕 {
+		height: 45px;
+		font-size: 14px;
+	}
+	
+	.製作證件_右半部_段落_段落-選項-按鈕-已選擇:after {
+		border: 2px solid #DB247D;
+		box-sizing: border-box;
+	}
+	
+	.製作證件_右半部_段落_段落-選項-按鈕:last-child {
+		margin-right: 0px;
+	}
+	
+	#製作證件-右半部-樣式-卡面-選項 {
+		display: flex;
+	}
+	
+	.製作證件_右半部_段落-段落-音鋪 {
+		width: 100%;
+	}
+	
+	#製作證件-右半部-員工資料-到職日-輸入 {
+		width: 100%;
+	}
+	
+	#產生按鈕-做好了 {
+		box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.25);
+		border-radius: 100px;
+		width: 171px;
+		height: 67px;
+		background: url('./img/done-button.png');
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.2s ease;
+		cursor: pointer;
+	}	
+	
+	#產生按鈕 {
+		display: flex;
+		width: 100%;
+		height: 100px;
+		justify-content: center;
+		align-items: center;
+		padding: 0px 0px;
+		padding-bottom: 30px;
+	}
+	
+	
+	#整頁視窗-視窗-下載-標題與說明 {
+		height: 70px;
+		display: block;
+		flex: none;
+		margin-bottom: 30px;
+	}
+
+	#整頁視窗-視窗-下載-下載選項 {
+		flex: none;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction:column;
+	}
+	
+	#整頁視窗 {
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	
+	#整頁視窗-視窗 {
+		width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
+		max-width: 100vw;
+		min-height: 100vh;
+		min-width: 100vw;
+		padding: 30px 30px;
+		box-sizing: border-box;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	.整頁視窗-視窗-下載-下載選項-選項 {
+		display: block;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		max-height: 100%;
+		background: #F6F6F6;
+		padding: 30px 25px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}
+	
+	.整頁視窗-視窗-區塊-上一步 {
+		position: fixed;
+		top: 50px;
+		left: 20px;
+	}
+	
+	.整頁視窗-視窗-下載-下載選項-選項-說明 {
+		text-align:center;
+	}
+	
+	.整頁視窗-視窗-下載-下載選項-選項:last-child {
+		margin-bottom: 30px;
+	}
+	
+	#作者 {
+		margin-bottom: 16px;
+	}
+
+	#整頁視窗-視窗-沒有下載-提示 {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: normal;
+		padding-top: 10px;
+		box-sizing: border-box;
+	}
+	
+	#作者 {
+		margin-bottom: 16px;
+	}
+
+	#整頁視窗-視窗-沒有下載-提示-電腦 {
+		display: none;
+	}
+	
+	#整頁視窗-視窗-沒有下載-提示-手機 {
+		display: block;
+	}
+	
+	footer {
+		padding: 30px 30px;
+	}
+}

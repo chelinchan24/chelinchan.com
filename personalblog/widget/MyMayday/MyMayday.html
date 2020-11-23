@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mayday Widget</title>
+<script type="text/javascript">
+        document.domain = 'chelinchan.com.com'
+</script>
+<script>
+    function calcPageHeight(doc) {
+        var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight)
+        var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight)
+        var height  = Math.max(cHeight, sHeight)
+        return height
+    }
+    window.onload = function() {
+        var height = calcPageHeight(document)
+        parent.document.getElementById('ifr').style.height = height + 'px'     
+    }
+</script>
+</head>
+<style>
+body {
+	margin: 0;
+	padding-top: 11px;
+	font-family: sans-serif;
+}
+/* 標題 */
+#upcoming {
+	font-size: 14px;
+	color: #6c6c6c;
+	margin-bottom: -2px;
+}
+
+.over {
+	padding-top: 20px;
+	font-size: 14px;
+	color: #6c6c6c;
+	margin-bottom: -4px;
+}
+
+/* 效果*/
+.underline {
+	width: 100%;
+	color: #e7e7e7;
+	margin-bottom: 8px;
+}
+
+/* 即將到來 */
+#upcoming-top-title-box {
+	width: 100%;
+}
+
+#upcoming-top-title{
+	color: #38415f;
+	font-size: 16px;
+	text-align: left;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#upcoming-top-data{
+	color: #484848;
+	font-size: 12px;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#upcoming-top-countdowm {
+	color: #535353;
+	font-size: 20px;
+	float: right;
+	margin-top: -12px;
+}
+
+/* 已結束 */
+.over-box {
+	width: 100%;
+}
+
+.over-title {
+	color: #6b6b6b;
+	font-size: 16px;
+	text-align: left;
+}
+
+.over-data {
+	color: #6b6b6b;
+	font-size: 12px;
+}
+
+.over-event-box {
+	padding-bottom: 4px;
+	border-bottom: 1px solid #dadada;
+	margin-bottom: 8px;
+}
+
+.over-event-box-last {
+	padding-bottom: 4px;
+}
+
+/* 按鈕 */
+.more {
+	text-align: center;
+}
+
+.more a{
+	color: #9F9F9F;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.more:hover{
+	color: #373737;
+	font-size: 20px;
+}
+
+</style>
+
+<body onload="resize();">
+
+<div id="upcoming">下一場</div>
+<hr class="underline" color="e7e7e7">
+<div id="upcoming-top-title-box">
+<span id="upcoming-top-title">人生無限公司</span><br>
+<span id="upcoming-top-data">2016年3月18日</span>
+<span id="upcoming-top-countdowm">63天</span>
+</div>
+
+<div class="over">已結束</div>
+<hr class="underline" color="e7e7e7">
+<div class="over-box">
+<div class="over-event-box">
+<span class="over-title">Re: 168 場演唱會</span><br>
+<span class="over-data">2017年1月1日</span>
+</div>
+<div class="over-event-box">
+<span class="over-title">Re: 天空之城</span><br>
+<span class="over-data">2017年1月1日</span>
+</div>
+<div class="over-event-box-last">
+<span class="over-title">Re: D.N.A 創造</span><br>
+<span class="over-data">2017年1月1日</span>
+</div>
+</div>
+<div class="more">
+<a class="more" href="http://personalblog.chelinchan.com/p/mayday.html" target="new">⋯</a></div>
+</body>
+</html>

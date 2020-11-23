@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://is1.mzstatic.com/image/thumb/Music49/v4/02/11/d4/0211d4fd-5898-e5d3-6911-e846b5f5ccaf/source/1000x1000bb.jpg",
+  "type" : "單曲",
+  "year" : "2015",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "勇敢",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "勇敢",
+      "songsource" : "3wrto8oJu5A",
+      "time" : "4:49",
+      "AlbumTitle" : "勇敢",
+      "lyrics" : "./songdata/lyrics/勇敢（單曲）-勇敢.json"
+    }
+  ]
+}

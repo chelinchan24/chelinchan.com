@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* 標題 */
+.upcoming {
+font-size: 14px;
+color: #6c6c6c;
+margin-bottom: -2px;
+        padding-top: 10px;
+}
+
+.over {
+padding-top: 20px;
+font-size: 14px;
+color: #6c6c6c;
+margin-bottom: -4px;
+}
+
+/* 效果*/
+.underline {
+width: 100%;
+color: #e7e7e7;
+margin-bottom: 8px;
+}
+
+/* 即將到來 */
+.upcoming-top-title-box {
+width: 100%;
+padding-bottom: 4px;
+/* border-bottom: 1px solid #dadada; */
+margin-bottom: 8px;
+}
+
+.sec-upcoming-top-title-box{
+	padding-bottom: 4px;
+}
+
+.upcoming-top-title-life{
+color: #38415f;
+font-size: 16px;
+text-align: left;
+background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.upcoming-top-date-life{
+color: #484848;
+font-size: 12px;
+background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.upcoming-top-countdowm {
+color: #535353;
+font-size: 20px;
+float: right;
+margin-top: -17px;
+}
+
+.upcoming-top-date {
+color: #6b6b6b;
+font-size: 12px;
+}
+ 
+.downarrow {
+	width: 20px;
+	vertical-align: top;
+}
+
+/* 已結束 */
+.over-box {
+width: 100%;
+}
+
+.over-title {
+color: #6b6b6b;
+font-size: 16px;
+text-align: left;
+}
+
+.over-date {
+color: #6b6b6b;
+font-size: 12px;
+}
+
+.over-event-box {
+padding-bottom: 4px;
+border-bottom: 1px solid #dadada;
+margin-bottom: 8px;
+}
+
+.over-event-box-last {
+padding-bottom: 4px;
+}
+
+/* 按鈕 */
+.more {
+text-align: center;
+}
+
+.more a{
+color: #9F9F9F;
+font-size: 12px;
+text-decoration: none;
+}
+
+.more:hover{
+color: #373737;
+}
+
+.no-upcoming {
+	size: 14px;
+	text-align: center;
+	color: #9f9f9f;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+/* 七號公園 */
+.upcoming-top-title-七號公園-blue{
+color: #84C8F9;
+font-size: 16px;
+text-align: left;
+}
+
+.upcoming-top-title-七號公園-咖啡色{
+color: #BF9E7B;
+font-size: 16px;
+text-align: left;
+}
+
+.upcoming-top-title-七號公園-第一天{
+color: #ffffff;
+font-size: 16px;
+text-align: left;
+background: #84C8F9;
+}
+
+.upcoming-top-date-七號公園{
+color: #BF9E7B;
+font-size: 12px;
+}
+
+/* hito */
+.upcoming-top-title-hito-red{
+color: #B21518;
+font-size: 16px;
+text-align: left;
+}
+
+.upcoming-top-title-hito-blue{
+color: #002CFF;
+font-size: 16px;
+text-align: left;
+}
+
+.upcoming-top-title-hito-black{
+color: #000000;
+font-size: 16px;
+text-align: left;
+}
+
+.upcoming-top-date-hito{
+color: #000000;
+font-size: 12px;
+}

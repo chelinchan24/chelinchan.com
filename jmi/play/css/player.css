@@ -1,0 +1,738 @@
+@charset "UTF-8";
+
+/* 全局 */
+body {
+    margin: 0px;
+	font-family: sans-serif;
+	outline: none;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+button:focus{
+    outline: none;
+}
+
+img {
+	border: none;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+/* 資訊欄 */
+#資訊欄 {
+	width: 100%;
+	height: 70px;
+	background: #303030;
+	color: #ffffff;
+}
+
+#時間計算 {
+	position: absolute;
+	top: 26px;
+	color: #FFFFFF;
+	display: block;
+	right: 0;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+#專輯封面 {
+}
+
+#歌曲與專輯名稱盒子 {
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 90px;
+}
+
+#專輯名稱 {
+	display:block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 140px;
+	position: absolute;
+	top: 0;
+	margin-top: 38px;
+	float: left;
+	font-weight: 400;
+	font-size: 12px;
+	color: #DEDEDE;
+}
+
+#歌曲名稱 {
+	font-weight: 400;
+	display: block;
+	width: 140px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+#專輯封面圖片 {
+	display: block;
+	width: 70px;
+	height: 70px;
+	position:absolute;
+	z-index: 4000;
+}
+
+#專輯封面圖片-plceholder {
+	background-image:url('../images/source/no-playing.png');
+	width: 70px;
+	height: 70px;
+	background-size: 70px 70px;
+	position:absolute;
+	z-index: 3000;
+}
+
+/* 播放器 */
+
+#blankspace {
+	width: 100%;
+	height: 188px;
+	background: #7D7D7D;
+}
+
+#video {
+	position:absolute;
+	margin: 0px auto;
+	top: 70px;
+	right: 0px;
+}
+
+#player {
+	color: #ffffff;
+}
+
+#video-placeholder {
+	width: 100%;
+	height: 189px;
+	background-image:url('../images/source/no-playing-placeholder.png');
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	margin-top: 70px;
+	z-index: 5000;
+}
+
+/* 隱藏影像 */
+#影像已隱藏 {
+	background:url('../images/source/video-hidden-placeholder.gif');
+	background-size:100%;
+	color: #ffffff;
+	top: 0px;
+	margin-top: 70px;
+	position: absolute;
+	z-index: 10000;
+	width: 100%;
+	height: 189px;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#隱藏影像提示文字 {
+	padding-top: 70px;
+	display: block;
+}
+
+#顯示影像 {
+	cursor: pointer;
+	color: #E0E0E0;
+	margin-top: 5px;
+	font-size: 14px;
+	background: #363636;
+	padding: 3px 5px;
+}
+
+#顯示影像:hover {
+	color: #FFFFFF;
+}
+
+
+/* 其他控制選項 */
+#其他影片控制選項 {
+	text-align: left;
+	z-index: 1000;
+	top: 70px;
+	position: absolute;
+	width: 48px;
+	height: 189px;
+	display: block;
+	transition: opacity 0.2s ease;
+	visibility: hidden;
+	opacity: 0;
+	background-image: linear-gradient(90deg, rgba(0,0,0,0.29) 41%, rgba(0,0,0,0.00) 100%);
+
+}
+
+#影片與其他控制選項:hover #其他影片控制選項 {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+#影片與其他控制選項:hover #選項盒子 {
+	opacity: 0.9;
+	display: inline-block;
+}
+
+.選項icon {
+	margin-left: 13px;
+	transition: opacity 0.2s ease;
+	margin-right: 20px;
+	margin-top: 57px;
+	display: block;
+	height: 19px;
+	width: 24px;	
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.選項icon:last-child {
+	margin-top: 30px;
+	margin-right: 0px;
+}
+
+.選項icon:hover {
+	transition: opacity 0.1s ease;
+	opacity: 1;
+}
+
+	/* 提示 */
+	.一則提示 {
+		background: #E6E6E6;
+		color: #3A3A3A;
+		font-size: 12px;
+		padding: 2px 6px;
+		border-radius: 3px;
+	}
+	
+	#隱藏影像提示 {
+		visibility: visible;
+		transition: opacity 0.2s ease, visibility 0.2s ease;
+		transition-delay: 0.5s;
+		left: 50px;
+		z-index: 1000000000;
+		position:fixed;
+		top: 175px;
+		display: block;
+		opacity: 0;
+	}
+	
+	#大型播放器提示 {
+		visibility: hidden;
+		transition: opacity 0.2s ease, visibility 0.2s ease;
+		transition-delay: 0.5s;
+		left: 50px;
+		z-index: 1000000000;
+		position:fixed;
+		top: 125px;
+		display: block;
+		opacity: 0;
+	}
+
+
+/* 影片進度列 */
+#影片進度列 {
+	margin-top:1px;
+	height: 10px;
+	display: block;
+	background: #FFD3D4;
+}
+
+#影片進度列 input[type=range] {
+	position:absolute;
+	margin: 0px;
+	padding: 0px;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+}
+
+#影片進度列 input[type=range]::-webkit-slider-thumb {
+	background: #ffffff;
+	margin-top: -0px;
+	-webkit-appearance: none !important;
+	position: relative;
+	width: 8px;
+	pointer-events:none;
+	height: 10px;
+}
+
+#影片進度列 input[type=range]::-webkit-slider-runnable-track {
+	margin-top: 0px;
+	background: #383838;
+	height: 10px;
+	cursor: pointer;
+}
+
+#影片進度列 input[type=range]::-webkit-slider-thumb:before {
+	content:"";
+	position: absolute;
+	left: -335px;
+	right:0;
+	top:-0;
+	bottom:0;
+	background: -webkit-linear-gradient(left, #02b1fe 0%,#fc01c5 100%);
+}
+
+#影片進度列 input[type=range]::-webkit-slider-thumb:after {
+	content: "";
+	position: absolute;
+	left:-0px;
+	right:-0px;
+	top:-0px;
+	bottom:-0px;
+	background: #FFFFFF;
+	border:5px solid #FFFFFF;
+	z-index: 10;
+}
+
+	/* 小狐狸 */
+	#影片進度列 input[type=range]::-moz-range-thumb {
+		background: #ffffff;
+		margin-top: -0px;
+		-moz-appearance: none !important;
+		position: relative;
+		width: 8px;
+		pointer-events:none;
+		height: 10px;
+	}
+
+	#影片進度列 input[type=range]::-moz-range-track {
+		margin-top: 0px;
+		background: #383838;
+		height: 10px;
+		cursor: pointer;
+	}
+
+	#影片進度列 input[type=range]::-moz-range-thumb:before {
+		content:"";
+		position: absolute;
+		left: -335px;
+		right:0;
+		top:-0;
+		bottom:0;
+		background: -moz-linear-gradient(left, #02b1fe 0%,#fc01c5 100%);
+	}
+
+	#影片進度列 input[type=range]::-moz-range-thumb:after {
+		content: "";
+		position: absolute;
+		left:-0px;
+		right:-0px;
+		top:-0px;
+		bottom:-0px;
+		background: #FFFFFF;
+		border:5px solid #FFFFFF;
+		z-index: 10;
+	}
+
+#影片進度列 input[type=range]:focus {
+outline:none;
+}
+
+
+
+/* 播放控制 */
+
+.按鈕icon {
+	opacity: 0.7;
+}
+
+.按鈕icon:hover {
+	opacity: 1.0;
+}
+
+.按鈕icon:active {
+	opacity: 0.7;
+}
+
+.滑桿icon {
+	opacity: 0.7;
+}
+
+.滑桿icon:hover {
+	opacity: 1.0;
+}
+
+#播放控制按鈕盒子 {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	height: 78px;
+	background: #F1F1F1;
+	z-index: 10000;
+}
+
+.上下首 {
+	padding-top: 13px;
+	width: 15px;
+	height: 15px;
+	vertical-align:middle;
+}
+
+.播放icon {
+	background-repeat: no-repeat;
+	background-image:url('../images/icons/play-button.png');
+	background-size: 100%;
+	display: inline-block;
+	vertical-align:middle;
+	width: 47px;
+	height: 47px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 13px;
+}
+
+.暫停icon {
+	background-image:url('../images/icons/pause-button.png');
+	background-size: 100%;
+	display: inline-block;
+	vertical-align:middle;
+	width: 47px;
+	height: 47px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 13px;
+	background-repeat: no-repeat;
+}
+
+.循環 {
+	padding-top: 13px;
+	width: 22px;
+	height: 22px;
+	vertical-align:middle;
+	margin-left: 20px;
+}
+
+#音量控制 {
+	margin-left: 12px;
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align:middle;
+	width: 20px;
+	height: 20px;
+	background-image:url('../images/icons/sound-normal.png');
+	background-size: 100%;
+	margin-right: 20px;
+
+}
+
+#音量控制:hover #音量滑桿盒子 {
+	z-index: 10000;
+	top: 330px;
+	position: fixed;
+	background: #ffffff;
+	display: block;
+	width: 190px;
+	height: 35px;
+	left: 0px;
+	margin-left: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 17px 0px rgba(0,0,0,0.23);
+}
+
+#音量滑桿 {
+	display: none;
+}
+
+#音量控制:hover #音量滑桿 {
+	margin: 0px;
+	position: fixed;
+	display: block;
+	z-index: 10000;
+	top: 307px;
+	left: -15px;
+	width: 100%;
+	height: 48px;
+}
+
+.滑桿本體 {
+	position:absolute;
+	left: 65px;
+	top: 33px;
+}
+
+#音量控制區塊icon {
+	width: 19px;
+	height: 17px;
+	background-image:url('../images/icons/sound-normal.png');
+	background-size: 100%;
+	position: absolute;
+	left: 0;
+	margin-top: 2px;
+	margin-left: 27px;
+}
+
+
+/* 頁籤 */
+#頁籤盒子 {
+	top: 0;
+	bottom: 0;
+	margin-top: 366px; /* 336貼齊播放器，扣掉進度條356，加上新版進度條也是356，336的留白最佳。*/
+	height: auto;
+	background: #ffffff;
+	display: block;
+	width: 100%;
+	position: absolute;
+	margin-bottom: 23px;
+}
+
+#列表頁籤 {
+	transition: opacity 0.2s ease;
+	text-align: center;
+	margin: 0px auto;
+	overflow: hidden;
+	background: none;
+	display: block;
+	width: 100%;
+}
+
+#列表頁籤 button {
+	opacity: 0.3;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 17px;
+	margin-right: 85px;
+}
+
+#列表頁籤 button:after {
+	opacity: 0;
+}
+
+#列表頁籤 button:last-child {
+	margin-right: 0px;
+}
+
+#列表頁籤 button:hover {
+	opacity: 0.5;
+}
+
+#列表頁籤 button:hover:after {
+	opacity: 0;
+}
+
+#列表頁籤 button.active {
+	opacity: 1;
+}
+
+#列表頁籤 button.active:after {
+	opacity: 1;
+	content: "";
+	margin: 0px auto;
+	margin-top: 12px;
+	display:block;
+	z-index: 3;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    transform: rotate(45deg);
+    box-shadow: -5px -5px 10px 0px rgba(181,181,181,0.50);
+}
+
+.頁籤按鈕 {
+	width: 18px;
+}
+
+.tabcontent {
+	margin-top: 44px;
+	height: auto;
+	top: 0;
+	bottom: 0;
+	box-shadow: 0px -4px 10px 0px rgba(181,181,181,0.50);
+	display: none;
+	width: 100%;
+	position: absolute;
+}
+
+/* 歌詞 */
+#歌詞 {
+	top: 0;
+	margin-top: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 100%;
+	overflow-y: scroll;
+	color: #232323;
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* 稍後播放 */
+
+#稍後播放容器 {
+}
+
+#稍後播放標題與內容 {
+	top: 0;
+	margin-top: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 100%;
+	overflow-y: scroll;
+	color: #232323;
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 20px;
+	padding-left: 20px;	
+	
+}
+
+#稍後播放內容 {
+	
+}
+
+.一個稍後播放的歌曲 {
+	z-index: 10000;
+	position: relative;
+	width: auto;
+	display: block;
+	height: 50px;
+	border-bottom: #DCDCDC 1px solid;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+}
+
+.一個稍後播放的歌曲:hover .稍後播放封面 {
+	transition: box-shadow 0.2s ease;
+	/* box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.40); */
+}
+
+
+.一個稍後播放的歌曲:active {
+	opacity: 0.8;
+}
+
+.一個稍後播放的歌曲:hover .稍後播放封面:after {
+	transition: background-color 0.2s ease;
+	content:"";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url('../images/icons/queue-cover-hover.png');
+	background-color: rgba(0, 0, 0, 0.2);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.一個稍後播放的歌曲:last-child {
+	border: none;
+}
+
+.稍後播放封面 {
+	user-select: none;
+	transition: box-shadow 0.2s ease;
+	margin-right: 15px;
+	float: left;
+	display: block;
+	background:url('https://chinesepandamusic.files.wordpress.com/2013/12/e4ba94e69c88e5a4a9_e7acace4ba8ce4babae7949fe6988ee697a5e78988.jpg');
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+.稍後播放專輯名稱 {
+	display: block;
+	font-size: 14px;
+	color: #898989;
+}
+
+.稍後播放歌曲 {
+	font-weight: 400;
+	padding-top: 4px;
+	display: block-inline;
+	font-size: 14px;
+	color: #404040;
+}
+
+#稍後播放標題 {
+	margin-top: 15px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+/* 讀取，需建立新css做單獨處理 */
+
+#讀取畫面 {
+	top: 0;
+	display:block;
+	z-index: 10000;
+    height: 100%;
+	width: 100%;
+	background: #ffffff;
+	position: fixed;
+}
+
+
+#讀取圖片 {
+	position:absolute;
+	margin: 0px auto;
+	width: 335px;
+}
+
+/* 音量滑桿 */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 150px;
+  margin: 5.65px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3.7px;
+  cursor: pointer;
+  background: #9d9d9d;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #4d4d4d;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.65px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #9d9d9d;
+}
+
+	/* 小狐狸 */
+	input[type=range]::-moz-range-track {
+	  width: 100%;
+	  height: 3.7px;
+	  cursor: pointer;
+	  background: #9d9d9d;
+	}
+	input[type=range]::-moz-range-thumb {
+	  height: 15px;
+	  width: 15px;
+	  border-radius: 50px;
+	  background: #4d4d4d;
+	  cursor: pointer;
+	  -moz-appearance: none;
+	  margin-top: -5.65px;
+	}
+	input[type=range]:focus::-moz-range-track {
+	  background: #9d9d9d;
+	}

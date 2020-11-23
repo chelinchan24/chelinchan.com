@@ -1,0 +1,345 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	background: #F6F6F6;
+	padding-top: 70px;
+	margin: 0;
+	width: 100%;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -115px;
+    visibility: hidden;
+}
+
+#網站本體 {
+	margin-top: 80px;
+	margin: 0px auto;
+	display: block;
+	height: 100%;
+	width: 1100px;
+}
+
+/* 導航列 */
+#導航列 {
+	top: 0;
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 70px;
+	z-index: 1000;
+	background: #ffffff;
+	border-bottom: #D4d4d4 1px solid;
+}
+
+#導航列右側 {
+	margin-top: 23px;
+	float: right;
+	margin-right: 40px;
+}
+
+#導航列右側:last-child {
+	margin-top: 23px;
+	float: right;
+}
+
+.導航列-一個選項 {
+	color: #383838;
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.導航列-立即使用 {
+	border-radius: 4px;
+	padding: 4px 15px;
+	color: #383838;
+	font-weight: 400;
+	border: 2px solid #383838;
+}	
+
+#導航列背景 {
+	position: relative;
+}
+
+/* 說明區塊 */
+
+#說明區塊 {
+	background-image: linear-gradient(-180deg, #E6D20F 0%, #E92873 100%);
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+#大標題 {
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 90px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+#小標題 {
+	font-size: 16px;
+	color: #FFFFFF;
+	opacity: 0.85;
+	padding-bottom: 90px;
+}
+
+/* 咖啡計量 */
+#咖啡計量區塊 {
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-image: linear-gradient(-180deg, rgba(76,76,76,0.40) 0%, rgba(0,0,0,0.67) 100%);
+}
+
+#咖啡計量說明 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+
+#量表 {
+}
+
+#需要 {
+	border-radius: 3px;
+	z-index: 1;
+	position: relative;
+	margin: 0px auto;
+	display: block;
+	background: #808080;
+	height: 60px;
+	width: 900px;
+	background-image: linear-gradient(-180deg, #FFFFFF 0%, #DFDFDF 100%);
+}
+
+#需要數量 {
+	right: 20px;
+	margin-top: 5px;
+	position: absolute;
+	z-index: 300;
+	display: inline-block;
+}
+
+#已有 {
+	border-radius: 3px 0px 0px 3px;
+	z-index: 2;
+	position: relative;
+	display: inline-block;
+	float: left;
+	background-image: linear-gradient(-180deg, #E6D20F 0%, #E92873 100%);
+	height: 60px;
+	width: 20px;
+}
+
+#咖啡計量說明二段 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#目前數量:before {
+	content: '▲';
+	margin-right: 5px;
+}
+
+#目前數量 {
+	opacity: 0.8;
+	margin-top: 3px;
+	margin-left:-730px;
+	width: auto;
+	font-size: 12px;
+	position: absolute;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	left: 50%;
+	right: 50%;
+	transition: opacity 0.2s ease;
+}
+
+#目前數量:hover {
+	transition: opacity 0.2s ease;
+	opacity: 1;
+}
+
+/* 區塊 */
+.一個區塊 {
+	margin-bottom: 40px;
+	padding-top: 40px;
+	width: 900px;
+	margin: 0px auto;
+	display: block;
+}
+
+.標題與說明 {
+	padding-bottom: 30px;
+	display: block;
+	height: auto;
+}
+
+.區塊標題 {
+	font-size: 24px;
+}
+ 
+.區塊說明 {
+	color: #434343;
+}
+
+/* 咖啡區塊 */
+.圖片 {
+	display: inline-block;
+	float: left;
+}
+
+.一個咖啡選項區塊 {
+	overflow: hidden;  
+	margin-bottom: 10px;
+	z-index: 1;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 95px;
+	display: inline-block;
+	width: 46.4%;
+	padding: 10px;
+	background: #FFFFFF;
+	box-shadow: 0px 14px 33px 0px #D3D3D3;
+}
+
+.一個咖啡選項區塊:hover {
+	background: #FAFAFA;
+	z-index: 1000;
+}
+
+.選項標題 {
+	color: #2A2A2A;
+	padding-top: 26px;
+	font-size: 16px;
+}
+
+.選項標題 a{
+	color: #2A2A2A;
+	padding-top: 26px;
+	font-size: 16px;
+}
+
+.選項說明 {
+	color: #4D4D4D;
+	font-size: 14px;
+}
+
+.選項說明 a{
+	color: #4D4D4D;
+	font-size: 14px;
+}
+
+.一則問答 {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;  
+	z-index: 1;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: auto;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.一則問答:last-child {
+	overflow: hidden;  
+	z-index: 1;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.問題 {
+	font-size: 14px;
+}
+
+.答案 {
+	font-size: 14px;
+}
+
+.一則問答 a {
+	color: #2765E2;
+	text-decoration: underline;
+}
+
+#結尾 {
+	text-align: center;
+	display: block;
+	padding: 30px 0px 60px 0px;
+	margin: 0px auto;
+}
+
+#結尾 a{
+	color: #303030;
+	text-decoration: underline;
+}
+
+/* 腳者 */
+#footer {
+	width: 100%;
+	background: #ffffff;
+	height: 100px;
+}
+
+#footer-內容 {
+	margin: 0px auto;
+	width: 1000px;
+	height: 100px;
+}
+
+#footer-連結 {
+	float: rigt;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 44px;
+	margin-left: 30px;
+	color: #A8A8A8;
+}
+
+#footer-連結 a {
+	color: #2D3639;
+	text-decoration: none;
+}
+
+#footer-連結 a:hover {
+	color: #5D5D5D;
+	text-decoration: none;
+}
+
+#粉絲頁 {
+	float: right;
+	display: inline;
+	margin-top: 15px;
+}
+
+#粉絲頁簡介 {
+	font-size: 14px;
+	margin-top: -50px;
+	color: #000000;
+}

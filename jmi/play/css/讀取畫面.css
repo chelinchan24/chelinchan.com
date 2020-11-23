@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#讀取畫面 {
+	display:block;
+	z-index: 100000;
+    height: 100%;
+	width: 100%;
+	background: #ffffff;
+	position: fixed;
+}
+
+
+#讀取圖片 {
+	width:30px;
+	top: 40%;
+	left: 50%;
+	position:absolute;
+	margin: 0px auto;	
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

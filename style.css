@@ -1,0 +1,1781 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&family=Noto+Serif+TC:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('./fonts/ccl.css');
+@import url("sg.css");
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', 'Noto Sans TC', 'ccl', sans-serif;
+    min-height: calc(var(--vh, 1vh) * 100);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 260px;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+/* 文字 */
+:root {
+    --文字_主色: #000;
+    --文字_輔色: #858585;
+}
+
+h1, h2, .二次標題 {
+    font-family: 'Noto Serif TC', 'Noto Serif JP', serif !important;
+    margin: 0;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 62px;
+    color: var(--文字_主色);
+    font-weight: 700;
+    max-width: 850px;
+}
+
+.一副標題 {
+    font-size: 20px;
+    color: var(--文字_輔色);
+    max-width: 618px;
+    margin-top: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--文字_主色);
+    max-width: 751px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.二次標題 {
+    font-size: 32px;
+    color: var(--文字_輔色);
+    max-width: 751px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.二副標題 {
+    font-size: 20px;
+    color: var(--文字_輔色);
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+h3 {
+    font-size: 18px;
+    color: var(--文字_主色);
+    font-weight: 600;
+    margin: 0;
+}
+
+.三次標題 {
+    font-size: 18px;
+    color: var(--文字_輔色);
+    font-weight: 400;
+}
+
+.句子 {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.內文 {
+    color: var(--文字_主色);
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.內文 a {
+    border-bottom: 2px solid var(--文字_主色);
+}
+
+.內文說明 {
+    font-size: 16px;
+    color: var(--文字_輔色);
+    font-weight: 400;
+}
+
+.內文說明 a {
+    border-bottom: 1px solid var(--文字_輔色);
+}
+
+.內文 a:hover, .內文說明 a:hover {
+    opacity: 0.6;
+}
+
+/* 區塊 */
+.區塊 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+    flex-direction: column;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+
+.區塊:last-child {
+    margin-bottom: 0;
+}
+
+.區塊-內容 {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1248px;
+    margin: 0px 40px;
+    /*margin-bottom: 120px;*/
+}
+
+.區塊-內容:last-child {
+    margin-bottom: 0;
+}
+
+.區塊-內容_全寬 {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.區塊-內容_窄 {
+    width: 100%;
+    max-width: 960px;
+    padding: 0px 80px;
+}
+
+.區塊-內容_寬 {
+    padding: 0px 0px;
+}
+
+.區塊-內容_標準 {
+    padding: 0px 80px;
+}
+
+.區塊-內容_灰底 {
+    background: #F7F7F7;
+    border-radius: 24px;
+    padding: 80px 80px;
+    /*     margin: 0px 20px; */
+}
+
+.區塊-內容_標準.區塊-內容_灰底 {
+    max-width: calc(1248px - 160px);
+}
+
+.區塊-次標題 {
+    width: auto;
+    display: inline-block;
+}
+
+.區塊-按鈕區塊 {
+    width: auto;
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.區塊-兩欄 {
+    display: flex;
+    width: 100%;
+}
+
+.區塊-兩欄_不對稱 .區塊-兩欄-左, .區塊-兩欄_不對稱 .區塊-兩欄-右 {
+    width: auto !important;
+}
+
+.區塊-兩欄-左, .區塊-兩欄-右 {
+    display: inline-flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+
+.區塊-兩欄-左 {
+    margin-right: 40px;
+}
+
+
+/* 元件 */
+.按鈕 {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 56px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.按鈕:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -12px;
+    left: -16px;
+    background: #00000010;
+    z-index: -1;
+    padding: 12px 16px;
+    border-radius: 100px;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.按鈕:hover::before{
+    opacity: 1;
+    transition: 0.1s ease;
+}
+
+.按鈕:last-child {
+    margin-right: 0;
+}
+
+.按鈕 span {
+    line-height: 18px;
+}
+
+.按鈕-英 {
+    font-weight: 600;
+}
+
+.按鈕:after {
+    content:'';
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-left: 16px;
+    border-radius: 100%;
+    box-shadow: 0 13px 38px -6px rgba(0,0,0,0.28);
+}
+
+.按鈕_黑 {
+    font-weight: bold;
+    color: var(--文字_主色);
+}
+
+.按鈕_前往:after {
+    background:url('src/ic_btn_goto.svg');
+}
+
+.按鈕_跳出:after {
+    background:url('src/ic_btn_newtab.svg');
+}
+
+.底色按鈕 {
+    height: 56px;
+    padding: 12px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 56px;
+    transition: 0.15s ease;
+}
+
+.底色按鈕-內文 {
+    /*line-height: 16px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.底色按鈕-內文:after {
+    content:'';
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-left: 16px;
+    border-radius: 100%;
+}
+
+.底色按鈕_黑 {
+    background: #000000;
+    color: #ffffff;
+}
+
+.底色按鈕_黑:hover {
+    background: #2f2f2f;
+    transition: 0.15s ease;
+}
+
+.底色按鈕_前往 .底色按鈕-內文:after{
+    background: url('src/ic_btn_bg_goto.svg') !important;
+}
+
+.容器_灰底 {
+    background: #F7F7F7;
+    border-radius: 8px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 排版 */
+.頁首_緊湊 {
+    margin-top: 180px;
+    margin-bottom: 48px;
+}
+
+.頁首_標準 {
+    margin-top: 180px;
+    margin-bottom: 160px;
+}
+
+.頁首_高 {
+    margin-top: 180px;
+    margin-bottom: 260px;
+}
+
+/* 資源 */
+.主圖標 {
+    background: url('src/img_mainLogo.png');
+    background-size: cover;
+}
+
+.柴犬_白底 {
+    background: url('src/img_doge_white.jpg');
+    background-size: cover;
+}
+
+.柴犬_灰底 {
+    background: url('src/img_doge_gray.jpg');
+    background-size: cover;
+}
+
+/* 動畫 */
+@keyframes 動畫-捲動進入 {
+    0% {
+        visibility: hidden;
+        transform: translate3d(0, 50px, 0);
+    }
+    100% {
+        visibility: visible;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.動畫-捲動進入 {
+    opacity: 0;
+    /*visibility: hidden;*/
+    transition: opacity 0.5s ease-in-out;
+}
+
+.動畫-捲動進入_執行 {
+    opacity: 1;
+    /*visibility: visible;*/
+    animation: 動畫-捲動進入 0.5s ease-out;
+}
+
+@keyframes 動畫-淡入 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.動畫-淡入 {
+    opacity: 0;
+}
+
+.動畫-淡入_執行 {
+    opacity: 1;
+    animation: 動畫-淡入 0.75s linear;
+}
+
+@keyframes 動畫-選單-淡入 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.動畫-選單-淡入 {
+    opacity: 0;
+}
+
+.動畫-選單-淡入_執行 {
+    opacity: 1;
+    animation: 動畫-選單-淡入 0.25s ease;
+}
+
+@keyframes 動畫-選單-淡出 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.動畫-選單-淡出 {
+    opacity: 1;
+}
+
+.動畫-選單-淡出_執行 {
+    opacity: 0;
+    animation: 動畫-選單-淡出 0.25s ease;
+}
+
+@keyframes 動畫-選單_選項-進入 {
+    from {
+        transform: translate3d(0, 50px, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0px, 0);
+        opacity: 1;
+    }
+}
+
+.動畫-選單_選項-進入 {
+    opacity: 0;
+}
+
+.動畫-選單_選項-進入_執行 {
+    opacity: 1;
+    animation: 動畫-選單_選項-進入 1s ease forwards;
+}
+
+/* 多性別選項 */
+.多性別選項-上-標題 {
+    font-family: 'Noto Serif TC', Serif;
+}
+
+/* 導覽列 */
+#導覽列 {
+    height: 88px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+}
+
+#導覽列-桌面 {
+    max-width: 1248px;
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 16px;
+}
+
+#導覽列-行動 {
+    display: none;
+}
+
+#導覽列-桌面-左, 導覽列-桌面-右{
+}
+
+#導覽列-桌面-左-圖標 {
+    width: 12px;
+    height: 26px;
+    display: block;
+    position: relative;
+    transition: 0.1s ease;
+}
+
+#導覽列-桌面-左-圖標:before {
+    content:'';
+    position: absolute;
+    display: block;
+    z-index: -1;
+    height: 50px;
+    width: calc(100% + 24px);
+    top: -12px;
+    left: -12px;
+    border-radius: 8px;
+    transition: 0.1s ease;
+}
+
+.導覽列-桌面-選項 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--文字_主色);
+    margin-right: 64px;
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    padding: 0;
+    height: 16px;
+    line-height: 16px;
+    transition: 0.1s ease;
+}
+
+.導覽列-桌面-選項:before {
+    content:'';
+    position: absolute;
+    display: block;
+    z-index: -1;
+    height: 38px;
+    width: calc(100% + 24px);
+    top: -12px;
+    left: -12px;
+    border-radius: 8px;
+    transition: 0.1s ease;
+}
+
+.導覽列-桌面-選項:last-child {
+    margin-right: 0;
+}
+
+#導覽列-桌面-左-圖標:hover:before, .導覽列-桌面-選項:hover:before {
+    background: #F2F2F2;
+}
+
+/* 讀取 */
+#讀取 {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    background: #F4F4F4;
+    justify-content: center;
+    align-items: center;
+    z-index: 30000000;
+    transition: 0.5s ease;
+    touch-action: none;
+    top: 0;
+    left: 0;
+}
+
+#讀取:after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url("src/ic_loading.gif");
+    background-size: cover;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.讀取_離開 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* 頁腳 */
+#頁腳 {
+    background: #0F0F0F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+#頁腳-內容 {
+    max-width: 1088px;
+    width: 100%;
+    padding: 0px 104px;
+}
+
+#頁腳-內容-右 {
+    flex: 1;
+}
+
+#頁腳-內容-左 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#頁腳-內容-左-上 {
+    margin-bottom: 72px;
+}
+
+.頁腳-內容-左-上-選項 {
+    color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+    transition: 0.2s ease;
+}
+
+.頁腳-內容-左-上-選項:last-child {
+    margin-right: 0;
+}
+
+.頁腳-內容-左-上-選項:hover {
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+#頁腳-內容-左-下 {
+    display: flex;
+    align-items: center;
+}
+
+#頁腳-內容-左-下-左 {
+    color: #ABABAB;
+    font-size: 12px;
+    margin-right: 64px;
+}
+
+.頁腳-內容-左-下-選項 {
+    width: 24px;
+    height: 24px;
+    background-size: cover !important;
+    display: inline-block;
+    margin-right: 12px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.頁腳-內容-左-下-選項:last-child {
+    margin-right: 0;
+}
+
+.頁腳-內容-左-下-選項:hover {
+    opacity: 1;
+    transition: 0.1s ease;
+}
+
+#頁腳-內容-左-下-選項_Instagram {
+    background: url('src/ic_footer_instagram.png');
+}
+
+#頁腳-內容-左-下-選項_Behance {
+    background: url('src/ic_footer_behance.png');
+}
+
+#頁腳-內容-左-下-選項_Medium {
+    background: url('src/ic_footer_medium.png');
+}
+#頁腳-內容-左-下-選項_YouTube {
+    background: url('src/ic_footer_youtube.png');
+}
+
+#頁腳-內容-左-下-選項_Dribbble {
+    background: url('src/ic_footer_dribbble.png');
+}
+
+#頁腳-多性別選項, #頁腳-內容-左-下-左 a {
+    cursor: pointer;
+}
+
+#頁腳-多性別選項:hover, #頁腳-內容-左-下-左 a:hover {
+    border-bottom: 1px solid #818181;
+}
+
+/* 首頁 - 頁首 */
+#首頁-頁首-內容 {
+    padding-top: 108px;
+    padding-bottom: 108px;
+}
+
+#首頁-頁首-照片 {
+    width: 68px;
+    height: 68px;
+    border-radius: 100%;
+    margin-bottom: 48px;
+    box-shadow: 0 24px 28px -14px rgba(0,0,0,0.21);
+}
+
+/* 首頁 - 作品 */
+#首頁-作品 {
+    margin-bottom: 220px;
+}
+
+#首頁-作品-展示 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-top: 120px;
+    padding: 0px 40px;
+}
+
+#首頁-作品-主要, #首頁-作品-最後 {
+    width: auto;
+    display: inline-flex;
+}
+
+#首頁-作品-展示-內容 {
+    max-width: 1248px;
+    width: 100%;
+    position: relative;
+}
+
+#首頁-作品-主要 {
+    align-items: center;
+    padding-right: 30px;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.首頁-作品-展示-外層 {
+    flex: 1;
+    margin-right: 42px;
+}
+
+/*#首頁-作品-展示-1 {*/
+/*    animation-delay: 0.25s;*/
+/*    transition-delay: 0.25s;*/
+/*}*/
+
+/*#首頁-作品-展示-2 {*/
+/*    animation-delay: 0.5s;*/
+/*    transition-delay: 0.25s;*/
+/*}*/
+
+/*#首頁-作品-展示-3 {*/
+/*    animation-delay: 0.75s;*/
+/*    transition-delay: 0.25s;*/
+/*}*/
+
+.首頁-作品-展示-作品 {
+    padding-bottom: 100%;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0 70px 73px -23px rgba(0,0,0,0.11);
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s ease;
+    /*cursor: pointer;*/
+    opacity: 1;
+}
+
+.首頁-作品-展示-作品:hover {
+    /*     box-shadow: 0 10px 130px -40px rgba(0,0,0,0.20), 0 80px 50px -25px rgba(0,0,0,0.20);
+        transition: 0.2s ease;
+        transform: scale(1.15);
+        z-index: 1; */
+    box-shadow: 0 70px 73px -23px rgba(0,0,0,0.11), 0 0px 0 8px #00000030, 0 70px 73px -23px rgba(0,0,0,0.11);
+}
+
+.首頁-作品-展示-作品 img, #首頁-作品-最後-作品 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#首頁-作品-主要-更多 {
+    position: absolute;
+    right: 0;
+}
+
+#首頁-作品-最後 {
+    max-width: 1480px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 0;
+    left: 0;
+}
+
+#首頁-作品-最後-作品 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: 0;
+    right: calc(-33.3% + 72px);
+    border-radius: 100%;
+    background: url("src/img_home_ptt.png");
+    background-size: cover;
+}
+
+#首頁-作品-最後-作品:after {
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.78) 0%, #FFFFFF 25%);
+}
+
+/* 首頁-評價 */
+#首頁-評價-單位 {
+    margin-top: 120px;
+}
+
+#首頁-評價-客戶 {
+    width: 192px;
+    height: 72px;
+    display: block;
+    background: url("src/img_home_client_tnl.jpg");
+    background-size: cover;
+    display: block;
+}
+
+#首頁-評價-提及 {
+    width: 502px;
+    height: 159px;
+    background: url("src/img_home_mention_desktop.jpg");
+    background-size: cover;
+    display: block;
+}
+
+#首頁-評價-單位 .內文說明 {
+    margin-top: 32px;
+}
+
+/* 首頁-聯絡 */
+#首頁-聯絡 .區塊-兩欄-左 {
+    flex: unset;
+}
+
+#首頁-聯絡 .區塊-兩欄-右 {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+}
+
+#首頁-聯絡-狀態 {
+    width: 148px;
+    height: 148px;
+    background: #FFFFFF;
+    box-shadow: 0 12px 21px -7px rgba(0,0,0,0.09);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+#首頁-聯絡-狀態-圖片 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+#首頁-聯絡-狀態-圖片-圖片 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 100%;
+}
+
+.首頁-聯絡-狀態-圖片-狀態燈 {
+    width: 12px;
+    height: 12px;
+    background: #FF4949;
+    box-shadow: 0 3px 8px -2px #FF0000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 100%;
+}
+
+#首頁-聯絡-狀態-文字 {
+    display: block;
+}
+
+#首頁-聯絡-狀態-標題 {
+    font-size: 12px;
+    color: var(--文字_輔色);
+    font-weight: 500;
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 6px;
+}
+
+#首頁-聯絡-狀態-說明 {
+    font-size: 16px;
+    color: var(--文字_主色);
+    font-weight: 600;
+    height: 16px;
+    line-height: 16px;
+}
+
+/* 關於-內文 */
+.關於-內文-段落 {
+    margin-bottom: 80px;
+}
+
+.關於-內文-段落.內文 {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.關於-內文-段落:last-child {
+    margin-bottom: 0;
+}
+
+.關於-評價 {
+    max-width: 660px;
+}
+
+.關於-評價-內文 {
+    font-family: 'Noto Serif TC', serif !important;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.關於-評價-內文 p:before {
+    content:'「';
+    display: inline-block;
+    margin-left: -16px;
+}
+
+.關於-評價-內文 p:after {
+    content:'」';
+    display: inline-block;
+    margin-right: -16px;
+}
+
+.關於-評價-資訊 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.關於-評價-資訊-左 {
+    width: 46px;
+    height: 46px;
+    display: block;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.關於-評價-資訊-左-圖片 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.關於-評價-資訊-右 {
+
+}
+
+.關於-評價-資訊-右-名稱 {
+    font-size: 14px;
+    font-weight: 500;
+    height: 14px;
+    line-height: 14px;
+    color: var(--文字_主色);
+    /*     margin-bottom: 2px; */
+}
+
+.關於-評價-資訊-右-社群 {
+    font-size: 14px;
+    font-weight: 500;
+    height: 14px;
+    line-height: 14px;
+    color: var(--文字_輔色);
+    cursor: pointer;
+}
+
+.關於-評價-資訊-右-社群:hover {
+    text-decoration: underline;
+    border-bottom: 1px soild var(--文字_輔色);
+}
+
+.關於-客戶與提及-客戶 {
+    margin-bottom: 48px;
+}
+
+.關於-客戶與提及-分類-清單 {
+    display: inline-flex;
+    width: 100%;
+    min-width: auto;
+    max-width: 748px;
+    margin-bottom: 24px;
+}
+
+.關於-客戶與提及-分類-說明 {
+    max-width: 546px;
+}
+
+#關於-客戶與提及-客戶-清單-清單 {
+    background: url('src/img_about_client.png');
+    width: 192px;
+    height: 72px;
+    background-size: cover;
+}
+
+#關於-客戶與提及-提及-清單-清單 {
+    background: url('src/img_about_mention_desktop.png');
+    display: block;
+    background: url('src/img_about_mention_desktop.png');
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 15.27%;
+    height: 0;
+}
+
+/* 聯絡 */
+#聯絡-資訊 {
+    margin-bottom: 260px;
+}
+
+#聯絡-資訊-項目 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.聯絡-資訊-聯絡方式 {
+    margin-right: 56px;
+}
+
+/* 作品 - 作品展示 */
+#作品-內容-展示 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.作品-內容-展示-作品 {
+    flex: 0 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: transform 0.15s ease, opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.作品-內容-展示-作品:hover {
+    transform: scale(1.01);
+    transition: transform 0.15s ease, opacity 0.5s ease-in-out;
+}
+
+.作品-內容-展示-作品:before {
+    content: '';
+    top: -16px;
+    left: -16px;
+    position: absolute;
+    display: block;
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+    background: #ffffff;
+    box-shadow: 0 8px 39px -9px rgba(0,0,0,0.27);
+    border-radius: 16px;
+    padding-bottom: 12px;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.15s ease;
+}
+
+.作品-內容-展示-作品:hover:before {
+    opacity: 1;
+    transition: 0.15s ease;
+}
+
+.作品-內容-展示-作品-圖片 {
+    width: 100%;
+    display: block;
+    padding-bottom: 78.76%;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.作品-內容-展示-作品-標題與說明-標題 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+#作品-其他 h2 {
+    margin-bottom: 40px;
+}
+
+#作品-其他 a {
+    border-bottom: 2px solid transparent;
+}
+
+#作品-其他 a:hover {
+    border-bottom: 2px solid var(--文字_主色);
+}
+
+#作品-其他-其他作品-展示 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 32px;
+    width: 100%;
+}
+
+.作品-其他-其他作品-展示-作品 {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+}
+
+.作品-其他-其他作品-展示-作品 a {
+    text-overflow: ellipsis;
+    /*! white-space: nowrap; */
+    overflow: hidden;
+    display: block;
+}
+
+.作品-其他-其他作品-展示-作品:after {
+    content:'⮕';
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    display: block;
+    margin-bottom: -8px;
+    margin-left: 16px;
+}
+
+#作品-其他-其他作品集-連結 a {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+#作品-其他-其他作品集-連結 a::after {
+    content:'⬈';
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    display: block;
+    margin-bottom: -8px;
+    margin-left: 16px;
+    visibility: hidden;
+}
+
+#作品-其他-其他作品集-連結 a:hover:after {
+    visibility: visible;
+}
+
+/* 提及 */
+.提及-清單 {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px 40px;
+}
+
+.提及-清單-提及 {
+    display: flex;
+    flex-direction: column;
+}
+
+.提及-清單-提及-標誌 {
+    margin-bottom: 24px;
+}
+
+.提及-清單-提及-標誌 img {
+    max-height: 28px;
+}
+
+.提及-清單-提及-說明 {
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.提及-清單-提及-連結 {
+    margin-top: 16px;
+}
+
+.提及-清單-提及-連結-連結 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    border-bottom: none !important;
+}
+
+.提及-清單-提及-連結-連結:last-child {
+    margin-bottom: 0px;
+}
+
+.提及-清單-提及-連結-連結:after {
+    content:'⭢';
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    display: block;
+    margin-bottom: -5px;
+    margin-left: 8px;
+}
+
+/* 桌面版專屬 */
+@media screen and (min-width: 1024px) {
+    #作品-內容 {
+        padding: 0px 48px;
+    }
+}
+
+/* 平板電腦 */
+@media screen and (max-width: 1024px) {
+    /* 區塊 */
+    .區塊 {
+        box-sizing: border-box;
+    }
+
+    .區塊-內容_標準, .區塊-內容_寬, .區塊-內容_窄 {
+        padding: 0px 24px;
+    }
+
+    .區塊-內容_灰底 {
+        padding: 40px 40px;
+        /*     margin: 0px 20px; */
+    }
+
+    /* 導覽列 */
+    #導覽列 {
+        height: 72px;
+    }
+
+    #導覽列-桌面 {
+        display: none;
+    }
+
+    #導覽列-行動 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0px 24px;
+        box-sizing: border-box;
+    }
+
+    .導覽列-行動-內容_隱藏 {
+        display: none !important;
+    }
+
+    .導覽列-行動-內容_顯示 {
+        display: flex !important;
+    }
+
+    #導覽列-行動-左 {
+
+    }
+
+    .導覽列-行動-左-圖標 {
+        width: 12px;
+        height: 26px;
+        display: block;
+        position: relative;
+        transition: 0.1s ease;
+    }
+
+    .導覽列-行動-右-選單 {
+        width: 16px;
+        height: 16px;
+        display: block;
+    }
+
+    #導覽列-行動-右-選單_開啟 {
+        background: url("src/ic_mobile_nav_menu.svg");
+    }
+
+    #導覽列-行動-右-選單_關閉 {
+        background: url("src/ic_mobile_nav_close.svg");
+    }
+
+    #導覽列-行動-內容 {
+        width: 100vw;
+        height: calc(var(--vh, 1vh) * 100);
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 4000;
+        background: #F8F8F8;
+        flex-direction: column;
+        justify-content: space-between;
+        /*! padding: 24px 0px; */
+        box-sizing: border-box;
+    }
+
+    #導覽列-行動-內容-上, #導覽列-行動-內容-中, #導覽列-行動-內容-下 {
+        padding: 0px 24px;
+        box-sizing: border-box;
+    }
+
+    #導覽列-行動-內容-上 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0px 24px;
+        box-sizing: border-box;
+        height: 72px;
+    }
+
+    #導覽列-行動-內容-中 {
+        flex-direction: column;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .導覽列-行動-選項 {
+        width: 100%;
+        display: block;
+        font-size: 32px;
+        font-family: 'Noto Serif TC', Serif;
+        font-weight: 600;
+        margin-bottom: 24px;
+        transition: 0.1s ease;
+        opacity: 0;
+    }
+
+    /*     .導覽列-行動-選項:hover {
+            opacity: 0.5;
+            transition: 0.1s ease;
+        } */
+
+    .導覽列-行動-選項:last-child {
+        margin-bottom: 0;
+    }
+
+    #導覽列-行動-內容-下 {
+        color: var(--文字_輔色);
+        font-size: 16px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* 首頁 - 作品 */
+    #首頁-作品-展示 {
+        padding: 0;
+    }
+
+    .首頁-作品-展示-作品:hover {
+        box-shadow: 0 70px 73px -23px rgba(0,0,0,0.11);
+    }
+
+    /* 作品 */
+    #作品-內容-展示 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+
+    #作品-其他-其他作品-展示 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        width: 100%;
+    }
+
+    .作品-內容-展示-作品:hover {
+        transform: unset;
+    }
+
+    .作品-內容-展示-作品:hover:before {
+        opacity: 0;
+    }
+
+    /* 聯絡 */
+    .聯絡-資訊-聯絡方式 {
+        margin-bottom: 32px;
+    }
+}
+
+/* 首頁提及專用*/
+
+@media screen and (max-width: 960px) {
+    #首頁-評價-單位 {
+        margin-top: 54px;
+        flex-direction: column;
+    }
+
+    #首頁-評價-客戶區塊 {
+        margin-bottom: 56px;
+    }
+}
+
+/* 行動裝置 */
+@media screen and (max-width: 724px) {
+    body {
+        padding-bottom: 511px;
+    }
+    /* 文字 */
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .一副標題 {
+        font-size: 17px;
+    }
+
+    h2, .二次標題 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .內文說明 {
+        font-size: 14px;
+    }
+
+    /* 區塊 */
+    .區塊 {
+        margin-bottom: 80px;
+        box-sizing: border-box;
+        padding: 0px 12px;
+    }
+
+    .區塊-內容_灰底 {
+        padding: 40px 24px;
+    }
+
+    .區塊-兩欄 {
+        flex-direction: column;
+    }
+
+    .區塊-兩欄-左 {
+        margin-right: 0px;
+        /*! margin-bottom: 56px; */
+    }
+
+    .區塊-兩欄-左, .區塊-兩欄-右 {
+        width: 100% !important;
+    }
+
+    .區塊-按鈕區塊 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .區塊-按鈕區塊 .按鈕 {
+        margin-bottom: 16px;
+    }
+
+    .區塊-按鈕區塊 .按鈕:last-child {
+        margin-bottom: 0px;
+    }
+
+    /* 按鈕 */
+    .按鈕:after {
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+    }
+
+    .按鈕:hover {
+        opacity: 0.5;
+    }
+
+    .按鈕:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -10px;
+        left: -16px;
+        background: transparent;
+        z-index: -1;
+        padding: 8px 16px;
+        border-radius: 100px;
+        opacity: 0;
+        transition: 0.1s ease;
+    }
+
+    .按鈕:hover::before{
+        opacity: 1;
+        transition: 0.1s ease;
+    }
+
+    /* 元件 */
+    .容器_灰底 {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 24px;
+    }
+
+    .區塊-內容_灰底 {
+        border-radius: 16px;
+    }
+
+    /* 排版 */
+    .頁首_標準 {
+        margin-top: 120px;
+    }
+
+    /* 頁腳 */
+    #頁腳 {
+        padding: 48px 0px 36px;
+    }
+
+    #頁腳-內容 {
+        padding: 0px 36px;
+    }
+
+    #頁腳-內容-左-上 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .頁腳-內容-左-上-選項 {
+        display: block;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #頁腳-內容-左-下 {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    #頁腳-內容-左-下-右 {
+        margin-bottom: 24px;
+        margin-left: -2px;
+    }
+
+    #頁腳-內容-左-下-左 {
+        margin: 0;
+    }
+
+
+    /* 首頁 - 頁首 */
+    #首頁-頁首-內容 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    /* 首頁 - 作品 */
+    #首頁-作品 {
+        margin-bottom: 160px
+    }
+
+    #首頁-作品-展示 {
+        margin-top: 64px;
+    }
+
+    #首頁-作品-主要 {
+        align-items: unset;
+        padding: 0;
+        margin-bottom: -40px; /* 彌補 last-child */
+    }
+
+    #首頁-作品-主要, #首頁-作品-展示 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #首頁-作品-展示 {
+        padding: 0px 12px;
+    }
+
+    .首頁-作品-展示-外層 {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    /*     .首頁-作品-展示-外層:last-child {
+            margin-bottom: 0px;
+        } */
+
+    .首頁-作品-展示-作品 {
+        width: 100%;
+    }
+
+    #首頁-作品-主要-更多 {
+        left: 0;
+        bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #首頁-作品-主要-更多-按鈕 {
+        width: auto;
+        display: inline-block;
+    }
+
+    /* 首頁-評價 */
+    #首頁-評價 {
+        margin-bottom: 120px;
+    }
+    #首頁-評價-單位 {
+        margin-top: 64px;
+        flex-direction: column;
+    }
+
+    #首頁-評價-客戶 {
+        width: 154px;
+        height: 58px;
+    }
+
+    #首頁-評價-提及 {
+        background-image: url('src/img_home_mention_mobile.jpg');
+        width: 242px;
+        height: 193px;
+        display: block;
+    }
+
+    /* 首頁 - 接觸 */
+    #首頁-聯絡-右 {
+        align-items: unset !important;
+        margin-bottom: 40px;
+    }
+
+    #首頁-聯絡-左 {
+        order: 1;
+        margin-bottom: 0;
+    }
+
+    /* 關於 - 內文 */
+    .關於-內文-段落.內文 {
+        font-size: 16px;
+    }
+
+    .關於-評價-內文 {
+        margin-bottom: 24px;
+    }
+
+    .關於-評價-資訊-左 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .關於-客戶與提及-分類-清單 {
+        display: inline-block;
+        width: 100%;
+        max-width: 288px;
+    }
+
+    #關於-客戶與提及-提及-清單-清單 {
+        width: 100%;
+        display: block;
+        background: url('src/img_about_mention_mobile.png');
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 79%;
+        height: 0;
+    }
+
+    .關於-客戶與提及-分類-說明 {
+        max-width: 300px;
+    }
+
+    /* 作品 - 作品展示 */
+
+    #作品-內容 {
+        margin-bottom: 120px;
+    }
+
+    #作品-內容-展示 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 64px;
+        padding:0px 12px;
+    }
+
+    #作品-其他-其他作品-展示 {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 32px;
+    }
+
+    .作品-內容-展示-作品-標題與說明-標題, .作品-其他-其他作品-展示-作品  {
+        font-size: 18px;
+    }
+
+    .作品-內容-展示-作品-圖片 {
+        margin-bottom: 16px;
+    }
+
+    .作品-其他-其他作品-展示-作品 a {
+        width: 100%;
+    }
+
+    #作品-其他 a:hover {
+        border-bottom: 2px solid transparent;
+        opacity: 0.5;
+    }
+
+    #作品-其他-其他作品集-連結 a{
+        margin-bottom: 8px;
+        font-size: 18px;
+        display: block;
+    }
+
+    #作品-其他-其他作品集-連結 a:after {
+        display: none;
+    }
+
+    #作品-其他-其他作品集-連結 a:hover::after {
+        display: none;
+    }
+
+    /* 聯絡 */
+
+    #聯絡-資訊 {
+        margin-bottom: 160px
+    }
+
+    .聯絡-資訊-聯絡方式:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    /* 提及 */
+    .提及-清單 {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 80px 40px;
+    }
+
+    .提及-清單-提及-標誌 img {
+        max-height: 24px;
+    }
+
+    .提及-清單-提及-標誌 {
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,401 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#地圖容器 {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+#地圖 {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0px auto;
+	
+}
+
+   /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	 
+#資訊區塊容器 {
+	z-index: 3000;
+	background: #ffffff;
+	position: fixed;
+	display: block;
+	height: auto;
+	width: 340px;
+	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
+	border-radius: 5px;
+	right: 20px;
+	top: 20px;
+	/* background-image: linear-gradient(-90deg, #63BD73 0%, #BDD390 100%); */
+
+}
+
+#logo {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	background: url('./images/logo.png');
+	width: 200px;
+	height: 40px;
+	background-size: 100%;
+	margin: 0px auto;
+	margin-top: 25px;
+	margin-bottom: 17px;
+}
+
+.按鈕 {
+	cursor: pointer;
+	display: inline-block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	width: 50%;
+	border-top: 1px solid rgba(255,255,255,0.50);
+	box-sizing:border-box;
+	color: #ffffff;
+	background: rgba(0,0,0,0.10);
+	transition: background 0.2s ease;
+	font-weight: 600;
+}
+
+.按鈕:last-child {
+	display: inline-block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	width: 50%;
+	border-left: 1px solid rgba(255,255,255,0.50);
+	box-sizing:border-box;
+}
+
+.按鈕:hover {
+	transition: background 0.2s ease;
+	background: rgba(0,0,0,0.20);
+}
+
+#版權宣告 {
+	right: 0;
+	left: 0;
+	margin: 0px auto;
+	position: fixed;
+	z-index: 300000;
+	display: block;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	width: 270px;
+	height: 20px;
+	bottom: 10px;
+	background: #ffffff;
+}
+
+#免責聲明 {
+	opacity: 0;
+	visibility: hidden;
+}
+
+#關於 {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.浮動區塊 {
+	z-index: 300000;
+	position: fixed;
+	display: block;
+	width: 340px;
+	height: auto;
+	background: #ffffff;
+	right: 20px;
+	top: 160px;
+	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.浮動區塊 h1 {
+	font-size: 16px;
+}
+
+.浮動區塊 p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+.浮動區塊 a {
+	color: #1A74AB;
+	text-decoration: none;
+}
+
+.浮動區塊 a:hover {
+	text-decoration: underline;
+}
+
+.關閉按鈕 {
+	font-size: 12px;
+	float: right;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	background: #DFDFDF;
+	border-radius: 3px;
+	color: #323232;
+	transition: background 0.2s ease;
+	cursor: pointer;
+}
+
+.關閉按鈕:hover {
+	background: #D8D8D8;
+	color: #323232;
+	transition: background 0.2s ease;
+}
+
+#圖例 {
+	z-index: 30000;
+	position: fixed;
+	display: block;
+	height: 150px;
+	width: 200px;
+	background: url('./images/圖例.png');
+	background-size: 100%;
+	left: 60px;
+	bottom: 60px;
+	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+}
+
+#資訊區塊容器-行動版 {
+	display: none;
+}
+
+.廣告區塊 {
+	height: auto !important;
+	padding: 2px 2px 0px 2px !important;
+}
+
+#廣告關閉 {
+	display: none;
+}
+
+#行動版宣傳 {
+	z-index: 1;
+	top: 465px !important;
+	background:url('./images/mobile-download.png');
+	height: 141px !important;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 900px) {
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#資訊區塊容器 {
+	display: none;
+}
+
+#資訊區塊容器-行動版 {
+	z-index: 3000;
+	background: #ffffff;
+	position: fixed;
+	display: block;
+	height: 50px;
+	width: 100%;
+	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
+	top: 0px;
+}
+
+#logo-行動版 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	background: url('./images/logo.png');
+	width: 170px;
+	height: 33px;
+	background-size: 100%;
+	margin: 0px auto;
+	margin-top: 9px;
+	margin-bottom: 17px;
+}
+
+#map {
+    margin-top: 50px;
+	display: block;
+	width: 100%;
+	height: auto;
+	top: 0;
+	position: absolute;
+	bottom: 0;
+	/* margin-bottom: 50px; */
+}
+
+#開啟導覽列按鈕 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background:url('./images/icons/mobile-nav-menu.png');
+	background-size: 100%;
+	margin-top: 13px;
+	margin-left: 15px;
+}
+
+#導覽列內容 {
+	margin-top: -9px;
+	visibility: hidden;
+	opacity: 0;
+	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.按鈕-行動版 {
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	border-top: 1px solid rgba(255,255,255,0.50);
+	font-size: 14px;
+	color: #ffffff;
+	background: rgba(0,0,0,0.10);
+}
+
+.按鈕-行動版:last-child {
+	border-top: 1px solid rgba(255,255,255,0.50);
+	border-bottom: 1px solid rgba(255,255,255,0.50);
+}
+
+.按鈕-行動版:active {
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	border-top: 1px solid rgba(255,255,255,0.50);
+	font-size: 14px;
+	color: #ffffff;
+	background: rgba(0,0,0,0.20);
+}
+
+.浮動區塊 {
+	z-index: 300000;
+	position: absolute;
+	display: block;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.50);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	width: 90vw;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+#圖例 {
+	z-index: 30000;
+	position: fixed;
+	/* display: block;  */
+	display: none;
+	height: 150px;
+	width: 200px;
+	background: url('./images/圖例.png');
+	background-size: 100%;
+	left: 20px;
+	bottom: 50px;
+	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+}
+
+#版權宣告 {
+	z-index: 2000;
+	bottom: 0px;
+}
+
+#廣告關閉:before {
+	content:"";
+	z-index: 1000000;
+	font-size: 10px;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: url('./images/icons/ic_close_white_48dp_2x.png');
+	background-size: 100%;
+	display: block;
+	opacity: 1;
+}
+
+#廣告關閉 {
+	z-index: 100000;
+	position: fixed;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.50);
+}
+
+#廣告 {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 340px;
+	height: 284px !important;
+	padding: 2px 2px 0px 2px !important;
+	display: block;
+	position: absolute;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+
+#行動版宣傳 {
+	z-index: 1;
+	width: 300px;
+	top: auto !important;
+	bottom: 0px !important;
+	background:url('./images/mobile-download-mobile.png');
+	height: 60px !important;
+	background-size: 100%;
+	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.30);
+}
+
+/* #浮動區塊背景 {
+	z-index: 3000;
+	position: fixed;
+	display: none;
+	visibility: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.50);
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+} */
+}

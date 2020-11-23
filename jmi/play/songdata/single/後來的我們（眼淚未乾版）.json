@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.scdn.co/image/6cb7f4ce6667e1d1a0192b9f9a53dc71341fbf67",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "後來的我們（眼淚未乾版）",
+  "CoverSourceFrom" : "Spotify",
+  "InfoReference" : "Just Mayday It",
+  "song" :
+  [
+    {
+      "SongTitle" : "後來的我們（眼淚未乾版）",
+      "songsource" : "JhcnK1gl9zI",
+      "time" : "3:43",
+      "AlbumTitle" : "後來的我們 (眼淚未乾版）",
+      "lyrics" : "./songdata/lyrics/後來的我們（眼淚未乾版）（單曲）-後來的我們（眼淚未乾版）.json"
+    }
+  ]
+}

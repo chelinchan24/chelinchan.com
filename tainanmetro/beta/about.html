@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+<title>mobile-map</title>
+</head>
+
+<style>
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html, body {
+	font-family: 'Noto Sans TC', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+
+a {
+	color: #2478D3;
+	text-decoration: none;
+}
+
+#關於頁面 {
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.段落 {
+	display: block;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.段落:last-child {
+	display: block;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.標題 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.內文 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#版權宣告 {
+	font-size: 12px;
+	text-align: center;
+	color: #AAAAAA;
+	margin-bottom: 20px;
+}
+
+.製作人員-一名人員 {
+	display: block;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.製作人員-一名人員:last-child {
+	border-bottom: 0px solid #CACACA;
+}
+
+.製作人員-一名人員-工作項目 {
+	display: block;
+	font-size: 14px;
+	color: #686868;
+	margin-bottom: 10px;
+}
+
+.製作人員-一名人員-姓名 {
+	display: block;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.製作人員-一名人員-連結 {
+	font-size: 12px;
+	background: #ECECEC;
+	border-radius: 3px;
+	padding: 3px 10px;
+}
+
+.製作人員-一名人員-連結 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.製作人員-一名人員-照片 {
+	height: 45px;
+	width: 45px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+
+.關於頁面-連結 {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2478D3;
+	display: block;
+	vertical-align: middle;
+	line-height: 14px;
+	margin-bottom: 4px;
+}
+
+.關於頁面-連結 a{
+	color: #2478D3;
+	text-decoration: none;
+}
+
+
+.關於頁面-連結:after {
+	content:"〉";
+	height: 14px;
+	width: 14px;
+	font-size: 10px;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+</style>
+<body>
+<article id="關於頁面">
+	<section id="關於" class="段落">
+		<h1 class="標題">關於</h1>
+		<p class="內文">
+		「台南捷運路網圖」是由「Che-Lin Chan 詹喆麟」推出的應用程式，所使用之路網圖資版權為「Che-Lin Chan 詹喆麟」所有。 
+		<br><br>
+		「台南捷運路網圖」將會在更多有關台南捷運的資訊釋出後進行更新。您可以在「台南捷運路網圖」的網站中找到未來可能推出的功能的相關資訊。
+		<br><br>
+		您可以造訪 CheLinChan.com 瞭解更多有關詹喆麟的資訊。</p>
+		<span class="關於頁面-連結"><a href="http://chelinchan.com/tainanmetro/mobile/">造訪「台南捷運路網圖」網站</a></span>
+		<span class="關於頁面-連結"><a href="http://chelinchan.com">造訪「Che-Lin Chan 詹喆麟」網站</a></span>
+	</section>
+	<section id="免責聲明" class="段落">
+		<h1 class="標題">免責聲明</h1>
+		<p class="內文">
+		「台南捷運路網圖」是根據<a href="https://udn.com/news/story/9/2287903">台南市政府所規畫之先進運輸系統優先路網</a>作為依據繪製。
+		<br><br>
+		路網圖以 2017年7月26日 之現況作為繪製基準<!--，在台南捷運正式啟用前，路線內容可能會變動。本應用程式僅供參考，不能保證內容的準確性。-->
+		在台南捷運正式啟用前，路線內容可能會變動。本應用程式僅供參考，不能保證「目前所展示之內容」將與「捷運開通時」相同。<br>
+<br>
+應用程式未來會在捷運處將路網圖更新時，以最快的速度修改路網圖內容，將最新的資料加入應用程式中。
+		</p>
+	</section>
+	<section id="製作人員" class="段落">
+		<h1 class="標題">製作人員</h1>
+		<p class="內文">
+			<div class="製作人員-一名人員">
+				<span class="製作人員-一名人員-工作項目">UI / UX、網頁、應用程式內容</span>
+				<span class="製作人員-一名人員-照片" style="background: url('http://chelinchan.com/images/doge-profile-picture.png'); background-size: 100%;"></span>
+				<span class="製作人員-一名人員-姓名">詹喆麟</span>
+				<span class="製作人員-一名人員-連結"><a href="http://instagram.com/chelinchan24">Instagram</a></span>
+				<span class="製作人員-一名人員-連結"><a href="http://chelinchan.com">個人網站</a></span>
+			</div>
+			<div class="製作人員-一名人員">
+				<span class="製作人員-一名人員-工作項目">Android 應用程式</span>
+				<span class="製作人員-一名人員-照片" style="background: url('http://justmaydayit.com/image/mryang.jpg'); background-size: 100%;"></span>
+				<span class="製作人員-一名人員-姓名">楊奇永</span>
+				<span class="製作人員-一名人員-連結"><a href="http://instagram.com/yangchiyung">Instagram</a></span>
+			</div>
+		</p>
+	</section>
+	<section id="版權宣告">
+		<p>2017 © Che-Lin Chan 保留所有權利</p>
+	</section>
+</article>
+</body>
+</html>

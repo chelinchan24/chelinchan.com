@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+        <filter x="-170.3%" y="-129.7%" width="440.6%" height="440.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="13" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.284664554 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3,9.61712157 C3.01381193,9.38272767 3.10978732,9.15227436 3.28790267,8.97255356 L3.28790267,8.97255356 L8.91651514,3.2932072 L8.91651514,3.2932072 C9.31356706,2.90042222 9.94249437,2.90387555 10.328275,3.29391608 L10.328275,3.29391608 L10.3377663,3.30351217 C10.7232916,3.6932946 10.7229765,4.3208506 10.3370599,4.71024568 L10.3370599,4.71024568 L6.411,8.671 L16.0099876,8.67124369 C16.5621125,8.67124369 17.0096982,9.11882935 17.0096982,9.67095425 L17.0096982,9.68802721 C17.0096982,10.2401521 16.5621125,10.6877378 16.0099876,10.6877378 L6.41,10.687 L10.3370599,14.6498124 C10.7229765,15.0392075 10.7232916,15.6667635 10.3377663,16.0565459 L10.328275,16.066142 C9.94249437,16.4561825 9.31356706,16.4596359 8.92352654,16.0738552 L8.91651514,16.0668509 L3.28790267,10.3875045 C3.10978732,10.2077837 3.01381193,9.9773304 3,9.74293651 Z" id="path-3"></path>
+        <filter x="-431.8%" y="-355.5%" width="863.7%" height="905.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="13" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.284664554 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn_2/black" transform="translate(-53.000000, 0.000000)">
+            <g id="Group" transform="translate(53.000000, 0.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.112762238" stroke="#000000" stroke-width="1" stroke-linejoin="square" fill="#000000" fill-rule="evenodd" cx="16" cy="16" r="15.5"></circle>
+                </g>
+                <g transform="translate(9.000000, 9.000000)" id="icon/btn/leftArrow">
+                    <g id="Combined-Shape-2" transform="translate(-3.000000, -2.500000)">
+                        <g id="Combined-Shape" transform="translate(10.004849, 9.680473) scale(-1, 1) rotate(45.000000) translate(-10.004849, -9.680473) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

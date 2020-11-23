@@ -1,0 +1,27 @@
+{
+  "AlbumCoverSource" : "http://is3.mzstatic.com/image/thumb/Music71/v4/2a/ed/75/2aed75e4-ce52-df04-2208-2fea9c48d274/source/1000x1700bb.jpg",
+  "type" : "單曲",
+  "year" : "2009",
+  "total" : "2",
+  "available" : "2",
+  "AlbumTitle" : "DNA",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "DNA",
+      "songsource" : "YTTZoywkAAU",
+      "time" : "2:46",
+      "AlbumTitle" : "DNA",
+      "lyrics" : "./songdata/lyrics/DNA（單曲）-DNA.json"
+    },
+    {
+      "SongTitle" : "放肆",
+      "songsource" : "MA91ChpYYz0",
+      "time" : "3:08",
+      "AlbumTitle" : "DNA",
+      "lyrics" : "./songdata/lyrics/DNA（單曲）-放肆.json"
+    }
+  ]
+}

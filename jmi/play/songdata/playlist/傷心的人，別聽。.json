@@ -1,0 +1,187 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/傷心的人，別聽。.png",
+  "description" : "有時候，即使心中無別人，卻還是只能像一顆洋蔥，用恆星的恆心，咬緊牙關繼續等候。因為，不打擾是我們的溫柔。",
+  "year" : "2017",
+  "month" : "4",
+  "day" : "28",
+  "title" : "傷心的人，別聽。",
+  "songCount" : "25",
+  "song" :
+  [
+    {
+      "SongTitle" : "心中無別人",
+      "songsource" : "EitgfC3gg7M",
+      "time" : "4:09",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "好不好",
+      "songsource" : "LtunmrE1i5I",
+      "time" : "4:18",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "聽不到",
+      "songsource" : "U-C0Z3ys_C8",
+      "time" : "5:37",
+      "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-聽不到.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望",
+      "songsource" : "VnhoRZ57kSY",
+      "time" : "4:44",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "溫柔",
+      "songsource" : "nWb_X3ZJQjw",
+      "time" : "4:30",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "我們（時時刻刻）",
+      "songsource" : "C3sD83zAwaU",
+      "time" : "4:39",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-我們（時時刻刻）.json"
+    },
+    {
+      "SongTitle" : "彩虹",
+      "songsource" : "7WQFI_wiEIk",
+      "time" : "4:54",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "./songdata/lyrics/人生海海-彩虹.json"
+    },
+    {
+      "SongTitle" : "我不願讓你一個人",
+      "songsource" : "38lcQsEMGrk",
+      "time" : "4:26",
+      "AlbumTitle" : "第二人生",
+      "lyrics" : "./songdata/lyrics/第二人生-我不願讓你一個人.json"
+    },
+    {
+      "SongTitle" : "後來的我們",
+      "songsource" : "pd3eV-SG23E",
+      "time" : "5:56",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-後來的我們.json"
+    },
+    {
+      "SongTitle" : "突然好想你",
+      "songsource" : "GtDRcXtDg-4",
+      "time" : "4:46",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-突然好想你.json"
+    },
+    {
+      "SongTitle" : "明白",
+      "songsource" : "e0Ijo-4OpMc",
+      "time" : "4:40",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-明白.json"
+    },
+    {
+      "SongTitle" : "你不是真正的快樂",
+      "songsource" : "hr8jWDyb1jg",
+      "time" : "5:03",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-你不是真正的快樂.json"
+    },
+    {
+      "SongTitle" : "步步",
+      "songsource" : "97axrS3Npxk",
+      "time" : "5:22",
+      "AlbumTitle" : "步步",
+      "lyrics" : "./songdata/lyrics/步步（單曲）-步步.json"
+    },
+    {
+      "SongTitle" : "恆星的恆心",
+      "songsource" : "OyxjYPhA06U",
+      "time" : "5:08",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-恆星的恆心.json"
+    },
+    {
+      "SongTitle" : "知足",
+      "songsource" : "_o0oeyCtoFA",
+      "time" : "4:30",
+      "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-知足.json"
+    },
+    {
+      "SongTitle" : "時光機",
+      "songsource" : "hKPtVlSW2qA",
+      "time" : "3:40",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-時光機.json"
+    },
+    {
+      "SongTitle" : "倉頡",
+      "songsource" : "hiKYufVEUtI",
+      "time" : "5:29",
+      "AlbumTitle" : "第二人生",
+      "lyrics" : "./songdata/lyrics/第二人生-倉頡.json"
+    },
+    {
+      "SongTitle" : "洋蔥",
+      "songsource" : "jGqpz3stgzY",
+      "time" : "4:35",
+      "AlbumTitle" : "步步自選作品輯 1999-2013",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-洋蔥.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界",
+      "songsource" : "YrB6zsbeEr8",
+      "time" : "3:25",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "溫柔（還你自由版）",
+      "songsource" : "mtAc_bMYBsM",
+      "time" : "7:35",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "人生海海",
+      "songsource" : "yarOcdANK50",
+      "time" : "4:40",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "牙關",
+      "songsource" : "aE-HNzT9I6Q",
+      "time" : "5:23",
+      "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-牙關.json"
+    },
+    {
+      "SongTitle" : "回來吧",
+      "songsource" : "VQvppjdE370",
+      "time" : "4:29",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-回來吧.json"
+    },
+    {
+      "SongTitle" : "如果我們不曾相遇",
+      "songsource" : "eZMH6Mo0f9A",
+      "time" : "3:49",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-如果我們不曾相遇.json"
+    }
+  ]
+}

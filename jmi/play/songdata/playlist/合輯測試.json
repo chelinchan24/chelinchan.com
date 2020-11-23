@@ -1,0 +1,19 @@
+{
+  "playlistCoverSource" : "http://is3.mzstatic.com/image/thumb/Music3/v4/df/54/8c/df548c98-6dbe-14e8-805e-2f173af6c4e1/source/1000x1000bb.jpg",
+  "description" : "單曲",
+  "year" : "2017",
+  "month" : "4",
+  "day" : "25",
+  "title" : "狗哥合輯",
+  "songCount" : "35",
+  "song" :
+  [
+    {
+      "SongTitle" : "將軍令",
+      "songsource" : "83I_5lq5MwI",
+      "time" : "3:39",
+      "AlbumTitle" : "將軍令",
+      "lyrics" : "./songdata/lyrics/將軍令（單曲）-將軍令.json"
+    }
+  ]
+}

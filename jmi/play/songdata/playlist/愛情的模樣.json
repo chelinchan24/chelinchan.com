@@ -1,0 +1,96 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/愛情的模樣.png",
+  "description" : "這個世界上，美好的事物有什麼？美食？金錢？夢想？或許，對每個人來說，最美好的事物都可能不一樣，今天就來談談一個對許多人來說，是最美好事物的「愛情」。",
+  "year" : "2017",
+  "month" : "8",
+  "day" : "2",
+  "title" : "愛情的模樣",
+  "songCount" : "12",
+  "song" :
+  [
+    {
+      "SongTitle" : "愛情的模樣",
+      "songsource" : "8Zr6QKytnmU",
+      "time" : "5:03",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "戀愛ING",
+      "songsource" : "iSkRGgYSQfY",
+      "time" : "2:55",
+      "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+      "lyrics" : "./songdata/lyrics/步步自選作品輯-戀愛ing.json"
+    },
+    {
+      "SongTitle" : "心中無別人",
+      "songsource" : "EitgfC3gg7M",
+      "time" : "4:09",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "透露",
+      "songsource" : "pPiYz-hAhl4",
+      "time" : "3:39",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "好不好",
+      "songsource" : "LtunmrE1i5I",
+      "time" : "4:18",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "讓我照顧你",
+      "songsource" : "jkyBenG7K-k",
+      "time" : "3:56",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-讓我照顧你.json"
+    },
+    {
+      "SongTitle" : "聖誕夜驚魂",
+      "songsource" : "FnSDAx13_Hw",
+      "time" : "2:43",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-聖誕夜驚魂.json"
+    },
+    {
+      "SongTitle" : "第一天",
+      "songsource" : "DAgQDVuJjSg",
+      "time" : "4:20",
+      "AlbumTitle" : "五月天Final Home全球巡迴Live",
+      "lyrics" : "./songdata/lyrics/五月天Final-Home全球巡迴Live-第一天.json"
+    },
+    {
+      "SongTitle" : "亂世浮生",
+      "songsource" : "wrsQBN0eyI0",
+      "time" : "3:02",
+      "AlbumTitle" : "知足 Just My Pride 最真傑作選",
+      "lyrics" : "./songdata/lyrics/知足-Just-My-Pride-最真傑作選-亂世浮生.json"
+    },
+    {
+      "SongTitle" : "香水",
+      "songsource" : "9s1NKeHMBeQ",
+      "time" : "4:43",
+      "AlbumTitle" : "為愛而生",
+      "lyrics" : "./songdata/lyrics/為愛而生-香水.json"
+    },
+    {
+      "SongTitle" : "最重要的小事",
+      "songsource" : "6-JAklr0Og8",
+      "time" : "5:16",
+      "AlbumTitle" : "為愛而生",
+      "lyrics" : "./songdata/lyrics/為愛而生-最重要的小事.json"
+    },
+    {
+      "SongTitle" : "如果我們不曾相遇",
+      "songsource" : "PQ9PaRuwxek",
+      "time" : "3:23",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-如果我們不曾相遇.json"
+    }
+  ]
+}

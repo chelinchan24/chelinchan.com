@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@font-face { font-family: 'TAIWAN-LICENSE-PLATE'; src: url(./TAIWAN-LICENSE-PLATE.eot) format('eot');}
+
+@media screen and (max-width: 1100px) {
+
+/* 最窄寬度 1100px */
+
+body { 
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+
+.標準內容寬度 {
+	width: 100%;
+}
+
+/* 內容 */
+.段落 {
+	margin-bottom: 120px;
+}
+
+.段落-半頁 {
+	width: 50%;
+	max-width: 550px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.段落-內容 {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	min-width: 870px;
+	max-width: 1100px;
+}
+
+.段落-標題 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #2b2b2b;
+	line-height: 60px;
+}
+
+.段落-副標題 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #2B2B2B;
+}
+
+.段落-說明 {
+	text-align: justify;
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 24px;
+}
+
+.文字區塊寬度 {
+	margin: 0px auto;
+	display: block;
+	max-width: 854px;
+	padding: 0px 40px;
+	box-sizing: border-box;
+}
+
+.寬度留白圖片 {
+	margin: 20px 20px;
+}
+
+.段落-標題 {
+	font-size: 30px;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+
+.段落-說明 {
+	margin-top: 15px;
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.段落-內容-標題 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #2b2b2b;
+}
+
+.段落-內容-說明 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	line-height: 30px;
+}
+
+
+/* 段落1 */
+#段落1 {
+	width: 100%;
+	position: relative;
+}
+
+#段落1-內容 {
+	display: block;
+	width: 100%;
+}
+
+#段落1-內容-標語 {
+	display: flex;
+	box-sizing: border-box;
+	background: url('./src/img/段落1_bg.png');
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+}
+
+#段落1-內容-標語-標語 {
+	text-align: center;
+	width: 100%;
+	font-size: 6vw;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+/* 段落2 */
+#段落2 {
+	margin: 45px 0px;
+	display: block;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 120px;
+}
+
+#段落2-內容 {
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+/* 段落3 */
+#段落3 {
+	margin-top: 30px;
+}
+
+#段落3-內容 {
+	background: url('./src/img/段落2_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: auto;
+}
+
+/* 段落4 */
+#段落4 {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#段落4-內容 {
+	width: 100%;
+}
+
+#段落4-內容-標體與說明 {
+	display: block;
+}
+
+#段落4-內容-贊助方式 {
+	margin-top: 65px;
+}
+
+.段落4-內容-贊助方式_方式 {
+	display: block;
+	vertical-align: top;
+	max-width: 410px;
+	margin-bottom: 50px;
+}
+
+.段落4-內容-贊助方式_方式-標題與說明 {
+	display: block;
+	margin-bottom: 40px;
+}
+
+#段落4-內容-贊助方式-匯款 {
+}
+
+#段落4-內容-贊助方式-匯款-標題與說明 {
+}
+
+#段落4-內容-贊助方式-匯款-標題與說明-標題 {
+	margin-bottom: 10px;
+}
+
+#段落4-內容-贊助方式-匯款-標題與說明-說明 {
+}
+
+#段落4-內容-贊助方式-匯款-銀行賬戶 {
+	line-height: 30px;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行 {
+	display: block;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-標題與代碼 {
+	display: block;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-標題與代碼-標題 {
+	display: inline-block;
+	font-size: 16px;
+	color: #2b2b2b;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-標題與代碼-代碼 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #818181;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-戶名 {
+	display: block;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-戶名-標題 {
+	display: inline-block;
+	font-size: 16px;
+	color: #818181;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-戶名_戶名 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-帳號 {
+	display: block;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-帳號-標題 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #818181;
+}
+
+.段落4-內容-贊助方式-匯款-銀行賬戶_銀行-帳號_帳號 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+}
+
+#段落4-內容-贊助方式-匯款-說明 {
+	margin-top: 38px;
+}
+
+#段落4-內容-贊助方式-超商代碼-標題 {
+}
+
+#段落4-內容-贊助方式-超商代碼-標題-標題 {
+	margin-bottom: 10px;
+}
+}

@@ -1,0 +1,105 @@
+{
+  "AlbumCoverSource" : "http://is3.mzstatic.com/image/thumb/Music49/v4/4f/5e/4c/4f5e4cf2-9a8a-55de-4b72-ac3004c750e6/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2006",
+  "total" : "13",
+  "available" : "2",
+  "AlbumTitle" : "為愛而生",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcV7i339lA1zh12hTTtBfhRZ",
+  "song" :
+  [
+    {
+      "SongTitle" : "前傳",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-前傳.json"
+    },
+    {
+      "SongTitle" : "為愛而生",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-為愛而生.json"
+    },
+    {
+      "SongTitle" : "天使",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-天使.json"
+    },
+    {
+      "SongTitle" : "我又初戀了",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-我又初戀了.json"
+    },
+    {
+      "SongTitle" : "香水",
+      "songsource" : "9s1NKeHMBeQ",
+      "time" : "4:43",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-香水.json"
+    },
+    {
+      "SongTitle" : "摩托車日記",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-摩托車日記.json"
+    },
+    {
+      "SongTitle" : "最重要的小事",
+      "songsource" : "6-JAklr0Og8",
+      "time" : "5:16",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-最重要的小事.json"
+    },
+    {
+      "SongTitle" : "快樂很偉大",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-快樂很偉大.json"
+    },
+    {
+      "SongTitle" : "忘詞",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-忘詞.json"
+    },
+    {
+      "SongTitle" : "寵上天",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-米老鼠.json"
+    },
+    {
+      "SongTitle" : "米老鼠",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-米老鼠.json"
+    },
+    {
+      "SongTitle" : "一千個世紀",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-一千個世紀.json"
+    },
+    {
+      "SongTitle" : "胎音",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "為愛而生",
+        "lyrics" : "./songdata/lyrics/為愛而生-胎音.json"
+    }
+  ]
+}

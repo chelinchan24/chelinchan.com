@@ -1,0 +1,98 @@
+{
+  "AlbumCoverSource" : "https://i.kfs.io/album/global/54986559,0v1/fit/500x500.jpg",
+  "type" : "專輯",
+  "year" : "2019",
+  "total" : "12",
+  "available" : "11",
+  "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+  "CoverSourceFrom" : "KKBOX",
+  "InfoReference" : "JustMaydayIt",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcWMvWsfWcVAJj5ucN8BeQxd",
+  "song" :
+  [
+    {
+      "SongTitle" : "疼愛 (feat. 蕭敬騰) - Life Live",
+      "songsource" : "C4CIBf_Jx8o",
+      "time" : "4:07",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-疼愛.json"
+    },
+    {
+      "SongTitle" : "愛情的模樣 (feat. 田馥甄) - Life Live",
+      "songsource" : "QFQBFq7Rt_c",
+      "time" : "5:12",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-愛情的模樣.json"
+    },
+    {
+      "SongTitle" : "你不是真正的快樂+天空 (feat. 蔡依林) - Life Live",
+      "songsource" : "gFxuJqdJW5E",
+      "time" : "4:22",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-你不是真正的快樂+天空.json"
+    },
+    {
+      "SongTitle" : "私奔到月球 (feat. 陳綺貞) - Life Live",
+      "songsource" : "IFTZtuXKzFs",
+      "time" : "3:42",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-私奔到月球.json"
+    },
+    {
+      "SongTitle" : "離開地球表面 (feat. 李榮浩) - Life Live",
+      "songsource" : "d3JVkes8o4k",
+      "time" : "4:51",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-離開地球表面.json"
+    },
+    {
+      "SongTitle" : "傷心的人就聽撐腰 (feat. 羅志祥) - Life Live",
+      "songsource" : "xcNYlD-T89s",
+      "time" : "3:58",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-傷心的人就聽撐腰.json"
+    },
+    {
+      "SongTitle" : "孫悟空 (feat. 張國璽) - Life Live",
+      "songsource" : "zTg6Sa-qhF0",
+      "time" : "4:02",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-孫悟空.json"
+    },
+    {
+      "SongTitle" : "笨小孩 (feat. 吳宗憲) - Life Live",
+      "songsource" : "BydHVApePr8",
+      "time" : "4:06",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-笨小孩.json"
+    },
+    {
+      "SongTitle" : "盛夏光年 × HIP HOP MAN (feat. 歐陽靖) - Life Live",
+      "songsource" : "QbTpp_UUtBQ",
+      "time" : "4:27",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-盛夏光年xHIP-POP-MAN.json"
+    },
+    {
+      "SongTitle" : "I'm in Love (feat. GLAY TERU)- Life Live",
+      "songsource" : "saIqfYhMRpo",
+      "time" : "4:54",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-Im-in-love.json"
+    },
+    {
+      "SongTitle" : "一顆蘋果 - Life Live",
+      "songsource" : "EBfFnhnUbzo",
+      "time" : "4:59",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : "./songdata/lyrics/五月天-人生無限公司-Life-Live-好友加班篇-一顆蘋果.json"
+    },
+    {
+      "SongTitle" : "如果我們不曾相遇 - Life Live",
+      "songsource" : "",
+      "time" : "01:56",
+      "AlbumTitle" : "五月天 人生無限公司 Life Live 好友加班篇",
+        "lyrics" : ""
+    }
+  ]
+}

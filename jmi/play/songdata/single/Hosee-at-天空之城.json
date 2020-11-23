@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://chelinchan.com/jmi/play/images/albumcover/Hosee-at-天空之城.png",
+  "type" : "單曲",
+  "year" : "2003",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "天空之城2003復出演唱會 - HOSEE",
+  "CoverSourceFrom" : "Just Mayday It",
+  "InfoReference" : "網路",
+  "song" :
+  [
+    {
+      "SongTitle" : "HoSee",
+      "songsource" : "1ENY8yLQLC4",
+      "time" : "5:42",
+      "AlbumTitle" : "Hosee",
+      "lyrics" : "./songdata/lyrics/天空之城復出演唱會-Hosee.json"
+    }
+  ]
+}

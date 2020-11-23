@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body, html {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.logo {
+  background: url('./image-2020/logo.png');
+  background-size: cover;
+}
+
+#頁首-內容 {
+  height: 100vh;
+  min-height: 807px;
+  display: flex;
+}
+
+#頁首-內容-左 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 60px 40px 60px 80px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#頁首-內容-右 {
+  height: 100%;
+  background: #00FFA3;
+  box-sizing: border-box;
+  padding: 0px 80px;
+  width: 100%;
+}
+
+#首頁-內容-左-logo和提示 {
+  display: flex;
+  /*! margin-bottom: 100px; */
+  align-items: center;
+
+}
+#首頁-內容-左-logo和提示-logo {
+  width: 76px;
+  height: 32px;
+  display: block;
+  margin-right: 22px;
+}
+
+#首頁-內容-左-logo和提示-即將推出 {
+  background: #FFF4D2;
+  padding: 8px 16px;
+  display: inline-flex;
+  color: #D4A542;
+  border-radius: 8px;
+}
+
+#首頁-內容-左-標題與說明 {
+  display: block;
+  /*! margin-bottom: 100px; */
+}
+#首頁-內容-左-標題與說明-標題 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 32px;
+}
+
+#首頁-內容-左-標題與說明-說明 {
+  font-size: 24px;
+  color: #848484;
+}
+
+#首頁-內容-左-搶先登記 {
+  display: flex;
+  flex-direction: column;
+}
+
+#首頁-內容-左-搶先登記-標題 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+#mc_embed_signup_scroll {
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 9px 51px 0 rgba(0,0,0,0.11);
+  border-radius: 8px;
+  height: 72px;
+  display: flex;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.首頁-內容-左-搶先登記-輸入框-輸入 {
+  font-size: 18px;
+  width: 100%;
+  padding-left: 18px;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: 2px solid Transparent;
+  transition: 0.1s ease;
+  height: 100%;
+}
+
+.mc-field-group {
+  width: 100%;
+  height: 100%;
+  margin-right: 8px;
+}
+
+.首頁-內容-左-搶先登記-輸入框-輸入:hover, .首頁-內容-左-搶先登記-輸入框-輸入:focus {
+  border: 2px solid #dfdfdf;
+  transition: 0.1s ease;
+}
+
+.首頁-內容-左-搶先登記-輸入框-送出 {
+  background: #2B2B2B;
+  box-shadow: 0 9px 51px 0 rgba(0,0,0,0.11);
+  border-radius: 8px;
+  padding: 0px 40px;
+  font-size: 16px;
+  margin: 0;
+  border: 0;
+  min-width: 117px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.1s ease;
+  cursor: pointer;
+  height: 100%;
+  -webkit-appearance: none;
+}
+
+.首頁-內容-左-搶先登記-輸入框-送出:hover {
+  opacity: 0.8;
+  transform: 0.1s ease;
+}
+
+#首頁-內容-左-搶先登記-說明 {
+  font-size: 12px;
+  color: rgba(0,0,0,0.30);
+}
+
+#頁首-內容-右 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#頁首-內容-右-介面 {
+  width: 398px;
+  height: 748px;
+  display: block;
+  /*! padding-top: 187.94%; */
+  /*! width: 50%; */
+  object-fit: cover;
+}
+
+#頁腳-內容 {
+  height: 137px;
+  display:  flex;
+  box-sizing: border-box;
+  border-top: 4px solid #F5F5F5;
+  padding: 0px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#頁腳-內容-左 {
+  display: flex;
+}
+
+#頁腳-內容-左-logo {
+  width: 57px;
+  height: 24px;
+  display: block;
+  margin-right: 72px;
+}
+
+.頁腳-內容-左-項目 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 32px;
+  border: none;
+}
+
+#頁腳-內容-右-內容 {
+  font-size: 14px;
+  text-align: right;
+}
+
+#頁腳-多性別選項 {
+  cursor: pointer;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+#頁腳-多性別選項:hover {
+  border-bottom: 1px solid #818181;
+}
+
+@media screen and (max-width: 1096px) {
+  #頁首-內容 {
+    height: auto;
+    flex-direction: column;
+  }
+  
+  #頁首-內容-右 {
+    height: 80vh;
+    padding: 24px;
+  }
+  
+  #頁首-內容-右-介面 {
+    width: 100%;
+    display: block;
+    /*! padding-top: 187.94%; */
+    height: 100%;
+    max-width: 304px;
+    object-fit: contain;
+  }
+  
+  #頁首-內容-左 {
+    padding: 40px 24px;
+    height: auto;
+  }
+  
+  #首頁-內容-左-logo和提示 {
+    margin-bottom: 64px;
+  }
+  
+  #首頁-內容-左-標題與說明 {
+    margin-bottom: 64px;
+  }
+  
+  #首頁-內容-左-標題與說明-標題 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #首頁-內容-左-標題與說明-說明 {
+    font-size: 20px;
+  }
+  
+  #mc_embed_signup_scroll {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .首頁-內容-左-搶先登記-輸入框-輸入 {
+    height: 52px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    border: 2px solid #dfdfdf;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .首頁-內容-左-搶先登記-輸入框-送出 {
+    height: 52px;
+    width: 100%;
+  }
+  
+  #頁腳-內容 {
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 40px;
+    height: auto;
+  }
+  
+  #頁腳-內容-左 {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  
+  #頁腳-內容-右 {
+    width: 100%;
+  }
+  
+  #頁腳-內容-右-內容 {
+    text-align: left;
+  }
+  
+  #頁腳-內容-左-logo {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  
+  .頁腳-內容-左-項目 {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登入發現者</title>
+<script src="http://chelinchan.com/jquery/jquery-3.2.1.min.js"></script>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="灰色背景">
+
+<nav id="導覽列"></nav>
+
+<article class="網頁內容" id="登入頁面網頁內容">
+	<section>
+		<aside id="登入頁面-登入">
+		
+			<span id="登入頁面-登入-標題" class="普通標題">登入發現者</span>
+			
+			<div id="登入頁面-登入-訊息框"></div>
+			
+			<div id="登入頁面-登入-電子郵件" class="表單 登入頁面-登入-表單">
+				<div class="表單-表單標題">電子郵件</div>
+				<input class="表單-表單音鋪" placeholder="電子郵件" name="username" id="loginEmail">
+			</div>
+			
+			<div id="登入頁面-登入-密碼" class="表單">
+				<div class="表單-表單標題">密碼</div>
+				<input class="表單-表單音鋪" placeholder="密碼" type="password" name="psw" id="loginPassword">
+			</div>
+			
+			<div id="登入頁面-登入-底部">
+				<button id="登入頁面-登入-底部-登入按鈕" type="submit" class="圓形按鈕 深色按鈕-主題色文字">登入</button>
+				<a href="#" id="登入頁面-登入-底部-無法登入">無法登入嗎？</a>
+			</div>
+		</aside>
+	</section>
+</article>
+
+<!-- <div id="頁腳"></div> -->
+
+</body>
+<script>
+$( "#頁腳" ).load( "../footer.html" );
+$( "#導覽列" ).load( "./navigation-bar.html" );
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script src="../js/server.js"></script>
+<script src="../js/navigation.js"></script>
+<script src="../js/login.js"></script>
+</html>

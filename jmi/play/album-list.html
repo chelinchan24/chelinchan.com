@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>專輯列表</title>
+<div id="讀取畫面"><img src="./images/source/loading.gif" id="讀取圖片"></div>
+<link href="./css/專輯列表.css" rel="stylesheet" type="text/css">
+<link href="./css/所有頁面通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/瀏覽頁面通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/專輯列表通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/演唱會列表通用樣式.css" rel="stylesheet" type="text/css">
+<link href="./css/讀取畫面.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="標題與段落盒子">
+<div id="圖片遮罩">
+</div>
+<div id="內容" class="縮排">
+<div id="標題">
+專輯
+</div>
+<div id="段落名稱盒子">
+<!--<ui class="段落">排序：
+<select>
+<option value="單曲">最新加入</option>
+<option value="單曲">依照年份（舊到新）</option>
+<option value="單曲">依照年份（新到舊）</option>
+</select> 
+</ui>-->
+</div>
+</div>
+</div>
+<div id="內容區塊" class="縮排">
+<div class="區塊盒子">
+<div class="段落標題盒子">
+<a name="你可能會喜歡" class="段落標題">最新加入</a>
+</div>
+<div id="album">
+</div>
+</div>
+</div>
+
+<script src="./function/album-content-loader.js"></script>
+
+<script>
+$(window).load(function(){
+        $('#loading').hide(1000);
+        });
+</script>
+<script>
+$(window).load(function(){
+	$.fx.off = !$.fx.off;
+	$('#讀取畫面').hide(30000);
+	});
+</script>
+</body>
+</html>

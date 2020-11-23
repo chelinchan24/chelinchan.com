@@ -1,0 +1,147 @@
+{
+  "AlbumCoverSource" : "http://is5.mzstatic.com/image/thumb/Music122/v4/63/2b/43/632b43db-3cae-1eed-e8da-dfdd1261118d/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2017",
+  "total" : "19",
+  "available" : "11",
+  "AlbumTitle" : "自伝 History of Tomorrow",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcV7D1t-XLsSz19_9OAYA4-O",
+  "song" :
+  [
+    {
+      "SongTitle" : "もしも出会わなければ / 如果我們不曾相遇",
+      "songsource" : "eZMH6Mo0f9A",
+      "time" : "3:49",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-如果我們不曾相遇.json"
+    },
+    {
+      "SongTitle" : "成功間近 / 成名在望",
+      "songsource" : "-hU1O3bG1eo",
+      "time" : "5:17",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-成名在望.json"
+    },
+    {
+      "SongTitle" : "素敵だから (君を歌にしたい)   好好（想把你寫成一首歌）",
+      "songsource" : "HxIct0i-CcA",
+      "time" : "3:45",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-好好(想把你寫成一首歌).json"
+    },
+    {
+      "SongTitle" : "兄弟 / 兄弟",
+      "songsource" : "TcXFY-_rDzQ",
+      "time" : "5:43",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-兄弟.json"
+    },
+    {
+      "SongTitle" : "人生有限会社 / 人生有限公司",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-人生有限公司.json"
+    },
+    {
+      "SongTitle" : "あれから僕ら / 後來的我們",
+      "songsource" : "pd3eV-SG23E",
+      "time" : "5:56",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-後來的我們.json"
+    },
+    {
+      "SongTitle" : "頑固 / 頑固",
+      "songsource" : "YKiMrg6rgYQ",
+      "time" : "7:08",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-頑固.json"
+    },
+    {
+      "SongTitle" : "Party Animal / 派對動物",
+      "songsource" : "Fn7NLWHJw4s",
+      "time" : "4:43",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-派對動物.json"
+    },
+    {
+      "SongTitle" : "最高の一日 / 最好的一天",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-最好的一天.json"
+    },
+    {
+      "SongTitle" : "少年漂流記 / 少年他的奇幻漂流",
+      "songsource" : "3LmjBbP-e8U",
+      "time" : "6:36",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-少年他的奇幻漂流.json"
+    },
+    {
+      "SongTitle" : "終わりの始まり / 終於結束的起點",
+      "songsource" : "Jv3zvWZlXkk",
+      "time" : "5:29",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-終於結束的起點.json"
+    },
+    {
+      "SongTitle" : "どこでもドア / 任意門",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-任意門.json"
+    },
+    {
+      "SongTitle" : "あっという間 / 轉眼",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-轉眼.json"
+    },
+    {
+      "SongTitle" : "What's Your Story?",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-What's Your Story?.json"
+    },
+    {
+      "SongTitle" : "Cコードは… / 你說那C和弦就是…",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自傳-你說那C和弦就是….json"
+    },
+    {
+      "SongTitle" : "Song for you (feat. Akihito Okano)",
+      "songsource" : "LokvcieQpjw",
+      "time" : "5:46",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自伝-Song-for-you-(feat-Akihito-Okano).json"
+    },
+    {
+      "SongTitle" : "Buzzin'",
+      "songsource" : "sc9k2BU25XQ",
+      "time" : "4:15",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/自伝-Buzzin.json"
+    },
+    {
+      "SongTitle" : "YOUR LEGEND ~燃ゆる命~(將軍令 日本語ver.)",
+      "songsource" : "5OA0A21zyLY",
+      "time" : "3:39",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/將軍令-日文版.json"
+    },
+    {
+      "SongTitle" : "Do You Ever Shine?",
+      "songsource" : "UcKtBSlfpRU",
+      "time" : "4:44",
+      "AlbumTitle" : "自伝 History of Tomorrow",
+        "lyrics" : "./songdata/lyrics/DoYouEverShine-Do-You-Ever-Shine.json"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Tulpen+One');
+
+
+@media screen and (max-width: 1150px) {
+html, body {
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans TC', sans-serif;
+	min-width: 300px;
+	margin: 0px auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	width: 100%;
+}
+
+#nav {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	transition: 0.2s ease;
+	/* box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20); */
+	background: rgba(0,0,0,0.00);
+}
+
+#nav-logo {
+	display: inline-block;
+	width: 155px;
+	height: 31px;
+	background: url('./images/logo.png');
+	background-size: 100%;
+	margin: 11px;
+	vertical-align: middle;
+}
+
+#nav li {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	height: 100%;
+	margin-right: 15px;
+}
+
+#facebook讚 {
+	display: inline-block;
+	position: absolute;
+	right: 125px;
+	top: 10px;
+}
+
+.nav-按鈕-立即下載 {
+	position: absolute;
+	width: 90px;
+	height: 30px !important;
+	display: block;
+	right: 0;
+	margin: 0;
+	text-align: center;
+	background: #4ECB9E;
+	top:10px;
+	line-height: 30px;
+	border-radius: 100px;
+	color: #ffffff;
+}
+
+article {
+	overflow: auto;
+	width: 100%;
+}
+
+.一個段落 {
+	width: 100%;
+}
+
+.歡迎段落 {
+	display: block;
+	background: #F6F6F6;
+	height: 808px;
+}
+
+#歡迎段落內容 {
+	position: absolute;
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#歡迎段落-範例 {
+	position: absolute;
+	min-width: 235px;
+	width: 60%;
+	height: 400px;
+	max-width: 300px;
+	background: url('./images/header-mockup.png');
+	background-size: 100%;
+	top: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-repeat: no-repeat;
+}
+
+#歡迎段落-右側 {
+	z-index: 2;
+	text-align: center;
+	top: 90px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#歡迎段落-歡迎段落-右側-隆重呈獻 {
+	height: 20px;
+}
+
+#歡迎段落-歡迎段落-右側-隆重呈獻-CHELINCHAN {
+	width: 67px;
+	height: 14px;
+	background: url('./images/CHELINCHAN.png');
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#歡迎段落-歡迎段落-右側-隆重呈獻-隆重呈獻 {
+	font-size: 15px;
+	color: #A4A4A4;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+#歡迎段落-歡迎段落-右側-標題 {
+	margin-top: 30px;
+}
+
+#歡迎段落-歡迎段落-右側-標題-副標題 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#歡迎段落-歡迎段落-右側-標題-主標題 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#歡迎段落-下載 {
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+	margin-top:30px;
+	width: 172px;
+}
+
+#歡迎段落-下載-GooglePlay-按鈕 {
+	display: block;
+}
+
+.GooglePlay按鈕 {
+	display: block;
+	margin: 0px auto;
+	width: 10px;
+	height: 51px;
+	background: url('./images/zh-tw_badge_web_generic.png');
+	background-size: 100%;
+}
+
+.GooglePlay按鈕 {
+	margin: 0px auto !important;
+	width: 171px !important;
+	height: 51px;
+	background: url('./images/zh-tw_badge_web_generic.png');
+	background-size: 100%;
+}
+
+#歡迎段落-歡迎段落-下載-GooglePlay-iOS提示 {
+	font-size: 12px;
+	margin-top: 5px;
+	color:#767676;
+}
+
+#波浪分隔 {
+	position: absolute;
+	top: 670px;
+	width: 100%;
+	background: url('./images/波浪分隔.png');
+	height: 138px;
+	background-size: auto 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.探索文化首都 {
+	height: 470px;
+	background: url('./images/探索文化首都段落背景.png');
+	background-size: auto 100%;
+	background-position: center;
+}
+
+#探索文化首都內容 {
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#探索文化首都-左側 {
+	position: absolute;
+	top: 130px;
+	left: 25px;
+	display: block;
+}
+
+#探索文化首都-左側-標題 {
+	font-size: 27px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#探索文化首都-左側-台南 {
+	font-size: 110px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#探索文化首都-註解 {
+	position: absolute;
+	top: 430px ;
+	color: #ffffff;
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+.精心繪製路網圖 {
+	height: 650px;
+	background: #F2F2F2;
+}
+
+#精心繪製路網圖內容 {
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#精心繪製路網圖-標題與內文 {
+	top: 93px;
+	position: absolute;
+	display: block;
+	width: 85%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.一個段落-標題 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.一個段落-內文 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.精心繪製路網圖-標題與內文-標題 {
+	color: #000000;
+}
+
+.精心繪製路網圖-標題與內文-內文 {
+	margin-top: 16px;
+	color: #000000;
+}
+
+#精心繪製路網圖-配圖 {
+	position: relative !important;
+	height: 340px;
+	width: 100%;
+	background: url('./images/精心繪製的路網圖-路網-mobile.png');
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	left: 0;
+	right: 0;
+	background-repeat: no-repeat;
+}
+
+.暢遊台南捷運 {
+	height: 608px;
+	background-image: url('./images/暢遊台南捷運背景.png');
+	background-size: auto 100%;
+}
+
+#暢遊台南捷運內容 {
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#暢遊台南捷運-標題與內文 {
+	top: 93px;
+	position: absolute;
+	display: block;
+	width: 85%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.暢遊台南捷運-標題與內文-標題 {
+	color: #ffffff;
+	text-shadow: 0px 9px 9px rgba(0,0,0,0.27);
+}
+
+.暢遊台南捷運-標題與內文-內文 {
+	margin-top: 16px;
+	color: #ffffff;
+	text-shadow: 0px 5px 9px rgba(0,0,0,0.50);
+}
+
+#暢遊台南捷運-數據 {
+	position: absolute;
+	text-align: center;
+	display: block;
+	width: 100%;
+	top: 280px;
+}
+
+.暢遊台南捷運-一則數據 {
+	width: 100px;
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.暢遊台南捷運-一則數據:last-child {
+	margin-right: 0px;
+}
+
+.暢遊台南捷運-一則數據-數據數字 {
+	color: #ffffff;
+	font-family: 'Tulpen One', cursive;
+	font-size: 144px;
+	text-shadow: 0px 9px 9px rgba(0,0,0,0.27);
+}
+
+.暢遊台南捷運-一則數據-數據說明 {
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 0px 9px 9px rgba(0,0,0,0.27);
+	font-weight: 500;
+	margin-top: -15px;
+}
+
+#截圖分隔 {
+	display: block;
+	top: 2400px;
+	z-index: 1;
+	position: absolute;
+	height: 242px;
+	width: 100%;
+	background: url('./images/暢遊台南捷運背景-placeholder.png');
+	background-size: 120%;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-repeat: no-repeat;
+}
+
+.持續更新 {
+}
+
+#持續更新內容 {
+	width: 100%;
+	margin-top: 150px;
+	padding-bottom: 50px;
+}
+
+#持續更新-標題與內文 {
+	width: 85%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	display: block;
+	margin-bottom: 130px;
+}
+
+.持續更新-標題與內文-標題 {
+	display: block;
+	color: 000000;
+}
+
+.持續更新-標題與內文-內文 {
+	display: block;
+	margin-top: 16px;
+	color: 000000;
+}
+
+.持續更新-功能介紹-標題 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: 500;
+}
+
+.持續更新-功能介紹-功能 {
+	display: block;
+	text-align: center;
+	width: 100%;
+	min-width: 100%;
+	margin: 0px 100px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.持續更新-功能介紹-功能-一個功能 {
+	text-align: left;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 30px 22px;
+	width: calc(100% * (1/1) - 10px - 1px);
+	flex-grow: 0;
+	vertical-align: top;
+}
+
+.持續更新-功能介紹-功能-一個功能-icon {
+	height: 50px;
+	width: 50px;
+	display: block;
+	background-size: 100% !important;
+	margin: 0px auto;
+}
+
+.行動裝置-附近景點 {
+	width: 34px !important;
+}
+
+.持續更新-功能介紹-功能-一個功能-名稱 {
+	font-weight: 500;
+	margin-top: 18px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.持續更新-功能介紹-功能-一個功能-說明 {
+	text-align: justify;
+	margin-top: 7px;
+	font-size: 14px;
+}
+
+.持續更新-功能介紹-功能-一個功能-placeholder {
+	display: none;
+}
+
+#持續更新-註記 {
+	text-align: center;
+	font-size: 12px;
+	color: #9B9B9B;
+	width: 85%;
+	margin: 0px auto;
+}
+
+.立即取得 {
+	background-image: linear-gradient(-90deg, #00A9FF 0%, #4AFF8C 100%);
+	height: 380px;
+	display: block;
+	width: 100%;
+}
+
+#立即取得內容 {
+	position: absolute;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#立即取得-右側 {
+	top: 105px;
+	position: absolute;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#立即取得-右側-標題 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+#立即取得-右側-副標題 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.立即取得-右側-GooglePlay-按鈕 {
+	margin-top: 30px !important;
+}
+
+footer {
+	height: 153px;
+}
+
+#footer-連結 {
+	width: 100%;
+	text-align: center;
+	margin-top: 54px;
+	font-size: 14px;
+}
+
+#footer-連結 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#footer-版權宣告 {
+	box-sizing: border-box;
+	padding: 0px 20px;
+	margin-top: 54px;
+	text-align: center;
+}
+
+#footer-版權宣告-logo {
+	margin: 0px auto;
+	display: block;
+	height: 34px;
+	width: 167px;
+	background: url('./images/footer-logo.png');
+	background-size: 100%;
+}
+
+#footer-版權宣告-版權宣告文字 {
+	font-size: 12px;
+	color: #757575;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+#立即取得-配圖 {
+	display: none;
+}
+
+.注意事項 {
+	box-sizing: border-box;
+	padding: 30px 20px;
+	font-size: 14px;
+	text-align: center;
+	color: #525252;
+}
+}
+
+@media screen and (max-width: 450px) {
+#facebook讚 {
+	display: none;
+}
+
+#facebook讚-行動版 {
+	display: block;
+}
+}

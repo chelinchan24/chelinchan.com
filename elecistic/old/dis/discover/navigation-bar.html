@@ -1,0 +1,66 @@
+<section id="發現者計劃導覽列本體">
+	<div id="發現者計劃導覽列本體-內容">
+		<button id="發現者計劃導覽列本體-內容-選單" class="icon_24x24"></button>
+		<div id="發現者計劃導覽列本體-內容-發現者計劃Logo"></div>
+		<a href="./login.html" id="發現者計劃導覽列本體-內容-登入">登入</a>
+	</div>
+	
+	<aside id="發現者計劃導覽列本體-選單">
+		<div id="發現者計劃導覽列本體-選單-背景" class="animated fadeIn"></div>
+		<div id="發現者計劃導覽列本體-選單-內容區塊" class="網頁內容">
+			<div id="發現者計劃導覽列本體-選單-內容">
+				<ul>
+					<li id="發現者計劃導覽列本體-選單-內容-按鈕"></li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項">尋電應用程式</li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項">發現者計劃</li>
+					<li class="發現者計劃導覽列本體-選單-內容-分隔線"></li>
+				</ul>
+				<ul id="發現者計劃導覽列本體-選單-內容-僅限登入後">
+					<li class="發現者計劃導覽列本體-選單-內容-選項 發現者個人選項">發現者總覽</li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項 發現者個人選項">個人檔案</li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項 發現者個人選項">我的驗證</li>
+				</ul>
+				<ul>
+					<li class="發現者計劃導覽列本體-選單-內容-選項" id="發現者計劃導覽列本體-選單-內容-選項-登入與登出">登入</li>
+					<li class="發現者計劃導覽列本體-選單-內容-分隔線"></li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項">說明中心</li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項">回報問題</li>
+					<li class="發現者計劃導覽列本體-選單-內容-選項">提供意見</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+</section>
+
+<script>
+
+// Disocver.js
+
+var menuOnBtn = document.getElementById("發現者計劃導覽列本體-內容-選單");
+var menuOffBtn = document.getElementById("發現者計劃導覽列本體-選單-內容-按鈕");
+var menuBox = document.getElementById("發現者計劃導覽列本體-選單");
+var menuBg = document.getElementById("發現者計劃導覽列本體-選單-背景");
+var menuCover = document.getElementById("發現者計劃導覽列本體-選單-背景");
+var menuItself = document.getElementById("發現者計劃導覽列本體-選單-內容");
+
+menuOnBtn.onclick = function() {
+	menuBox.style.display = "block";
+	menuCover.style.display = "block";
+	menuItself.style.visibility = "visible";
+	menuItself.style.opacity = "1";
+	menuItself.style.maxHeight = "500px"
+}
+
+menuBg.onclick = function() {
+	menuCover.style.display = "none";
+	menuItself.style.maxHeight = "0px";
+	menuBox.style.display = "none";
+}
+
+menuOffBtn.onclick = function() {
+	menuCover.style.display = "none";
+	menuItself.style.maxHeight = "0px";
+	menuBox.style.display = "none";
+}
+
+</script>

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* 單曲區塊 */
+.一張單曲 {
+	vertical-align: top;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+
+.一張單曲:last-child {
+	margin-right: 0px;
+}
+
+.單曲封面按鈕 {
+	border: none;
+	text-align: left;
+	padding: none;
+	background: none;
+	
+}
+
+/* 單曲封面 */
+.單曲封面 {
+	border: none;
+	padding: 0px;
+	height: 215px;
+	width: 215px;
+	box-shadow: 0px 12px 26px 0px rgba(0,0,0,0.22);
+	transition: box-shadow 0.2s linear;
+	cursor: pointer;
+}
+
+img {
+	width: 215px;
+}
+
+.單曲封面:hover {
+	box-shadow: 0px 12px 40px 0px rgba(0,0,0,0.51);
+	transition: box-shadow 0.2s linear;
+}
+
+/* 單曲資訊 */
+
+.單曲名稱 {
+	display: block;
+	width: 215px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.單曲資訊 {
+	font-size: 14px;
+	color: #606060;
+}

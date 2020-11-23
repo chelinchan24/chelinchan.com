@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://is4-ssl.mzstatic.com/image/thumb/Music4/v4/db/6c/d3/db6cd3f7-0273-7bf6-bd00-1cffddfe61ab/source/1200x1200bf.jpg",
+  "type" : "單曲",
+  "year" : "2014",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "真實故事改編",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "song" :
+  [
+    {
+      "SongTitle" : "真實故事改編",
+      "songsource" : "kHn_v4VJORw",
+      "time" : "5:07",
+      "AlbumTitle" : "真實故事改編",
+      "lyrics" : "./songdata/lyrics/真實故事改編（單曲）-真實故事改編.json"
+    }
+  ]
+}

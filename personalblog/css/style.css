@@ -1,0 +1,1167 @@
+@charset "UTF-8";
+
+/* 這個主題由詹喆麟原創，版權所有 2018 © Che-Lin Chan 詹喆麟 */
+
+
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+ */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/*
+* Source Code Pro https://fonts.google.com/specimen/Source+Code+Pro?selection.family=Source+Code+Pro
+*/
+
+@import url('//fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/*
+* Roboto https://fonts.google.com/specimen/Roboto
+*/
+
+@import url('//fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/* 只在文章頁面
+header {
+	height: 180px !important;
+}
+
+article {
+	float: none !important;
+	width: 746px !important;
+	margin: 0px auto !important;
+}
+
+aside {
+	display: none !important;
+}
+
+.date-header {
+	color: #666666 !important;
+	font-weight: 500 !important;
+	margin-left: 35px !important;
+	font-size: 15px !important;
+}
+
+.post-title {
+	font-size: 36px !important;
+	padding-left: 35px !important;
+	margin-bottom: 70px !important;
+	line-height: 50px !important;
+	box-sizing: border-box !important;
+	padding-right: 35px !important;
+	text-align: justify !important;
+}
+
+.post-body {
+	font-size: 18px !important;
+	line-height: 1.8 !important;
+}
+
+#header-general-content {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#header-general-content-logo {
+	width: 233px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	transition: 0.3s ease;
+	background-repeat: no-repeat;
+}
+
+.post-footer-line {
+	display: flex;
+	justify-content:space-between !important;
+}
+
+.post-footer {
+	display: block !important;
+	border-top: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;
+	padding: 40px 0px ;
+	box-sizing: border-box;
+  margin-top: 70px;
+}
+
+.post-footer-line {
+	display: flex;
+	justify-content:space-between !important;
+}
+
+.footer-tag {
+	background: #ECECEC;
+	border-radius: 100px;
+	color: #595959 !important;
+	font-size: 14px;
+	padding: 7px 14px;
+	line-height: 14px;
+	box-sizing: border-box;
+	display: inline-block;
+	text-decoration: none;
+	transition: ease 0.2s;
+	margin-right: 10px;
+}
+
+.footer-tag:last-of-type {
+  margin-right: 0;
+}
+
+.footer-tag:hover {
+	background: #DADADA;
+	transition: ease 0.2s;
+}
+
+#header-general-search {
+	position:  absolute;
+	display: block;
+	right: 0;
+  width: 18px;
+  height: 18px;
+ 	background: url('http://chelinchan.com/personalblog/icons/search.png');
+  background-size: 100%;
+}
+
+*/
+
+/* 網站本體 */
+
+
+html {}
+
+body {
+	margin: 0;
+	padding: 0 0;
+	max-width: 100%;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+a {
+	color: #000000;
+}
+
+.post-body a {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+}
+
+.post-body a:hover {
+	text-decoration: none !important;;
+}
+
+aside a {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+}
+
+aside a {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+}
+
+aside a:hover {
+	text-decoration: none !important;;
+}
+
+
+input {
+	font-family: inherit;
+	outline: none;
+}
+
+blockquote {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 共用資源 */
+
+.full-logo {
+	background: url('http://chelinchan.com/personalblog/images/full-logo.png');
+	background-size: 100%;
+}
+
+
+/* 網站 */
+
+.loading {
+	opacity: 0;
+	transition: 0.2s ease;
+}
+
+.loaded {
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+#content {
+	display: block;
+	margin: 0px auto;
+	max-width: 1000px;
+  margin-top: 80px;
+}
+
+header h1 {
+	margin: 0px;
+}
+
+header {
+	z-index: 1000;
+	width: 100%;
+	height: 550px;
+	background: #000000;
+	position: relative;
+}
+
+header a {
+	text-decoration: none;
+}
+
+#header-bg {
+	position: absolute;
+	display: block;
+	width: inherit;
+	height: inherit;
+	background: url('http://chelinchan.com/personalblog/images/header.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 0.2s ease;
+	opacity: 0.5;
+}
+
+#header-homepage-content {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#header-homepage-content-logo {
+	width: 333px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	transition: 0.3s ease;
+}
+
+#header-homepage-content-info {
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url('http://chelinchan.com/personalblog/icons/info.png');
+	background-size: 100%;
+	position: absolute;
+	bottom: 20px;
+	opacity: 0.7;/* 這篇文章已經從我的 Medium 上消失: */
+}
+
+#header-homepage-content-info:hover {
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+#header-homepage-content-des {
+	color: #ffffff;
+	font-size: 13px;
+	position: absolute;
+	bottom: 24px;
+	left: 44px;
+	transition: 0.2s ease;
+	opacity: 0;
+	text-shadow: 0px 2px 5px rgba(0,0,0,0.80);
+}
+
+article {
+	float: left;
+	width: 670px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+aside {
+	float: right;
+	width: 270px;
+	vertical-align: top;
+}
+
+aside .title ,h2{
+	font-size: 14px;
+	color: #939393;
+	line-height: 16px;
+	margin-bottom: 22px !important;;
+	font-weight: 400;
+}
+
+.post-body {
+	line-height: 2;
+}
+
+.post-body a:hover {
+	text-decoration: underline;
+	/* border-bottom: 1px solid #1F94D5; */
+}
+
+footer {
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	background: #262424;
+}
+
+.sidebar {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.entry-title {
+	font-size: 27px;
+
+}
+
+#Feed1 {
+	margin: 0;
+	width: 100%;
+	padding: 0
+}
+
+div.blog-admin,
+div.pid-515700425 {
+	display: block;
+}
+
+span.blog-admin,
+span.pid-515700425 {
+	display: inline;
+}
+
+.item-thumbnail-only {
+	height: 30px;
+}
+
+.popular-posts li img {
+	width: 65px;
+	height: 65px;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+#popular-posts li {
+	margin: 0;
+	padding: 0;
+}
+
+#PopularPosts1 li {
+	margin: 0;
+	padding: 0;
+}
+
+.item-title a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 23px;
+	display: block;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.status-msg-wrap {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 70px;
+	width: 100%;
+}
+
+.status-msg-body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #787878;
+}
+
+.status-msg-border {
+	border: none;
+}
+
+.status-msg-bg {
+	background: none;
+}
+
+.status-msg-body a {
+	font-size: 12px;
+	display: block;
+	float: right;
+	margin-top: 0px;
+	color: #ffffff;
+	background: #666666;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.status-msg-body a:hover {
+	opacity: 0.8
+}
+
+.status-msg-body b {
+	border-bottom: 2px solid #787878;
+}
+
+.post-title {
+	margin-top: 25px;
+	text-align: left;
+	line-height: 27px;
+	text-decoration: none !important;
+}
+
+.post-title a {
+	color: #000000;
+	border: none;
+	width: auto;
+	text-decoration: none !important;
+	border: none !important;
+}
+
+.post-title a:hover {
+	text-decoration: none !important;
+}
+
+.post-footer {
+	display: none;
+}
+
+
+.item-title:hover {
+	text-decoration: underline;
+}
+
+.post-outer {
+	margin-bottom: 80px;
+}
+
+.post-outer:last-child {
+	margin-bottom: 0px;
+}
+
+.date-outer {
+	margin-bottom: 80px;
+}
+
+.date-outer:last-child {
+	margin-bottom: 80px;
+}
+
+.post-footer-line {
+	width: auto;
+	/*! display: inline-block; */
+}
+
+.blog-pager {
+	background: #eaeaea;
+	padding: 15px 20px;
+	;
+}
+
+.blog-pager a {
+	color: #404040;
+	text-decoration: none;
+}
+
+.blog-pager a:hover {
+	border-bottom: 1px #404040 solid;
+}
+
+.date-header {
+	font-size: 15px;
+	color: #919191;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.blog-posts {
+	color: #2b2b2b;
+}
+
+.separator {
+	margin-bottom: 25px;
+}
+
+.separator a{
+	margin: 0 !important;
+}
+
+
+.jump-link a {
+	display:  block;
+	margin-top: 44px;
+	color: #000000;
+	background: none;
+	width: 100px;
+	height: 38px;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	border: 2px solid #000000 !important;
+	border-radius: 100px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+.jump-link a:hover {
+	background: #F1F1F1;
+}
+
+.post {
+	margin-bottom: 30px;
+}
+
+.post-body h2 {
+	font-size: 28px !important;
+	font-weight: 600;
+	margin: 0px !important;
+	padding: 9px 0px !important;
+	line-height: 28px !important;
+}
+
+.post-body h3 {
+	font-size: 22px !important;
+	font-weight: 600;
+	margin: 0px !important;
+	padding: 5px 0px 10px 0px !important;
+	line-height: 22px !important;
+}
+
+.post-body h4 {
+	font-size: 18px !important;
+	font-weight: 500;
+	margin: 0px !important;
+	padding: 30px 0px 15px 0px;
+	line-height: 18px !important;
+}
+
+.blockquote-large {
+	width: 100%;
+	text-align:  center;
+	padding-left: 120px;
+	padding-right: 120px;
+	box-sizing: border-box;
+}
+
+.blockquote-large-content {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #454545;
+	display: block;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: justify;
+}
+
+.blockquote-large-content:before {
+	content: '「';
+	float: left;
+	margin-left: -45px;
+	margin-top: -15px;
+	color: #C0C0C0;
+}
+
+.blockquote-large-content:after {
+	content: '」';
+	float: right;
+	margin-right: -45px;
+	color: #C0C0C0;
+	margin-top: 15px;
+	display: block;
+}
+
+.blockquote-large-source {
+	text-align: right;
+	font-size: 18px;
+	color: #828282;
+	margin-top: 5px;
+	font-weight:  400;
+}
+
+.blockquote-small {
+	width: 100%;
+	text-align:  center;
+	padding-left: 120px;
+	padding-right: 120px;
+	box-sizing: border-box;
+}
+
+.blockquote-small-content {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 2;
+	color: #575757;
+	display: block;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: justify;
+}
+
+.blockquote-small-content:before {
+	content: '「';
+	float: left;
+	margin-left: -45px;
+	margin-top: -25px;
+	color: #C0C0C0;
+	font-size: 36px;
+}
+
+.blockquote-small-content:after {
+	content: '」';
+	float: right;
+	margin-right: -45px;
+	margin-top: -50px;
+	color: #C0C0C0;
+	font-size: 36px;
+}
+
+.blockquote-small-source {
+	text-align: right;
+	font-size: 15px;
+	color: #828282;
+	margin-top: 5px;
+	font-weight:  400;
+}
+
+.tr-caption-container {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+}
+
+.tr-caption {
+	display: block;
+	font-size: 14px;
+	color: #828282;
+	margin-top: 18px;
+	font-weight: 400;
+}
+
+.post-body img{
+	max-width:100%;
+  max-height:602px;
+  width: auto !important;
+  height: auto !important;
+	display: block;
+	margin: 0px auto;
+	cursor: zoom-in;
+}
+
+.instagram-media {
+	margin: 0px auto !important;
+}
+
+.highlight {
+  background: rgba(255,231,55,0.25);
+	display: inline-block;
+}
+
+.monospaced {
+	width: 100%;
+	background: #F2F2F2;
+	border-radius: 6px;
+	font-size: 14px;
+  padding: 30px 40px;
+	box-sizing: border-box;
+	font-family: 'Source Code Pro', monospace;
+	margin: 22px 0px;
+}
+
+/* 圖片檢視 */
+.CSS_LIGHTBOX {
+	z-index: 1000000 !important;
+}
+
+.CSS_LIGHTBOX_BTN_CLOSE {
+	display: none;
+}
+
+.CSS_LIGHTBOX_BG_MASK {
+	background: #ffffff !important;
+	}opacity: 0.95 !important;
+
+
+.CSS_LIGHTBOX_ATTRIBUTION_INDEX_CONTAINER {
+	display:  none;
+}
+
+.CSS_LIGHTBOX_FILMSTRIP  {
+	display:  none;
+}
+
+.CSS_LIGHTBOX_IMAGE_CONTAINER {
+	height: 100% !important;
+
+}
+
+.CSS_LIGHTBOX_SCALED_IMAGE .CSS_LAYOUT_COMPONENT {
+	height: 100% !important;
+}
+
+.CSS_LIGHTBOX_SCALED_IMAGE_IMG {
+	outline: none !important;
+}
+
+/* Widget */
+.widget {
+	padding-bottom: 40px;
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 40px;
+}
+
+.widget:first-child {
+	padding: 0;
+	border-bottom: 0;
+}
+
+.widget:last-child {
+	padding: 0;
+	border-bottom: 0;
+}
+
+.widget-content ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.widget-content li {
+	list-style-type: none
+}
+
+.widget h2 {
+	font-size: 14px;
+}
+
+.quickedit {
+	display: none;
+}
+
+/* 搜尋 */
+#widget-search-box {
+	width: 280px;
+	height: 53px;
+	border:  0;
+	font-size: 14px;
+	border-bottom: 1px solid #DBDBDB;
+	background: url('http://chelinchan.com/personalblog/icons/widget-search.png');
+	background-size: 16px 52px;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+/* 關於我 */
+#widget-about {
+	width: 100%;
+	display: flex;
+}
+
+#widget-about-left {
+	flex: none;
+	display: block;
+	width:49px;
+	margin-right: 16px;
+}
+
+#widget-about-left-picture {
+	width: 49px;
+	height: 49px;
+	display: block;
+	background: url('http://chelinchan.com/personalblog/images/profile-picture.png');
+	background-size: 100%;
+	border-radius: 100%;
+	margin-top: 3px;
+}
+
+#widget-about-right{
+	flex: 1;
+}
+
+#widget-about-right-name {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#widget-about-right-title {
+	font-size: 13px;
+	font-weight: 400;
+	color: #848484;
+}
+
+#widget-about-right-des {
+	font-size: 14px;
+	text-align: justify;
+	display: block;
+	margin-top: 16px;
+}
+
+/* 文章索引 */
+.hierarchy a {
+	border-bottom: none;
+	font-size: 14px;
+}
+
+.post-count {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 19px;
+	text-align: center;
+	color: #ffffff;
+	width: auto;
+	min-width: 19px;
+	height: 19px;
+	padding-left:0;
+	display: inline-block;
+	background: #757575;
+	text-indent: 0;
+	vertical-align: center;
+	border-radius: 100%;
+	margin-left: 4px;
+}
+
+.posts ul {
+}
+
+.Youtube-Video {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	height: 0;
+}
+
+.Youtube-Video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#likebuttonbox {
+	margin-bottom: 15px;
+	width: 90vw;
+	overflow: hidden;
+}
+
+#HTML4 {
+	display: none;
+}
+
+#likebuttonbox {
+	width: auto;
+}
+
+footer {
+	width: 100%;
+	background: #FBFBFB;
+	height: 217px;
+	display: blockl
+}
+
+#footer-content {
+	height: 100%;
+	width: 1000px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#footer-content-left {
+	display:  block;
+}
+
+.logo-dark {
+	background: url('http://chelinchan.com/personalblog/images/logo-dark.png');
+}
+
+#footer-content-left-logo {
+	width: 233px;
+	height: 28px;
+	display:  block;
+	background-size: 100%;
+}
+
+#footer-content-left-copyright {
+	font-size: 12px;
+	margin-top: 17px;
+}
+
+#footer-content-right {
+
+}
+
+#footer-content-right-logo-chan {
+	width: 198px;
+	height: 43px;
+	display: block;
+	background: url('http://chelinchan.com/personalblog/images/logo-chan.png');
+	background-size: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+	body {
+		width: 100%;
+	}
+
+	header {
+		z-index: 1000;
+		width: 100%;
+		height: calc(50vh);
+		background: #000000;
+		position: relative;
+	}
+
+	#header-homepage-content {
+		max-width: 100%;
+    padding: 0px 20px;
+		box-sizing: border-box;
+	}
+
+	#header-homepage-content-logo {
+		width: 233px !important;
+		height: 49px !important;
+		display: flex;
+		justify-content: center;
+		transition: 0.3s ease;
+		background-repeat: no-repeat;
+	}
+
+	#header-homepage-content-info {
+		display: none;
+	}
+
+	#content {
+		max-width: 100%;
+		overflow: hidden;
+		margin-top: 50px;
+		padding: 0px 20px;
+	}
+
+	article {
+		max-width: 100% !important;
+		width: 100% !important;
+		float: none;
+		box-sizing: border-box;
+	}
+
+	aside {
+		display: none;
+	}
+
+	.post-body {
+		font-size: 16px;
+	}
+
+	.post-title {
+		padding: 0 !important;
+		margin: 0px !important;
+		margin-bottom: 15px !important;
+		line-height: 35px;
+		font-size: 25px;
+	}
+
+	.post-outer {
+		margin-bottom: 50px !important;
+	}
+
+	.post-outer:last-child {
+		margin-bottom: 0px;
+	}
+
+	.date-outer {
+		margin-bottom: 50px;
+	}
+
+	.date-outer:last-child {
+		margin-bottom: 80px;
+	}
+
+	.post-footer-line {
+		width: auto;
+	}
+
+	.blog-pager {
+		background: #eaeaea;
+		padding: 15px 20px;
+	}
+
+
+	.blog-pager a {
+		color: #404040;
+		text-decoration: none;
+	}
+
+	.blog-pager a:hover {
+		border-bottom: 1px #404040 solid;
+	}
+
+	.date-header h2 {
+		font-size: 14px !important;
+		color: #919191;
+	}
+
+	.date-header{
+		font-size: 15px !important;
+		color: #919191;
+		font-weight: 400;
+		margin-bottom: 10px !important;
+	}
+
+	.jump-link a {
+		margin-top: 20px;
+	}
+
+	.blockquote-large {
+		width: 100%;
+		text-align:  center;
+		padding-left: 30px;
+		padding-right: 30px;
+		box-sizing: border-box;
+	}
+
+	.blockquote-large-content {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: #454545;
+		display: block;
+		text-align: left;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		text-align: justify;
+	}
+
+	.blockquote-large-content:before {
+		content: '「';
+		float: left;
+		margin-left: -45px;
+		margin-top: -15px;
+		color: #C0C0C0;
+		font-size: 36px;
+	}
+
+	.blockquote-large-content:after {
+		content: '」';
+		float: right;
+		margin-right: -45px;
+		margin-top: 45px;
+		color: #C0C0C0;
+		font-size: 36px;
+		display: none;
+	}
+
+	.blockquote-large-source {
+		text-align: right;
+		font-size: 18px;
+		color: #828282;
+		margin-top: 5px;
+		font-weight:  400;
+	}
+
+	.blockquote-small {
+		width: 100%;
+		text-align:  center;
+		padding-left: 30px;
+		padding-right: 30px;
+		box-sizing: border-box;
+	}
+
+	.blockquote-small-content {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1.8;
+		color: #575757;
+		display: block;
+		text-align: left;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		text-align: justify;
+	}
+
+	.blockquote-small-content:before {
+		content: '「';
+		float: left;
+		margin-left: -45px;
+		margin-top: -25px;
+		color: #C0C0C0;
+		font-size: 36px;
+	}
+
+	.blockquote-small-content:after {
+		content: '」';
+		float: right;
+		margin-right: -45px;
+		margin-top: -50px;
+		color: #C0C0C0;
+		font-size: 36px;
+	}
+
+	.monospaced {
+		width: 100%;
+		background: #F2F2F2;
+		border-radius: 6px;
+		font-size: 14px;
+		padding: 10px 20px;
+		box-sizing: border-box;
+		font-family: 'Source Code Pro', monospace;
+		margin: 18px 0px;
+	}
+
+	#footer-content {
+		height: 100%;
+		width: 100%;
+		margin: 0px auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	#footer-content-left {
+		display:  block;
+		text-align: center;
+	}
+
+	.logo-dark {
+		background: url('http://chelinchan.com/personalblog/images/logo-dark.png');
+	}
+
+	#footer-content-left-logo {
+		width: 233px;
+		height: 28px;
+		display:  block;
+		background-size: 100%;
+		margin: 0px auto;
+	}
+
+	#footer-content-left-copyright {
+		font-size: 12px;
+		margin-top: 17px;
+	}
+
+	#footer-content-right {
+    display: none;
+	}
+}

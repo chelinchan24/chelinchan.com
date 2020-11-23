@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "https://i.kfs.io/album/global/45448681,0v1/fit/500x500.jpg",
+  "type" : "單曲",
+  "year" : "2018",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "轉眼（2018 自傳最終章）",
+  "CoverSourceFrom" : "KKBOX",
+  "InfoReference" : "Just Mayday It",
+  "song" :
+  [
+    {
+      "SongTitle" : "轉眼（2018 自傳最終章）",
+      "songsource" : "GuqY5OViunk",
+      "time" : "5:32",
+      "AlbumTitle" : "轉眼（2018 自傳最終章）",
+      "lyrics" : "./songdata/lyrics/轉眼（2018-自傳最終章）（單曲）-轉眼（2018-自傳最終章）.json"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* 計算 */
+.NoteText{
+	width: 150px;
+	height: 60px;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #898989;
+}
+
+.TicketNumber{
+	font-size: 20px;
+	color: #505050;
+}
+
+button{
+	background: none;
+	border: none;
+	font-weight: bold;
+	font-size: 15px;
+	color: #808080;
+}
+/* 表格樣式 */
+.data-table {
+        border-collapse: collapse;
+ }
+	
+.bg-e9ba77 {
+		background: #ff8b3d;
+		color: #ffffff;
+		border-right: solid #b87045 1px;
+		border-bottom: solid #b87045 1px;
+
+ }
+	
+.bg-tickettype {
+		width: 150px;
+		height: 50px;
+		background: #464646;
+		color: #ffffff;
+		border-right: solid #343434 1px;
+		border-bottom: solid #343434 1px;
+ }
+	
+.content {
+		width: 150px;
+		height: 60px;
+		text-align: center;
+		border-right: solid #dedede 1px;
+		border-bottom: solid #dedede 1px;
+		background: #f3f3f3;
+ }
+	
+.bg-movietype{
+		width: 100px;
+		height: 50px;
+		background: #da783d;
+		color: #ffffff;
+		border-right: solid #b87045 1px;
+		border-bottom: solid #b87045 1px;
+		text-align: center;
+}
+
+.MovieTypeNoteText{
+		font-size: 12px;
+		color:#ffeade;
+}
+
+.total{
+	font-size: 16px;
+	text-align: center;
+	height: 30px;
+	padding-top: 6px;
+	width: 714px;
+	background: #da783d;
+	color: #ffffff;
+	border-top: 1px #9A672E solid;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+
+}

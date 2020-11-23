@@ -1,0 +1,20 @@
+{
+  "AlbumCoverSource" : "http://chelinchan.com/jmi/play/images/albumcover/春嬌救志明.png",
+  "type" : "單曲",
+  "year" : "2017",
+  "total" : "1",
+  "available" : "1",
+  "AlbumTitle" : "春嬌救志明",
+  "CoverSourceFrom" : "Just Mayday It",
+  "InfoReference" : "網路",
+  "song" :
+  [
+    {
+      "SongTitle" : "春嬌救志明",
+      "songsource" : "tGHxaI7YXUw",
+      "time" : "2:40",
+      "AlbumTitle" : "春嬌救志明",
+      "lyrics" : "./songdata/lyrics/春嬌救志明（單曲）-春嬌救志明.json"
+    }
+  ]
+}

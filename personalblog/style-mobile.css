@@ -1,0 +1,989 @@
+@charset "UTF-8";
+@media screen and (max-width: 1050px) {
+
+body {
+	padding-top:66px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	background: #EAEAEA;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+/* 導航列 */
+#導覽列 {
+	z-index: 10000;
+	width: 100%;
+	margin: 0px auto;
+	top: 0;
+	position:fixed;
+	display: block;
+	background: rgba(0,0,0,0.00);
+	transition: background 0.3s ease;
+}
+
+/* 精選作品 */
+#精選作品盒子 {
+	position: relative;
+	margin-top: -66px;
+	background-image: linear-gradient(-180deg, #7B19B8 0%, #E0139F 100%);
+	height: 585px;
+	display: block;
+}
+
+#精選作品內容 {
+	position: absolute;
+	width: 100%;
+	top: 66px;
+	display: block;
+}
+
+#精選作品標題 {
+	height: auto;
+	margin-top: 60px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+#精選作品標題圖片 {
+	height: 50px;
+}
+
+#精選作品詳細資訊 {
+	padding: 0px 30px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	display: block;
+	z-index: 200;
+	margin-top: 20px;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.精選作品連結 {
+	font-size: 14px;
+}
+
+.精選作品連結 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.精選作品連結 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.精選作品連結:after {
+	margin-left: 5px;
+	vertical-align: middle;
+	width: 7px;
+	height: 12px;
+	display: inline-block;
+	background-size: 7px 12px;
+	background-image: url('../images/spotlight-readmore-right-arrow.png');
+	content:"";
+}
+
+#精選作品圖片 {
+	z-index: 1;
+	top: 280px;
+	botton: 0;
+	display: block;
+	width: 100%;
+	height: 305px;
+	right: 0;
+	overflow:hidden;
+}
+
+#精選作品圖片本身 {
+	width:100vw;
+	max-width: 650px;
+	bottom: 0;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+}
+
+
+/* 區塊 */
+
+#內容區塊 {
+	display: block;
+	padding-top: 30px;
+	margin: 0px auto;
+	width: 100%;
+	height: auto;
+}
+
+#內容區塊:before, #內容區塊:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+#內容區塊:after {
+    clear: both;
+}
+
+.直式區塊標題 {
+	float: left;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	display: block;
+	color: #ffffff;
+	font-size: 32px;
+	width: auto;
+	font-weight: 700;
+	letter-spacing: 6px;
+	line-height: 30px;
+}
+
+.小型區塊說明 {
+	display: block;
+	vertical-align:middle;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.小型按鈕 {
+	cursor: pointer;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	font-size: 14px;
+	border-radius: 100px;
+	line-height: 34px;
+	margin: auto;
+	color: #ffffff;
+	text-align: center;
+	width: 133px;
+	height: 40px;
+	display: block;
+	border: 3px solid;
+	border: 3px solid rgba(255,255,255,0.80);
+	transition: box-shadow 0.2s ease;
+	box-sizing: border-box;
+
+}
+
+.小型按鈕:hover {
+	transition: box-shadow 0.2s ease;
+	box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.10);
+}
+
+/* 詹喆麟區塊 */
+#詹喆麟區塊 {
+	padding: 35px 45px;
+	height: auto;
+	width: 90vw;
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+#詹喆麟區塊標題 {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	color: #2E2E2E;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#詹喆麟大頭貼 {
+	margin: 0px auto;
+	display: block;
+	border-radius: 100px;
+	width: 75px;
+}
+
+#詹喆麟簡介 {
+	margin: 0px auto;
+	margin-bottom: 40px;
+	display: block;
+}
+
+#詹喆麟瞭解更多 {
+	cursor: pointer;
+	bottom: 0;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 57px;
+	display: block;
+	width: 135px;
+	height: 57px;
+	background: #FFFFFF;
+	border-radius: 100px;
+	background-image:url('../images/readmore-chelinchan.png');
+	background-size: 100%;
+	transition: box-shadow 0.2s ease;
+	color: #DE278B;
+	font-size: 14px;
+}
+
+#詹喆麟瞭解更多:hover {
+	transition: box-shadow 0.2s ease;
+	box-shadow: 0px 15px 41px 0px #D7D7D7;
+}
+
+/* 作品區塊 */
+.作品標題 {
+	border-right: 1px solid #6E6E6E;
+	margin-right: 25px;
+	padding-right: 25px;
+}
+
+.作品區塊說明 {
+	margin-top: -2px;
+}
+
+
+#作品區塊 {
+	position: relative;
+	padding: 35px 40px;
+	margin: 0px auto;
+	display: block;
+	background: #353535;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	height: 198px;
+	width: 90vw;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+	margin-bottom: 30px;
+}
+
+/* 聯絡區塊 */
+.聯絡標題 {
+	border-right: 1px solid rgba(255,255,255,0.39);
+	margin-right: 25px;
+	padding-right: 25px;
+	margin-left: -5px;
+}
+
+.聯絡區塊說明 {
+	margin-top: -2px;
+}
+
+#聯絡區塊 {
+	padding: 35px 45px;
+	margin-top: 30px;
+	margin: 0px auto;
+	display: block;
+	background: #353535;
+	background-image: linear-gradient(-180deg, #AA1BD3 3%, #BA6BD0 100%);
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	height: 198px;
+	width: 90vw;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/* 動態區塊 */
+#動態區塊標題 {
+	margin-bottom: 40px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	display: block;
+	left: 0;
+	right: 0;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+#動態區塊 {
+	padding: 35px 0px;
+	background: #ffffff;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	height: auto;
+	width: 90vw;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 125px;
+}
+
+.動態內容區塊 {
+	margin-bottom: 50px;
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	display: block;
+	vertical-align: top;
+}
+
+.動態內容區塊:last-child {
+	margin-bottom: 0px;
+}
+
+.按鈕 {
+	font-size: 14px;
+	text-align: center;
+	width: 133px;
+	height: 42px;
+	display: block;
+	margin: 0px auto;
+	line-height: 41px;
+	border-radius: 100px;
+	transition: box-shadow 0.2s ease;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+
+.按鈕:hover {
+	transition: box-shadow 0.2s ease;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.10);
+}
+
+/* 部落格 */
+
+#動態區塊部落格文章 {
+	width: 100%;
+	display: block;
+	height: auto;
+	background: #ffffff;
+	margin-bottom: 28px;
+}
+
+#部落格Logo {
+	margin: 0px auto;
+	background: url('http://i.imgur.com/Ek9l5ol.png');
+	background-size: 100%;
+	width: 180px;
+	display: block;
+	height: 35px;
+	margin-bottom: 28px;
+	background-repeat: no-repeat;
+}
+
+.部落格按鈕 {
+	color: #3F2A5D;
+	line-height: 35px !important;
+	border:3px solid #3F2A5D;
+	border-radius: 100px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.部落格按鈕 a{
+	color: #3F2A5D;
+}
+
+/* Instagram */
+#InstagramIcon {
+	height: 35px;
+	width: 35px;
+	display: block;
+	background: url('https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png');
+	background-size: 100%;
+	margin: 0px auto;
+	margin-bottom: 28px;
+}
+
+#Instagram貼文 {
+	background: #ffffff;
+	width: 268px;
+	height: 268px;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 28px;
+}
+
+.Imstagram按鈕 {
+	background:url('../images/visit-instagram-button.png');
+	background-size: 100%;
+	color: #E2296E;
+	background-repeat: no-repeat;
+}
+
+.Imstagram按鈕 a {
+	color: #E2296E;
+}
+
+
+/* feedEk */
+.feedEkList	{
+	padding:0;
+	text-align: center;
+	list-style:none;
+	margin: 0px;
+}
+
+.feedEkList li {
+	margin: 0px auto;
+	font-size: 16px;
+	width: auto;
+	padding: 10px;
+	transition: box-shadow 0.2s ease;
+	
+}
+
+.feedEkList li:hover {
+	z-index: 100;
+	color: #858585 !important;
+	background: #ffffff;
+	box-shadow: 0px 15px 41px 0px rgba(0,0,0,0.25);
+	transition: box-shadow 0.2s ease;
+}
+
+.feedEkList li:last-child {
+	border-bottom:none;
+	}
+	
+.itemTitle a {
+	font-weight: 400;
+	color: #000000 !important;
+	text-decoration: none;
+}
+
+.itemTitle a:hover {
+	text-decoration: none;
+
+}
+.itemDate {
+	font-size: 14px;
+	color: #676767;
+}
+
+/* 頁腳 */
+#頁腳盒子 {
+	position: absolute;
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+		/*關於我 */
+.全寬區塊 {
+	margin: 0px auto;
+	height: auto;
+	width: 90vw;
+	display: block;
+	background: #FFFFFF;
+	margin-bottom: 55px;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+}
+
+#介紹區塊圖片 {
+	width: 100%;
+	height: 187px;
+	background: url('https://1.bp.blogspot.com/-7dqJfECJVqc/WNTxn0PSpyI/AAAAAAAAJNA/VeYAKHnNivMxMkE14Q2kepn0UNwCqgAxgCLcB/s1600/IMG_0003.jpg');
+	display: block;
+	background-size: auto;
+	background-position: center;
+
+}
+
+#介紹區塊介紹 {
+	padding-top: 49px;
+	margin: 0px auto;
+	height: 95px;
+	width: 239px;
+	display: block;
+
+}
+
+#介紹區塊大頭貼 {
+	width: 95px;
+	height: 95px;
+	background: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14054173_1091304470906696_3012591219365912019_n.jpg?oh=f49d6723c83c148300e1ee94d0d9a754&oe=59C6CEB9');
+	background-size: 100%;
+	border-radius: 100px;
+	float: left;
+}
+
+#介紹區塊介紹內文 {
+	margin-top: 15px;
+	display: block;
+	margin-left: 110px;
+	/* 詹喆麟 CHE-LIN CHAN: */
+	text-shadow: 0px 13px 20px #000000;
+}
+
+#介紹區塊名字 {
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 24px;
+	display: block;
+}
+
+#介紹區塊頭銜 {
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 16px;
+	display: block;
+}
+
+.兩排式文字 {
+	display: none;
+}
+
+.兩排式文字-行動版 {
+	box-sizing: border-box;
+	padding-right: 35px;
+	padding-left: 35px;
+	margin-top: 50px;
+	vertical-align: top;
+	font-size: 14px;
+	text-align: justify;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	line-height: 25px;
+	padding-bottom: 25px
+}
+
+#社群區塊 {
+	margin: 0px auto;
+	height: auto;
+	width: 100%;
+	display: block;
+	background: none;
+	/* margin-bottom: 55px; */
+	white-space: nowrap;
+}
+
+.一個社群 {
+	margin-right: 13px;
+	width: 90vw;
+	height: 255px;
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+.一個社群:last-child {
+	
+}
+
+.Linkedin背景 {
+	background-image: linear-gradient(-180deg, #0277B5 3%, #29B5FF 100%);
+}
+
+.Behance背景 {
+	background-image: linear-gradient(-180deg, #0049B2 3%, #2F77FF 100%);
+}
+
+.Instagram背景 {
+	background-image: url('../images/social-ig-background.png');
+	background-size: 100%;	
+}
+
+.個人部落格背景 {
+	background-image: linear-gradient(0deg, #838B9F 0%, #403C61 100%);
+}
+
+.社群Logo {
+	padding-top: 1px;
+}
+
+.社群標題 {
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.社群按鈕 {
+	color: #ffffff;
+	cursor: pointer;
+	line-height: 34px;
+	box-sizing: border-box;
+	border: 3px solid rgba(255,255,255,0.80);
+}
+
+.關於社群icon {
+	display: block;
+	padding-bottom: 25px;
+	margin: 0px auto;
+	margin-top: 50px;
+	width: 55px;
+	height: 55px;
+}
+
+.區塊大標題 {
+	font-weight: 600;
+	font-size: 30px;
+	padding-top: 60px;
+	display: blcok;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.區塊小標題 {
+	font-weight: 400;
+	font-size: 16px;
+	display: blcok;
+	width: 100%;
+	text-align: center;
+}
+
+		/* 作品 */
+.作品頁面介紹區塊圖片 {
+	background: url('../images/portfolio-bg.png') !important;
+	background-size: auto !important;
+	background-position: left !important;
+}
+
+#頁面大標題 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 32px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#頁面小標題 {
+	text-align: center;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+#頁面介紹按鈕區塊 {
+	display: block;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.頁面介紹文字 {
+	text-align: center;
+	margin-top: 50px;
+	vertical-align: top;
+	font-size: 14px;
+	width: 100%;
+	height: auto;
+	display: block;
+	line-height: 25px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+
+.頁面介紹按鈕 {
+	width: 45vw;
+	margin: 0px auto;
+	border: 3px #000000 solid;
+	box-sizing: border-box;
+	display: block;
+	line-height: 34px;
+}
+
+.頁面介紹按鈕:last-child {
+	margin-top: 20px;
+}
+
+.Behance作品集按鈕 {
+	border: 3px rgba(0,0,0,0.00) solid !important;
+	color: #ffffff;
+	background: #1262FB;
+}
+
+
+#作品卡片區塊 {
+	margin: 0px auto;
+	margin-bottom: 100px;
+}
+
+.作品介紹卡片文字區塊 {
+	padding: 25px 30px; 
+}
+
+.作品介紹卡片 {
+	margin: 0px auto;
+	display: block;
+	position: relative;
+	width: 90vw;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	margin-bottom: 30px;
+	padding-bottom: 100px;
+}
+
+
+.作品介紹卡片封面 {
+	width: 	100%;
+	height: 	auto;
+	display: block;
+}
+
+.作品介紹卡片時間 {
+	font-size: 14px;
+	color: #828282;
+}
+
+.知名 {
+	font-weight: 500;
+	/* color: #CBAB32; */
+	/* color: #DAB341; */
+	color: #D6B027;
+	margin-left: 7px;
+}
+
+.作品介紹卡片標題 {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.作品介紹卡片說明 {
+	text-align: justify;
+	color: #464646;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.作品介紹卡片按鈕 {
+	color: #000000;
+	border: 3px #000000 solid;
+	box-sizing: border-box;
+	line-height: 34px;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	left: 0;
+}
+
+.作品介紹卡片按鈕 a{
+	color: #464646;
+}
+
+		/* 404 */
+#找不到網頁圖示與說明 {
+	width: 100%;
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+		
+#PageNotFound {
+	margin: 0px auto;
+	height: 140px;
+	width: 195px;
+	display: block;
+	background: url('../images/404.png');
+	background-size: 100%;
+	margin-bottom: 25px;
+}
+
+#前女友區塊 {
+	background: #ffffff;
+	width: 100% ;
+	z-index: 3000;
+    bottom: 0%;
+	height:200px;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.17);
+}
+
+#前女友區塊內容 {
+	width: 100%;
+	margin: 0px auto;
+}
+
+#前女友標題與說明 {
+	box-sizing: border-box;
+	padding: 30px 30px 00px 30px;
+	margin-top: 23px;
+	width: 100%;
+	display: block;
+}
+
+#前女友標題 {
+	font-size: 16px;
+	color: #464646;
+}
+
+#前女友說明 {
+	color: #464646;
+	font-size: 14px;
+}
+
+.找不到網頁按鈕 {
+	margin-top: 24px;
+	border: 3px #000000 solid;
+	box-sizing: border-box;
+	line-height: 34px;
+}
+
+#頁腳盒子 {
+	margin-bottom: 0px !important;
+}
+
+		/* 聯絡 */
+.聯絡頁面介紹區塊圖片 {
+	background: url('../images/contact-bg.png') !important;
+	background-size: auto !important;
+	background-position: left !important;
+}
+
+.聯絡頁面卡片 {
+	margin: 0px auto;
+	vertical-align: top;
+	display: block;
+	position: relative;
+	width: 90vw;
+	height: 330px;
+	background: #ffffff;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	margin-bottom: 30px;
+}
+
+.聯絡頁面卡片:last-child {
+	margin: 0px auto;
+	vertical-align: top;
+	display: block;
+	position: relative;
+	width: 90vw;
+	height: 330px;
+	background: #ffffff;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	margin-bottom: 100px;
+}
+
+.聯絡頁面卡片icon {
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	display: block;
+	padding-top: 65px;
+}
+
+.聯絡頁面聯絡方式說明 {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.聯絡頁面聯絡方式 {
+	font-weight: 400;
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top:20px;
+}
+
+.聯絡頁面介紹文字 {
+	padding-bottom: 50px !important;
+}
+/* 法律內文 */
+.法律內文區塊 {
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 40px 30px;
+	height: auto;
+	width: 90vw;
+	display: block;
+	background: #FFFFFF;
+	margin-bottom: 55px;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+}
+
+.法律內文區塊正文 {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#法律與條款標題 {
+	font-weight: 700;
+	color: #4B4B4B;
+	font-size: 30px;
+	text-align: center;
+}
+
+#法律與條款說明 {
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	color: #4B4B4B;
+}
+
+#法律與條款標題與說明區塊 {
+	width: 100%;
+	display: block;
+	margin-bottom: 50px;
+}
+
+
+/* 法律選單 */
+#法律選單區塊 {
+	margin:0px auto;
+	padding: 20px 0px;
+	display: block;
+	width: 90vw;
+	box-sizing: border-box;
+	background: #ffffff;
+	box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.17);
+	margin-bottom: 30px;
+}
+
+#法律選單標題 {
+	padding: 0px 0px 20px 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#法律項目區塊 {
+	font-size: 14px;
+	list-style: none;
+	padding: 20px 25px;
+	color: #424242
+}
+
+#法律項目區塊 a {
+	font-size: 14px;
+	list-style: none;
+	color: #424242;
+}
+
+}

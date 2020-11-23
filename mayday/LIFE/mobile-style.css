@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Teko:300');
+
+@media screen and (max-width: 1000px) {
+
+/* 全局 */
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	height: 100%;
+	min-height: 100%;
+}
+
+/* 公告 */
+#公告 {
+	right: 0px;
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	z-index: 2000;
+	text-align: center;
+	font-size: 12px;
+	color: #6F6F6F;
+}
+
+#公告 a {
+	text-decoration: underline;
+	font-style: italic;
+	color: #6F6F6F;
+}
+
+	/* 推文 */
+	.推 {
+		color: #3A3A3A;
+	}
+	
+	.作者 {
+		color: #BBB900;
+	}
+	
+	.內文 {
+		color: #8C8943;
+	}
+
+/* 關於 */
+#關於 {
+	width: 100%;
+	position: absolute;
+	top: 10px;
+}
+
+#關於按鈕 {
+	display: none;
+	height: 35px;
+	opacity: 10%;
+	-webkit-filter:opacity(.5);
+}
+
+#關於容器 {
+	height: 40px;
+	display: block;
+	font-size: 10px;
+	z-index: 1000;
+	opacity: 1;
+	color: #999999;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#關於容器 a{
+	color: #5A5A5A;
+}
+
+
+/* 特效 */
+#頂端漸層 {
+	padding-bottom: 100px;
+	z-index: -1;
+}
+
+#底部漸層 {
+	position: fixed;
+	bottom: 0;
+	z-index: -100;
+	height: 320px;
+	width: 100%;
+	padding-botton: 0px;
+}
+
+/* 標題 */
+#標語容器 {
+	text-align: center;
+	margin: 0px auto;
+	margin-top: -25px;
+}
+
+#標語 {
+	z-index: 10000000;
+	display: block;
+	position: bsolute;
+	color: #505050;
+	font-size: 14px;
+}
+
+#標語 a{
+	text-decoration: none;
+	border-bottom: 1px solid #505050;
+	color: #505050;
+}
+
+#標題區塊 {
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+
+#大標題 {
+	font-size: 55px;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+#小標題 {
+	font-size: 25px;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	letter-spacing: 10px;
+	padding-left: 15px;
+}
+
+/* 倒數計時器 */
+.countdown {
+	font-weight: 200;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	border: 10px solid #FFFFFF;
+	width: 100%;
+	padding: 10px;
+	background: -webkit-linear-gradient(left, #f21c82, #69c4df);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-webkit-box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	-moz-box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	box-shadow: 0 2px 2px #999, inset 0 2px 2px #999;
+	font-style: italic;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#clock {
+	
+}
+
+#text {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#購票開始 {
+	margin-top: -13px;
+	font-size: 70px;
+	margin-bottom: -100px;
+}
+
+#購票開始小字 {
+	font-size: 20px;
+	line-height: 10px;
+}
+
+/* 讚 */
+#讚 {
+	padding-top: 15px;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* 頁尾 */
+.日期{
+	font-size: 50px;
+	color: #505050;
+	font-weight: 100;
+	font-style: italic;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#頁尾 {
+	clear: both;
+    position: relative;
+	z-index: 1000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding-bottom: 20px;
+	background-size: 100%;
+}
+	
+#頁尾內容容器 {
+	width: 100%;	
+	margin: 0px auto;
+}
+	
+.購票容器 {
+	vertical-align: middle;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.購票 {
+	font-size: 20px;
+	color: #505050;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 15px;
+	font-style:normal;
+}
+
+#地點 {
+	color: #505050;
+	font-weight: 100;
+	font-style: italic;
+	border: solid #505050 1px;
+	font-size: 28px;
+	padding-left: 18px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	letter-spacing: 18px;
+	display: inline-block;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+#月日{
+	padding-top: 2px;
+	float: right;
+	padding-right: 13px;
+	font-size: 42px;
+	color: #505050;
+	font-weight: 100;
+	font-style: italic;
+	margin-top: -9px;
+	letter-spacing: -1px;
+}
+
+.一個區塊 {
+	margin: 0px auto;
+	width: 100%;
+	display: block;
+}
+
+.一個時間 {
+	margin: 30px 0px; 
+	display: block;
+}
+
+#場次 {
+	display: block;
+	width: 100% !important;
+	font-size: 22px;
+	color: #505050;
+	font-weight: 100;
+	font-style: italic;
+}
+
+/* 聊天室 
+
+#聊天室容器{
+	width: 300px;
+	hight: 100%;
+	position: fixed;
+	z-index: 2000;
+	background: #000;
+	bottom:0;
+	top: 0;
+	right: 0;
+}
+
+*/
+
+
+#JustMaydayIt容器 {
+	display: none;
+}
+
+/* 倒數切換 */ 
+#倒數切換按鈕區塊 {
+	position: absolute;
+	top: 230px;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+
+.倒數切換按鈕 {
+	display: inline-block;
+	font-size: 12px;
+	border-top: #C3C3C3 1px solid;
+	border-left: #C3C3C3 1px solid;
+	border-bottom: #C3C3C3 1px solid;
+	padding: 2px 10px;
+	border-radius: 5px 0px 0px 5px;
+	color: #C3C3C3;
+}
+
+.倒數切換按鈕 a{
+	color: #C3C3C3;
+	text-decoration: none;
+}
+
+.倒數切換按鈕:last-child {
+	border-right: #C3C3C3 1px solid;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.倒數切換按鈕-啟用 {
+	background: #F3F3F3;
+}
+
+.倒數切換按鈕-啟用 a{
+	color: #919191;
+}
+}

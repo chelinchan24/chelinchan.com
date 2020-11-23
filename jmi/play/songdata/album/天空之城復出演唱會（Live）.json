@@ -1,0 +1,203 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music/v4/25/51/38/255138e7-2869-e800-fc5e-305063845a61/source/1000x1000bb.jpg",
+  "type" : "專輯",
+  "year" : "2004",
+  "total" : "27",
+  "available" : "25",
+  "AlbumTitle" : "天空之城復出演唱會（Live）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes / Youtube",
+  "YoutubePlaylistSource" : "",
+  "song" :
+  [
+    {
+      "SongTitle" : "Intro（Live）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/-Intro.json"
+    },
+    {
+      "SongTitle" : "武裝（Live）",
+      "songsource" : "z79Krsdk8PI",
+      "time" : "7:41",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/時光機-武裝.json"
+    },
+    {
+      "SongTitle" : "搖滾本事（Live）",
+      "songsource" : "Hf685OFdHOI",
+      "time" : "3:13",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/搖滾本事-搖滾本事.json"
+    },
+    {
+      "SongTitle" : "瘋狂世界（Live）",
+      "songsource" : "U9tQ1zNlsg4",
+      "time" : "4:34",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-瘋狂世界.json"
+    },
+    {
+      "SongTitle" : "終結孤單（Live）",
+      "songsource" : "AimKhIPiWv8",
+      "time" : "4:10",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "透露（Live）",
+      "songsource" : "T9OT25uz8aw",
+      "time" : "3:51",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "擁抱（Live）",
+      "songsource" : "y-o_QTkGSRE",
+      "time" : "5:32",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-擁抱.json"
+    },
+    {
+      "SongTitle" : "Talking（Live）",
+      "songsource" : "",
+      "time" : "--",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/"
+    },
+    {
+      "SongTitle" : "相信（Live）",
+      "songsource" : "80XF_L5ejKs",
+      "time" : "10:26",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/人生海海-相信.json"
+    },
+    {
+      "SongTitle" : "輕功（Live）",
+      "songsource" : "2NyJgxeEBP4",
+      "time" : "4:16",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/時光機-輕功.json"
+    },
+    {
+      "SongTitle" : "向前走（Live）",
+      "songsource" : "TxCu1Iarxig",
+      "time" : "6:00",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/天空之城復出演唱會-向前走.json"
+    },
+    {
+      "SongTitle" : "好不好（Live）",
+      "songsource" : "6471i6dYnrk",
+      "time" : "4:15",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/人生海海-好不好.json"
+    },
+    {
+      "SongTitle" : "I Love You 無望（Live）",
+      "songsource" : "q_QCGA-PH38",
+      "time" : "5:30",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-I-Love-You-無望.json"
+    },
+    {
+      "SongTitle" : "我（Live）",
+      "songsource" : "jb49AY32h6I",
+      "time" : "6:49",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/搖滾本事-我.json"
+    },
+    {
+      "SongTitle" : "人生海海（Live）",
+      "songsource" : "Px47W9dhHDo",
+      "time" : "4:43",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/人生海海-人生海海.json"
+    },
+    {
+      "SongTitle" : "OK啦！（Live）",
+      "songsource" : "FDMyinN4Ixc",
+      "time" : "2:52",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/人生海海-OK啦！.json"
+    },
+    {
+      "SongTitle" : "叫我第一名（Live）",
+      "songsource" : "OEFwj4f3ADc",
+      "time" : "3:23",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "王子麵（Live）",
+      "songsource" : "uQd-CVQIO4s",
+      "time" : "6:31",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/時光機-王子麵.json"
+    },
+    {
+      "SongTitle" : "雌雄同體（Live）",
+      "songsource" : "pToPqcMGq4s",
+      "time" : "6:11",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/時光機-雌雄同體.json"
+    },
+    {
+      "SongTitle" : "愛情萬歲（Live）",
+      "songsource" : "SGRQfXaDXrw",
+      "time" : "7:23",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-愛情萬歲.json"
+    },
+    {
+      "SongTitle" : "生命有一種絕對（Live)",
+      "songsource" : "-W4RhGvQRIc",
+      "time" : "4:48",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/時光機-生命有一種絕對.json"
+    },
+    {
+      "SongTitle" : "溫柔（Live)",
+      "songsource" : "zTj6iuKTcRw",
+      "time" : "4:39",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-溫柔.json"
+    },
+    {
+      "SongTitle" : "心中無別人（Live)",
+      "songsource" : "6vFgs4x-t94",
+      "time" : "4:31",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-心中無別人.json"
+    },
+    {
+      "SongTitle" : "軋車（Live)",
+      "songsource" : "ghTjAet8u3g",
+      "time" : "6:05",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "志明與春嬌（Live)",
+      "songsource" : "BJsdlduMe3s",
+      "time" : "10:33",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-志明與春嬌.json"
+    },
+    {
+      "SongTitle" : "Talking 2（Live)",
+      "songsource" : "",
+      "time" : "",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/-Talking 2.json"
+    },
+    {
+      "SongTitle" : "憨人（Live）",
+      "songsource" : "wGrgaSQEdXE",
+      "time" : "13:48",
+      "AlbumTitle" : "天空之城復出演唱會（Live）",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    }
+  ]
+}

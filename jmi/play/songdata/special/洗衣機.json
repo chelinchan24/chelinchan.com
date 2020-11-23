@@ -1,0 +1,21 @@
+{
+  "AlbumCoverSource" : "https://chinesepandamusic.files.wordpress.com/2013/12/e4ba94e69c88e5a4a9_e7acace4ba8ce4babae7949fe6988ee697a5e78988.jpg",
+  "type" : "專輯",
+  "year" : "2011",
+  "total" : "14",
+  "available" : "12",
+  "AlbumTitle" : "第二人生（明日版）",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "https://www.youtube.com/playlist?list=PLddrAgYy9GcVOVUMrq-WVDJ9u5AJ_QGi2",
+  "song" :
+  [
+    {
+      "SongTitle" : "洗衣機",
+      "songsource" : "BfwbO0f1R8o",
+      "time" : "4:13",
+      "AlbumTitle" : "第二人生（明日版）",
+        "lyrics" : "./songdata/lyrics/第二人生-洗衣機.json"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/快節奏.png",
+  "description" : "快節奏的音樂總是被放在演唱會的開頭，這些音樂讓全場瞬間沸騰。但如果像這個合輯裡一樣快節奏的歌曲一首接一首，主唱大人與我們的腿可是受不了的。",
+  "year" : "2017",
+  "month" : "4",
+  "day" : "30",
+  "title" : "快節奏",
+  "songCount" : "21",
+  "song" :
+  [
+    {
+      "SongTitle" : "軋車",
+      "songsource" : "_YWlFub_BB4",
+      "time" : "2:35",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-軋車.json"
+    },
+    {
+      "SongTitle" : "透露",
+      "songsource" : "pPiYz-hAhl4",
+      "time" : "3:39",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-透露.json"
+    },
+    {
+      "SongTitle" : "Hosee",
+      "songsource" : "Uwhk1xJrk74",
+      "time" : "2:38",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-Hosee.json"
+    },
+    {
+      "SongTitle" : "黑白講",
+      "songsource" : "gisl2TEe_es",
+      "time" : "3:52",
+      "AlbumTitle" : "五月天第一張創作專輯",
+      "lyrics" : "./songdata/lyrics/五月天第一張創作專輯-黑白講.json"
+    },
+    {
+      "SongTitle" : "終結孤單",
+      "songsource" : "bwB4KYblxsY",
+      "time" : "3:25",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-終結孤單.json"
+    },
+    {
+      "SongTitle" : "叫我第一名",
+      "songsource" : "3BGsJ4WGvT0",
+      "time" : "2:32",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-叫我第一名.json"
+    },
+    {
+      "SongTitle" : "OK啦！",
+      "songsource" : "_FV1NDdHHEo",
+      "time" : "2:51",
+      "AlbumTitle" : "人生海海",
+      "lyrics" : "./songdata/lyrics/人生海海-OK啦！.json"
+    },
+    {
+      "SongTitle" : "孫悟空",
+      "songsource" : "fcYaBvBTYHs",
+      "time" : "4:13",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-孫悟空.json"
+    },
+    {
+      "SongTitle" : "聖誕夜驚魂",
+      "songsource" : "FnSDAx13_Hw",
+      "time" : "2:43",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-聖誕夜驚魂.json"
+    },
+    {
+      "SongTitle" : "生存以上 生活以下",
+      "songsource" : "yEyPhn7eg_c",
+      "time" : "4:41",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-生存以上生活以下.json"
+    },
+    {
+      "SongTitle" : "爆肝",
+      "songsource" : "S7XCYsnHE-8",
+      "time" : "3:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-爆肝.json"
+    },
+    {
+      "SongTitle" : "噢買尬",
+      "songsource" : "jsPlAVkV33c",
+      "time" : "4:06",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-噢買尬.json"
+    },
+    {
+      "SongTitle" : "春天的吶喊",
+      "songsource" : "rK257_b0rWY",
+      "time" : "4:00",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-春天的吶喊.json"
+    },
+    {
+      "SongTitle" : "DNA",
+      "songsource" : "YTTZoywkAAU",
+      "time" : "2:46",
+      "AlbumTitle" : "DNA",
+      "lyrics" : "./songdata/lyrics/DNA（單曲）-DNA.json"
+    },
+    {
+      "SongTitle" : "放肆",
+      "songsource" : "MA91ChpYYz0",
+      "time" : "3:08",
+      "AlbumTitle" : "DNA",
+      "lyrics" : "./songdata/lyrics/DNA（單曲）-放肆.json"
+    },
+    {
+      "SongTitle" : "三個傻瓜",
+      "songsource" : "NbtaaTfINaM",
+      "time" : "4:18",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-三個傻瓜.json"
+    },
+    {
+      "SongTitle" : "乾杯",
+      "songsource" : "qX2GsMj7154",
+      "time" : "6:25",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-乾杯.json"
+    },
+    {
+      "SongTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "songsource" : "xWTiOqJqkk0",
+      "time" : "3:35",
+      "AlbumTitle" : "傷心的人別聽慢歌（貫徹快樂）",
+      "lyrics" : "./songdata/lyrics/傷心的人別聽慢歌（貫徹快樂）（單曲）-傷心的人別聽慢歌（貫徹快樂）.json"
+    },
+    {
+      "SongTitle" : "Do You Ever Shine?",
+      "songsource" : "UcKtBSlfpRU",
+      "time" : "4:44",
+      "AlbumTitle" : "Do You Ever Shine? - EP",
+      "lyrics" : "./songdata/lyrics/DoYouEverShine-Do-You-Ever-Shine.json"
+    },
+    {
+      "SongTitle" : "將軍令",
+      "songsource" : "_XYcCNY-ass",
+      "time" : "3:48",
+      "AlbumTitle" : "將軍令",
+      "lyrics" : "./songdata/lyrics/將軍令（單曲）-將軍令.json"
+    },
+    {
+      "SongTitle" : "派對動物",
+      "songsource" : "Fn7NLWHJw4s",
+      "time" : "4:43",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-派對動物.json"
+    }
+  ]
+}

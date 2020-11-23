@@ -1,0 +1,80 @@
+{
+  "albumList" :
+  [
+    {
+      "albumSource" : "./songdata/single/純真-MaydayBlue20th.json"
+    },
+    {
+      "albumSource" : "./songdata/single/隱形的紀念.json"
+    },
+    {
+      "albumSource" : "./songdata/single/一半人生.json"
+    },
+    {
+      "albumSource" : "./songdata/single/轉眼（2018-自傳最終章）.json"
+    },
+    {
+      "albumSource" : "./songdata/single/當每顆星星-阿信版.json"
+    },
+    {
+      "albumSource" : "./songdata/single/當每顆星星-合唱版.json"
+    },
+    {
+      "albumSource" : "./songdata/single/I-WILL-CARRY-YOU.json"
+    },
+    {
+      "albumSource" : "./songdata/single/後來的我們（眼淚未乾版）.json"
+    },
+    {
+      "albumSource" : "./songdata/single/什麼歌.json"
+    },
+    {
+      "albumSource" : "./songdata/single/Hosee-at-天空之城.json"
+    },
+    {
+      "albumSource" : "./songdata/single/春嬌救志明.json"
+    },
+    {
+      "albumSource" : "./songdata/single/第一天.json"
+    },
+    {
+      "albumSource" : "./songdata/single/鹹魚.json"
+    },
+    {
+      "albumSource" : "./songdata/single/脫胎換骨.json"
+    },
+    {
+      "albumSource" : "./songdata/single/真實故事改編.json"
+    },
+    {
+      "albumSource" : "./songdata/single/Dancin-Dancin.json"
+    },
+    {
+      "albumSource" : "./songdata/single/傷心的人別聽慢歌（貫徹快樂）.json"
+    },
+    {
+      "albumSource" : "./songdata/single/任意門（現在就是起點）.json"
+    },
+    {
+      "albumSource" : "./songdata/single/由我們主宰.json"
+    },
+    {
+      "albumSource" : "./songdata/single/HappyBirthDay.json"
+    },
+    {
+      "albumSource" : "./songdata/single/將軍令.json"
+    },
+    {
+      "albumSource" : "./songdata/single/凡人歌.json"
+    },
+    {
+      "albumSource" : "./songdata/single/DNA.json"
+    },
+    {
+      "albumSource" : "./songdata/single/勇敢.json"
+    },
+    {
+      "albumSource" : "./songdata/single/步步.json"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JmiResize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>jQuery UI Draggable - Default functionality</title>
+         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+         <style>
+         #draggable { width: 150px; height: 150px; padding: 0.5em; }
+         </style>
+         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+         <script>
+         $( function() {
+			document.getElementById('資訊欄').onmousedown = function() { 
+				$( "#FloatPlayer" ).draggable();
+				document.getElementById('拖曳模式').style.display = "block";
+				document.getElementById('播放器控制').style.display = "none";
+				document.getElementById('player').style.boxShadow = "0px 8px 20px 0px rgba(0,0,0,0.21), 0px 5px 9px 0px rgba(0,0,0,0.35)";
+		 	}
+			
+			document.getElementById('player').onmouseup = function() { 
+				$( "#FloatPlayer" ).draggable( "destroy" );
+				document.getElementById('拖曳模式').style.display = "none";
+				document.getElementById('播放器控制').style.display = "block";
+				document.getElementById('player').style.boxShadow = "0px 5px 9px 0px rgba(0,0,0,0.35)";
+			}
+         });
+		 
+         </script>
+        
+</head>
+
+<body>
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: 'Noto Sans TC' sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+</style>
+
+
+<style> 
+#FloatPlayer {
+	right: 20px;
+	top: 20px;
+	position: fixed;
+	user-select: none;
+	-webkit-user-select: none;
+	height: auto;
+}
+
+#player {
+	border-radius: 5px;
+	height: 191px;
+	background: #000000;
+	width: 340px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.35);
+	border-radius: 5px;
+	transition: box-shadow 0.2s ease;
+}
+
+#播放器控制 {
+	position: absolute;
+	display:block;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#player:hover #播放器控制 {
+	z-index: 1000000;
+	display: block;
+	margin-top: 54px;
+	height: 82px;
+	width: 340px;
+	position: absolute;
+	/* background: #C76162; */
+	background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.80) 52%, rgba(0,0,0,0.00) 100%);
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+#上一首 {
+	display: inline-block;
+	background: url('./icons/pre-button.png');
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+	
+}
+
+#播放暫停 {
+	display: inline-block;
+	background: url('./icons/playbutton.png');
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+	background-size: 100%;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+#下一首 {
+	display: inline-block;
+	background: url('./icons/next-button.png');
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+}
+
+.播放器控制按鈕:hover {
+	transition: opacity 0.2s ease;
+	opacity: 0.8;
+}
+
+.播放器控制按鈕 {
+	transition: opacity 0.2s ease;
+}
+
+#主要控制 {
+	position: absolute;
+	text-align: center;
+	top: 20px;
+	margin: 0px auto;
+	width: 340px;
+}
+
+#拖曳模式 {
+	width: 340px;
+	height: 191px;
+	cursor: move;
+	position: absolute;
+	display: none;
+	box-sizing: border-box;
+	background: none;
+}
+
+#拖曳提示 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 77px;
+}
+
+#資訊欄 {
+	cursor: move;
+	position: absolute;
+	color: #ffffff;
+	background-image: linear-gradient(-180deg, rgba(0,0,0,0.62) 74%, rgba(0,0,0,0.00) 100%);
+	width: 340px;
+	display: block;
+	height: 60px;
+}
+
+#封面 {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: url('./resources/cover.jpg');
+	background-size: 100%;
+}
+
+#歌名與專輯名 {
+	vertical-align: top;
+	margin-top: 10px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+#歌名 {
+	margin-bottom: 1px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+#專輯名 {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+</style>
+<div id="FloatPlayer">
+	<div id="資訊欄">
+    	<div id="封面">
+        </div>
+        <div id="歌名與專輯名">
+        	<div id="歌名">成名在望</div>
+            <div id="專輯名">自傳 History of Tomorrow</div>
+        </div>
+    </div>
+    
+    <div id="player">
+        <div id="播放器控制">
+            <div id="主要控制" onMouseOver="HideInfo()">
+                <div id="上一首" class="播放器控制按鈕"></div>
+                <div id="播放暫停" class="播放器控制按鈕"></div>
+                <div id="下一首" class="播放器控制按鈕"></div>
+            </div>
+        </div>
+        
+        <div id="拖曳模式"></div>
+        
+        <iframe style="border-radius: 5px 5px 0px 0px;" width="340" height="191" src="https://www.youtube.com/embed/-hU1O3bG1eo?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+■ 最佳專輯製作人獎 《自傳》
+■ 最佳樂團獎
+■ 最佳作詞人-阿信 《自傳》〈成名在望〉
+■ 最佳作曲人-怪獸 《自傳》〈後來的我們〉
+■ 最佳國語專輯 《自傳》
+■ 年度歌曲獎 《自傳》〈頑固〉
+■ 年度專輯獎 《自傳》
+■ 最佳錄影帶獎 〈頑固〉
+■ 最佳單曲製作人獎-瑪莎〈還是想念〉■ 最佳專輯製作人獎 《自傳》
+■ 最佳樂團獎
+■ 最佳作詞人-阿信 《自傳》〈成名在望〉
+■ 最佳作曲人-怪獸 《自傳》〈後來的我們〉
+■ 最佳國語專輯 《自傳》
+■ 年度歌曲獎 《自傳》〈頑固〉
+■ 年度專輯獎 《自傳》
+■ 最佳錄影帶獎 〈頑固〉
+■ 最佳單曲製作人獎-瑪莎〈還是想念〉■ 最佳專輯製作人獎 《自傳》
+■ 最佳樂團獎
+■ 最佳作詞人-阿信 《自傳》〈成名在望〉
+■ 最佳作曲人-怪獸 《自傳》〈後來的我們〉
+■ 最佳國語專輯 《自傳》
+■ 年度歌曲獎 《自傳》〈頑固〉
+■ 年度專輯獎 《自傳》
+■ 最佳錄影帶獎 〈頑固〉
+■ 最佳單曲製作人獎-瑪莎〈還是想念〉
+</body>
+
+         <script>
+		  function HideInfo() {
+				if(document.getElementById('播放器控制').style.visibility == "visible")
+				{		
+				alert("fuck");
+					document.getElementById('資訊欄').style.display = "none";
+					document.getElementById('資訊欄').style.visibility = "hidden";
+				}
+				else
+				{	
+					document.getElementById('資訊欄').style.opacity = "1";
+					document.getElementById('資訊欄').style.visibility = "visible";
+				}
+				
+			}
+		 </script>
+</html>

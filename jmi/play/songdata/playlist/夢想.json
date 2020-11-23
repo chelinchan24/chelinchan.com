@@ -1,0 +1,96 @@
+{
+  "AlbumCoverSource" : "./images/playlist-cover/夢想.png",
+  "description" : "五月天總是常常為我們帶來激勵人心的歌曲。對於描寫「夢想」的歌曲，從年輕時追逐夢想，到現在多了點無奈的喚醒你對夢想的記憶。正如《九號球》MV片頭說的－「做夢，有什麼不好？」。",
+  "year" : "2017",
+  "month" : "5",
+  "day" : "1",
+  "title" : "夢想",
+  "songCount" : "12",
+  "song" :
+  [
+    {
+      "SongTitle" : "生存以上 生活以下",
+      "songsource" : "yEyPhn7eg_c",
+      "time" : "4:41",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-生存以上生活以下.json"
+    },
+    {
+      "SongTitle" : "三個傻瓜",
+      "songsource" : "NbtaaTfINaM",
+      "time" : "4:18",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-三個傻瓜.json"
+    },
+    {
+      "SongTitle" : "我心中尚未崩壞的地方",
+      "songsource" : "GDjFEYwezo8",
+      "time" : "5:32",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-我心中尚未崩壞的地方.json"
+    },
+    {
+      "SongTitle" : "頑固",
+      "songsource" : "P1DojnvnQAs",
+      "time" : "4:35",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-頑固.json"
+    },
+    {
+      "SongTitle" : "有些事現在不做一輩子都不會做了",
+      "songsource" : "2F0m58YIMPs",
+      "time" : "3:46",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-有些事現在不做一輩子都不會做了.json"
+    },
+    {
+      "SongTitle" : "出頭天",
+      "songsource" : "3MNqX2JPQLY",
+      "time" : "4:13",
+      "AlbumTitle" : "後青春期的詩",
+      "lyrics" : "./songdata/lyrics/後青春期的詩-出頭天.json"
+    },
+    {
+      "SongTitle" : "第二人生",
+      "songsource" : "amv7CzCmHU0",
+      "time" : "5:27",
+      "AlbumTitle" : "第二人生（明日版）",
+      "lyrics" : "./songdata/lyrics/第二人生-第二人生.json"
+    },
+    {
+      "SongTitle" : "小時候",
+      "songsource" : "HdYS6I5nLEg",
+      "time" : "5:06",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-小時候.json"
+    },
+    {
+      "SongTitle" : "倔強",
+      "songsource" : "R2s-H_crYkc",
+      "time" : "4:23",
+      "AlbumTitle" : "神的孩子都在跳舞",
+      "lyrics" : "./songdata/lyrics/神的孩子都在跳舞-倔強.json"
+    },
+    {
+      "SongTitle" : "憨人",
+      "songsource" : "1j_mpwKmlJg",
+      "time" : "4:07",
+      "AlbumTitle" : "愛情萬歲",
+      "lyrics" : "./songdata/lyrics/愛情萬歲-憨人.json"
+    },
+    {
+      "SongTitle" : "成名在望",
+      "songsource" : "-hU1O3bG1eo",
+      "time" : "5:17",
+      "AlbumTitle" : "自傳 History of Tomorrow",
+      "lyrics" : "./songdata/lyrics/自傳-成名在望.json"
+    },
+    {
+      "SongTitle" : "九號球",
+      "songsource" : "srP_Fm7f-eg",
+      "time" : "5:22",
+      "AlbumTitle" : "時光機",
+      "lyrics" : "./songdata/lyrics/時光機-九號球.json"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "AlbumCoverSource" : "http://is4.mzstatic.com/image/thumb/Music/v4/9a/4b/b5/9a4bb5f5-dcd7-329d-6542-ddcbb1582721/source/1000x1000bb.jpg",
+  "type" : "原聲帶",
+  "year" : "2002",
+  "total" : "4",
+  "available" : "4",
+  "AlbumTitle" : "搖滾本事（電影音樂原聲帶） - EP",
+  "CoverSourceFrom" : "iTunes",
+  "InfoReference" : "iTunes",
+  "YoutubePlaylistSource" : "",
+  "song" :
+  [
+    {
+      "SongTitle" : "搖滾本事",
+      "songsource" : "wlxffEX8WNI",
+      "time" : "3:02",
+      "AlbumTitle" : "搖滾本事（電影音樂原聲帶） - EP",
+      "lyrics" : "./songdata/lyrics/搖滾本事-搖滾本事.json"
+    },
+    {
+      "SongTitle" : "生命有一種絕對",
+      "songsource" : "crc0JH42Lwk",
+      "time" : "3:55",
+      "AlbumTitle" : "搖滾本事（電影音樂原聲帶） - EP",
+      "lyrics" : "./songdata/lyrics/時光機-生命有一種絕對.json"
+    },
+    {
+      "SongTitle" : "我",
+      "songsource" : "KQBOJcniVvg",
+      "time" : "4:29",
+      "AlbumTitle" : "搖滾本事（電影音樂原聲帶） - EP",
+      "lyrics" : "./songdata/lyrics/搖滾本事-我.json"
+    },
+    {
+      "SongTitle" : "闖",
+      "songsource" : "xxuz6tbta-o",
+      "time" : "5:09",
+      "AlbumTitle" : "搖滾本事（電影音樂原聲帶） - EP",
+      "lyrics" : "./songdata/lyrics/搖滾本事-闖.json"
+    }
+  ]
+}

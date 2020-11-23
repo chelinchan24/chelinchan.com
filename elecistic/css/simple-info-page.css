@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face { font-family: 'TAIWAN-LICENSE-PLATE'; src: url(./TAIWAN-LICENSE-PLATE.eot) format('eot');}
+
+@media screen and (min-width: 1100px) {
+/* 最窄寬度 1100px */
+
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+
+.標準內容寬度 {
+	width: 1100px;
+}
+
+/* 內容 */
+.段落 {
+	margin-bottom: 120px;
+}
+
+.段落-半頁 {
+	width: 50%;
+	max-width: 550px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.段落-內容 {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	min-width: 870px;
+	max-width: 1100px;
+}
+
+.段落-標題 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #2b2b2b;
+	line-height: 60px;
+}
+
+.段落-副標題 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #2B2B2B;
+}
+
+.段落-說明 {
+	text-align: justify;
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 24px;
+}
+
+.文字區塊寬度 {
+	margin: 0px auto;
+	display: block;
+	max-width: 854px;
+}
+
+.寬度留白圖片 {
+	margin: 40px 0px;
+}
+
+.段落-標題 {
+	font-size: 30px;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+
+.段落-說明 {
+	margin-top: 15px;
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.段落-內容-標題 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #2b2b2b;
+}
+
+.段落-內容-說明 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	line-height: 30px;
+}
+
+.段落-小標題 {
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+
+/* 段落1 */
+#段落1 {
+	padding-top: 70px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#段落1-內容 {
+	display: block;
+	width: 100%;
+}
+
+#段落1-內容-標語 {
+	display: flex;
+	box-sizing: border-box;
+	background: #2b2b2b;
+	height: 297px;
+	justify-content: center;
+	align-items: center;
+}
+
+#段落1-內容-標語-標語 {
+	text-align: center;
+	width: 100%;
+	font-size: 64px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+/* 共用 */
+.簡單資訊頁面-內容 {
+	margin-top: 65px;
+	display: block;
+}
+
+.簡單資訊頁面-兩欄容器 {
+	display: flex;
+	justify-content:flex-start;
+}
+
+.簡單資訊頁面-兩欄內容 {
+	display: block;
+	vertical-align: top;
+	width: 50%;
+}
+
+#頁腳 {
+	margin-top: 300px !important;
+}
+}
