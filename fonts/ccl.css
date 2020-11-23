@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ccl';
+    src:  url('./ccl/ccl.eot?wkp97e');
+    src:  url('./ccl/ccl.eot?wkp97e#iefix') format('embedded-opentype'),
+    url('./ccl/ccl.ttf?wkp97e') format('truetype'),
+    url('./ccl/ccl.woff?wkp97e') format('woff'),
+    url('./ccl/ccl.svg?wkp97e#ccl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ccl' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-new-tab:before {
+    content: "\2b95";
+}
+.icon-left-arrow:before {
+    content: "\2b08";
+}
