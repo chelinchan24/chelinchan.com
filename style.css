@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+ion-icon {
+    pointer-events: none;
+}
+
 /* 文字 */
 :root {
     --文字_主色: #000;
