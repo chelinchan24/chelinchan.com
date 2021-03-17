@@ -30,9 +30,10 @@
 
     -->
     <meta name="theme-color" content="#000000">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css?v=2020.1.11" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75035165-1"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -95,22 +96,43 @@
         </div>
     </div>
 </nav>
-<section id="首頁-頁首" class="區塊">
-    <div id="首頁-頁首-內容" class="區塊-內容 區塊-內容_寬 區塊-內容_灰底">
-        <div id="首頁-頁首-照片" class="柴犬_白底"></div>
-        <div class="首頁-頁首-標題">
-            <h1>詹喆麟是位來自台南的設計師，人很好，熱情又外向，值得<span class="多性別">妳</span>來看看他的故事。</h1>
-            <div class="一副標題">他是個土生土長台南人，今年 21 歲，有著 8 年設計經驗。專注於創作精緻、現代與穩重兼具的使用者介面。</div>
+<section id="首頁-超人" class="區塊">
+    <div id="首頁-超人-影片" class="隱藏">
+        <iframe id="首頁-超人-影片-嵌入" src="https://www.youtube.com/embed/ptmxLFZkoZ4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="首頁-超人-影片-背景">
         </div>
-        <div class="區塊-按鈕區塊">
-            <a href="./about.html">
-                <div class="按鈕 按鈕_黑 按鈕_前往">
-                    <span>了解詹喆麟</span>
+    </div>
+    <div id="首頁-超人-內容" class="區塊-內容">
+        <div id="首頁-超人-容器">
+            <div id="首頁-超人-預覽">
+                <div id="首頁-超人-預覽-播放">
+                    <ion-icon name="play"></ion-icon>
+                    <div id="首頁-超人-預覽-播放-背景"></div>
                 </div>
-            </a>
+                <div id="首頁-超人-預覽-遮罩"></div>
+                <video id="首頁-超人-預覽-影片" autoplay muted loop>
+                    <source src="src/superman.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
 </section>
+<!--<section id="首頁-頁首" class="區塊">-->
+<!--    <div id="首頁-頁首-內容" class="區塊-內容 區塊-內容_寬 區塊-內容_灰底">-->
+<!--        <div id="首頁-頁首-照片" class="柴犬_白底"></div>-->
+<!--        <div class="首頁-頁首-標題">-->
+<!--            <h1>詹喆麟是位來自台南的設計師，人很好，熱情又外向，值得<span class="多性別">妳</span>來看看他的故事。</h1>-->
+<!--            <div class="一副標題">他是個土生土長台南人，今年 21 歲，有著 8 年設計經驗。專注於創作精緻、現代與穩重兼具的使用者介面。</div>-->
+<!--        </div>-->
+<!--        <div class="區塊-按鈕區塊">-->
+<!--            <a href="./about.html">-->
+<!--                <div class="按鈕 按鈕_黑 按鈕_前往">-->
+<!--                    <span>了解詹喆麟</span>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <section id="首頁-作品" class="區塊">
     <div class="區塊-內容 區塊-內容_標準 動畫-捲動進入">
         <div class="區塊-次標題">
@@ -300,7 +322,7 @@
     </div>
 </div>
 </body>
-<script src="js/index.js"></script>
+<script src="js/index.js?v=2020.1.11"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="js/sg.js"></script>

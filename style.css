@@ -1261,6 +1261,141 @@ h3 {
     margin-left: 8px;
 }
 
+/* 超人 */
+.隱藏 {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.顯示 {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: 0.2s ease;
+}
+
+#首頁-超人-容器 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#首頁-超人-預覽 {
+    background: #F7F7F7;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    transition: 0.2s ease;
+}
+
+#首頁-超人-預覽-遮罩 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    top: 0;
+    z-index: 100;
+    opacity: 0.6;
+    border-radius: 24px;
+}
+
+#首頁-超人-預覽-播放 {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 105;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    opacity: 0.9;
+    transition: 0.15s ease;
+}
+
+#首頁-超人-預覽:hover #首頁-超人-預覽-播放 {
+    opacity: 1;
+    transition: 0.15s ease;
+}
+
+#首頁-超人-預覽:hover #首頁-超人-預覽-播放 ion-icon {
+    opacity: 0.8;
+    transition: 0.15s ease;
+    transform: scale(1.1);
+}
+
+#首頁-超人-預覽:hover #首頁-超人-預覽-播放-背景 {
+    transform: scale(1.1);
+    transition: 0.15s ease
+}
+
+#首頁-超人-預覽-播放 ion-icon {
+    margin-left: 3px;
+    display: block;
+    position: relative;
+    z-index: 105;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: 0.15s ease;
+}
+
+#首頁-超人-預覽-播放-背景 {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    background: #44444480;
+    z-index: 103;
+    border-radius: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    transition: 0.15s ease
+}
+
+#首頁-超人-預覽-影片 {
+    height: 100%;
+    transition: 0.2s ease;
+}
+
+#首頁-超人-影片 {
+    display: flex;
+    width: 100%;
+    height: calc(var(--vh, 1vh) * 100);
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#首頁-超人-影片-嵌入 {
+    height: calc(var(--vh, 1vh) * 100 - 160px);
+    overflow: hidden;
+}
+
+#首頁-超人-影片-背景 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: -1;
+    background: #000000;
+    opacity: 0.85;
+    transition: 0.2s ease;
+}
+
 /* 桌面版專屬 */
 @media screen and (min-width: 1024px) {
     #作品-內容 {
@@ -1435,6 +1570,12 @@ h3 {
     /* 聯絡 */
     .聯絡-資訊-聯絡方式 {
         margin-bottom: 32px;
+    }
+
+    #首頁-超人-影片-嵌入 {
+        border-radius: 0px;
+        width: 100vw;
+        height: 56.25vw; /* 100/56.25 = 560/315 = 1.778 */
     }
 }
 
@@ -1793,5 +1934,13 @@ h3 {
 
     .提及-清單-提及-標誌 {
         margin-bottom: 16px;
+    }
+
+    #首頁-超人-預覽 {
+        height: calc(var(--vh, 1vh) * 100 - 120px);
+    }
+
+    #首頁-超人-預覽-影片 {
+        height: 100%;
     }
 }
