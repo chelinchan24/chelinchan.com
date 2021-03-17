@@ -37,6 +37,15 @@ body {
     padding-bottom: 260px;
 }
 
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(./src/img_mainLogo.png)
+    url(./src/ic_btn_goto.svg)
+    url(./src/ic_mobile_nav_menu.svg)
+    url(./src/ic_sg_selected.svg)
+    url(./src/ic_btn_newtab.svg);
+}
+
 img {
     -webkit-user-drag: none;
     -khtml-user-drag: none;
