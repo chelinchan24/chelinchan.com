@@ -98,12 +98,48 @@
 </nav>
 <section id="首頁-超人" class="區塊">
     <div id="首頁-超人-影片" class="隱藏">
-        <iframe id="首頁-超人-影片-嵌入" src="https://www.youtube.com/embed/ptmxLFZkoZ4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="首頁-超人-影片-嵌入"></div>
+        <script>
+            // 2. This code loads the IFrame Player API code asynchronously.
+            var tag = document.createElement('script');
+
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            // 3. This function creates an <iframe> (and YouTube player)
+            //    after the API code downloads.
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('首頁-超人-影片-嵌入', {
+                    videoId: 'ptmxLFZkoZ4',
+                    events: {
+                        onStateChange: onPlayerStateChange
+                    }
+                });
+            }
+        </script>
         <div id="首頁-超人-影片-背景">
         </div>
     </div>
     <div id="首頁-超人-內容" class="區塊-內容">
         <div id="首頁-超人-容器">
+            <div id="首頁-超人-文字">
+                <h1>
+                    <span class="句子">誰　</span><!--
+                 --><span class="句子">賜予我</span><br><!--
+                 --><span class="句子">這一身</span><br><!--
+                 --><span class="句子">無助的</span><!--
+                 --><span class="句子">能力</span><br><!--
+                 --><span class="句子">神</span><!--
+                 --><span class="句子">也不能</span><!--
+                 --><span class="句子">阻擋</span><br><!--
+                 --><span class="句子">妳　想</span><!--
+                 --><span class="句子">離開</span><!--
+                 --><span class="句子">的心</span>
+                </h1>
+                <div class="一副標題">這些能力　又算什麼？</div>
+            </div>
             <div id="首頁-超人-預覽">
                 <div id="首頁-超人-預覽-播放">
                     <ion-icon name="play"></ion-icon>
