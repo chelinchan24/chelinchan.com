@@ -4,6 +4,7 @@
     height: 100%;
     display: block;
     background: #ffffff !important;
+    flex: 1;
 }
 
 a {
@@ -22,11 +23,17 @@ html, body {
     -webkit-user-select: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 #上方 {
     background: #FFFFFF;
     box-shadow: 0 2px 19px 0 rgba(0,0,0,0.11);
     position: relative;
     z-index: 10000;
+    display: block;
 }
 
 #工具列-標題 {
