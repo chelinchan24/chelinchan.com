@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75035165-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-75035165-2');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>mobile-map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+            crossorigin=""></script>
+</head>
+
+<body>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+    #map {
+        height: 100%;
+    }
+    html, body {
+        overflow: hidden;
+        font-family: 'Noto Sans TC', sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+    }
+
+    /*a[href^="http://maps.google.com/maps"]{display:none !important}
+    a[href^="https://maps.google.com/maps"]{display:none !important}
+
+    .gmnoprint a, .gmnoprint span, .gm-style-cc {
+        display:none;
+    }
+    .gmnoprint div {
+        background:none !important;
+    } */
+
+    .leaflet-container {
+        background: #fff;
+    }
+
+
+</style>
+<div id="map" ></div>
+<script>
+    //地圖樣式切換
+    var normalMap = "http://chelinchan.com/tainanmetro/maps/images/maps/{z}_{x}_{y}.png";
+    var simpleMap = "http://chelinchan.com/tainanmetro/maps/images/simplemaps/{z}_{x}_{y}.png";
+
+    //地圖設定值
+    var map = L.map('map', {
+        center: [65, -85],
+        zoom: 2,
+        minZoom: 1,
+        maxZoom: 4,
+        attributionControl:false,
+        zoomControl: false,
+    });
+
+    L.tileLayer(simpleMap, {
+        noWrap: true,
+        tileSize: 256,
+    }).addTo(map);
+</script>
+</body>
+</html>
