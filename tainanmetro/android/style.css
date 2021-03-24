@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+#map {
+    height: 100%;
+    display: block;
+    background: #ffffff !important;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+html, body {
+    overflow: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+}
+
+#上方 {
+    background: #FFFFFF;
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.11);
+    position: relative;
+    z-index: 10000;
+}
+
+#工具列-標題 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#工具列 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 72px;
+    box-sizing: border-box;
+}
+
+#工具列-關於 {
+    font-size: 24px;
+}
+
+#切換 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.active {
+    background-color: #EDEDED;
+}
+
+.tabbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.tab-item-label {
+    font-size: 13px;
+}
+
+#關於 {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000000000;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 15px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.關於-段落 {
+    margin-bottom: 40px;
+}
+
+#關於-頂端 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.關於-圖標 {
+    width: 48px;
+    height: 48px;
+    background: #000000;
+    display: block;
+    border-radius: 100%;
+}
+
+#關於-關閉 {
+    font-size: 24px;
+}
+
+.關於標題 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#關於-說明 {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.開放原始碼-一則 {
+    margin-bottom: 16px;
+    font-size: 13px;
+}
+
+.開放原始碼-一則-標題 {
+    font-weight: bold
+}

@@ -15,119 +15,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>mobile-map</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 
 <body>
 <style>
-    @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
-    #map {
-        height: 100%;
-        display: block;
-        background: #ffffff !important;
-    }
-
-    html, body {
-        overflow: hidden;
-        font-family: 'Noto Sans TC', sans-serif;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        -webkit-tap-highlight-color: transparent;
-        -webkit-user-select: none;
-    }
-
-    #工具列-標題 {
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    #工具列 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 13px;
-        padding-right: 13px;
-        height: 72px;
-    }
-
-    #切換 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 40px;
-        justify-content: space-around;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 8px;
-    }
-
-    .active {
-        background-color: #EDEDED;
-    }
-
-    .tabbar{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 40px;
-        justify-content: space-around;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 8px;
-    }
-
-    .tab-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        flex: 1;
-        border-radius: 8px;
-    }
-
-    .tab-item-label {
-        font-size: 13px;
-    }
 
 </style>
 <div id="上方">
     <div id="工具列">
         <div id="工具列-標題">台南捷運路網圖</div>
-        <div id="工具列-關於"></div>
+        <div id="工具列-關於">
+            <ion-icon name="information-circle-outline"></ion-icon>
+        </div>
     </div>
     <div class="tabbar">
-        <div class="tab-item active">
-            <text class="tab-item-label">輪廓</text>
+        <div class="tab-item active" id="輪廓">
+            <p class="tab-item-label">輪廓</p>
         </div>
-        <div class="tab-item">
-            <text class="tab-item-label">簡易</text>
+        <div class="tab-item" id="簡易">
+            <p class="tab-item-label">簡易</p>
         </div>
     </div>
 </div>
 <div id="map" ></div>
-<script>
-    //地圖樣式切換
-    var normalMap = "https://chelinchan.com/tainanmetro/maps/images/maps/{z}_{x}_{y}.png";
-    var simpleMap = "https://chelinchan.com/tainanmetro/maps/images/simplemaps/{z}_{x}_{y}.png";
+<div id="關於">
+    <div id="關於-頂端" class="關於-段落">
+        <div class="關於-圖標"></div>
+        <div id="關於-關閉">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+    </div>
+    <span id="關於-說明" class="關於-段落">台南捷運路網圖由<a href="https://chelinchan.com">詹喆麟</a>為您呈現。圖資是根據<a href="https://udn.com/news/story/9/2287903">台南市政府所規畫之先進運輸系統優先路網</a>作為依據繪製。路網圖以 2017 年 7 月 26 日當下現況作為繪製基準，在台南捷運正式啟用前，路線內容可能會變動。本應用程式僅供參考，不能保證「目前所展示之內容」將與「捷運開通時」相同。</span>
+<!--    <div class="關於-段落">-->
+<!--        <div class="關於標題">了解更多</div>-->
+<!--        <div id="了解更多-連結">-->
+<!--            <div class="了解更多-連結-連結">我的個人網站</div>-->
+<!--            <div class="了解更多-連結-連結">《台南捷運路網圖》網站</div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="關於-段落">
+        <div class="關於標題">原始碼</div>
+        <div class="開放原始碼-一則">
+            <div class="開放原始碼-一則-標題">
+                vue-native-core
+            </div>
+            <div class="開放原始碼-一則-說明">
+                The MIT License(MIT)
+            </div>
+            <div class="開放原始碼-一則-連結">
+                https://github.com/GeekyAnts/vue-native-core
+            </div>
+        </div>
+        <div class="開放原始碼-一則">
+            <div class="開放原始碼-一則-標題">
+                jquery
+            </div>
+            <div class="開放原始碼-一則-說明">
+                The MIT License(MIT)
+            </div>
+            <div class="開放原始碼-一則-連結">
+                https://jquery.org/license/
+            </div>
+        </div>
+        <div class="開放原始碼-一則">
+            <div class="開放原始碼-一則-標題">
+                Leafletjs
+            </div>
+            <div class="開放原始碼-一則-說明">
+                The MIT License(MIT)
+            </div>
+            <div class="開放原始碼-一則-連結">
+                https://leafletjs.com
+            </div>
+        </div>
+        <div class="開放原始碼-一則">
+            <div class="開放原始碼-一則-標題">
+                react-native-webview
+            </div>
+            <div class="開放原始碼-一則-說明">
+                The MIT License(MIT)
+            </div>
+            <div class="開放原始碼-一則-連結">
+                https://github.com/react-native-webview/react-native-webview
+            </div>
+        </div>
+        <div class="開放原始碼-一則">
+            <div class="開放原始碼-一則-標題">
+                ionicons
+            </div>
+            <div class="開放原始碼-一則-說明">
+                The MIT License(MIT)
+            </div>
+            <div class="開放原始碼-一則-連結">
+                https://github.com/ionic-team/ionicons
+            </div>
+        </div>
+    </div>
 
-    //地圖設定值
-    var map = L.map('map', {
-        center: [65, -85],
-        zoom: 2,
-        minZoom: 1,
-        maxZoom: 4,
-        attributionControl:false,
-        zoomControl: false,
-    });
-
-    L.tileLayer(normalMap, {
-        noWrap: true,
-        tileSize: 256,
-    }).addTo(map);
-</script>
+    <div class="關於-段落">
+        <div class="開放原始碼-一則">
+        Che-Lin Chan 詹喆麟 © 2013 - 2021
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
 </body>
 </html>
