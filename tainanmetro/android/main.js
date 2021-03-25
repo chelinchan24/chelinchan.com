@@ -10,12 +10,16 @@ var map = L.map('map', {
     maxZoom: 4,
     attributionControl:false,
     zoomControl: false,
+    smoothWheelZoom: true,
 });
 
-L.tileLayer(normalMap, {
-    noWrap: true,
-    tileSize: 256,
-}).addTo(map);
+var imageUrl = './route.svg',
+    imageBounds = [
+        [200, -200],
+        [0, 0]
+    ];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 $('#輪廓').on('click', function () {
     map.setView([65, -85], 2);
