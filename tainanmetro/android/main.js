@@ -6,6 +6,7 @@ var simpleMap = "https://chelinchan.com/tainanmetro/maps/images/simplemaps/{z}_{
 var map = L.map('map', {
     center: [65, -85],
     zoom: 2,
+    zoomSnap: 0.5,
     minZoom: 1,
     maxZoom: 4,
     attributionControl:false,

@@ -2,43 +2,22 @@
 <svg width="562px" height="375px" viewBox="0 0 562 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group</title>
     <defs>
-        <circle id="path-1" cx="7" cy="7" r="5"></circle>
-        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.122568837 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-        <path d="M2,0 L30.5,0 C35.1944204,-8.62351033e-16 39,3.80557963 39,8.5 C39,13.1944204 35.1944204,17 30.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-3"></path>
-        <filter x="-26.9%" y="-44.1%" width="153.8%" height="223.5%" filterUnits="objectBoundingBox" id="filter-4">
+        <path d="M2,0 L30.5,0 C35.1944204,-8.62351033e-16 39,3.80557963 39,8.5 C39,13.1944204 35.1944204,17 30.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-1"></path>
+        <filter x="-26.9%" y="-44.1%" width="153.8%" height="223.5%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.432200612 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <circle id="path-5" cx="7" cy="7" r="5"></circle>
-        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-6">
-            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.122568837 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-        <path d="M2,0 L37.5,0 C42.1944204,2.07359346e-15 46,3.80557963 46,8.5 C46,13.1944204 42.1944204,17 37.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-7"></path>
-        <filter x="-22.8%" y="-44.1%" width="145.7%" height="223.5%" filterUnits="objectBoundingBox" id="filter-8">
+        <path d="M2,0 L37.5,0 C42.1944204,2.07359346e-15 46,3.80557963 46,8.5 C46,13.1944204 42.1944204,17 37.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-3"></path>
+        <filter x="-22.8%" y="-44.1%" width="145.7%" height="223.5%" filterUnits="objectBoundingBox" id="filter-4">
             <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.432200612 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <circle id="path-9" cx="7" cy="7" r="5"></circle>
-        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-10">
-            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.122568837 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-        <path d="M2,0 L37.5,0 C42.1944204,2.07359346e-15 46,3.80557963 46,8.5 C46,13.1944204 42.1944204,17 37.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-11"></path>
-        <filter x="-22.8%" y="-44.1%" width="145.7%" height="223.5%" filterUnits="objectBoundingBox" id="filter-12">
+        <path d="M2,0 L37.5,0 C42.1944204,2.07359346e-15 46,3.80557963 46,8.5 C46,13.1944204 42.1944204,17 37.5,17 L8.5,17 C3.80557963,17 5.74900688e-16,13.1944204 0,8.5 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-5"></path>
+        <filter x="-22.8%" y="-44.1%" width="145.7%" height="223.5%" filterUnits="objectBoundingBox" id="filter-6">
             <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -52,13 +31,13 @@
                 <path d="M465,105 L346.970563,105 C343.787965,105 340.735718,106.264282 338.485281,108.514719 L305.514719,141.485281 C303.264282,143.735718 300.212035,145 297.029437,145 L29.9705627,145 C26.7879649,145 23.7357179,146.264282 21.4852814,148.514719 L8.51471863,161.485281 C6.26428208,163.735718 5,166.787965 5,169.970563 L5,175 C5,180.522847 9.4771525,185 15,185 L165,185 L165,185" id="Path-2" stroke="#2EA829" stroke-width="2"></path>
                 <g transform="translate(158.000000, 178.000000)" id="B1-G1-市政中心">
                     <g id="Oval">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <circle stroke="#000000" stroke-width="2.5" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="7" cy="7" r="3.75"></circle>
+                        <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
+                        <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
                     <g id="interchange-station-copy" transform="translate(14.000000, 14.000000)">
                         <g id="Rectangle">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
                         </g>
                         <text id="站" font-family="PingFangTC-Semibold, PingFang TC" font-size="7" font-weight="500" fill="#FFFFFF">
                             <tspan x="5.5" y="11">市政中心</tspan>
@@ -67,13 +46,13 @@
                 </g>
                 <g transform="translate(158.000000, 138.000000)">
                     <g id="Oval">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                        <circle stroke="#000000" stroke-width="2.5" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="7" cy="7" r="3.75"></circle>
+                        <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
+                        <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
                     <g transform="translate(14.000000, 14.000000)" id="interchange-station-copy">
                         <g id="Rectangle">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
                         </g>
                         <text id="站" font-family="PingFangTC-Semibold, PingFang TC" font-size="7" font-weight="500" fill="#FFFFFF">
                             <tspan x="5.5" y="11">建平十七街</tspan>
@@ -658,13 +637,13 @@
                 </g>
                 <g transform="translate(458.000000, 98.000000)" id="G17-B14-平實轉運站">
                     <g id="Oval">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
-                        <circle stroke="#000000" stroke-width="2.5" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="7" cy="7" r="3.75"></circle>
+                        <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
+                        <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
                     <g id="interchange-station-copy" transform="translate(14.000000, 14.000000)">
                         <g id="Rectangle">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
-                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
                         </g>
                         <text id="站" font-family="PingFangTC-Semibold, PingFang TC" font-size="7" font-weight="500" fill="#FFFFFF">
                             <tspan x="5.5" y="11">平實轉運站</tspan>
