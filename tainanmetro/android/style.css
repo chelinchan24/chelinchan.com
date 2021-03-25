@@ -154,7 +154,7 @@ body:after {
 .關於標題 {
     font-size: 16px;
     margin-bottom: 8px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #關於-說明 {
