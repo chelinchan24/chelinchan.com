@@ -39,9 +39,11 @@ $('#簡易').on('click', function () {
 })
 
 $('#工具列-關於').on('click', function () {
-    $('#關於').css('display', 'flex')
+    $('#關於').removeClass('隱藏')
+    $('#關於').addClass('顯示')
 })
 
 $('#關於-關閉').on('click', function () {
-    $('#關於').css('display', 'none')
+    $('#關於').removeClass('顯示')
+    $('#關於').addClass('隱藏')
 })

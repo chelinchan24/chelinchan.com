@@ -15,7 +15,7 @@ a {
 
 html, body {
     overflow: hidden;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -26,6 +26,11 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+}
+
+body:after {
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url('icon.png')
 }
 
 #上方 {
@@ -97,7 +102,8 @@ body {
 }
 
 #關於 {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -112,6 +118,16 @@ body {
     overflow: scroll;
 }
 
+#關於.隱藏 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#關於.顯示 {
+    visibility: visible;
+    opacity: 1;
+}
+
 .關於-段落 {
     margin-bottom: 40px;
 }
@@ -124,9 +140,11 @@ body {
 .關於-圖標 {
     width: 48px;
     height: 48px;
-    background: #000000;
+    background: url("icon.png");
+    background-size: cover;
     display: block;
     border-radius: 100%;
+    border: 2px solid #eaeaea;
 }
 
 #關於-關閉 {
@@ -140,7 +158,7 @@ body {
 }
 
 #關於-說明 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 160%;
 }
 
