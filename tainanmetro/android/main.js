@@ -4,7 +4,7 @@ var simpleMap = "https://chelinchan.com/tainanmetro/maps/images/simplemaps/{z}_{
 
 //地圖設定值
 var map = L.map('map', {
-    center: [60, -85],
+    center: [65, -85],
     zoom: 2,
     minZoom: 1,
     maxZoom: 4,
@@ -18,7 +18,7 @@ L.tileLayer(normalMap, {
 }).addTo(map);
 
 $('#輪廓').on('click', function () {
-    map.setView([60, -85], 2);
+    map.setView([65, -85], 2);
 
     L.tileLayer(normalMap, {
         noWrap: true,
@@ -29,7 +29,7 @@ $('#輪廓').on('click', function () {
 })
 
 $('#簡易').on('click', function () {
-    map.setView([60, -85], 2);
+    map.setView([65, -85], 2);
     L.tileLayer(simpleMap, {
         noWrap: true,
         tileSize: 256,
