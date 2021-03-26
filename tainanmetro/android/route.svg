@@ -34,7 +34,7 @@
                         <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
                         <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
-                    <g id="interchange-station-copy" transform="translate(14.000000, 14.000000)">
+                    <g id="interchange-station-copy" transform="translate(12.000000, 12.000000)">
                         <g id="Rectangle">
                             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                             <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -49,7 +49,7 @@
                         <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
                         <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
-                    <g transform="translate(14.000000, 14.000000)" id="interchange-station-copy">
+                    <g transform="translate(12.000000, 12.000000)" id="interchange-station-copy">
                         <g id="Rectangle">
                             <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
                             <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
@@ -640,7 +640,7 @@
                         <circle fill-opacity="0.12" fill="#000000" cx="7" cy="7" r="7"></circle>
                         <circle stroke="#000000" stroke-width="2.5" fill="#FFFFFF" cx="7" cy="7" r="3.75"></circle>
                     </g>
-                    <g id="interchange-station-copy" transform="translate(14.000000, 14.000000)">
+                    <g id="interchange-station-copy" transform="translate(12.000000, 12.000000)">
                         <g id="Rectangle">
                             <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
                             <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
