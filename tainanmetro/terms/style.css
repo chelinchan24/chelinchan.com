@@ -1,0 +1,56 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    padding: 0px 24px;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    background: #eaeaea;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 17px;
+    line-height: 200%;
+}
+
+nav {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#返回按鈕 {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background: #00000010;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#內文 {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+}
+
+.條款 {
+    margin-bottom: 60px;
+}
