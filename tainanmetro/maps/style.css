@@ -1,401 +1,290 @@
-@charset "UTF-8";
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+#map {
+    height: 100%;
+    display: block;
+    background: #FAFAFA !important;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow: hidden;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+}
 
 body {
-	font-family: 'Noto Sans TC', sans-serif;
-	margin: 0;
-	padding: 0;
-	overflow-y: hidden;
-	overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-#地圖容器 {
-	text-align: center;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: #ffffff;
-	overflow: hidden;
+body:after {
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url('icon.png')
 }
 
-#地圖 {
-	max-width: 100%;
-	max-height: 100%;
-	margin: 0px auto;
-	
+#上方 {
+    background: #FFFFFF;
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.11);
+    position: relative;
+    z-index: 10000;
+    display: block;
 }
 
-   /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-	 
-#資訊區塊容器 {
-	z-index: 3000;
-	background: #ffffff;
-	position: fixed;
-	display: block;
-	height: auto;
-	width: 340px;
-	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
-	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
-	border-radius: 5px;
-	right: 20px;
-	top: 20px;
-	/* background-image: linear-gradient(-90deg, #63BD73 0%, #BDD390 100%); */
-
+#工具列-標題 {
+    font-size: 22px;
+    font-weight: bold;
 }
 
-#logo {
-	color: #ffffff;
-	text-align: center;
-	font-size: 20px;
-	background: url('./images/logo.png');
-	width: 200px;
-	height: 40px;
-	background-size: 100%;
-	margin: 0px auto;
-	margin-top: 25px;
-	margin-bottom: 17px;
+#工具列 {
+    display: flex;
+    flex-direction: row;
+    /*! justify-content: space-between; */
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 56px;
+    box-sizing: border-box;
 }
 
-.按鈕 {
-	cursor: pointer;
-	display: inline-block;
-	height: 40px;
-	font-size: 12px;
-	line-height: 40px;
-	text-align: center;
-	width: 50%;
-	border-top: 1px solid rgba(255,255,255,0.50);
-	box-sizing:border-box;
-	color: #ffffff;
-	background: rgba(0,0,0,0.10);
-	transition: background 0.2s ease;
-	font-weight: 600;
+#工具列-下 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
 }
 
-.按鈕:last-child {
-	display: inline-block;
-	height: 40px;
-	font-size: 12px;
-	line-height: 40px;
-	text-align: center;
-	width: 50%;
-	border-left: 1px solid rgba(255,255,255,0.50);
-	box-sizing:border-box;
+#工具列-選項 {
+    margin-left: 24px;
+    padding-left: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 2px 0 0 0 rgba(179,179,179,0.10);
 }
 
-.按鈕:hover {
-	transition: background 0.2s ease;
-	background: rgba(0,0,0,0.20);
+.工具列-選項.選項 {
+    margin-right: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding:0px 12px;
+    cursor: pointer;
 }
 
-#版權宣告 {
-	right: 0;
-	left: 0;
-	margin: 0px auto;
-	position: fixed;
-	z-index: 300000;
-	display: block;
-	font-size: 12px;
-	color: #000000;
-	text-align: center;
-	width: 270px;
-	height: 20px;
-	bottom: 10px;
-	background: #ffffff;
+.工具列-選項.啟用 {
+    box-shadow: inset 0 -2px 0 0 #000000;
 }
 
-#免責聲明 {
-	opacity: 0;
-	visibility: hidden;
+.工具列-選項:hover {
+    /*box-shadow: inset 0 -2px 0 0 #00000030;*/
+}
+
+#工具列-下載 {
+    font-size: 14px;
+    background: #eaeaea;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+}
+
+#工具列-下載:hover {
+    background: #00000020;
+}
+
+#切換 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.active {
+    background-color: #EDEDED;
+}
+
+.tabbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.tab-item-label {
+    font-size: 13px;
 }
 
 #關於 {
-	opacity: 0;
-	visibility: hidden;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 15px;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
 }
 
-.浮動區塊 {
-	z-index: 300000;
-	position: fixed;
-	display: block;
-	width: 340px;
-	height: auto;
-	background: #ffffff;
-	right: 20px;
-	top: 160px;
-	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
-	border-radius: 5px;
-	box-sizing: border-box;
-	padding: 10px 30px;
-	transition: opacity 0.2s ease, visibility 0.2s ease;
+#關於.隱藏 {
+    visibility: hidden;
+    opacity: 0;
 }
 
-.浮動區塊 h1 {
-	font-size: 16px;
+#關於.顯示 {
+    visibility: visible;
+    opacity: 1;
 }
 
-.浮動區塊 p {
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 300;
+.關於-段落 {
+    margin-bottom: 40px;
+    max-width: 600px;
+    width: 100%;
 }
 
-.浮動區塊 a {
-	color: #1A74AB;
-	text-decoration: none;
+#關於-頂端 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.浮動區塊 a:hover {
-	text-decoration: underline;
+.關於-圖標 {
+    width: 48px;
+    height: 48px;
+    background: url("icon.png");
+    background-size: cover;
+    display: block;
+    border-radius: 100%;
+    border: 2px solid #eaeaea;
 }
 
-.關閉按鈕 {
-	font-size: 12px;
-	float: right;
-	margin-bottom: 10px;
-	padding: 5px 10px;
-	box-sizing: border-box;
-	background: #DFDFDF;
-	border-radius: 3px;
-	color: #323232;
-	transition: background 0.2s ease;
-	cursor: pointer;
+#關於-關閉 {
+    font-size: 24px;
 }
 
-.關閉按鈕:hover {
-	background: #D8D8D8;
-	color: #323232;
-	transition: background 0.2s ease;
+.關於標題 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
-#圖例 {
-	z-index: 30000;
-	position: fixed;
-	display: block;
-	height: 150px;
-	width: 200px;
-	background: url('./images/圖例.png');
-	background-size: 100%;
-	left: 60px;
-	bottom: 60px;
-	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
+#關於-說明 {
+    font-size: 18px;
+    line-height: 160%;
+    padding-bottom: 40px;
 }
 
-#資訊區塊容器-行動版 {
-	display: none;
+.開放原始碼-一則 {
+    margin-bottom: 16px;
+    font-size: 13px;
 }
 
-.廣告區塊 {
-	height: auto !important;
-	padding: 2px 2px 0px 2px !important;
+.開放原始碼-一則-標題 {
+    font-weight: bold
 }
 
-#廣告關閉 {
-	display: none;
+#android {
+    padding: 16px;
+    box-sizing: border-box;
+    background: #eaeaea;
+    display: none;
 }
 
-#行動版宣傳 {
-	z-index: 1;
-	top: 465px !important;
-	background:url('./images/mobile-download.png');
-	height: 141px !important;
-	background-size: 100%;
+#android div {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold
 }
 
-@media screen and (max-width: 900px) {
-body {
-	font-family: 'Noto Sans TC', sans-serif;
-	margin: 0;
-	padding: 0;
-	overflow-y: hidden;
-	overflow-x: hidden;
+#android a {
+    background: #000000;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-#資訊區塊容器 {
-	display: none;
-}
+@media screen and (max-width: 768px) {
+    #工具列 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        height: auto;
+    }
 
-#資訊區塊容器-行動版 {
-	z-index: 3000;
-	background: #ffffff;
-	position: fixed;
-	display: block;
-	height: 50px;
-	width: 100%;
-	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
-	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
-	top: 0px;
-}
+    #工具列-上 {
+        height: 42px;
+        display: flex;
+        align-items: flex-end;
+    }
 
-#logo-行動版 {
-	color: #ffffff;
-	text-align: center;
-	font-size: 20px;
-	background: url('./images/logo.png');
-	width: 170px;
-	height: 33px;
-	background-size: 100%;
-	margin: 0px auto;
-	margin-top: 9px;
-	margin-bottom: 17px;
-}
+    #工具列-選項 {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
 
-#map {
-    margin-top: 50px;
-	display: block;
-	width: 100%;
-	height: auto;
-	top: 0;
-	position: absolute;
-	bottom: 0;
-	/* margin-bottom: 50px; */
-}
+    #工具列-下, #工具列-選項 {
+        width: 100%;
+        height: 44px !important;
+        overflow: hidden;
+    }
 
-#開啟導覽列按鈕 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 25px;
-	width: 25px;
-	background:url('./images/icons/mobile-nav-menu.png');
-	background-size: 100%;
-	margin-top: 13px;
-	margin-left: 15px;
-}
+    .工具列-選項.選項 {
+        padding: 0px 8px;
+        margin-right: 12px;
+        font-size: 14px;
+    }
 
-#導覽列內容 {
-	margin-top: -9px;
-	visibility: hidden;
-	opacity: 0;
-	background-image: linear-gradient(-90deg, #A9F380 0%, #19D9FF 100%);
-	transition: opacity 0.2s ease, visibility 0.2s ease;
-}
-
-.按鈕-行動版 {
-	text-align: center;
-	padding: 15px 0px 15px 0px;
-	border-top: 1px solid rgba(255,255,255,0.50);
-	font-size: 14px;
-	color: #ffffff;
-	background: rgba(0,0,0,0.10);
-}
-
-.按鈕-行動版:last-child {
-	border-top: 1px solid rgba(255,255,255,0.50);
-	border-bottom: 1px solid rgba(255,255,255,0.50);
-}
-
-.按鈕-行動版:active {
-	text-align: center;
-	padding: 15px 0px 15px 0px;
-	border-top: 1px solid rgba(255,255,255,0.50);
-	font-size: 14px;
-	color: #ffffff;
-	background: rgba(0,0,0,0.20);
-}
-
-.浮動區塊 {
-	z-index: 300000;
-	position: absolute;
-	display: block;
-	height: auto;
-	background: #ffffff;
-	box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.50);
-	border-radius: 5px;
-	box-sizing: border-box;
-	padding: 10px 30px;
-	width: 90vw;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	transition: opacity 0.2s ease, visibility 0.2s ease;
-}
-
-#圖例 {
-	z-index: 30000;
-	position: fixed;
-	/* display: block;  */
-	display: none;
-	height: 150px;
-	width: 200px;
-	background: url('./images/圖例.png');
-	background-size: 100%;
-	left: 20px;
-	bottom: 50px;
-	box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.19);
-}
-
-#版權宣告 {
-	z-index: 2000;
-	bottom: 0px;
-}
-
-#廣告關閉:before {
-	content:"";
-	z-index: 1000000;
-	font-size: 10px;
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	background: url('./images/icons/ic_close_white_48dp_2x.png');
-	background-size: 100%;
-	display: block;
-	opacity: 1;
-}
-
-#廣告關閉 {
-	z-index: 100000;
-	position: fixed;
-	display: block;
-	height: 100%;
-	width: 100%;
-	background: rgba(0,0,0,0.50);
-}
-
-#廣告 {
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	width: 340px;
-	height: 284px !important;
-	padding: 2px 2px 0px 2px !important;
-	display: block;
-	position: absolute;
-	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.50);
-}
-
-#行動版宣傳 {
-	z-index: 1;
-	width: 300px;
-	top: auto !important;
-	bottom: 0px !important;
-	background:url('./images/mobile-download-mobile.png');
-	height: 60px !important;
-	background-size: 100%;
-	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.30);
-}
-
-/* #浮動區塊背景 {
-	z-index: 3000;
-	position: fixed;
-	display: none;
-	visibility: 0;
-	opacity: 0;
-	height: 100%;
-	width: 100%;
-	background: rgba(0,0,0,0.50);
-	transition: opacity 0.2s ease, visibility 0.2s ease;
-} */
+    #工具列-行動版 {
+        display: none;
+    }
 }
