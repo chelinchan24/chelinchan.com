@@ -211,34 +211,35 @@ h3 {
 #內容 {
     width: 100%;
     opacity: 1;
-    background-image: linear-gradient(217deg, #F2FFF8 0%, #F1FAFF 100%);
+    /*background-image: linear-gradient(217deg, #F2FFF8 0%, #F1FAFF 100%);*/
+    background: #F6F6F6;
     position: relative;
     padding-bottom: 180px;
 }
 
-#內容:before {
-    content: '';
-    display: block;
-    height: 564px;
-    width: 502px;
-    background: url('src/bg_top_right.png');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+/*#內容:before {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    height: 564px;*/
+/*    width: 502px;*/
+/*    background: url('src/bg_top_right.png');*/
+/*    background-size: cover;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*}*/
 
-#內容:after {
-    content: '';
-    display: block;
-    height: 674px;
-    width: 783px;
-    background: url('src/bg_bottom_left.png');
-    background-size: cover !important;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+/*#內容:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    height: 674px;*/
+/*    width: 783px;*/
+/*    background: url('src/bg_bottom_left.png');*/
+/*    background-size: cover !important;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/
 
 /* 導覽列 */
 #導覽列-內容 {
