@@ -18,6 +18,10 @@ p {
     margin: 0;
 }
 
+html {
+    height: -webkit-fill-available;
+}
+
 html, body {
     overflow: hidden;
     font-family: sans-serif;
@@ -31,6 +35,8 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 body:after {
@@ -168,6 +174,9 @@ body:after {
     display: flex;
     align-items: center;
     padding-top: 140px;
+    min-height: 100vh;
+    height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 #關於.隱藏 {
