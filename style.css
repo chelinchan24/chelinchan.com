@@ -1324,7 +1324,7 @@ h3 {
 
 
 #首頁-超人-預覽 {
-    background: #F7F7F7;
+    /*! background: #F7F7F7; */
     /*! border-radius: 24px; */
     overflow: hidden;
     position: relative;
