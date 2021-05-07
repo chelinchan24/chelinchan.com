@@ -57,10 +57,43 @@
 </head>
 <body ontouchstart="">
 <div id="讀取"></div>
+<style>
+    #導覽列 {
+        background: #020202;
+    }
+
+    .導覽列-桌面-選項 {
+        color: #ffffff !important;
+        opacity: 0.8;
+    }
+
+    #導覽列-桌面-左-圖標:after {
+        filter: invert(1);
+        background: url('src/img_mainLogo.png');
+        background-size: cover;
+        content: "";
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+    }
+
+    .導覽列-行動-左-圖標, .導覽列-行動-右-選單 {
+        filter: invert(1);
+        opacity: 0.8;
+    }
+
+    #導覽列-桌面-左-圖標:hover:before, .導覽列-桌面-選項:hover:before {
+        background: #2b2b2b;
+    }
+
+    #導覽列-桌面-左-圖標 {
+        opacity: 0.8;
+    }
+</style>
 <nav id="導覽列">
     <div id="導覽列-桌面">
         <div id="導覽列-桌面-左">
-            <a href="index.html"><div id="導覽列-桌面-左-圖標" class="主圖標"></div></a>
+            <a href="index.html"><div id="導覽列-桌面-左-圖標"></div></a>
         </div>
         <div id="導覽列-桌面-右">
             <span class="導覽列-桌面-選項"><a href="about.html">關於</a></span>
@@ -97,6 +130,22 @@
         </div>
     </div>
 </nav>
+<script>
+    var mobileMenuOpenBtn = $('#導覽列-行動-右-選單_開啟')
+    var mobileMenuCloseBtn = $('#導覽列-行動-右-選單_關閉')
+    var mobileMenuLogo = $('.導覽列-行動-左-圖標')
+    var mobileMenuIcon = $('.導覽列-行動-右-選單')
+
+    mobileMenuOpenBtn.on('click', function () {
+        mobileMenuLogo.css('filter', 'none')
+        mobileMenuIcon.css('filter', 'none')
+    })
+
+    mobileMenuCloseBtn.on('click', function () {
+        mobileMenuLogo.css('filter', 'invert(1)')
+        mobileMenuIcon.css('filter', 'invert(1)')
+    })
+</script>
 <section id="首頁-超人" class="區塊">
     <div id="首頁-超人-影片" class="隱藏">
         <div id="首頁-超人-影片-嵌入"></div>

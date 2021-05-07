@@ -1287,6 +1287,11 @@ h3 {
     transition: 0.2s ease;
 }
 
+#首頁-超人 {
+    background: #020202;
+    padding-bottom: 160px;
+}
+
 #首頁-超人-容器 {
     width: 100%;
     height: 100%;
@@ -1320,7 +1325,7 @@ h3 {
 
 #首頁-超人-預覽 {
     background: #F7F7F7;
-    border-radius: 24px;
+    /*! border-radius: 24px; */
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -1337,7 +1342,7 @@ h3 {
     top: 0;
     z-index: 100;
     opacity: 0.6;
-    border-radius: 24px;
+    /*! border-radius: 24px; */
 }
 
 #首頁-超人-預覽-播放 {
@@ -1977,6 +1982,11 @@ h3 {
 
     .提及-清單-提及-標誌 {
         margin-bottom: 16px;
+    }
+
+    /* 超人 */
+    #首頁-超人 {
+        padding-bottom: 100px;
     }
 
     #首頁-超人-文字 {
