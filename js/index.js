@@ -75,3 +75,18 @@ function onPlayerStateChange(event) {
         videoplayed = true
     }
 }
+
+var mobileMenuOpenBtn = $('#導覽列-行動-右-選單_開啟')
+var mobileMenuCloseBtn = $('#導覽列-行動-右-選單_關閉')
+var mobileMenuLogo = $('.導覽列-行動-左-圖標')
+var mobileMenuIcon = $('.導覽列-行動-右-選單')
+
+mobileMenuOpenBtn.on('click', function () {
+    mobileMenuLogo.css('filter', 'none')
+    mobileMenuIcon.css('filter', 'none')
+})
+
+mobileMenuCloseBtn.on('click', function () {
+    mobileMenuLogo.css('filter', 'invert(1)')
+    mobileMenuIcon.css('filter', 'invert(1)')
+})

@@ -5,9 +5,12 @@ $(window).load(function() {
     setTimeout('loadingOut()', 1000);
 });
 
+$('html').css('overflow-y','hidden')
+
 function loadingOut() {
     $("#讀取").addClass("讀取_離開")
     autoAnimations()
+    $('html').css('overflow-y','scroll')
 }
 
 /* 動畫 */
@@ -58,14 +61,15 @@ var menuContentHide = '導覽列-行動-內容_隱藏';
 
 var menuContentItem = $('.導覽列-行動-選項')
 
-
 openMenu.click(function () {
+    menu = true;
     setViewHeight()
     menuContent.addClass(menuContentShow).removeClass('動畫-選單-淡出 動畫-選單-淡出_執行').addClass('動畫-選單-淡入 動畫-選單-淡入_執行').removeClass(menuContentHide);
     menuContentItem.addClass('動畫-選單_選項-進入 動畫-選單_選項-進入_執行');
 });
 
 closeMenu.click(function () {
+    menu = false;
     menuContent.addClass('動畫-選單-淡出 動畫-選單-淡出_執行');
     setTimeout('menuContent.addClass(menuContentHide)', 150);
 });

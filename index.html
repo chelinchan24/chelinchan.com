@@ -64,7 +64,7 @@
 
     .導覽列-桌面-選項 {
         color: #ffffff !important;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     #導覽列-桌面-左-圖標:after {
@@ -79,7 +79,7 @@
 
     .導覽列-行動-左-圖標, .導覽列-行動-右-選單 {
         filter: invert(1);
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     #導覽列-桌面-左-圖標:hover:before, .導覽列-桌面-選項:hover:before {
@@ -87,7 +87,7 @@
     }
 
     #導覽列-桌面-左-圖標 {
-        opacity: 0.8;
+        opacity: 0.9;
     }
 </style>
 <nav id="導覽列">
@@ -130,22 +130,6 @@
         </div>
     </div>
 </nav>
-<script>
-    var mobileMenuOpenBtn = $('#導覽列-行動-右-選單_開啟')
-    var mobileMenuCloseBtn = $('#導覽列-行動-右-選單_關閉')
-    var mobileMenuLogo = $('.導覽列-行動-左-圖標')
-    var mobileMenuIcon = $('.導覽列-行動-右-選單')
-
-    mobileMenuOpenBtn.on('click', function () {
-        mobileMenuLogo.css('filter', 'none')
-        mobileMenuIcon.css('filter', 'none')
-    })
-
-    mobileMenuCloseBtn.on('click', function () {
-        mobileMenuLogo.css('filter', 'invert(1)')
-        mobileMenuIcon.css('filter', 'invert(1)')
-    })
-</script>
 <section id="首頁-超人" class="區塊">
     <div id="首頁-超人-影片" class="隱藏">
         <div id="首頁-超人-影片-嵌入"></div>
