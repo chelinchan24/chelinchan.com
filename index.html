@@ -134,47 +134,28 @@
         </div>
     </div>
 </nav>
-<section id="首頁-超人" class="區塊">
-    <div id="首頁-超人-影片" class="隱藏">
-        <div id="首頁-超人-影片-嵌入"></div>
-        <script>
-            // 2. This code loads the IFrame Player API code asynchronously.
-            var tag = document.createElement('script');
+<div id="MV-播放器" class="隱藏">
+    <div id="MV-播放器-嵌入"></div>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
 
-            tag.src = "https://www.youtube.com/iframe_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-            // 3. This function creates an <iframe> (and YouTube player)
-            //    after the API code downloads.
-            var player;
-            function onYouTubeIframeAPIReady() {
-                player = new YT.Player('首頁-超人-影片-嵌入', {
-                    videoId: 'hKPtVlSW2qA',
-                    events: {
-                        onStateChange: onPlayerStateChange
-                    }
-                });
-            }
-        </script>
-        <div id="首頁-超人-影片-背景">
-        </div>
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+    </script>
+    <div id="MV-播放器-背景">
     </div>
-    <div id="首頁-超人-內容" class="區塊-內容">
-        <div id="首頁-超人-容器">
-            <div id="首頁-超人-文字">
+</div>
+<section id="首頁-時光機" class="區塊 MV區塊">
+    <div class="區塊-內容 MV區塊-內容">
+        <div class="MV區塊-容器">
+            <div class="MV區塊-文字" id="首頁-時光機-文字">
                 <h1>
-<!--                    <span class="句子">誰　</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">賜予我</span><br>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">這一身</span><br>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">無助的</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">能力</span><br>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">神</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">也不能</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">阻擋</span><br>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">妳　想</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">離開</span>&lt;!&ndash;-->
-<!--                 &ndash;&gt;<span class="句子">的心</span>-->
                     <span class="句子">再一次</span><br><!--
                  --><span class="句子">我就不會</span><br><!--
                  --><span class="句子">走向</span><br><!--
@@ -182,13 +163,13 @@
                 </h1>
                 <div class="一副標題">他媽的，我恨我自己。<br>這都是我的錯，這不可能不是我的錯。</div>
             </div>
-            <div id="首頁-超人-預覽">
-                <div id="首頁-超人-預覽-播放">
+            <div class="MV區塊-預覽" id="首頁-時光機-預覽">
+                <div class="MV區塊-預覽-播放" id="首頁-時光機-預覽-播放">
                     <ion-icon name="play"></ion-icon>
-                    <div id="首頁-超人-預覽-播放-背景"></div>
+                    <div class="MV區塊-預覽-播放-背景"></div>
                 </div>
-                <div id="首頁-超人-預覽-遮罩"></div>
-                <video id="首頁-超人-預覽-影片" autoplay muted loop playsinline>
+                <div class="MV區塊-預覽-遮罩"></div>
+                <video class="MV區塊-預覽-影片" autoplay muted loop playsinline>
                     <source src="src/time_machine.mp4" type="video/mp4">
                 </video>
             </div>
@@ -263,6 +244,38 @@
         </div>
     </div>
 </section>
+<section id="首頁-超人" class="區塊 MV區塊">
+    <div class="區塊-內容 MV區塊-內容">
+        <div class="MV區塊-容器">
+            <div class="MV區塊-文字" id="首頁-超人-文字">
+                <h1>
+                    <span class="句子">誰　</span><!--
+                 --><span class="句子">賜予我</span><br><!--
+                 --><span class="句子">這一身</span><br><!--
+                 --><span class="句子">無助的</span><!--
+                 --><span class="句子">能力</span><br><!--
+                 --><span class="句子">神</span><!--
+                 --><span class="句子">也不能</span><!--
+                 --><span class="句子">阻擋</span><br><!--
+                 --><span class="句子">妳　想</span><!--
+                 --><span class="句子">離開</span><!--
+                 --><span class="句子">的心</span>
+                </h1>
+                <div class="一副標題">我能讓二、三十萬用戶開心，<br>卻，一秒都不能讓妳開心？</div>
+            </div>
+            <div class="MV區塊-預覽" id="首頁-超人-預覽">
+                <div class="MV區塊-預覽-播放" id="首頁-超人-預覽-播放">
+                    <ion-icon name="play"></ion-icon>
+                    <div class="MV區塊-預覽-播放-背景"></div>
+                </div>
+                <div class="MV區塊-預覽-遮罩"></div>
+                <video class="MV區塊-預覽-影片" autoplay muted loop playsinline>
+                    <source src="src/superman.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="首頁-評價" class="區塊">
     <div class="區塊-內容 區塊-內容_標準">
         <div class="區塊-次標題 動畫-捲動進入">
@@ -296,6 +309,34 @@
             <div class="區塊-兩欄-右 動畫-捲動進入">
                 <div id="首頁-評價-提及"></div>
                 <div class="內文說明">我的作品曾被上述媒體、部落格或單位報導、使用或推薦。<a href="mention.html">了解更多</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="首頁-倉頡" class="區塊 MV區塊">
+    <div class="區塊-內容 MV區塊-內容">
+        <div class="MV區塊-容器">
+            <div class="MV區塊-文字" id="首頁-倉頡-文字">
+                <h1>
+                    <span class="句子">想</span><br><!--
+                 --><span class="句子">逆轉</span><!--
+                 --><span class="句子">時間</span><br><!--
+                 --><span class="句子">回到</span><!--
+                 --><span class="句子">最開始</span><br><!--
+                 --><span class="句子">有妳的</span><br><!--
+                 --><span class="句子">世界</span>
+                </h1>
+                <div class="一副標題">是啊。同一句歌詞，<br>每一次，都成為了心聲。無限輪迴著。</div>
+            </div>
+            <div class="MV區塊-預覽" id="首頁-倉頡-預覽">
+                <div class="MV區塊-預覽-播放" id="首頁-倉頡-預覽-播放">
+                    <ion-icon name="play"></ion-icon>
+                    <div class="MV區塊-預覽-播放-背景"></div>
+                </div>
+                <div class="MV區塊-預覽-遮罩"></div>
+                <video class="MV區塊-預覽-影片" autoplay muted loop playsinline>
+                    <source src="src/cangjie.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>

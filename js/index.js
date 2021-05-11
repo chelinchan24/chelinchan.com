@@ -11,61 +11,103 @@ function showCaseLast() {
     $('#首頁-作品-最後-作品').css('width',  $('#首頁-作品-最後-作品').height());
 };
 
-/* 超人 */
-var supermanPreview = $('#首頁-超人-預覽-影片')
-var supermanEmbed = $('#首頁-超人-影片-嵌入')
-var supermanVideoBox = $('#首頁-超人-影片')
-var supermanVideoBoxBg = $('#首頁-超人-影片-背景')
-var supermanPreviewBox = $('#首頁-超人-預覽')
-
-var supermanVideoSrc = supermanEmbed.attr('src');
+/* MV */
+var MVPreview = $('.MV區塊-預覽-影片')
+var MVEmbed = $('#MV-播放器-嵌入')
+var MVVideoBox = $('#MV-播放器')
+var MVVideoBoxBg = $('#MV-播放器-背景')
+var MVPreviewBox = $('#首頁-MV-預覽')
 
 var videoplayed = false;
 
-supermanEmbed.css("width", supermanEmbed.height() * 1.77)
+MVEmbed.css("width", MVEmbed.height() * 1.77)
 
 
 $( window ).resize(function() {
-    supermanEmbed.css("width", supermanEmbed.height() * 1.77)
+    MVEmbed.css("width", MVEmbed.height() * 1.77)
 });
 
-supermanPreviewBox.on('click', function () {
-    supermanPreview.trigger('pause');
-    supermanVideoBox.attr('class', '顯示')
-    player.playVideo()
-    supermanPreviewBox.css('opacity', '0.5')
-    $('html').css('overflow-y', 'hidden')
-
-    gtag('event', 'superman_play', {
-        'event_category': 'superman',
-        'event_label': 'regret_videos',
-    });
+$('#首頁-時光機-預覽').on('click', function () {
+    mvPlay('時光機')
+    nowPlaying = '時光機'
 })
 
-supermanVideoBoxBg.on('click', function () {
-    supermanPreview.trigger('play');
-    supermanVideoBox.attr('class', '隱藏')
+$('#首頁-超人-預覽').on('click', function () {
+    mvPlay('超人')
+    nowPlaying = '超人'
+})
+
+$('#首頁-倉頡-預覽').on('click', function () {
+    mvPlay('倉頡')
+    nowPlaying = '倉頡'
+})
+
+var nowPlaying;
+
+function mvPlay(mv) {
+    if (nowPlaying !== mv) {
+        if (mv == '時光機') {
+            player.loadVideoById("hKPtVlSW2qA")
+        }
+        else if (mv == '超人') {
+            player.loadVideoById("ptmxLFZkoZ4")
+        }
+        else if (mv == '倉頡') {
+            player.loadVideoById("hiKYufVEUtI")
+        }
+    }
+
+    console.log(nowPlaying, mv)
+
+    MVPreview.trigger('pause');
+    MVVideoBox.attr('class', '顯示')
+    player.playVideo()
+    MVPreviewBox.css('opacity', '0.5')
+    $('html').css('overflow-y', 'hidden')
+
+    gtag('event', nowPlaying + '_play', {
+        'event_category': 'MV',
+        'event_label': 'regret_videos',
+    });
+}
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('MV-播放器-嵌入', {
+        videoId: '',
+        events: {
+            onStateChange: onPlayerStateChange
+        }
+    });
+}
+
+MVVideoBoxBg.on('click', function () {
+    MVPreview.trigger('play');
+    MVVideoBox.attr('class', '隱藏')
     player.pauseVideo()
-    supermanPreviewBox.css('opacity', '1')
+    MVPreviewBox.css('opacity', '1')
     $('html').css('overflow-y', 'scroll')
 
-    gtag('event', 'superman_close', {
-        'event_category': 'superman',
+    gtag('event', nowPlaying + '_close', {
+        'event_category': 'MV',
         'event_label': 'regret_videos',
     });
 
     if (videoplayed === true) {
-        showRegret()
+        showRegret(nowPlaying)
     }
 
 })
 
-function showRegret() {
-    $('#首頁-超人-文字').attr('class', '顯示')
-    $('#首頁-超人-預覽-播放').attr('class', '文字顯示')
+function showRegret(video) {
 
-    gtag('event', 'superman_end', {
-        'event_category': 'superman',
+    var textBox = '#首頁-' + video + '-文字'
+    var textPlayBox = '#首頁-' + video + '-預覽-播放'
+
+    $(textBox).addClass('顯示')
+    $(textPlayBox).addClass('文字顯示')
+
+    gtag('event', nowPlaying + '_end', {
+        'event_category': 'MV',
         'event_label': 'regret_videos',
     });
 }

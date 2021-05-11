@@ -1274,7 +1274,7 @@ h3 {
     margin-left: 8px;
 }
 
-/* 超人 */
+/* 歌曲 */
 .隱藏 {
     visibility: hidden;
     opacity: 0;
@@ -1287,19 +1287,24 @@ h3 {
     transition: 0.2s ease;
 }
 
-#首頁-超人 {
+.MV區塊 {
     background: #020202;
     padding-bottom: 160px;
+    padding-top: 160px;
 }
 
-#首頁-超人-容器 {
+.MV區塊:first-of-type {
+    padding-top: 0;
+}
+
+.MV區塊-容器 {
     width: 100%;
     height: 100%;
     display: flex;
     position: relative;
 }
 
-#首頁-超人-文字 {
+.MV區塊-文字 {
     position: absolute;
     top: 0;
     left: 0;
@@ -1317,13 +1322,13 @@ h3 {
     transition: 0.5s ease !important;
 }
 
-#首頁-超人-文字 h1 {
+.MV區塊-文字 h1 {
     color: #ffffff;
     line-height: 80px;
 }
 
 
-#首頁-超人-預覽 {
+.MV區塊-預覽 {
     /*! background: #F7F7F7; */
     /*! border-radius: 24px; */
     overflow: hidden;
@@ -1334,7 +1339,7 @@ h3 {
     width: 100%;
 }
 
-#首頁-超人-預覽-遮罩 {
+.MV區塊-預覽-遮罩 {
     position: absolute;
     display: block;
     width: 100%;
@@ -1346,7 +1351,7 @@ h3 {
     /*! border-radius: 24px; */
 }
 
-#首頁-超人-預覽-播放 {
+.MV區塊-預覽-播放 {
     width: 64px;
     height: 64px;
     position: absolute;
@@ -1363,27 +1368,27 @@ h3 {
     /*margin-left: calc(336px/2);*/
 }
 
-#首頁-超人-預覽-播放.文字顯示 {
+.MV區塊-預覽-播放.文字顯示 {
     display: none;
 }
 
-#首頁-超人-預覽:hover #首頁-超人-預覽-播放 {
+.MV區塊-預覽:hover .MV區塊-預覽-播放 {
     opacity: 1;
     transition: 0.15s ease;
 }
 
-#首頁-超人-預覽:hover #首頁-超人-預覽-播放 ion-icon {
+.MV區塊-預覽:hover .MV區塊-預覽-播放 ion-icon {
     opacity: 0.8;
     transition: 0.15s ease;
     transform: scale(1.1);
 }
 
-#首頁-超人-預覽:hover #首頁-超人-預覽-播放-背景 {
+.MV區塊-預覽:hover .MV區塊-預覽-播放-背景 {
     transform: scale(1.1);
     transition: 0.15s ease
 }
 
-#首頁-超人-預覽-播放 ion-icon {
+.MV區塊-預覽-播放 ion-icon {
     margin-left: 3px;
     display: block;
     position: relative;
@@ -1393,7 +1398,7 @@ h3 {
     transition: 0.15s ease;
 }
 
-#首頁-超人-預覽-播放-背景 {
+.MV區塊-預覽-播放-背景 {
     width: 64px;
     height: 64px;
     position: absolute;
@@ -1407,12 +1412,12 @@ h3 {
     transition: 0.15s ease
 }
 
-#首頁-超人-預覽-影片 {
+.MV區塊-預覽-影片 {
     height: 100%;
     transition: 0.2s ease;
 }
 
-#首頁-超人-影片 {
+#MV-播放器 {
     display: flex;
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
@@ -1426,12 +1431,12 @@ h3 {
     opacity: 0;
 }
 
-#首頁-超人-影片-嵌入 {
+#MV-播放器-嵌入 {
     height: calc(var(--vh, 1vh) * 100 - 160px);
     overflow: hidden;
 }
 
-#首頁-超人-影片-背景 {
+#MV-播放器-背景 {
     width: 100%;
     height: 100%;
     display: block;
@@ -1621,7 +1626,7 @@ h3 {
         margin-bottom: 32px;
     }
 
-    #首頁-超人-影片-嵌入 {
+    .MV區塊-影片-嵌入 {
         border-radius: 0px;
         width: 100vw;
         height: 75vw; /* 100/56.25 = 560/315 = 1.778 */
@@ -1984,35 +1989,36 @@ h3 {
         margin-bottom: 16px;
     }
 
-    /* 超人 */
-    #首頁-超人 {
+    /* MV */
+    .MV區塊 {
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
-    #首頁-超人-文字 {
+    .MV區塊-文字 {
         padding-left: 32px;
     }
 
-    #首頁-超人-文字 h1 {
+    .MV區塊-文字 h1 {
         line-height: 48px;
     }
 
-    #首頁-超人-預覽 {
+    .MV區塊-預覽 {
         height: calc(var(--vh, 1vh) * 100 - 120px);
     }
 
-    #首頁-超人-預覽-影片 {
+    .MV區塊-預覽-影片 {
         height: 100%;
     }
 }
 
 /* 1920w */
 @media screen and (min-width: 1600px) {
-    #首頁-超人-內容 {
+    .MV區塊-內容 {
         max-width: 1400px;
     }
 
-    #首頁-超人-預覽-影片 {
+    .MV區塊-預覽-影片 {
         width: 100%;
     }
 }
