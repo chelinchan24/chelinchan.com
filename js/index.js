@@ -55,6 +55,7 @@ function mvPlay(mv) {
         else if (mv == '倉頡') {
             player.loadVideoById("hiKYufVEUtI")
         }
+        videoplayed = false;
     }
 
     console.log(nowPlaying, mv)
