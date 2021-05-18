@@ -962,7 +962,7 @@ h3 {
 
 /* 關於-內文 */
 .關於-內文-段落 {
-    margin-bottom: 80px;
+    margin-bottom: 96px;
 }
 
 .關於-內文-段落.內文 {
@@ -975,14 +975,21 @@ h3 {
 }
 
 .關於-評價 {
-    max-width: 660px;
+    width: 100%;
+}
+
+.關於-評價-圖片 {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    margin-bottom: 48px;
 }
 
 .關於-評價-內文 {
     font-family: 'Noto Serif TC', serif !important;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 72px;
 }
 
 .關於-評價-內文 p:before {
@@ -997,6 +1004,10 @@ h3 {
     margin-right: -16px;
 }
 
+.關於-評價-內文 p {
+    max-width: 560px;
+}
+
 .關於-評價-資訊 {
     display: flex;
     width: 100%;
@@ -1004,18 +1015,21 @@ h3 {
 }
 
 .關於-評價-資訊-左 {
-    width: 46px;
+    width: 32px;
     height: 46px;
-    display: block;
+    display: flex;
     overflow: hidden;
     border-radius: 100%;
     margin-right: 16px;
+    align-items: center;
 }
 
-.關於-評價-資訊-左-圖片 {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.關於-評價-資訊-左:after {
+    content: '';
+    width: 32px;
+    height: 2px;
+    background: #7B7B7B;
+    display: block;
 }
 
 .關於-評價-資訊-右 {
@@ -1023,7 +1037,7 @@ h3 {
 }
 
 .關於-評價-資訊-右-名稱 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     height: 14px;
     line-height: 14px;
@@ -1032,7 +1046,7 @@ h3 {
 }
 
 .關於-評價-資訊-右-社群 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     height: 14px;
     line-height: 14px;
@@ -1741,8 +1755,8 @@ h3 {
 
     /* 元件 */
     .容器_灰底 {
-        margin-left: -16px;
-        margin-right: -16px;
+        /*margin-left: -16px;*/
+        /*margin-right: -16px;*/
         padding: 24px;
     }
 
@@ -1884,7 +1898,8 @@ h3 {
     }
 
     .關於-評價-內文 {
-        margin-bottom: 24px;
+        margin-bottom: 64px;
+        font-size: 32px;
     }
 
     .關於-評價-資訊-左 {
