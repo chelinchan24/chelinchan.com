@@ -388,8 +388,9 @@ h3 {
 
 /* 資源 */
 .主圖標 {
-    background: url('src/img_mainLogo.png');
+    background: url('src/img_doge_gray.jpg');
     background-size: cover;
+    border-radius: 100%;
 }
 
 .柴犬_白底 {
@@ -527,6 +528,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin: 0px 16px;
+    align-items: center;
 }
 
 #導覽列-行動 {
@@ -537,8 +539,8 @@ h3 {
 }
 
 #導覽列-桌面-左-圖標 {
-    width: 12px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
     display: block;
     position: relative;
     transition: 0.1s ease;
@@ -549,7 +551,7 @@ h3 {
     position: absolute;
     display: block;
     z-index: -1;
-    height: 50px;
+    height: 56px;
     width: calc(100% + 24px);
     top: -12px;
     left: -12px;
@@ -1348,9 +1350,10 @@ h3 {
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    display: block;
+    display: flex;
     transition: 0.2s ease;
     width: 100%;
+    justify-content: center;
 }
 
 .MV區塊-預覽-遮罩 {
@@ -1518,8 +1521,8 @@ h3 {
     }
 
     .導覽列-行動-左-圖標 {
-        width: 12px;
-        height: 26px;
+        width: 32px;
+        height: 32px;
         display: block;
         position: relative;
         transition: 0.1s ease;

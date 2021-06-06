@@ -42,6 +42,11 @@ $('#首頁-倉頡-預覽').on('click', function () {
     nowPlaying = '倉頡'
 })
 
+$('#首頁-勇敢-預覽').on('click', function () {
+    mvPlay('勇敢')
+    nowPlaying = '勇敢'
+})
+
 var nowPlaying;
 
 function mvPlay(mv) {
@@ -55,6 +60,9 @@ function mvPlay(mv) {
         else if (mv == '倉頡') {
             player.loadVideoById("hiKYufVEUtI")
         }
+        else if (mv == '勇敢') {
+            player.loadVideoById("S56Zzj-Nmww")
+        }
         videoplayed = false;
     }
 
@@ -66,7 +74,7 @@ function mvPlay(mv) {
     MVPreviewBox.css('opacity', '0.5')
     $('html').css('overflow-y', 'hidden')
 
-    gtag('event', nowPlaying + '_play', {
+    gtag('event', mv + '_play', {
         'event_category': 'MV',
         'event_label': 'regret_videos',
     });
@@ -125,11 +133,11 @@ var mobileMenuLogo = $('.導覽列-行動-左-圖標')
 var mobileMenuIcon = $('.導覽列-行動-右-選單')
 
 mobileMenuOpenBtn.on('click', function () {
-    mobileMenuLogo.css('filter', 'none')
+    // mobileMenuLogo.css('filter', 'none')
     mobileMenuIcon.css('filter', 'none')
 })
 
 mobileMenuCloseBtn.on('click', function () {
-    mobileMenuLogo.css('filter', 'invert(1)')
+    // mobileMenuLogo.css('filter', 'invert(1)')
     mobileMenuIcon.css('filter', 'invert(1)')
 })
