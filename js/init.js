@@ -23,6 +23,6 @@ function setViewHeight() {
 }
 
 //重新抓取
-$( window ).resize(function() {
-    setViewHeight()
-});
+// $( window ).resize(function() {
+//     setViewHeight()
+// });
