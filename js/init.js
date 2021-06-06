@@ -21,3 +21,8 @@ function setViewHeight() {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
+
+//重新抓取
+$( window ).resize(function() {
+    setViewHeight()
+});
