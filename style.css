@@ -615,12 +615,19 @@ h3 {
     display: block;
     width: 32px;
     height: 32px;
-    background: url("src/ic_loading.gif");
+    background: url("src/ic_loading.png");
     background-size: cover;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    /*position: fixed;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(360deg);
+    }
 }
 
 .讀取_離開 {
