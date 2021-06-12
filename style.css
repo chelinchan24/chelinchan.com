@@ -610,17 +610,23 @@ h3 {
     left: 0;
 }
 
-#讀取:after {
+#讀取-旋轉 {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#讀取-旋轉:after {
     content: '';
     display: block;
     width: 32px;
     height: 32px;
     background: url("src/ic_loading.png");
     background-size: cover;
-    /*position: fixed;*/
-    /*left: 50%;*/
-    /*top: 50%;*/
-    /*transform: translate(-50%, -50%);*/
     animation: spin 0.5s linear infinite;
 }
 
