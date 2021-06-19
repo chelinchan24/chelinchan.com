@@ -1831,6 +1831,10 @@ h3 {
         margin-bottom: 160px
     }
 
+    .首頁-作品-標題-換行 {
+        display: inline;
+    }
+
     #首頁-作品-展示 {
         margin-top: 64px;
     }
@@ -1981,17 +1985,21 @@ h3 {
     }
 
     #作品-其他-其他作品集-連結 a{
-        margin-bottom: 8px;
+        margin-bottom: 32px;
         font-size: 18px;
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     #作品-其他-其他作品集-連結 a:after {
-        display: none;
-    }
-
-    #作品-其他-其他作品集-連結 a:hover::after {
-        display: none;
+        content:'⬈';
+        font-size: 20px;
+        line-height: 20px;
+        height: 20px;
+        margin-bottom: -8px;
+        margin-left: 16px;
+        visibility: visible;
     }
 
     /* 聯絡 */
