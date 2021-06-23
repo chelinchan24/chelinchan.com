@@ -1162,6 +1162,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 
 .關於-問與答-條目-標題:after {
@@ -1173,13 +1174,13 @@ h3 {
     display: block;
     text-align: center;
     margin-left: 24px;
+    flex: 0 0 16px;
 }
 
 .關於-問與答-條目.展開 .關於-問與答-條目-標題:after {
     content: '-';
     font-weight: 400;
     opacity: 0.8;
-    margin-left: 24px;
 }
 
 .關於-問與答-條目.顯示 .關於-問與答-條目-標題 {
