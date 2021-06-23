@@ -1139,7 +1139,7 @@ h3 {
     z-index: -1;
     left: -24px;
     overflow: hidden;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
 .關於-問與答-條目.收合:hover:after {
@@ -1150,11 +1150,13 @@ h3 {
 .關於-問與答-條目.展開:after {
     /*     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.10), 0 40px 30px -20px rgba(0,0,0,0.20), 0 -10px 30px -10px rgba(0,0,0,0.30); */
     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.20), 0 0px 30px 0px rgba(0,0,0,0.10);
+    height: calc(100% + 24px);
+    top: -12px;
 }
 
 .關於-問與答-條目-標題 {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
     font-family: 'Noto Serif TC', Serif;
     opacity: 0.8;
 }
@@ -1166,7 +1168,7 @@ h3 {
 
 .關於-問與答-條目-內文 {
     font-size: 17px;
-    line-height: 170%;
+    line-height: 1.8;
     transition: 0.3s ease;
     color: #666666;
 }
@@ -1182,7 +1184,7 @@ h3 {
 .關於-問與答-條目.展開 .關於-問與答-條目-內文 {
     visibility: visible;
     position: unset;
-    margin-top: 20px;
+    margin-top: 24px;
     opacity: 1;
 }
 
