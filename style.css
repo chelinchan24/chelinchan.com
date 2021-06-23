@@ -1107,6 +1107,85 @@ h3 {
     height: 0;
 }
 
+/* 關於-問與答*/
+
+#關於-問與答-容器 {
+    margin-top: 24px;
+}
+
+.關於-問與答-條目 {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0px;
+    cursor: pointer;
+    position: relative;
+    height: auto;
+    margin-bottom: 16px; /* 補償 after 的 shadow-box 不能用 inset 而需要用外陰影的外框空間 */
+}
+
+.關於-問與答-條目.展開 {
+    z-index: 100;
+}
+
+.關於-問與答-條目:after {
+    content: '';
+    height: calc(100%);
+    width: calc(100% + 48px);
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: -24px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+.關於-問與答-條目.收合:hover:after {
+    /*     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.10), 0 40px 30px -20px rgba(0,0,0,0.20), 0 -10px 30px -10px rgba(0,0,0,0.30); */
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.07);
+}
+
+.關於-問與答-條目.展開:after {
+    /*     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.10), 0 40px 30px -20px rgba(0,0,0,0.20), 0 -10px 30px -10px rgba(0,0,0,0.30); */
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.20), 0 0px 30px 0px rgba(0,0,0,0.10);
+}
+
+.關於-問與答-條目-標題 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Noto Serif TC', Serif;
+    opacity: 0.8;
+}
+
+.關於-問與答-條目.顯示 .關於-問與答-條目-標題 {
+    color: #000000;
+    opacity: 0.8;
+}
+
+.關於-問與答-條目-內文 {
+    font-size: 17px;
+    line-height: 170%;
+    transition: 0.3s ease;
+    color: #666666;
+}
+
+.關於-問與答-條目.收合 .關於-問與答-條目-內文 {
+    visibility: hidden;
+    display: block;
+    overflow: hidden;
+    height: 0 !important;
+    opacity: 0;
+}
+
+.關於-問與答-條目.展開 .關於-問與答-條目-內文 {
+    visibility: visible;
+    position: unset;
+    margin-top: 20px;
+    opacity: 1;
+}
+
 /* 聯絡 */
 #聯絡-資訊 {
     margin-bottom: 260px;
@@ -1945,6 +2024,11 @@ h3 {
 
     .關於-客戶與提及-分類-說明 {
         max-width: 300px;
+    }
+
+    /* 關於 - 問與答 */
+    .關於-問與答-條目-內文 {
+        font-size: 16px;
     }
 
     /* 作品 - 作品展示 */
