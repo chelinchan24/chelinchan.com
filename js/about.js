@@ -35,3 +35,7 @@ $(document).on('click', '.關於-問與答-條目', function (e) {
         $(this).unbind('mouseout');
     }
 });
+
+$(document).on('click', '.關於-問與答-條目', function (e) {
+        console.log('fuck')
+});
