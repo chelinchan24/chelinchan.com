@@ -1144,7 +1144,7 @@ h3 {
 
 .關於-問與答-條目.收合:hover:after {
     /*     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.10), 0 40px 30px -20px rgba(0,0,0,0.20), 0 -10px 30px -10px rgba(0,0,0,0.30); */
-    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.08);
+    box-shadow: 0 0px 0px 1.5px rgba(0,0,0,0.08);
 }
 
 .關於-問與答-條目.展開:after {
@@ -1193,6 +1193,10 @@ h3 {
     line-height: 1.8;
     transition: 0.3s ease;
     color: #666666;
+}
+
+.關於-問與答-條目-內文 a {
+    border-bottom: 1.5px solid #666666;
 }
 
 .關於-問與答-條目.收合 .關於-問與答-條目-內文 {
@@ -2060,7 +2064,7 @@ h3 {
     }
 
     .關於-問與答-條目-內文 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .關於-問與答-條目-標題 {
